@@ -1,0 +1,346 @@
+{
+  "version": "0.9.1",
+  "id": "0x75001b44cd103839e81d44dab4694db1af1ac4c952b7265c71081faf7cfcdb89",
+  "contract_name": "Vault",
+  "address": "0xe2d2e90122cb203cf1565a37ef90a256843a825a",
+  "chain_id": 1,
+  "deployment_block_num": 20442210,
+  "init_block_num": 20442211,
+  "deployment_tx": "0x06852244429f2b11da311e157e4a357949d64f57db09fde7aa1592a13fe29220",
+  "codehash": "0x293389fb3dd455707c52557eeac18b4fe59b51a1afee5a3bac36f19937e0ce7d",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "name_",
+      "value": "0x"
+    },
+    {
+      "var_name": "symbol_",
+      "value": "0x"
+    },
+    {
+      "var_name": "admin",
+      "value": "0x000000000000000000000000000000000000dead"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x2",
+      "offset": 0,
+      "var_name": "_totalSupply",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3",
+      "offset": 0,
+      "var_name": "_name (length=0)",
+      "var_type": "t_string_storage",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4",
+      "offset": 0,
+      "var_name": "_symbol (length=0)",
+      "var_type": "t_string_storage",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xff4f8464bb0c227337ba88476562e861fada1b7c7f949ecec1be86e946326635",
+      "offset": 0,
+      "var_name": "_roles[46a52cf33029de9f84853745a87af28464c80bf0346df1b32e205fc73319f622].hasRole[0x000000000000000000000000000000000000dead]",
+      "var_type": "t_bool",
+      "value": "0x01",
+      "value_hint": "true",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xc573cd206df4c90038e5370294d6c96e3e846b8bd1e2a8016d480b55984f250e",
+      "offset": 0,
+      "var_name": "_roles[46a52cf33029de9f84853745a87af28464c80bf0346df1b32e205fc73319f622].adminRole",
+      "var_type": "t_bytes32",
+      "value": "0xc171260023d22a25a00a2789664c9334017843b831138c8ef03cc8897e5873d7",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x692b09e68c5bf1bf8b1ca909dfe5771f90565a9f0bd4f1e92c5ba088aacb0e4d",
+      "offset": 0,
+      "var_name": "_roles[c171260023d22a25a00a2789664c9334017843b831138c8ef03cc8897e5873d7].adminRole",
+      "var_type": "t_bytes32",
+      "value": "0xf23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xab93da394f2ca649fae5c43ceb95cf62c7762b498d9a4f604ccd92efa54248ca",
+      "offset": 0,
+      "var_name": "_roles[f23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8].hasRole[0x000000000000000000000000000000000000dead]",
+      "var_type": "t_bool",
+      "value": "0x01",
+      "value_hint": "true",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xff18297afb216d780b15b41ac7e6ddcdfccf26c265ee7c2370b80931fcceb3f",
+      "offset": 0,
+      "var_name": "_roles[f23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8].adminRole",
+      "var_type": "t_bytes32",
+      "value": "0xf23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb0471865066781a0f5ccef11f7a5ddf8eda3b285a40efc663e2d86764f17c0aa",
+      "offset": 0,
+      "var_name": "_roleMembers[46a52cf33029de9f84853745a87af28464c80bf0346df1b32e205fc73319f622]._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x31f1742873d8631cb53f02c8045c01d6df3d64d0596b38fbc521883372f575b2",
+      "offset": 0,
+      "var_name": "_roleMembers[46a52cf33029de9f84853745a87af28464c80bf0346df1b32e205fc73319f622]._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x000000000000000000000000000000000000000000000000000000000000dead",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xafd2dd2f783fbb2393852549f03f47088b5f797776bc2d899afed67f29d7734f",
+      "offset": 0,
+      "var_name": "_roleMembers[46a52cf33029de9f84853745a87af28464c80bf0346df1b32e205fc73319f622]._inner._positions[000000000000000000000000000000000000000000000000000000000000dead]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x14b496e08e6faad298756b0e7560611d8e10f89baa07796f351859ba9e46b1c6",
+      "offset": 0,
+      "var_name": "_roleMembers[f23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8]._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8fc09d66ba1a536ad1433a44266640f235f6ab6080d8b328c6bdd562e9c1887c",
+      "offset": 0,
+      "var_name": "_roleMembers[f23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8]._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x000000000000000000000000000000000000000000000000000000000000dead",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2211251d2dd2caf2b02e8c907207bb066828de9faf7857de8f920052a321d002",
+      "offset": 0,
+      "var_name": "_roleMembers[f23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8]._inner._positions[000000000000000000000000000000000000000000000000000000000000dead]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x7",
+      "offset": 0,
+      "var_name": "_status",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8",
+      "offset": 0,
+      "var_name": "configurator",
+      "var_type": "t_address",
+      "value": "0x7c28a258078274de9f3799f84676ceb8079ca0b9",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa",
+      "offset": 0,
+      "var_name": "_pendingWithdrawers._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xc",
+      "offset": 0,
+      "var_name": "_underlyingTokens.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe",
+      "offset": 0,
+      "var_name": "_tvlModules._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Approval(address,address,uint256)",
+      "topic0": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+      "occurrences": []
+    },
+    {
+      "sig": "DelegateCall(address,bytes,bool,bytes)",
+      "topic0": "0x6cb85343e8c77cb180eb29d20c41302a16fb818828fe672c47916295caf80d52",
+      "occurrences": []
+    },
+    {
+      "sig": "Deposit(address,uint256[],uint256,uint256)",
+      "topic0": "0x49ec6984156c4fe356d769a26a312447642a93e6abeb94621300304132f33999",
+      "occurrences": []
+    },
+    {
+      "sig": "DepositCallback(address,uint256[],uint256)",
+      "topic0": "0xf9d4830984aa759ba52886b6e857f5127160f28040c406c6fdafdc86f9f7ab9d",
+      "occurrences": []
+    },
+    {
+      "sig": "EmergencyWithdrawal(address,(address,uint256,bytes32,uint256[],uint256,uint256),uint256[])",
+      "topic0": "0x73d5d80561fc62718447463fe9794e6fb7d472229521cce725e75bef7ddd62e8",
+      "occurrences": []
+    },
+    {
+      "sig": "ExternalCall(address,bytes,bool,bytes)",
+      "topic0": "0x2f4d74076cbab7a79d7579b5ba2c106b1ac26462ac617d3a2079ca16a3bc7351",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+      "topic0": "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+      "occurrences": [
+        {
+          "topics": [
+            "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+            "0xf23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0xf23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+            "0xc171260023d22a25a00a2789664c9334017843b831138c8ef03cc8897e5873d7",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0xf23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+            "0x46a52cf33029de9f84853745a87af28464c80bf0346df1b32e205fc73319f622",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0xc171260023d22a25a00a2789664c9334017843b831138c8ef03cc8897e5873d7"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleGranted(bytes32,address,address)",
+      "topic0": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x46a52cf33029de9f84853745a87af28464c80bf0346df1b32e205fc73319f622",
+            "0x000000000000000000000000000000000000000000000000000000000000dead",
+            "0x000000000000000000000000188858ac61a74350116d1cb6958fbc509fd6afa1"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0xf23ec0bb4210edd5cba85afd05127efcd2fc6a781bfed49188da1081670b22d8",
+            "0x000000000000000000000000000000000000000000000000000000000000dead",
+            "0x000000000000000000000000188858ac61a74350116d1cb6958fbc509fd6afa1"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(bytes32,address,address)",
+      "topic0": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "occurrences": []
+    },
+    {
+      "sig": "TokenAdded(address)",
+      "topic0": "0x784c8f4dbf0ffedd6e72c76501c545a70f8b203b30a26ce542bf92ba87c248a4",
+      "occurrences": []
+    },
+    {
+      "sig": "TokenRemoved(address)",
+      "topic0": "0x4c910b69fe65a61f7531b9c5042b2329ca7179c77290aa7e2eb3afa3c8511fd3",
+      "occurrences": []
+    },
+    {
+      "sig": "Transfer(address,address,uint256)",
+      "topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "occurrences": []
+    },
+    {
+      "sig": "TvlModuleAdded(address)",
+      "topic0": "0xd1d220e49bdf761bd526b4ba7434f65d7d1498ad06053831a219e3e496328c62",
+      "occurrences": []
+    },
+    {
+      "sig": "TvlModuleRemoved(address)",
+      "topic0": "0x0a4ec75dfa617891caee29ac64c80bdd4e2d2f7b67dbf1ba8288bf0ca5622d89",
+      "occurrences": []
+    },
+    {
+      "sig": "WithdrawCallback(address)",
+      "topic0": "0xdbdc898ae09e91ee802f5ebdced25d8398a1bef800c6210cb8b397761437ef90",
+      "occurrences": []
+    },
+    {
+      "sig": "WithdrawalRequestCanceled(address,address)",
+      "topic0": "0xced4ad6a94ad9f17d9e89d24158930a071a5de6c1d6cddf799bac950b04fc09b",
+      "occurrences": []
+    },
+    {
+      "sig": "WithdrawalRequested(address,(address,uint256,bytes32,uint256[],uint256,uint256))",
+      "topic0": "0x390acd8a6485f0c0b379ba564699e9a4fd3ed26cd9d957a50d56320b4bf2309b",
+      "occurrences": []
+    },
+    {
+      "sig": "WithdrawalsProcessed(address[],bool[])",
+      "topic0": "0x9dd911706834ae347234c3bcfc7c9e4b74ba1f489af4c39c4481c4b527d4a63f",
+      "occurrences": []
+    }
+  ],
+  "references": [
+    {
+      "id": "0x641072107a8047b4b35dae34b86e6e994994f8f7f517bcbf63d2d5a85b6e28ee",
+      "contract_name": "Vault"
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "Author",
+    "description": "System Description",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://example.org/report.pdf",
+    "source_url": "https://github.com/mellow-finance/mellow-lrt/commit/79361bae88fa93580f88be9ef998e9794db2ba17",
+    "security_contact": "security@example.org"
+  }
+}
