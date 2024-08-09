@@ -1,0 +1,32 @@
+{
+  "version": "0.9.1",
+  "id": "0x7d00b07406aad6013b10ab24608ccb5f958315b3db8be8b66984339c375db172",
+  "contract_name": "ERC20TvlModule",
+  "address": "0x2c73350310c2b8c721d8192bd7620d1dcb1219ce",
+  "chain_id": 1,
+  "deployment_block_num": 20442210,
+  "init_block_num": 20442211,
+  "deployment_tx": "0x79c377615aed052e28c9989f91c5b08921aa77b873942cd426f483a974e5ef52",
+  "codehash": "0x1fe5326e549e61a2aacf1d50400a2182b70f2b9b27cf01323bf57ed6806b46f2",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "_this",
+      "value": "0x0000000000000000000000002c73350310c2b8c721d8192bd7620d1dcb1219ce"
+    }
+  ],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "Author",
+    "description": "System Description",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://example.org/report.pdf",
+    "source_url": "https://github.com/mellow-finance/mellow-lrt/commit/79361bae88fa93580f88be9ef998e9794db2ba17",
+    "security_contact": "security@example.org"
+  }
+}
