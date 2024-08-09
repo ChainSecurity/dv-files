@@ -1,0 +1,145 @@
+{
+  "version": "0.9.1",
+  "id": "0xaf71954f1782b4030dead100915b31e3da807deafd9ee5b45c085194cb01bcea",
+  "contract_name": "ManagedValidator",
+  "address": "0xa1b3a352c3fc7cfcbd36381cc2d0b157d6843473",
+  "chain_id": 1,
+  "deployment_block_num": 20442288,
+  "init_block_num": 20442334,
+  "deployment_tx": "0x342e6ed67c5afc288444ddf98955abbcbc3011c68c1fb0e05ca38408f0034f05",
+  "codehash": "0xcc0fed81666af58a256623e30e2d0a758c48935c0017dba0db6dfbb819330b05",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "admin",
+      "value": "0x188858ac61a74350116d1cb6958fbc509fd6afa1"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "ContractRoleGranted(address,uint8)",
+      "topic0": "0x30640134726c0b31a0d192465d6b1d0b9f85479f834828d664e739a1486cfebc",
+      "occurrences": [
+        {
+          "topics": [
+            "0x30640134726c0b31a0d192465d6b1d0b9f85479f834828d664e739a1486cfebc",
+            "0x000000000000000000000000d570e16e3b62f05ecf3ff2706d331b7f56453ada"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+        }
+      ]
+    },
+    {
+      "sig": "ContractRoleRevoked(address,uint8)",
+      "topic0": "0xc69b9792427f6db2b813f4b122b07a6bbfe29ba701506cd25e22cfc7ce11f4d5",
+      "occurrences": []
+    },
+    {
+      "sig": "ContractSignatureRoleGranted(address,bytes4,uint8)",
+      "topic0": "0xdc85bc008f9991eb8101c2931fc4a6ec7fff98ee83f2fb9963f619333c5459d5",
+      "occurrences": [
+        {
+          "topics": [
+            "0xdc85bc008f9991eb8101c2931fc4a6ec7fff98ee83f2fb9963f619333c5459d5",
+            "0x0000000000000000000000005e362eb2c0706bd1d134689ec75176018385430b"
+          ],
+          "data": "0x56e7b7aa000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+          "topics": [
+            "0xdc85bc008f9991eb8101c2931fc4a6ec7fff98ee83f2fb9963f619333c5459d5",
+            "0x0000000000000000000000005e362eb2c0706bd1d134689ec75176018385430b"
+          ],
+          "data": "0xf379a7d6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "sig": "ContractSignatureRoleRevoked(address,bytes4,uint8)",
+      "topic0": "0xb4b7542c3f7ce6acf67a4a701107c935c8f64cb3f1427a1792e7f46fa212f4c1",
+      "occurrences": []
+    },
+    {
+      "sig": "CustomValidatorSet(address,address)",
+      "topic0": "0xc4e19ccc286fbd4a591d390b057f4219aade45184eb91108cea9bff565b2cfd9",
+      "occurrences": []
+    },
+    {
+      "sig": "PublicRoleGranted(uint8)",
+      "topic0": "0xa322335eef032cdb09cf78385fc6fa219adbbfe62c8cc94ff6bb3fe0f734f7d4",
+      "occurrences": [
+        {
+          "topics": [
+            "0xa322335eef032cdb09cf78385fc6fa219adbbfe62c8cc94ff6bb3fe0f734f7d4"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "sig": "PublicRoleRevoked(uint8)",
+      "topic0": "0xbe00da285d81a092f47cfc737d6abc4324ada9888463c6f24d1bb69f2374633a",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleGranted(address,uint8)",
+      "topic0": "0xaa259565575c834bc07e74dca784b4071676133ac78513b431afb6ee7edae121",
+      "occurrences": [
+        {
+          "topics": [
+            "0xaa259565575c834bc07e74dca784b4071676133ac78513b431afb6ee7edae121",
+            "0x0000000000000000000000009437b2a8cf3b69d782a61f9814baabc172f72003"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000000000ff"
+        },
+        {
+          "topics": [
+            "0xaa259565575c834bc07e74dca784b4071676133ac78513b431afb6ee7edae121",
+            "0x000000000000000000000000078b1c03d14652bfeedfadf7985fdf2d8a2e8108"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+          "topics": [
+            "0xaa259565575c834bc07e74dca784b4071676133ac78513b431afb6ee7edae121",
+            "0x0000000000000000000000002e93913a796a6c6b2bb76f41690e78a2e206be54"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+          "topics": [
+            "0xaa259565575c834bc07e74dca784b4071676133ac78513b431afb6ee7edae121",
+            "0x0000000000000000000000005e362eb2c0706bd1d134689ec75176018385430b"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(address,uint8)",
+      "topic0": "0x34a1009b84e077aee5bc8197faf7105e54f9ba6879e2a51a716e4156ea9ad769",
+      "occurrences": [
+        {
+          "topics": [
+            "0x34a1009b84e077aee5bc8197faf7105e54f9ba6879e2a51a716e4156ea9ad769",
+            "0x000000000000000000000000188858ac61a74350116d1cb6958fbc509fd6afa1"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000000000ff"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "Author",
+    "description": "System Description",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://example.org/report.pdf",
+    "source_url": "https://github.com/mellow-finance/mellow-lrt/commit/79361bae88fa93580f88be9ef998e9794db2ba17",
+    "security_contact": "security@example.org"
+  }
+}
