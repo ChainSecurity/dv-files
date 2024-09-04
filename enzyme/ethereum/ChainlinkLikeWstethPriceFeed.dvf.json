@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x88d0709f42dff62b0239cc79fbf6a324b35c8c08dabea8ac1b250a831d8fa90d",
+  "contract_name": "ChainlinkLikeWstethPriceFeed",
+  "address": "0x92829c41115311ca43d5c9f722f0e9e7b9fcd30a",
+  "chain_id": 1,
+  "deployment_block_num": 20591553,
+  "init_block_num": 20591554,
+  "deployment_tx": "0xa3f9ba9dff4847aafa020fdc02aa8f2ee8e5d6a1171091f15831707ecda7e4e5",
+  "codehash": "0x51fe5bc4e40511e13d7f8234db8f320b97d654da67598e32bfb82939c43e75a7",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "STETH",
+      "value": "0x000000000000000000000000ae7ab96520de3a18e5e111b5eaab095312d7fe84"
+    },
+    {
+      "var_name": "STETH_ETH_CHAINLINK_AGGREGATOR",
+      "value": "0x00000000000000000000000086392dc19c0b719886221c78ab11eb8cf5c52812"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_steth",
+      "value": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+    },
+    {
+      "var_name": "_stethEthChainlinkAggregator",
+      "value": "0x86392dc19c0b719886221c78ab11eb8cf5c52812"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-sulu-extensions-xix",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/2923c731466c54eb8a1968596d7736e999c82eee",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
