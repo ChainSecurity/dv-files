@@ -1,0 +1,79 @@
+{
+  "version": "0.9.1",
+  "id": "0x9b4560771d4e395758de913bf58fe8ceb9a59365140f471ffd95f8119d6926f9",
+  "contract_name": "OnlyRemoveDustExternalPositionPolicy",
+  "address": "0xe4453105be9e579896a3ed73df9a1e285c8c95c2",
+  "chain_id": 42161,
+  "deployment_block_num": 230331209,
+  "init_block_num": 230331210,
+  "deployment_tx": "0x98d6d930cf1822c8c41691e8cbb2ff7ecc7ddbf702cfdadb233d51a6810cc47a",
+  "codehash": "0xf17a81b4daf47c6cbe1619a84dbac46d3096f91dac2695e593d81e29a39d0e4c",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "POLICY_MANAGER",
+      "value": "0x000000000000000000000000bde1e8c4a061cd28f4871860ddf22200b85ee9ec"
+    },
+    {
+      "var_name": "PRICELESS_ASSET_BYPASS_TIMELOCK",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000093a80",
+      "value_hint": "6.048 * 10^5"
+    },
+    {
+      "var_name": "PRICELESS_ASSET_BYPASS_TIME_LIMIT",
+      "value": "0x000000000000000000000000000000000000000000000000000000000002a300",
+      "value_hint": "1.728 * 10^5"
+    },
+    {
+      "var_name": "PRICELESS_ASSET_BYPASS_VALUE_INTERPRETER",
+      "value": "0x000000000000000000000000dd5f18a52a63ececf502a165a459d33be5c0a06c"
+    },
+    {
+      "var_name": "PRICELESS_ASSET_BYPASS_WETH_TOKEN",
+      "value": "0x00000000000000000000000082af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "value_hint": "Wrapped ETH (WETH)"
+    },
+    {
+      "var_name": "FUND_DEPLOYER",
+      "value": "0x000000000000000000000000a2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_policyManager",
+      "value": "0xbde1e8c4a061cd28f4871860ddf22200b85ee9ec"
+    },
+    {
+      "var_name": "_fundDeployer",
+      "value": "0xa2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    },
+    {
+      "var_name": "_valueInterpreter",
+      "value": "0xdd5f18a52a63ececf502a165a459d33be5c0a06c"
+    },
+    {
+      "var_name": "_wethToken",
+      "value": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "value_hint": "Wrapped ETH (WETH)"
+    },
+    {
+      "var_name": "_pricelessAssetBypassTimelock",
+      "value": "0x093a80",
+      "value_hint": "6.048 * 10^5"
+    },
+    {
+      "var_name": "_pricelessAssetBypassTimeLimit",
+      "value": "0x02a300",
+      "value_hint": "1.728 * 10^5"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/ba3060214226e42892a541db77ef7d4cc9ab54e4",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

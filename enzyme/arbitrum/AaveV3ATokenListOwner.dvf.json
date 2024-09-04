@@ -1,0 +1,52 @@
+{
+  "version": "0.9.1",
+  "id": "0x432b57a8eb015ceb373d3321493c7880624eea0cfe49acad1d094f9472350590",
+  "contract_name": "AaveV3ATokenListOwner",
+  "address": "0x575af64231a91b3a954d5e45a57187ace6549c81",
+  "chain_id": 42161,
+  "deployment_block_num": 245152890,
+  "init_block_num": 245152891,
+  "deployment_tx": "0xc633b24432222e4c126ac0626dd3666d780fda74eccc173e51ae76bb50ffe1d6",
+  "codehash": "0x1472c892231179cd9c8f99959240d7c0649c0c15c9b8d03a2658aac23de7e577",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "POOL_ADDRESS_PROVIDER_CONTRACT",
+      "value": "0x000000000000000000000000a97684ead0e402dc232d5a977953df7ecbab3cdb",
+      "value_hint": "Aave V3: PoolAddressesProvider"
+    },
+    {
+      "var_name": "ADDRESS_LIST_REGISTRY_CONTRACT",
+      "value": "0x0000000000000000000000002c6bef68dabf0494bb5f727e63c8fb54f7d2c287"
+    },
+    {
+      "var_name": "LIST_ID",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000008",
+      "value_hint": "8"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_addressListRegistry",
+      "value": "0x2c6bef68dabf0494bb5f727e63c8fb54f7d2c287"
+    },
+    {
+      "var_name": "_listDescription",
+      "value": "0x416176652076333a2061546f6b656e73"
+    },
+    {
+      "var_name": "_poolAddressProvider",
+      "value": "0xa97684ead0e402dc232d5a977953df7ecbab3cdb",
+      "value_hint": "Aave V3: PoolAddressesProvider"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/ba3060214226e42892a541db77ef7d4cc9ab54e4",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

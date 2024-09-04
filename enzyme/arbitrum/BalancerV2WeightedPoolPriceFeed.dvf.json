@@ -1,0 +1,65 @@
+{
+  "version": "0.9.1",
+  "id": "0xc151e38fc7cccb89da45ec4162c7a8af661cf233b1828822f3cede145de44d5f",
+  "contract_name": "BalancerV2WeightedPoolPriceFeed",
+  "address": "0xa95878965f3af1d88002e06ae25182a45943b9e2",
+  "chain_id": 42161,
+  "deployment_block_num": 245882338,
+  "init_block_num": 245882339,
+  "deployment_tx": "0x1021d9b1eacae1381dc7177d0089c56e8782d8697c877662afdd84e060de7f49",
+  "codehash": "0xb0e88aa9cd8a70bc4f7ed527ce1b545790ca2fda08b3e25414e496845484da3e",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "BALANCER_VAULT_CONTRACT",
+      "value": "0x000000000000000000000000ba12222222228d8ba445958a75a0704d566bf2c8",
+      "value_hint": "Balancer V2: Vault"
+    },
+    {
+      "var_name": "INTERMEDIARY_ASSET",
+      "value": "0x00000000000000000000000082af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "value_hint": "Wrapped ETH (WETH)"
+    },
+    {
+      "var_name": "VALUE_INTERPRETER_CONTRACT",
+      "value": "0x000000000000000000000000dd5f18a52a63ececf502a165a459d33be5c0a06c"
+    },
+    {
+      "var_name": "FUND_DEPLOYER",
+      "value": "0x000000000000000000000000a2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_fundDeployer",
+      "value": "0xa2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    },
+    {
+      "var_name": "_valueInterpreter",
+      "value": "0xdd5f18a52a63ececf502a165a459d33be5c0a06c"
+    },
+    {
+      "var_name": "_intermediaryAsset",
+      "value": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "value_hint": "Wrapped ETH (WETH)"
+    },
+    {
+      "var_name": "_balancerVault",
+      "value": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+      "value_hint": "Balancer V2: Vault"
+    },
+    {
+      "var_name": "_poolFactories",
+      "value": "0x"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/2923c731466c54eb8a1968596d7736e999c82eee",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

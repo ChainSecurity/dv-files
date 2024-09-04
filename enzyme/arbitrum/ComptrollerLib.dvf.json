@@ -1,0 +1,126 @@
+{
+  "version": "0.9.1",
+  "id": "0xc8d5cada1f12f1a3bc13a04ee7f537db08c770b528d0185459ebc70f33d9ca49",
+  "contract_name": "ComptrollerLib",
+  "address": "0x3868c0fc34b6ece124c6ab122f6f29e978be6661",
+  "chain_id": 42161,
+  "deployment_block_num": 230330758,
+  "init_block_num": 230330759,
+  "deployment_tx": "0xcf7d2094b1aa588735c93624e0469a6cdd26a4e4aff2f271e03fa91cd4a23d05",
+  "codehash": "0xe66770386fa66a1909db1ce6dd8c6a4213f29b68921409033cb5864caf888361",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DISPATCHER",
+      "value": "0x0000000000000000000000008da28441a4c594fd2fac72726c1412d8cf9e4a19"
+    },
+    {
+      "var_name": "EXTERNAL_POSITION_MANAGER",
+      "value": "0x00000000000000000000000090b53aefdbd2ba3573d965d2d98951f2aa00507d"
+    },
+    {
+      "var_name": "FUND_DEPLOYER",
+      "value": "0x000000000000000000000000a2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    },
+    {
+      "var_name": "FEE_MANAGER",
+      "value": "0x0000000000000000000000002c46503d4a0313c7161a5593b6865baa194b466f"
+    },
+    {
+      "var_name": "INTEGRATION_MANAGER",
+      "value": "0x00000000000000000000000055df97aca98c2a708721f28ea1ca42a2be7ff934"
+    },
+    {
+      "var_name": "MLN_TOKEN",
+      "value": "0x0000000000000000000000008f5c1a99b1df736ad685006cb6adca7b7ae4b514",
+      "value_hint": "Melon Token (MLN)"
+    },
+    {
+      "var_name": "POLICY_MANAGER",
+      "value": "0x000000000000000000000000bde1e8c4a061cd28f4871860ddf22200b85ee9ec"
+    },
+    {
+      "var_name": "PROTOCOL_FEE_RESERVE",
+      "value": "0x0000000000000000000000009eb802e7696c9951fdcba90699e5000d7a39205c"
+    },
+    {
+      "var_name": "VALUE_INTERPRETER",
+      "value": "0x000000000000000000000000dd5f18a52a63ececf502a165a459d33be5c0a06c"
+    },
+    {
+      "var_name": "WETH_TOKEN",
+      "value": "0x00000000000000000000000082af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "value_hint": "Wrapped ETH (WETH)"
+    },
+    {
+      "var_name": "GAS_RELAY_PAYMASTER_FACTORY",
+      "value": "0x000000000000000000000000e922362aa3426bd683b63a8e5d13903a9cfc4cbb"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dispatcher",
+      "value": "0x8da28441a4c594fd2fac72726c1412d8cf9e4a19"
+    },
+    {
+      "var_name": "_protocolFeeReserve",
+      "value": "0x9eb802e7696c9951fdcba90699e5000d7a39205c"
+    },
+    {
+      "var_name": "_fundDeployer",
+      "value": "0xa2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    },
+    {
+      "var_name": "_valueInterpreter",
+      "value": "0xdd5f18a52a63ececf502a165a459d33be5c0a06c"
+    },
+    {
+      "var_name": "_externalPositionManager",
+      "value": "0x90b53aefdbd2ba3573d965d2d98951f2aa00507d"
+    },
+    {
+      "var_name": "_feeManager",
+      "value": "0x2c46503d4a0313c7161a5593b6865baa194b466f"
+    },
+    {
+      "var_name": "_integrationManager",
+      "value": "0x55df97aca98c2a708721f28ea1ca42a2be7ff934"
+    },
+    {
+      "var_name": "_policyManager",
+      "value": "0xbde1e8c4a061cd28f4871860ddf22200b85ee9ec"
+    },
+    {
+      "var_name": "_gasRelayPaymasterFactory",
+      "value": "0xe922362aa3426bd683b63a8e5d13903a9cfc4cbb"
+    },
+    {
+      "var_name": "_mlnToken",
+      "value": "0x8f5c1a99b1df736ad685006cb6adca7b7ae4b514",
+      "value_hint": "Melon Token (MLN)"
+    },
+    {
+      "var_name": "_wethToken",
+      "value": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "value_hint": "Wrapped ETH (WETH)"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x1",
+      "offset": 23,
+      "var_name": "reentranceLocked",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/ba3060214226e42892a541db77ef7d4cc9ab54e4",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "version": "0.9.1",
+  "id": "0xda796a3740f8c82bfd7cb66815f511293df8c60aff2bf7c7482c8dff8bf86cb4",
+  "contract_name": "FundDeployer",
+  "address": "0xa2b4c827de13d4e9801ea1ca837524a1a148dec3",
+  "chain_id": 42161,
+  "deployment_block_num": 230330429,
+  "init_block_num": 230331508,
+  "deployment_tx": "0xe970cff843615a2156aebe84a8e83f2d34d3298966e951f9cdef4e225a2dbb4e",
+  "codehash": "0x54182221581543e1ac90c02fda17bb276a90e0c9d9274033751b68cdaa2ee981",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "CREATOR",
+      "value": "0x000000000000000000000000ad6f69ac659682796dd9b386280f4a515e0d9918"
+    },
+    {
+      "var_name": "DISPATCHER",
+      "value": "0x0000000000000000000000008da28441a4c594fd2fac72726c1412d8cf9e4a19"
+    },
+    {
+      "var_name": "GAS_RELAY_PAYMASTER_FACTORY",
+      "value": "0x000000000000000000000000e922362aa3426bd683b63a8e5d13903a9cfc4cbb"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dispatcher",
+      "value": "0x8da28441a4c594fd2fac72726c1412d8cf9e4a19"
+    },
+    {
+      "var_name": "_gasRelayPaymasterFactory",
+      "value": "0xe922362aa3426bd683b63a8e5d13903a9cfc4cbb"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "comptrollerLib",
+      "var_type": "t_address",
+      "value": "0x3868c0fc34b6ece124c6ab122f6f29e978be6661",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1",
+      "offset": 0,
+      "var_name": "protocolFeeTracker",
+      "var_type": "t_address",
+      "value": "0xe71227d6d846e0fb3367d020683327031c4c4a3d",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2",
+      "offset": 0,
+      "var_name": "vaultLib",
+      "var_type": "t_address",
+      "value": "0xe1a147b3fb8a7be78bf3a061f176bc718d897695",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ComptrollerLibSet(address)",
+      "topic0": "0x38e37d5fdf60e4358769c3b616594ad451626b1e023c65eaa1062116feadacf8",
+      "occurrences": [
+        {
+          "topics": [
+            "0x38e37d5fdf60e4358769c3b616594ad451626b1e023c65eaa1062116feadacf8"
+          ],
+          "data": "0x0000000000000000000000003868c0fc34b6ece124c6ab122f6f29e978be6661"
+        }
+      ]
+    },
+    {
+      "sig": "ProtocolFeeTrackerSet(address)",
+      "topic0": "0x1a8919bc714742db0ed6eb86960768bdd5103c1dabb914651aaec5796907db15",
+      "occurrences": [
+        {
+          "topics": [
+            "0x1a8919bc714742db0ed6eb86960768bdd5103c1dabb914651aaec5796907db15"
+          ],
+          "data": "0x000000000000000000000000e71227d6d846e0fb3367d020683327031c4c4a3d"
+        }
+      ]
+    },
+    {
+      "sig": "ReleaseIsLive()",
+      "topic0": "0x0356d4f8f825c1c2803d9e1f15724b6b8eea8992d04fad04da8bcbe6ff30296f",
+      "occurrences": [
+        {
+          "topics": [
+            "0x0356d4f8f825c1c2803d9e1f15724b6b8eea8992d04fad04da8bcbe6ff30296f"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "VaultLibSet(address)",
+      "topic0": "0x1e01982aac1b1376985c41ed48c69e04ff4c75107bfe0b8a4827693d2ddba04e",
+      "occurrences": [
+        {
+          "topics": [
+            "0x1e01982aac1b1376985c41ed48c69e04ff4c75107bfe0b8a4827693d2ddba04e"
+          ],
+          "data": "0x000000000000000000000000e1a147b3fb8a7be78bf3a061f176bc718d897695"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/ba3060214226e42892a541db77ef7d4cc9ab54e4",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

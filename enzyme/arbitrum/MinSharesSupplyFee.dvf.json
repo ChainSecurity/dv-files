@@ -1,0 +1,33 @@
+{
+  "version": "0.9.1",
+  "id": "0x105134952d75c7b60395e094f84a3fc90f03699f65d16da1de4834b65a48e1b6",
+  "contract_name": "MinSharesSupplyFee",
+  "address": "0xa8c3b04a800c08ae010b56ac1c1ad7033d980b0f",
+  "chain_id": 42161,
+  "deployment_block_num": 230331009,
+  "init_block_num": 230331010,
+  "deployment_tx": "0xca7739b8be435b1426f4b2061bff9af25ebd2dafb3d5dcfaaa5c43db37cf2bf2",
+  "codehash": "0xa78d421d23299b81d2fd22a063960f8f5a3b4c41b3725a35c56f66103fc82a4b",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "FEE_MANAGER",
+      "value": "0x0000000000000000000000002c46503d4a0313c7161a5593b6865baa194b466f"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_feeManager",
+      "value": "0x2c46503d4a0313c7161a5593b6865baa194b466f"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/ba3060214226e42892a541db77ef7d4cc9ab54e4",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

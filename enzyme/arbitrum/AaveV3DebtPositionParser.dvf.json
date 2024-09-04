@@ -1,0 +1,47 @@
+{
+  "version": "0.9.1",
+  "id": "0xf2cf628a88f17db9791b1fad80db85f5694d8ae0e430724d47d02e40f6350e26",
+  "contract_name": "AaveV3DebtPositionParser",
+  "address": "0xa51dd657f875fcc37c697ee9cc59606979867384",
+  "chain_id": 42161,
+  "deployment_block_num": 245153706,
+  "init_block_num": 245153707,
+  "deployment_tx": "0xafbf480a9e1a8f42178c357e23052f8e3281d476da7e73edc6010d7f04fbf8f9",
+  "codehash": "0x03562dcca93539804440e65dea191e8f234d53519c058f7797b3d4e3908b8e12",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "ADDRESS_LIST_REGISTRY_CONTRACT",
+      "value": "0x0000000000000000000000002c6bef68dabf0494bb5f727e63c8fb54f7d2c287"
+    },
+    {
+      "var_name": "LIST_ID",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000008",
+      "value_hint": "8"
+    },
+    {
+      "var_name": "LIST_OWNER_CONTRACT",
+      "value": "0x000000000000000000000000575af64231a91b3a954d5e45a57187ace6549c81"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_addressListRegistry",
+      "value": "0x2c6bef68dabf0494bb5f727e63c8fb54f7d2c287"
+    },
+    {
+      "var_name": "_aTokenListId",
+      "value": "0x08",
+      "value_hint": "8"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/ba3060214226e42892a541db77ef7d4cc9ab54e4",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

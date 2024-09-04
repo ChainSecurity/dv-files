@@ -1,0 +1,47 @@
+{
+  "version": "0.9.1",
+  "id": "0x8a3e67a89b5364b266b530cc9acc27143d47e3b23fd5f8907ccc1fc0c8dd70dd",
+  "contract_name": "BalancerV2StablePoolPriceFeed",
+  "address": "0x8f30c0483c1cd32c100462f1af6d4ae6283086a9",
+  "chain_id": 42161,
+  "deployment_block_num": 245882853,
+  "init_block_num": 245882854,
+  "deployment_tx": "0xf744378e89167b7934ec4c5921ff5a32cb0a585c2f0206d52590cd59a5ceab02",
+  "codehash": "0x298c0484c0289183526be519728e7cc5bb4010f6f2379ce3a34611ca8fffb652",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "BALANCER_VAULT_CONTRACT",
+      "value": "0x000000000000000000000000ba12222222228d8ba445958a75a0704d566bf2c8",
+      "value_hint": "Balancer V2: Vault"
+    },
+    {
+      "var_name": "FUND_DEPLOYER",
+      "value": "0x000000000000000000000000a2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_fundDeployer",
+      "value": "0xa2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    },
+    {
+      "var_name": "_balancerVault",
+      "value": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+      "value_hint": "Balancer V2: Vault"
+    },
+    {
+      "var_name": "_poolFactories",
+      "value": "0x"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/2923c731466c54eb8a1968596d7736e999c82eee",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

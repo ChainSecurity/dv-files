@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0xdf1c1412371c71e3cb85bb73d052c13062537490bc5d8177d000953c57fc20a1",
+  "contract_name": "BalancerV2GaugeTokenPriceFeed",
+  "address": "0x80f0fc50d672158d118e5ee1e64a6905a5e72540",
+  "chain_id": 42161,
+  "deployment_block_num": 245883077,
+  "init_block_num": 245883078,
+  "deployment_tx": "0xb0642461a24e20faf5435c0dd00bf091c15dcfb7f50d344f7d81952b61898b8f",
+  "codehash": "0x7be2ea68322a4695f6b986f114d9a21733e374ae861c9c6e4c9fd59b3c500eb3",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/2923c731466c54eb8a1968596d7736e999c82eee",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

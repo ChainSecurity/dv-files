@@ -1,0 +1,49 @@
+{
+  "version": "0.9.1",
+  "id": "0x9f2224a0833697d340d86e84b68bc4053ccacf991f31077149e53c2d7c906969",
+  "contract_name": "IntegrationManager",
+  "address": "0x55df97aca98c2a708721f28ea1ca42a2be7ff934",
+  "chain_id": 42161,
+  "deployment_block_num": 230330662,
+  "init_block_num": 230330663,
+  "deployment_tx": "0x4430f05fd3dde976908d36153613345b4a1fed02f0a4b053d7071b517425cf90",
+  "codehash": "0x7b19ee583b190cd6743888d5d3a765a01101d5665866e18f219e03beb8c4f995",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "POLICY_MANAGER",
+      "value": "0x000000000000000000000000bde1e8c4a061cd28f4871860ddf22200b85ee9ec"
+    },
+    {
+      "var_name": "VALUE_INTERPRETER",
+      "value": "0x000000000000000000000000dd5f18a52a63ececf502a165a459d33be5c0a06c"
+    },
+    {
+      "var_name": "FUND_DEPLOYER",
+      "value": "0x000000000000000000000000a2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_fundDeployer",
+      "value": "0xa2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    },
+    {
+      "var_name": "_policyManager",
+      "value": "0xbde1e8c4a061cd28f4871860ddf22200b85ee9ec"
+    },
+    {
+      "var_name": "_valueInterpreter",
+      "value": "0xdd5f18a52a63ececf502a165a459d33be5c0a06c"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/ba3060214226e42892a541db77ef7d4cc9ab54e4",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
