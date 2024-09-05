@@ -1,0 +1,67 @@
+{
+  "version": "0.9.1",
+  "id": "0xb315e9193980ad47ce786f03c2cc648194155b654f4881a467082af7f7e5bbcb",
+  "contract_name": "ParaSwapV5Adapter",
+  "address": "0x08df49f617ecdccbc90d9a0f87b8c1a84b2e7cb9",
+  "chain_id": 42161,
+  "deployment_block_num": 247656416,
+  "init_block_num": 247656417,
+  "deployment_tx": "0x872b9c0dc4bdfa4120e7a2df5eeafb3ee1bd223aaad587ecbe363d308aacf7d4",
+  "codehash": "0x9142ff72b62da1678f4f45439f1003b681f5326b9133d7c44d3e9cec178c8f12",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "INTEGRATION_MANAGER",
+      "value": "0x00000000000000000000000055df97aca98c2a708721f28ea1ca42a2be7ff934"
+    },
+    {
+      "var_name": "PARA_SWAP_V5_AUGUSTUS_SWAPPER",
+      "value": "0x000000000000000000000000def171fe48cf0115b1d80b88dc8eab59176fee57"
+    },
+    {
+      "var_name": "PARA_SWAP_V5_FEE_PARTNER",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "PARA_SWAP_V5_FEE_PERCENT",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "PARA_SWAP_V5_TOKEN_TRANSFER_PROXY",
+      "value": "0x000000000000000000000000216b4b4ba9f3e719726886d34a177484278bfcae"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_integrationManager",
+      "value": "0x55df97aca98c2a708721f28ea1ca42a2be7ff934"
+    },
+    {
+      "var_name": "_augustusSwapper",
+      "value": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57"
+    },
+    {
+      "var_name": "_tokenTransferProxy",
+      "value": "0x216b4b4ba9f3e719726886d34a177484278bfcae"
+    },
+    {
+      "var_name": "_feePartner",
+      "value": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "_feePercent",
+      "value": "0x",
+      "value_hint": "0"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-protocol-v4-sulu",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/2923c731466c54eb8a1968596d7736e999c82eee",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
