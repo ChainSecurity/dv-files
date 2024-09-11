@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x10f2079fdc8894d66188af1a81c78ace0fb73e1fd1d42efcdad887e8d4c56ebc",
+  "contract_name": "ChainlinkLikeYnEthPriceFeed",
+  "address": "0xa8f6033ce40fab29c228f32ef44d38cb3043c5bc",
+  "chain_id": 1,
+  "deployment_block_num": 20689897,
+  "init_block_num": 20689898,
+  "deployment_tx": "0x8d538ee64db140fd4d0a69fe12735f1535ecca92bdec3c8f24ba7c6d826bd79c",
+  "codehash": "0x8effd3131ac8f7d8de4cb2b995c1c16d1c64e44db8d41512340375eb0c0b0654",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "CURVE_YNETH_WSTETH_POOL",
+      "value": "0x00000000000000000000000019b8524665abac613d82ece5d8347ba44c714bdd"
+    },
+    {
+      "var_name": "WSTETH_ETH_CHAINLINK_AGGREGATOR",
+      "value": "0x00000000000000000000000092829c41115311ca43d5c9f722f0e9e7b9fcd30a"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_curveYnethWstethPool",
+      "value": "0x19b8524665abac613d82ece5d8347ba44c714bdd"
+    },
+    {
+      "var_name": "_wstethEthChainlinkAggregator",
+      "value": "0x92829c41115311ca43d5c9f722f0e9e7b9fcd30a"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/651764b9322251049259d747b4d2f814752bd867",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

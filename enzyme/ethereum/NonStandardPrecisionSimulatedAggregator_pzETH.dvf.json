@@ -1,0 +1,52 @@
+{
+  "version": "0.9.1",
+  "id": "0x418513e801633cb84ce2d78f6d38468e0c22bd5fd3495c0f94ae6ad66f6c8743",
+  "contract_name": "NonStandardPrecisionSimulatedAggregator",
+  "address": "0x62967dc5140fba7204cef0d4b55b38d9109a7fcb",
+  "chain_id": 1,
+  "deployment_block_num": 20689961,
+  "init_block_num": 20689962,
+  "deployment_tx": "0xd9f6e9f9b69a3f3d6c8b2ea40b7d67c9bb79d148b49795dd2b7a5ce2ee27005b",
+  "codehash": "0x20ef1549ee71dc64438d46d4ede90db913bf65d31e0b34bbbe071f59e164b008",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "AGGREGATOR",
+      "value": "0x0000000000000000000000000b6c5c37215b27c944497d2d7011cbd366b0870a"
+    },
+    {
+      "var_name": "SCALE_FACTOR",
+      "value": "0x00000000000000000000000000000000000000000000000000000002540be400",
+      "value_hint": "1. * 10^10"
+    },
+    {
+      "var_name": "SCALE_TYPE",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "STANDARD_RATE_DECIMALS",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000012",
+      "value_hint": "18"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_aggregator",
+      "value": "0x0b6c5c37215b27c944497d2d7011cbd366b0870a"
+    },
+    {
+      "var_name": "_rateAsset",
+      "value": "0x",
+      "value_hint": "0"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/651764b9322251049259d747b4d2f814752bd867",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
