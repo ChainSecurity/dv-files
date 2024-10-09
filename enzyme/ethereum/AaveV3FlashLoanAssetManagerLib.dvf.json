@@ -1,0 +1,43 @@
+{
+  "version": "0.9.1",
+  "id": "0x7b4f1cad2ddb75e7e7f67da48d8499c2d1ce10a424b857967787acebd5c523c9",
+  "contract_name": "AaveV3FlashLoanAssetManagerLib",
+  "address": "0x8aa6f11fef40eb24c2f77de538f40ac8a9ec9f0d",
+  "chain_id": 1,
+  "deployment_block_num": 20912494,
+  "init_block_num": 20912495,
+  "deployment_tx": "0x8996085ed3763933561ee6d29b2fa9231a54f9c063802f2d3aa5724f80224b47",
+  "codehash": "0x9c61446b1dfa66ccdfd55643cbded868b6a3c9a9c55fb42036252fa019e17d06",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "AAVE_REFERRAL_CODE",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "ADDRESSES_PROVIDER",
+      "value": "0x0000000000000000000000002f39d218133afab8f2b819b1066c7e434ad94e9e"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_aavePoolAddressProviderAddress",
+      "value": "0x2f39d218133afab8f2b819b1066c7e434ad94e9e"
+    },
+    {
+      "var_name": "_aaveReferralCode",
+      "value": "0x",
+      "value_hint": "0"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/c5acff2b309b8940de604d0aecdfbaa12ce332a2",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

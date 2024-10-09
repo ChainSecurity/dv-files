@@ -1,0 +1,33 @@
+{
+  "version": "0.9.1",
+  "id": "0x981d181d760e3dd5c7c513433daabeb2b84cf066874b770b36f5afed65b69388",
+  "contract_name": "TransferAssetsAdapter",
+  "address": "0xe8db4924569a3c61aadfb721bbb009e3127196bd",
+  "chain_id": 42161,
+  "deployment_block_num": 261665603,
+  "init_block_num": 261665604,
+  "deployment_tx": "0x2c1c675bca6c249d83b5383b1780e982de2380caa6156fc4f69559cecbb4cc6e",
+  "codehash": "0xa95772d3cd52c9700e36fbb1b204b861b6aa21b03f8ee82162d5656749e44d12",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "INTEGRATION_MANAGER",
+      "value": "0x00000000000000000000000055df97aca98c2a708721f28ea1ca42a2be7ff934"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_integrationManager",
+      "value": "0x55df97aca98c2a708721f28ea1ca42a2be7ff934"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/c5acff2b309b8940de604d0aecdfbaa12ce332a2",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
