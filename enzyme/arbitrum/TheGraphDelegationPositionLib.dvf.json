@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0xdf2b2387af097e32e9db50509dcb2a87e634a8e83c5d542027c90386befa0a9d",
+  "contract_name": "TheGraphDelegationPositionLib",
+  "address": "0x92da9df390d3e9199d105289b297eca357ecc9b7",
+  "chain_id": 42161,
+  "deployment_block_num": 266479469,
+  "init_block_num": 266479470,
+  "deployment_tx": "0x245bff2031beeda1e06a082b379fca97a8688e3fb50f9dad3fa8025711da867b",
+  "codehash": "0xf8155d27e72286ee1b470b3a65b50cb58a496c9cddcc991e5fac0da63533d64a",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GRAPH_STAKING_CONTRACT",
+      "value": "0x00000000000000000000000000669a4cf01450b64e8a2a20e9b1fcb71e61ef03"
+    },
+    {
+      "var_name": "GRT_TOKEN_CONTRACT",
+      "value": "0x0000000000000000000000009623063377ad1b27544c965ccd7342f7ea7e88c7"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_stakingProxy",
+      "value": "0x00669a4cf01450b64e8a2a20e9b1fcb71e61ef03"
+    },
+    {
+      "var_name": "_grtToken",
+      "value": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/c5acff2b309b8940de604d0aecdfbaa12ce332a2",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
