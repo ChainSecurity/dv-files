@@ -1,0 +1,49 @@
+{
+  "version": "0.9.1",
+  "id": "0x63c51a7d8b48716c3d2e4d24972d4b6e254c79938bb3a909f8b100bd14efbf58",
+  "contract_name": "GMXV2LeverageTradingPositionParser",
+  "address": "0x0645b362a0d43e005f46713d1857e193f665810e",
+  "chain_id": 42161,
+  "deployment_block_num": 273635160,
+  "init_block_num": 273635161,
+  "deployment_tx": "0xe90d1d1f22a9551a4ea7d7ccfb5d6da099e7ae3895b4fecfa7342b2abde8930b",
+  "codehash": "0x7081581e9b1c3748222c8d9395f19d12cd8c87484142a14899d0048216bff453",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DATA_STORE_ADDRESS",
+      "value": "0x000000000000000000000000fd70de6b91282d8017aa4e741e9ae325cab992d8"
+    },
+    {
+      "var_name": "READER",
+      "value": "0x0000000000000000000000000537c767cdac0726c76bb89e92904fe28fd02fe1"
+    },
+    {
+      "var_name": "WRAPPED_NATIVE_TOKEN_ADDRESS",
+      "value": "0x00000000000000000000000082af49447d8a07e3bd95bd0d56f35241523fbab1"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_wrappedNativeTokenAddress",
+      "value": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+    },
+    {
+      "var_name": "_dataStoreAddress",
+      "value": "0xfd70de6b91282d8017aa4e741e9ae325cab992d8"
+    },
+    {
+      "var_name": "_reader",
+      "value": "0x0537c767cdac0726c76bb89e92904fe28fd02fe1"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/297f70c7c60d95e92c97c1f0d0382f884f68f9ec",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

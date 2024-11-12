@@ -1,0 +1,51 @@
+{
+  "version": "0.9.1",
+  "id": "0x9de65478dbbd5efda170636014843398e4dd98eaf459e479bd0c9a5a9e7983f2",
+  "contract_name": "MorphoBluePositionLib",
+  "address": "0xd84123f688601133d478949277be8065f48ff810",
+  "chain_id": 1,
+  "deployment_block_num": 21163228,
+  "init_block_num": 21163229,
+  "deployment_tx": "0x173c1079d4f91f083e1be1c8a152af1dbf999133e621fbf3d605457bb946fdb1",
+  "codehash": "0x54c05a77d9f112dd7b5b793c25dd6d49be486dc5ce75abf2e03396fe6e3caf5f",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "ALLOWED_MORPHO_BLUE_VAULTS_LIST_ID",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "value_hint": "3"
+    },
+    {
+      "var_name": "MORPHO_BLUE",
+      "value": "0x000000000000000000000000bbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb"
+    },
+    {
+      "var_name": "UINT_LIST_REGISTRY",
+      "value": "0x0000000000000000000000006ffd6fc068e7b365af18da4fdc39d3289159407b"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_allowedMorphoBlueVaultsListId",
+      "value": "0x03",
+      "value_hint": "3"
+    },
+    {
+      "var_name": "_morphoBlueAddress",
+      "value": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb"
+    },
+    {
+      "var_name": "_uintListRegistryAddress",
+      "value": "0x6ffd6fc068e7b365af18da4fdc39d3289159407b"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/297f70c7c60d95e92c97c1f0d0382f884f68f9ec",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": "0.9.1",
+  "id": "0xe7a0994ada9bed9df6bd8eb5e63a710dbe5aba8144bf94181d1678ec7e41cd2d",
+  "contract_name": "PendleV2Adapter",
+  "address": "0x88c09467d1a1632dceca449f1e270d8ae1aabfb6",
+  "chain_id": 1,
+  "deployment_block_num": 21163211,
+  "init_block_num": 21163212,
+  "deployment_tx": "0x6541b8794fb87d70d72c6cf50592a23c6b1a1ed2724b821285bdb57d05a34cb4",
+  "codehash": "0x6dd232a0ef077606c3d7e7c6b801620dfbb2b31ff60aa2aeacf3142254a35fc2",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "PENDLE_ROUTER",
+      "value": "0x000000000000000000000000888888888889758f76e7103c6cbf23abbf58f946"
+    },
+    {
+      "var_name": "WRAPPED_NATIVE_ASSET",
+      "value": "0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    },
+    {
+      "var_name": "INTEGRATION_MANAGER",
+      "value": "0x00000000000000000000000031329024f1a3e4a4b3336e0b1dfa74cc3fec633e"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_integrationManager",
+      "value": "0x31329024f1a3e4a4b3336e0b1dfa74cc3fec633e"
+    },
+    {
+      "var_name": "_pendleRouterAddress",
+      "value": "0x888888888889758f76e7103c6cbf23abbf58f946"
+    },
+    {
+      "var_name": "_wrappedNativeAssetAddress",
+      "value": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/297f70c7c60d95e92c97c1f0d0382f884f68f9ec",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

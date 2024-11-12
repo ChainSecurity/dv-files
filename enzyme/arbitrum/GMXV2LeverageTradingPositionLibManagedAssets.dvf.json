@@ -1,0 +1,73 @@
+{
+  "version": "0.9.1",
+  "id": "0x35e6d1ab57c61d3d35cfaa6969c15fb2bb524c96f2f811cd43ecfe737045f8b7",
+  "contract_name": "GMXV2LeverageTradingPositionLibManagedAssets",
+  "address": "0x41ace88b03f4bafc284a5207ce637a368b2375fe",
+  "chain_id": 42161,
+  "deployment_block_num": 273631862,
+  "init_block_num": 273631863,
+  "deployment_tx": "0xa42c5d391e0a3b015eaba4a536dee965eeedf6b4cd5f707a28304f5734f233b9",
+  "codehash": "0xaf9b7dda7d92c2626653a4c2a7f2a81987c520eabb71d586629308dde8e1f23d",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "CHAINLINK_PRICE_FEED_PROVIDER",
+      "value": "0x000000000000000000000000527fb0bcff63c47761039bb386cfe181a92a4701"
+    },
+    {
+      "var_name": "REFERRAL_STORAGE_ADDRESS",
+      "value": "0x000000000000000000000000e6fab3f0c7199b0d34d7fbe83394fc0e0d06e99d"
+    },
+    {
+      "var_name": "UI_FEE_RECEIVER_ADDRESS",
+      "value": "0x000000000000000000000000bf70734e9e1da98149e4550025b1055facd60583"
+    },
+    {
+      "var_name": "WRAPPED_NATIVE_TOKEN",
+      "value": "0x00000000000000000000000082af49447d8a07e3bd95bd0d56f35241523fbab1"
+    },
+    {
+      "var_name": "DATA_STORE",
+      "value": "0x000000000000000000000000fd70de6b91282d8017aa4e741e9ae325cab992d8"
+    },
+    {
+      "var_name": "READER",
+      "value": "0x0000000000000000000000000537c767cdac0726c76bb89e92904fe28fd02fe1"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_chainlinkPriceFeedProvider",
+      "value": "0x527fb0bcff63c47761039bb386cfe181a92a4701"
+    },
+    {
+      "var_name": "_dataStore",
+      "value": "0xfd70de6b91282d8017aa4e741e9ae325cab992d8"
+    },
+    {
+      "var_name": "_reader",
+      "value": "0x0537c767cdac0726c76bb89e92904fe28fd02fe1"
+    },
+    {
+      "var_name": "_referralStorageAddress",
+      "value": "0xe6fab3f0c7199b0d34d7fbe83394fc0e0d06e99d"
+    },
+    {
+      "var_name": "_uiFeeReceiverAddress",
+      "value": "0xbf70734e9e1da98149e4550025b1055facd60583"
+    },
+    {
+      "var_name": "_wrappedNativeToken",
+      "value": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/297f70c7c60d95e92c97c1f0d0382f884f68f9ec",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
