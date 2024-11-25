@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x2863664c15e103208824150174cefc2d60f088e82911f7c22822188c4ea057f1",
+  "contract_name": "ThreeOneThirdAdapter",
+  "address": "0x5a1c0e89133c4cd844a8b345370565f1368a79a8",
+  "chain_id": 137,
+  "deployment_block_num": 64600831,
+  "init_block_num": 64600832,
+  "deployment_tx": "0x714975eabc248c94d13081a98d4cb160aa7f7055b14f9d7f4b0cf9ed282fbd4c",
+  "codehash": "0xa6ba4c12b5424203a391642fc48d4f826cf10148c0451bdc3c40a9ef73ed9f6b",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "INTEGRATION_MANAGER",
+      "value": "0x00000000000000000000000092fcde09790671cf085864182b9670c77da0884b"
+    },
+    {
+      "var_name": "THREE_ONE_THIRD_BATCH_TRADE",
+      "value": "0x000000000000000000000000d20c024560cca40288c05bab650ac087ae9b0f6e"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_integrationManager",
+      "value": "0x92fcde09790671cf085864182b9670c77da0884b"
+    },
+    {
+      "var_name": "_batchTrade",
+      "value": "0xd20c024560cca40288c05bab650ac087ae9b0f6e"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/edfd4bddaa4b32c8e69a57a890a9df6143152022",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
