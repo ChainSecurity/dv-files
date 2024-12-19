@@ -1,0 +1,33 @@
+{
+  "version": "0.9.1",
+  "contract_name": "StaderEthXRateEthAggregator",
+  "address": "0x75c4dc3201015c78a60dbe673fc7247549527c1b",
+  "chain_id": 1,
+  "deployment_block_num": 21429526,
+  "init_block_num": 21429527,
+  "deployment_tx": "0x324dbddf40e2c8c5450c40e2f96775a2cb87f7ab819e8368f643150e548e8def",
+  "codehash": "0xb989132413df7838ebd2b251fd2523708f4b08a3c08fd48dcbbf1faf6829075e",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "STADER_STAKE_POOLS_MANAGER",
+      "value": "0x000000000000000000000000cf5ea1b38380f6af39068375516daf40ed70d299"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_staderStakePoolsManagerAddress",
+      "value": "0xcf5ea1b38380f6af39068375516daf40ed70d299"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "expiry_in_epoch_seconds": null,
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/64baa55fd6d68c72d5be0fdf7bb72cf110a4dea4",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
