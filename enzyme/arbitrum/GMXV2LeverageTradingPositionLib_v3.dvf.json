@@ -1,0 +1,99 @@
+{
+  "version": "0.9.1",
+  "id": "0x02d16a212b1abf509a502847f67218da1b7798a463b0222d94c6c91806b4f4f6",
+  "contract_name": "GMXV2LeverageTradingPositionLib",
+  "address": "0x64e4a778f82a49738714e390ae97f17434fd2156",
+  "chain_id": 42161,
+  "deployment_block_num": 287704710,
+  "init_block_num": 287704711,
+  "deployment_tx": "0x1c7c3254fbfdbf0ed205539f921bd25bb1a6be97d7289b44c97dbe396ddd9cb5",
+  "codehash": "0xe256d4ecbcdd73a4d08eeea363b04f4c689b1c1307ff95e356703b5a8de3d658",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "CALLBACK_GAS_LIMIT",
+      "value": "0x00000000000000000000000000000000000000000000000000000000000b71b0",
+      "value_hint": "7.5 * 10^5"
+    },
+    {
+      "var_name": "MANAGED_ASSETS_LIB",
+      "value": "0x00000000000000000000000041ace88b03f4bafc284a5207ce637a368b2375fe"
+    },
+    {
+      "var_name": "REFERRAL_CODE",
+      "value": "0x456e7a796d653230323400000000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "REFERRAL_STORAGE_ADDRESS",
+      "value": "0x000000000000000000000000e6fab3f0c7199b0d34d7fbe83394fc0e0d06e99d"
+    },
+    {
+      "var_name": "ROLE_STORE",
+      "value": "0x0000000000000000000000003c3d99fd298f679dbc2cecd132b4ec4d0f5e6e72"
+    },
+    {
+      "var_name": "UI_FEE_RECEIVER_ADDRESS",
+      "value": "0x000000000000000000000000bf70734e9e1da98149e4550025b1055facd60583"
+    },
+    {
+      "var_name": "WRAPPED_NATIVE_TOKEN",
+      "value": "0x00000000000000000000000082af49447d8a07e3bd95bd0d56f35241523fbab1"
+    },
+    {
+      "var_name": "DATA_STORE",
+      "value": "0x000000000000000000000000fd70de6b91282d8017aa4e741e9ae325cab992d8"
+    },
+    {
+      "var_name": "READER",
+      "value": "0x0000000000000000000000000537c767cdac0726c76bb89e92904fe28fd02fe1"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_callbackGasLimit",
+      "value": "0x0b71b0",
+      "value_hint": "7.5 * 10^5"
+    },
+    {
+      "var_name": "_dataStore",
+      "value": "0xfd70de6b91282d8017aa4e741e9ae325cab992d8"
+    },
+    {
+      "var_name": "_managedAssetsLib",
+      "value": "0x41ace88b03f4bafc284a5207ce637a368b2375fe"
+    },
+    {
+      "var_name": "_reader",
+      "value": "0x0537c767cdac0726c76bb89e92904fe28fd02fe1"
+    },
+    {
+      "var_name": "_referralCode",
+      "value": "0x456e7a796d653230323400000000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "_referralStorageAddress",
+      "value": "0xe6fab3f0c7199b0d34d7fbe83394fc0e0d06e99d"
+    },
+    {
+      "var_name": "_roleStore",
+      "value": "0x3c3d99fd298f679dbc2cecd132b4ec4d0f5e6e72"
+    },
+    {
+      "var_name": "_uiFeeReceiverAddress",
+      "value": "0xbf70734e9e1da98149e4550025b1055facd60583"
+    },
+    {
+      "var_name": "_wrappedNativeToken",
+      "value": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/44a2bfca4cb00378a07cb77885c5c6431a77c606",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
