@@ -1,0 +1,50 @@
+{
+  "version": "0.9.1",
+  "id": "0x7176368104d56c610256d72344d97f94746736168622e4453292d6d017f8f78e",
+  "contract_name": "AaveV3ATokenListOwner",
+  "address": "0x55c3498ee0d5c79b034554f301d8a799bae7d278",
+  "chain_id": 1,
+  "deployment_block_num": 21585754,
+  "init_block_num": 21585755,
+  "deployment_tx": "0x376c637e62d658de9f1132655780a7e134d8fedd42c4bf4d5f50f90dbe5d6af8",
+  "codehash": "0x3227b2606923905adecec245a784fd4bccec0e911e580b4e0ddae92f7389ce69",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "POOL_ADDRESS_PROVIDER_CONTRACT",
+      "value": "0x000000000000000000000000e3c3c5ead58fc2bed4e577e38985b8f7f1ddff00"
+    },
+    {
+      "var_name": "ADDRESS_LIST_REGISTRY_CONTRACT",
+      "value": "0x0000000000000000000000004eb4c7babfb5d54ab4857265b482fb6512d22dff"
+    },
+    {
+      "var_name": "LIST_ID",
+      "value": "0x00000000000000000000000000000000000000000000000000000000000002e1",
+      "value_hint": "737"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_addressListRegistry",
+      "value": "0x4eb4c7babfb5d54ab4857265b482fb6512d22dff"
+    },
+    {
+      "var_name": "_listDescription",
+      "value": "0x5a65726f204c656e643a2052574120537461626c65636f696e733a2061546f6b656e73"
+    },
+    {
+      "var_name": "_poolAddressProvider",
+      "value": "0xe3c3c5ead58fc2bed4e577e38985b8f7f1ddff00"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/44a2bfca4cb00378a07cb77885c5c6431a77c606",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
