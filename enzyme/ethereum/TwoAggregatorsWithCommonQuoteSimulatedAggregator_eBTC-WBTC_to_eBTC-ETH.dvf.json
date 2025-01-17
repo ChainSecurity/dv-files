@@ -1,0 +1,56 @@
+{
+  "version": "0.9.1",
+  "id": "0xd980f26c34bf810c3096e28a86cbd9e593ba552845087eae91348c222febf228",
+  "contract_name": "TwoAggregatorsWithCommonQuoteSimulatedAggregator",
+  "address": "0xb04f255f21bc7a45ef4790deb007926e01b1f1f5",
+  "chain_id": 1,
+  "deployment_block_num": 21637350,
+  "init_block_num": 21637351,
+  "deployment_tx": "0xab541a8961359cb99c5c3fe302d1f29713cd82975382fcd70986b83e94d0e575",
+  "codehash": "0x646db6ccdd9b1a0bb9ee57e20574d7d58fbebd233e47c33a51f495604e856b54",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "BASE_ASSET_AGGREGATOR",
+      "value": "0x000000000000000000000000e5867b1d421f0b52697f16e2ac437e87d66d5fbf"
+    },
+    {
+      "var_name": "QUOTE_ASSET_AGGREGATOR",
+      "value": "0x000000000000000000000000ac559f25b1619171cbc396a50854a3240b6a4e99"
+    },
+    {
+      "var_name": "PRECISION_DECIMALS",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000012",
+      "value_hint": "18"
+    },
+    {
+      "var_name": "CONVERSION_FACTOR",
+      "value": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+      "value_hint": "1. * 10^18"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_baseAssetAggregatorAddress",
+      "value": "0xe5867b1d421f0b52697f16e2ac437e87d66d5fbf"
+    },
+    {
+      "var_name": "_quoteAssetAggregatorAddress",
+      "value": "0xac559f25b1619171cbc396a50854a3240b6a4e99"
+    },
+    {
+      "var_name": "_precisionDecimals",
+      "value": "0x12",
+      "value_hint": "18"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/44a2bfca4cb00378a07cb77885c5c6431a77c606",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
