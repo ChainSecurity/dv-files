@@ -1,0 +1,59 @@
+{
+  "version": "0.9.1",
+  "id": "0xf46fda830ccd50365ea0248b811928362bbe75c319fca77b9c63a0c4cbaa99c5",
+  "contract_name": "AaveV3DebtPositionLib",
+  "address": "0x6ef082e4041030dca3ae728a6d60d137404bda35",
+  "chain_id": 42161,
+  "deployment_block_num": 298472975,
+  "init_block_num": 298472976,
+  "deployment_tx": "0xc10e4c78d657ec66519b7bc1954bc8a04a4482382786763ffc5cd462a563040f",
+  "codehash": "0x29620ac814ed45b0596949efbaf34f15652244a8654fc656a6bd248f46b11647",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DATA_PROVIDER_CONTRACT",
+      "value": "0x0000000000000000000000007f23d86ee20d869112572136221e173428dd740b"
+    },
+    {
+      "var_name": "LENDING_POOL_ADDRESS_PROVIDER_CONTRACT",
+      "value": "0x000000000000000000000000a97684ead0e402dc232d5a977953df7ecbab3cdb"
+    },
+    {
+      "var_name": "REFERRAL_CODE",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "REWARDS_CONTROLLER",
+      "value": "0x000000000000000000000000929ec64c34a17401f460460d4b9390518e5b473e"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dataProvider",
+      "value": "0x7f23d86ee20d869112572136221e173428dd740b"
+    },
+    {
+      "var_name": "_lendingPoolAddressProvider",
+      "value": "0xa97684ead0e402dc232d5a977953df7ecbab3cdb"
+    },
+    {
+      "var_name": "_referralCode",
+      "value": "0x",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "_rewardsController",
+      "value": "0x929ec64c34a17401f460460d4b9390518e5b473e"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/92bfe182a0876c0e758bd709818c8fc793d30ea6",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
