@@ -1,0 +1,59 @@
+{
+  "version": "0.9.1",
+  "id": "0xffd3eeda4802ff1412564d4efe8f33de92bba44d0e2b24e3b055691a215c8712",
+  "contract_name": "AaveV3DebtPositionLib",
+  "address": "0x0958dca5ef97f1ab0b931ba6395ef40625c26c9e",
+  "chain_id": 1,
+  "deployment_block_num": 21694898,
+  "init_block_num": 21694899,
+  "deployment_tx": "0x9d43f0300734ef9e82a9ca8fc5b3014a06ae5ab66a8456154fa6fa6e49d28666",
+  "codehash": "0xd1b8cb85eb02726da16c6356d1844b329528d4206ba41170539203440bd25d28",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DATA_PROVIDER_CONTRACT",
+      "value": "0x00000000000000000000000031063f7ca8ef4089db0dedf8d6e35690b468a611"
+    },
+    {
+      "var_name": "LENDING_POOL_ADDRESS_PROVIDER_CONTRACT",
+      "value": "0x00000000000000000000000017878afdd5772f4ec93c265ac7ad8e2b29abb857"
+    },
+    {
+      "var_name": "REFERRAL_CODE",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1"
+    },
+    {
+      "var_name": "REWARDS_CONTROLLER",
+      "value": "0x000000000000000000000000938e23c10c501ce5d42bc516ecfdf5abd9c51d2b"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dataProvider",
+      "value": "0x31063f7ca8ef4089db0dedf8d6e35690b468a611"
+    },
+    {
+      "var_name": "_lendingPoolAddressProvider",
+      "value": "0x17878afdd5772f4ec93c265ac7ad8e2b29abb857"
+    },
+    {
+      "var_name": "_referralCode",
+      "value": "0x01",
+      "value_hint": "1"
+    },
+    {
+      "var_name": "_rewardsController",
+      "value": "0x938e23c10c501ce5d42bc516ecfdf5abd9c51d2b"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/92bfe182a0876c0e758bd709818c8fc793d30ea6",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
