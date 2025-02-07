@@ -1,0 +1,77 @@
+{
+  "version": "0.9.1",
+  "id": "0x165291b7fa772285f91d05c84566f44a166257d0e1e10d1781b765f6951f4b91",
+  "contract_name": "PendleV2PositionLib",
+  "address": "0xbc65a05c2f8ce79c96339b76634b3483104c7557",
+  "chain_id": 1,
+  "deployment_block_num": 21794871,
+  "init_block_num": 21794872,
+  "deployment_tx": "0x3f731a56da1cbddc2d6377f0b07872c9deb4b1a4d8e627a87f6b90c11287dba7",
+  "codehash": "0x6479445686c03f2c99bc635f9c1cc0804aa87ba3d935aa3d5b67c33e39f650df",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "ADDRESS_LIST_REGISTRY",
+      "value": "0x0000000000000000000000004eb4c7babfb5d54ab4857265b482fb6512d22dff"
+    },
+    {
+      "var_name": "PENDLE_MARKET_REGISTRY",
+      "value": "0x00000000000000000000000031391adf6402fdd4eb4b57801a612b0987a0b0f2"
+    },
+    {
+      "var_name": "PENDLE_ORACLE",
+      "value": "0x0000000000000000000000009a9fa8338dd5e5b2188006f1cd2ef26d921650c2"
+    },
+    {
+      "var_name": "PENDLE_PEGGED_SY_TOKENS_LIST_ID",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "PENDLE_ROUTER",
+      "value": "0x000000000000000000000000888888888889758f76e7103c6cbf23abbf58f946"
+    },
+    {
+      "var_name": "WRAPPED_NATIVE_ASSET",
+      "value": "0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_addressListRegistryAddress",
+      "value": "0x4eb4c7babfb5d54ab4857265b482fb6512d22dff"
+    },
+    {
+      "var_name": "_pendleMarketsRegistryAddress",
+      "value": "0x31391adf6402fdd4eb4b57801a612b0987a0b0f2"
+    },
+    {
+      "var_name": "_pendleOracleAddress",
+      "value": "0x9a9fa8338dd5e5b2188006f1cd2ef26d921650c2"
+    },
+    {
+      "var_name": "_pendlePeggedSyTokensListId",
+      "value": "0x",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "_pendleRouterAddress",
+      "value": "0x888888888889758f76e7103c6cbf23abbf58f946"
+    },
+    {
+      "var_name": "_wrappedNativeAssetAddress",
+      "value": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/b776668070ed04f6ed42c31df33c12474e53f7fd",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
