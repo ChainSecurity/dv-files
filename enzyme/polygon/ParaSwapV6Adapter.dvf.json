@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x7a097fac00167bbfdc96f40984c7e19be340afefba56d23d95dd8adb07fd9759",
+  "contract_name": "ParaSwapV6Adapter",
+  "address": "0x4c8026a88f1da2d299c539b8c070c1c44372d53c",
+  "chain_id": 137,
+  "deployment_block_num": 69239754,
+  "init_block_num": 69239755,
+  "deployment_tx": "0xd8fbbf38b4cf33fac818785fe4e81807e48accbb540abcf3f080b2eed9fdabbd",
+  "codehash": "0x51cbb8862cad011c78b2a7a56c18a07439d4aa9118744e5b00f368c939270ba1",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "PARA_SWAP_V6_AUGUSTUS_SWAPPER",
+      "value": "0x0000000000000000000000006a000f20005980200259b80c5102003040001068"
+    },
+    {
+      "var_name": "INTEGRATION_MANAGER",
+      "value": "0x00000000000000000000000092fcde09790671cf085864182b9670c77da0884b"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_integrationManagerAddress",
+      "value": "0x92fcde09790671cf085864182b9670c77da0884b"
+    },
+    {
+      "var_name": "_augustusSwapper",
+      "value": "0x6a000f20005980200259b80c5102003040001068"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/5c25b16527a2db7b23428d47c31ce1864acec070",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

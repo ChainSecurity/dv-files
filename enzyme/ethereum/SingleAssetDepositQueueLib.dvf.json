@@ -1,0 +1,55 @@
+{
+  "version": "0.9.1",
+  "id": "0x290c61ec5f24b6614dbb362c414cff134bd7c057d159298a9ac297502363b74b",
+  "contract_name": "SingleAssetDepositQueueLib",
+  "address": "0x9267feef36484d3cb3a8e7c9cf57da360d85e0ad",
+  "chain_id": 1,
+  "deployment_block_num": 21986626,
+  "init_block_num": 21986627,
+  "deployment_tx": "0xb3ea19ab43d4325aef3969ebda4952d54f3f62a6e612965f23504c6fb8c2b009",
+  "codehash": "0xcd7300ed36075fee6bd373d8a12d19d5aa76c986f075ac5eada7106ca90a23e6",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GLOBAL_CONFIG",
+      "value": "0x0000000000000000000000005611df74a77efd198de5fc7f83a482dcfe0c7a7a"
+    },
+    {
+      "var_name": "ADDRESS_LIST_REGISTRY",
+      "value": "0x0000000000000000000000004eb4c7babfb5d54ab4857265b482fb6512d22dff"
+    },
+    {
+      "var_name": "GSN_RECIPIENT_ADDRESS_LIST_REGISTRY",
+      "value": "0x0000000000000000000000004eb4c7babfb5d54ab4857265b482fb6512d22dff"
+    },
+    {
+      "var_name": "GSN_RECIPIENT_TRUSTED_FORWARDERS_LIST_ID",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000256",
+      "value_hint": "598"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_addressListRegistry",
+      "value": "0x4eb4c7babfb5d54ab4857265b482fb6512d22dff"
+    },
+    {
+      "var_name": "_globalConfigProxy",
+      "value": "0x5611df74a77efd198de5fc7f83a482dcfe0c7a7a"
+    },
+    {
+      "var_name": "_gsnTrustedForwardersAddressListId",
+      "value": "0x0256",
+      "value_hint": "598"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/5c8a7793025ec2fd103fb5b2743bdfec64fa46bd",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

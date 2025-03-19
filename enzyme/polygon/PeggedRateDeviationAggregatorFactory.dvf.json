@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x5d19f71dbf8795e8a1d1fee00893a7a3a9b6270a8c38ed056f75811151a99d34",
+  "contract_name": "PeggedRateDeviationAggregatorFactory",
+  "address": "0x124fda4b626cda9481948a86a5f8f510d8a22f4a",
+  "chain_id": 137,
+  "deployment_block_num": 68991142,
+  "init_block_num": 68991143,
+  "deployment_tx": "0x5f0ba81f88f2ebd919e7f78c90fc8eb369d9fdaea77f407df3296a85218a3727",
+  "codehash": "0xa9a12f465cf60c5dddce091005f0d40be0b2821d345311fcd7c2283f3a1c9946",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/3438a01f711b87e9609828dff2205cbf6fa82fae",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x9981c5e3076016342055c3e55dd7ed7ce76c19447027d1ce1c28676b74728a23",
+  "contract_name": "ERC4626RateAggregatorFactory",
+  "address": "0x00f64bd22a69f429632e1469c9c812e9f70e4f11",
+  "chain_id": 1,
+  "deployment_block_num": 22036672,
+  "init_block_num": 22036673,
+  "deployment_tx": "0x86bbd70f9f6dd15059eddd3fce843eece7545e96936d1f0b00e2d9dca89916ed",
+  "codehash": "0x3e3972ff655535ee90ceea1f5a364c9bce74e1c8b80249a4486fd68832892e6b",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/5c25b16527a2db7b23428d47c31ce1864acec070",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
