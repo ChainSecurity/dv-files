@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x110709d9e694a07fd4f0a84145fd29f2cc9c4928977b0e9f76f0ed845d241226",
+  "contract_name": "NoDepegOnRedeemSharesForSpecificAssetsPolicy",
+  "address": "0x33d9d62a9155e96202378b80078bf73d4f1317a9",
+  "chain_id": 8453,
+  "deployment_block_num": 23179247,
+  "init_block_num": 23179248,
+  "deployment_tx": "0xad9f9b797333686d3fab6c532f638ba11f177fac4d111a98ec11491c9db2bcea",
+  "codehash": "0xe34fb1cebef5aae3a01a04e0377637eb2f850ce45e4ec25f92ade1681083e2f1",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "POLICY_MANAGER",
+      "value": "0x0000000000000000000000007d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    },
+    {
+      "var_name": "VALUE_INTERPRETER",
+      "value": "0x000000000000000000000000a76bc052a4d200d851c27312b32c35502824e8e1"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_policyManagerAddress",
+      "value": "0x7d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    },
+    {
+      "var_name": "_valueInterpreter",
+      "value": "0xa76bc052a4d200d851c27312b32c35502824e8e1"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

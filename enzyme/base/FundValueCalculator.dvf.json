@@ -1,0 +1,49 @@
+{
+  "version": "0.9.1",
+  "contract_name": "FundValueCalculator",
+  "address": "0xb6257a6c3aef640a7d09e3dd009a29308d2a321a",
+  "chain_id": 8453,
+  "deployment_block_num": 23476617,
+  "init_block_num": 23476618,
+  "deployment_tx": "0xf55620eed01b14ce3dd6703c1c29003e9ae028aa00f5c01d3422e6ea0f64a81f",
+  "codehash": "0xb105c971fa8666b80e57fd0328d8cb0b90d368f4e169173231e98fab030edbda",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "FEE_MANAGER",
+      "value": "0x000000000000000000000000a9928195a36ef1c238b1b8b5912b9fbce7554f73"
+    },
+    {
+      "var_name": "PROTOCOL_FEE_TRACKER",
+      "value": "0x00000000000000000000000044ddf1831fb1f9cd62bd07b4c351c826751594a6"
+    },
+    {
+      "var_name": "VALUE_INTERPRETER",
+      "value": "0x000000000000000000000000a76bc052a4d200d851c27312b32c35502824e8e1"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_feeManager",
+      "value": "0xa9928195a36ef1c238b1b8b5912b9fbce7554f73"
+    },
+    {
+      "var_name": "_protocolFeeTracker",
+      "value": "0x44ddf1831fb1f9cd62bd07b4c351c826751594a6"
+    },
+    {
+      "var_name": "_valueInterpreter",
+      "value": "0xa76bc052a4d200d851c27312b32c35502824e8e1"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "expiry_in_epoch_seconds": null,
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/5c25b16527a2db7b23428d47c31ce1864acec070",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "version": "0.9.1",
+  "id": "0xc1bfe454826f5f4ee21ea59fb28610cc37e3cb35dfe56f2281f01c54ee4ae6e8",
+  "contract_name": "FundDeployer",
+  "address": "0xbb274df654f71827cca120e0b916aec1f2ceaaeb",
+  "chain_id": 8453,
+  "deployment_block_num": 23178802,
+  "init_block_num": 27749012,
+  "deployment_tx": "0x504c8e221fb14bea6944e080dd99c7a6caaf0fd9b116a3a30d34b92789d7508d",
+  "codehash": "0xf17ec0a61dbf99e6d72a8473208feb6d073157f7bea9f254205daaa8a5e4f5ce",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "CREATOR",
+      "value": "0x000000000000000000000000fbeb8d15ff089da63e56e62660f74199d154cda2"
+    },
+    {
+      "var_name": "DISPATCHER",
+      "value": "0x000000000000000000000000d79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    },
+    {
+      "var_name": "GAS_RELAY_PAYMASTER_FACTORY",
+      "value": "0x000000000000000000000000c6780e244fd22f21f019fec4b802019d17bd558d"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dispatcher",
+      "value": "0xd79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    },
+    {
+      "var_name": "_gasRelayPaymasterFactory",
+      "value": "0xc6780e244fd22f21f019fec4b802019d17bd558d"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "comptrollerLib",
+      "var_type": "t_address",
+      "value": "0x67132b2d9b31ffcab67c9216f3fa937b259673b8",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1",
+      "offset": 0,
+      "var_name": "protocolFeeTracker",
+      "var_type": "t_address",
+      "value": "0x44ddf1831fb1f9cd62bd07b4c351c826751594a6",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2",
+      "offset": 0,
+      "var_name": "vaultLib",
+      "var_type": "t_address",
+      "value": "0x944d01bf533ed041d9947826429f086bf56c5856",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ComptrollerLibSet(address)",
+      "topic0": "0x38e37d5fdf60e4358769c3b616594ad451626b1e023c65eaa1062116feadacf8",
+      "occurrences": [
+        {
+          "topics": [
+            "0x38e37d5fdf60e4358769c3b616594ad451626b1e023c65eaa1062116feadacf8"
+          ],
+          "data": "0x00000000000000000000000067132b2d9b31ffcab67c9216f3fa937b259673b8"
+        }
+      ]
+    },
+    {
+      "sig": "ProtocolFeeTrackerSet(address)",
+      "topic0": "0x1a8919bc714742db0ed6eb86960768bdd5103c1dabb914651aaec5796907db15",
+      "occurrences": [
+        {
+          "topics": [
+            "0x1a8919bc714742db0ed6eb86960768bdd5103c1dabb914651aaec5796907db15"
+          ],
+          "data": "0x00000000000000000000000044ddf1831fb1f9cd62bd07b4c351c826751594a6"
+        }
+      ]
+    },
+    {
+      "sig": "ReleaseIsLive()",
+      "topic0": "0x0356d4f8f825c1c2803d9e1f15724b6b8eea8992d04fad04da8bcbe6ff30296f",
+      "occurrences": [
+        {
+          "topics": [
+            "0x0356d4f8f825c1c2803d9e1f15724b6b8eea8992d04fad04da8bcbe6ff30296f"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "VaultLibSet(address)",
+      "topic0": "0x1e01982aac1b1376985c41ed48c69e04ff4c75107bfe0b8a4827693d2ddba04e",
+      "occurrences": [
+        {
+          "topics": [
+            "0x1e01982aac1b1376985c41ed48c69e04ff4c75107bfe0b8a4827693d2ddba04e"
+          ],
+          "data": "0x000000000000000000000000944d01bf533ed041d9947826429f086bf56c5856"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

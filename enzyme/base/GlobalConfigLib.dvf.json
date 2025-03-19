@@ -1,0 +1,48 @@
+{
+  "version": "0.9.1",
+  "id": "0xe5dd35167526581968c579897a18f1fc014be9db656622bc5155c71665aa65c2",
+  "contract_name": "GlobalConfigLib",
+  "address": "0x66b3962f669c0700f92c5e0692b8600f911d9ace",
+  "chain_id": 8453,
+  "deployment_block_num": 23178804,
+  "init_block_num": 23178805,
+  "deployment_tx": "0xe9479a7f9325b09377280e89a319061f8c3b60960ba37d4d743e7ba20343a26c",
+  "codehash": "0x7e82bd3eafbb9ccb5e9a786e40ef30171c0f9f2da8160e16f55ce7cc8fe2b9bd",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "FUND_DEPLOYER_V4",
+      "value": "0x000000000000000000000000bb274df654f71827cca120e0b916aec1f2ceaaeb"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_fundDeployerV4",
+      "value": "0xbb274df654f71827cca120e0b916aec1f2ceaaeb"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "dispatcher",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "GlobalConfigLibSet(address)",
+      "topic0": "0xce6de52b779ce41beea76a6e7a997211f0006af21ed2e2924caa5bdc92dac318",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

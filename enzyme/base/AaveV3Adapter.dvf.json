@@ -1,0 +1,73 @@
+{
+  "version": "0.9.1",
+  "id": "0x2c1bbfdd1247048c573f8d3ccceba98f99fe2a908d94cade5086f6ad9aa29f72",
+  "contract_name": "AaveV3Adapter",
+  "address": "0xc16db2e93492e3ea512edc90787538652ec5c099",
+  "chain_id": 8453,
+  "deployment_block_num": 23308854,
+  "init_block_num": 23308855,
+  "deployment_tx": "0x9959af8a376c4a5a8cb129c03f17b92c6117bba38dc739419c6065a9def18114",
+  "codehash": "0x2b0267e2fee397e9574e8148d26f8b2b62229ee1a2d29d04b47b3bd158dbc055",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "INTEGRATION_MANAGER",
+      "value": "0x0000000000000000000000005d8703b4a08fd3f698bafd5389fa25463fb383dd"
+    },
+    {
+      "var_name": "AAVE_V3_POOL_CONTRACT",
+      "value": "0x000000000000000000000000a238dd80c259a72e81d7e4664a9801593f98d1c5"
+    },
+    {
+      "var_name": "AAVE_V3_REFERRAL_CODE",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "ADDRESS_LIST_REGISTRY_CONTRACT",
+      "value": "0x00000000000000000000000042232ff4f38639ed942e0c76723e76e1a0588899"
+    },
+    {
+      "var_name": "LIST_ID",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000009",
+      "value_hint": "9"
+    },
+    {
+      "var_name": "LIST_OWNER_CONTRACT",
+      "value": "0x000000000000000000000000ceb47861043a70f8520d761e2ccf42edcc941512"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_integrationManager",
+      "value": "0x5d8703b4a08fd3f698bafd5389fa25463fb383dd"
+    },
+    {
+      "var_name": "_addressListRegistry",
+      "value": "0x42232ff4f38639ed942e0c76723e76e1a0588899"
+    },
+    {
+      "var_name": "_aTokenListId",
+      "value": "0x09",
+      "value_hint": "9"
+    },
+    {
+      "var_name": "_pool",
+      "value": "0xa238dd80c259a72e81d7e4664a9801593f98d1c5"
+    },
+    {
+      "var_name": "_referralCode",
+      "value": "0x",
+      "value_hint": "0"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/c5a8551",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": "0.9.1",
+  "id": "0x10b61a39b9de2923bc2aba3101d9ed04b9552d37a5e8df28c55f702565a74717",
+  "contract_name": "ExitRateDirectFee",
+  "address": "0x6060295a989bf8d1e74dc75273b3ab2a02b0c0e1",
+  "chain_id": 8453,
+  "deployment_block_num": 23179181,
+  "init_block_num": 23179182,
+  "deployment_tx": "0xaf05d52791a6d9f37ce498b7457219921937e935aa84f43853dab95e123d6e6e",
+  "codehash": "0x696a16a6dc4c4a2e15f33f298cfe01d179eacc5f2e37f59334cbb48a379778e5",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "SETTLEMENT_TYPE",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001"
+    },
+    {
+      "var_name": "FEE_MANAGER",
+      "value": "0x000000000000000000000000a9928195a36ef1c238b1b8b5912b9fbce7554f73"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_feeManager",
+      "value": "0xa9928195a36ef1c238b1b8b5912b9fbce7554f73"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/86c6b19",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

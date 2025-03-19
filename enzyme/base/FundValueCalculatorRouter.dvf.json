@@ -1,0 +1,64 @@
+{
+  "version": "0.9.1",
+  "contract_name": "FundValueCalculatorRouter",
+  "address": "0xb17403bcbccc3b74fa7491e38913dd36f1b9f402",
+  "chain_id": 8453,
+  "deployment_block_num": 23476822,
+  "init_block_num": 23476823,
+  "deployment_tx": "0xaea7786541118cfe77ae3922134424ef5db6abc5a814e904fc9e416843c29786",
+  "codehash": "0x2f6c149eacdc154fd7cb1f9bcd045ced5fd093e762a422f5956d2e50912d837b",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DISPATCHER",
+      "value": "0x000000000000000000000000d79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dispatcher",
+      "value": "0xd79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    },
+    {
+      "var_name": "_fundDeployers",
+      "value": "0x000000000000000000000000bb274df654f71827cca120e0b916aec1f2ceaaeb"
+    },
+    {
+      "var_name": "_fundValueCalculators",
+      "value": "0x000000000000000000000000b6257a6c3aef640a7d09e3dd009a29308d2a321a"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0xcc842e37b6e425a0553e4767190cec9169593321a02851a49d8a6a26df90a1a5",
+      "offset": 0,
+      "var_name": "fundDeployerToFundValueCalculator[0xbb274df654f71827cca120e0b916aec1f2ceaaeb]",
+      "var_type": "t_address",
+      "value": "0xb6257a6c3aef640a7d09e3dd009a29308d2a321a",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "FundValueCalculatorUpdated(address,address)",
+      "topic0": "0xb1d29f6ea94d91c5d37a117188a5b71f514ff0f0e0347c76232fbad7242ef97b",
+      "occurrences": [
+        {
+          "topics": [
+            "0xb1d29f6ea94d91c5d37a117188a5b71f514ff0f0e0347c76232fbad7242ef97b",
+            "0x000000000000000000000000bb274df654f71827cca120e0b916aec1f2ceaaeb"
+          ],
+          "data": "0x000000000000000000000000b6257a6c3aef640a7d09e3dd009a29308d2a321a"
+        }
+      ]
+    }
+  ],
+  "expiry_in_epoch_seconds": null,
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/5c25b16527a2db7b23428d47c31ce1864acec070",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

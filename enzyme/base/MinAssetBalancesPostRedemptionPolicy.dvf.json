@@ -1,0 +1,33 @@
+{
+  "version": "0.9.1",
+  "id": "0xf94637470e5d1eab05f0fd68e0ba19c8348a62e237c60ced7a6b61c7614ad1c7",
+  "contract_name": "MinAssetBalancesPostRedemptionPolicy",
+  "address": "0x0af17b9abe72d68ca78aa9ea1efc2def0ed1dd8a",
+  "chain_id": 8453,
+  "deployment_block_num": 23179240,
+  "init_block_num": 23179241,
+  "deployment_tx": "0xf93fd78e0c8c04ebe315695dcba4d8f854b6c7dad803d43560ba5fc4fc148027",
+  "codehash": "0x056bdbb9943f54666c249e3cc0f8418f9e9baf4b88547c842575ff8d1f60589a",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "POLICY_MANAGER",
+      "value": "0x0000000000000000000000007d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_policyManager",
+      "value": "0x7d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

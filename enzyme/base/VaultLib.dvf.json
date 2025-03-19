@@ -1,0 +1,91 @@
+{
+  "version": "0.9.1",
+  "id": "0x646a2849f341791788920c74faa9806ccf94e0bc60727505097a7a3e287f0fb2",
+  "contract_name": "VaultLib",
+  "address": "0x944d01bf533ed041d9947826429f086bf56c5856",
+  "chain_id": 8453,
+  "deployment_block_num": 23178826,
+  "init_block_num": 23178827,
+  "deployment_tx": "0xf921cf4b1c16908c2582d92fe7c8ff302194a1578d26535c8d8b63fc1d5b3c8b",
+  "codehash": "0x747d97eb3ef97e9dd474a606131b4d3ec005ec6ff269865e956620c46095de1a",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "EXTERNAL_POSITION_MANAGER",
+      "value": "0x000000000000000000000000e7e6db86b10e2cf1f409eb635998de81c841330f"
+    },
+    {
+      "var_name": "MLN_BURNER",
+      "value": "0x000000000000000000000000410f5bc40668b729675dacb48a3467861bb36c50"
+    },
+    {
+      "var_name": "MLN_TOKEN",
+      "value": "0x0000000000000000000000007c298664bd6582f6f264c2cb5a4b9cc09b6e3889"
+    },
+    {
+      "var_name": "POSITIONS_LIMIT",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000014",
+      "value_hint": "20"
+    },
+    {
+      "var_name": "PROTOCOL_FEE_RESERVE",
+      "value": "0x000000000000000000000000410f5bc40668b729675dacb48a3467861bb36c50"
+    },
+    {
+      "var_name": "PROTOCOL_FEE_TRACKER",
+      "value": "0x00000000000000000000000044ddf1831fb1f9cd62bd07b4c351c826751594a6"
+    },
+    {
+      "var_name": "WETH_TOKEN",
+      "value": "0x0000000000000000000000004200000000000000000000000000000000000006"
+    },
+    {
+      "var_name": "GAS_RELAY_PAYMASTER_FACTORY",
+      "value": "0x000000000000000000000000c6780e244fd22f21f019fec4b802019d17bd558d"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_externalPositionManager",
+      "value": "0xe7e6db86b10e2cf1f409eb635998de81c841330f"
+    },
+    {
+      "var_name": "_gasRelayPaymasterFactory",
+      "value": "0xc6780e244fd22f21f019fec4b802019d17bd558d"
+    },
+    {
+      "var_name": "_protocolFeeReserve",
+      "value": "0x410f5bc40668b729675dacb48a3467861bb36c50"
+    },
+    {
+      "var_name": "_protocolFeeTracker",
+      "value": "0x44ddf1831fb1f9cd62bd07b4c351c826751594a6"
+    },
+    {
+      "var_name": "_mlnToken",
+      "value": "0x7c298664bd6582f6f264c2cb5a4b9cc09b6e3889"
+    },
+    {
+      "var_name": "_mlnBurner",
+      "value": "0x410f5bc40668b729675dacb48a3467861bb36c50"
+    },
+    {
+      "var_name": "_wethToken",
+      "value": "0x4200000000000000000000000000000000000006"
+    },
+    {
+      "var_name": "_positionsLimit",
+      "value": "0x14",
+      "value_hint": "20"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

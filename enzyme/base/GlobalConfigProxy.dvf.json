@@ -1,0 +1,70 @@
+{
+  "version": "0.9.1",
+  "id": "0xb31ab2e7628eb7225dce6b160c07f1f27826cd59f9b8015cc41b02384f4075c2",
+  "contract_name": "GlobalConfigProxy",
+  "address": "0x65b8f1f82ce8a6b72db0937c522a52af5693d4d3",
+  "chain_id": 8453,
+  "deployment_block_num": 23178806,
+  "init_block_num": 23178807,
+  "deployment_tx": "0xca1aacca2d7be8730a0cfe1ded77c1a018cd4b0f72e030e9f9e2d0734a6f62fd",
+  "codehash": "0x7829a66349871c1147e43a392ee8500d83d790554a73abfc164d263853b122b5",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "_constructData",
+      "value": "0x19ab453c000000000000000000000000d79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    },
+    {
+      "var_name": "_globalConfigLib",
+      "value": "0x66b3962f669c0700f92c5e0692b8600f911d9ace"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "dispatcher",
+      "var_type": "t_address",
+      "value": "0x000000000000000000000000d79fcd6eb56115f9757ec4c90fc2c5d143f83c16",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "offset": 0,
+      "var_name": "EIP_1967_SLOT",
+      "var_type": "t_address",
+      "value": "0x66b3962f669c0700f92c5e0692b8600f911d9ace",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "GlobalConfigLibSet(address)",
+      "topic0": "0xce6de52b779ce41beea76a6e7a997211f0006af21ed2e2924caa5bdc92dac318",
+      "occurrences": [
+        {
+          "topics": [
+            "0xce6de52b779ce41beea76a6e7a997211f0006af21ed2e2924caa5bdc92dac318"
+          ],
+          "data": "0x00000000000000000000000066b3962f669c0700f92c5e0692b8600f911d9ace"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "0xe5dd35167526581968c579897a18f1fc014be9db656622bc5155c71665aa65c2",
+      "contract_name": "GlobalConfigLib"
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com",
+    "implementation_name": "GlobalConfigLib",
+    "implementation_address": "0x66b3962f669c0700f92c5e0692b8600f911d9ace"
+  }
+}

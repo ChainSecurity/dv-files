@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x991d7996b39b89cdce5d671c6b3d339db1999d7c06ff37f8c1b0d19b3e907df7",
+  "contract_name": "OneInchV5Adapter",
+  "address": "0xea8f3990fc7357e1835cbe75dcf04d20391a06f9",
+  "chain_id": 8453,
+  "deployment_block_num": 23263973,
+  "init_block_num": 23263974,
+  "deployment_tx": "0x528d1a9154a26b6a5030c7b3c56f65cdeabbf85006fa5cccb72328fa7b0e3976",
+  "codehash": "0xa2a1e645a9720e203751c81f6e8ccc14fb4d81e98e3e263c0f3f947a7fd7b09c",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "INTEGRATION_MANAGER",
+      "value": "0x0000000000000000000000005d8703b4a08fd3f698bafd5389fa25463fb383dd"
+    },
+    {
+      "var_name": "ONE_INCH_V5_AGGREGATION_ROUTER_CONTRACT",
+      "value": "0x0000000000000000000000001111111254eeb25477b68fb85ed929f73a960582"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_integrationManager",
+      "value": "0x5d8703b4a08fd3f698bafd5389fa25463fb383dd"
+    },
+    {
+      "var_name": "_oneInchV5Exchange",
+      "value": "0x1111111254eeb25477b68fb85ed929f73a960582"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/c5a8551",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": "0.9.1",
+  "id": "0x0b7ba520e64c64d3cd1ddf2017b3750f84f7ff6def3db0a68554661e5a7bcd5e",
+  "contract_name": "DepositWrapper",
+  "address": "0x5b69553fbea09a4e7585b02221b9884f5bd2af40",
+  "chain_id": 8453,
+  "deployment_block_num": 23178833,
+  "init_block_num": 23178834,
+  "deployment_tx": "0xc77704f80c7ec87eddd9e63652d9a7b51442a0a971131c6d2b67cdd07a90377a",
+  "codehash": "0x9d276a925c57e2a1be0f3684536981f2794c08d2e0d5c2eb6a6651a68e1f643e",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "ADDRESS_LIST_REGISTRY",
+      "value": "0x00000000000000000000000042232ff4f38639ed942e0c76723e76e1a0588899"
+    },
+    {
+      "var_name": "ALLOWED_EXCHANGES_LIST_ID",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1"
+    },
+    {
+      "var_name": "WRAPPED_NATIVE_ASSET",
+      "value": "0x0000000000000000000000004200000000000000000000000000000000000006"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_addressListRegistryAddress",
+      "value": "0x42232ff4f38639ed942e0c76723e76e1a0588899"
+    },
+    {
+      "var_name": "_allowedExchangesListId",
+      "value": "0x01",
+      "value_hint": "1"
+    },
+    {
+      "var_name": "_wrappedNativeAsset",
+      "value": "0x4200000000000000000000000000000000000006"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

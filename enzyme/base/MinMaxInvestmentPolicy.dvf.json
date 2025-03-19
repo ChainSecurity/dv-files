@@ -1,0 +1,33 @@
+{
+  "version": "0.9.1",
+  "id": "0xafeec6f0eca5c9674a4756e1b0d5ac85b57a6d01bff1e735fb7f49c86df0bacc",
+  "contract_name": "MinMaxInvestmentPolicy",
+  "address": "0xe16990bcfc59ec6cc00fa1e20707871ae22fd6f7",
+  "chain_id": 8453,
+  "deployment_block_num": 23179244,
+  "init_block_num": 23179245,
+  "deployment_tx": "0x125bbf7f551f6edd4072d8a8fa989241f73a457284853ba39df91d7a0e0b2f98",
+  "codehash": "0xe14ceb42f5197f184df18ea1935adcd159c4fcea3d3fe82f1b31c3157b80ae21",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "POLICY_MANAGER",
+      "value": "0x0000000000000000000000007d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_policyManager",
+      "value": "0x7d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

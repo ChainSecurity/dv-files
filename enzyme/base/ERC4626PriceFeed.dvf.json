@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x0c99db2bd194c963976a04471f44f91581c57c119d1c9681d80f530997513dee",
+  "contract_name": "ERC4626PriceFeed",
+  "address": "0x6889790fb10a03bbf9dc86f1bed3219b509f5367",
+  "chain_id": 8453,
+  "deployment_block_num": 23310853,
+  "init_block_num": 23310854,
+  "deployment_tx": "0xaa1c931f8115d252cf4b9ea9ae18ab0a097ac55e53dc3afbd5b0bd8c9982317f",
+  "codehash": "0xf89987ad244000d622d80ef51194fc3b46d6a192170d17a6f07407c4fc114b43",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/c5a8551",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

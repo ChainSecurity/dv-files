@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0xfc507213236f9dc1cb664fd946de2d8f2ccc00177321161b9c6326e16e8347ed",
+  "contract_name": "PolicyManager",
+  "address": "0x7d1a8314c6a56a8312053bfd5a3b9e4c768e8d24",
+  "chain_id": 8453,
+  "deployment_block_num": 23178816,
+  "init_block_num": 23178817,
+  "deployment_tx": "0xd4b280afbd985772e502ab2f860f1025cd51aef7b340117bf4848c48bf170086",
+  "codehash": "0x829c0e0d12801069889fe9d64d2396f8bacdfc0361581a4a8c37c92f1de88861",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GAS_RELAY_PAYMASTER_FACTORY",
+      "value": "0x000000000000000000000000c6780e244fd22f21f019fec4b802019d17bd558d"
+    },
+    {
+      "var_name": "FUND_DEPLOYER",
+      "value": "0x000000000000000000000000bb274df654f71827cca120e0b916aec1f2ceaaeb"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_fundDeployer",
+      "value": "0xbb274df654f71827cca120e0b916aec1f2ceaaeb"
+    },
+    {
+      "var_name": "_gasRelayPaymasterFactory",
+      "value": "0xc6780e244fd22f21f019fec4b802019d17bd558d"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

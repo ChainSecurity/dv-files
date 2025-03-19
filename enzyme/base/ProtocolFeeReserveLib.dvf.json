@@ -1,0 +1,38 @@
+{
+  "version": "0.9.1",
+  "id": "0xc17ccf516b753429f2dfbde1540cd6eb39e8c225d6475b9fe99808d327716bc8",
+  "contract_name": "ProtocolFeeReserveLib",
+  "address": "0x27d5746b4fa825bfac62954bc561937ca90adc2b",
+  "chain_id": 8453,
+  "deployment_block_num": 23178810,
+  "init_block_num": 23178811,
+  "deployment_tx": "0x0318b2ce62189626be60d1a111892a37ea714fb45433f0a98ec830d7aa926147",
+  "codehash": "0xb81e93438e8ed69f9e8fe402de9902aa42ae1264d5ebc1270b84778df842d10c",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "dispatcher",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ProtocolFeeReserveLibSet(address)",
+      "topic0": "0x637d0ba5806b2c873952a12cd23e7cf28669dba115b2ded43df3d2d75c71e8c1",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

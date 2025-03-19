@@ -1,0 +1,89 @@
+{
+  "version": "0.9.1",
+  "id": "0x8b622dee01c8c6785b42d1e7292064300e4bab6e95e39518657be0a29b2d625e",
+  "contract_name": "GasRelayPaymasterLib",
+  "address": "0xafcfa6e8689a7a5469c6bda351c507cd0108423a",
+  "chain_id": 8453,
+  "deployment_block_num": 23178798,
+  "init_block_num": 23178799,
+  "deployment_tx": "0xe18adf92e03f8f11b68c6bae8173f6c2e60e82b152a579ce34d75d3ebc7f3801",
+  "codehash": "0xd9a4b310e4c5d85e8c5eecfb983de4d9b1dc9469066c5c5876b4b5aad50bcf99",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DEPOSIT_COOLDOWN",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "DEPOSIT_MAX_TOTAL",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "RELAY_FEE_MAX_BASE",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "RELAY_FEE_MAX_PERCENT",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "RELAY_HUB",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "TRUSTED_FORWARDER",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "WETH_TOKEN",
+      "value": "0x0000000000000000000000004200000000000000000000000000000000000006"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_wethToken",
+      "value": "0x4200000000000000000000000000000000000006"
+    },
+    {
+      "var_name": "_relayHub",
+      "value": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "_trustedForwarder",
+      "value": "0x0000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "_depositCooldown",
+      "value": "0x",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "_depositMaxTotal",
+      "value": "0x",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "_relayFeeMaxBase",
+      "value": "0x",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "_relayFeeMaxPercent",
+      "value": "0x",
+      "value_hint": "0"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

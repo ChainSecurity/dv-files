@@ -1,0 +1,51 @@
+{
+  "version": "0.9.1",
+  "id": "0x4cd25d5c643f5267a4ba8cefd39ce2cefc4b337e54c879103f32580a50c454d8",
+  "contract_name": "SingleAssetRedemptionQueueLib",
+  "address": "0x6bf54dc336bacddf2478728b5f7fdec4451a684f",
+  "chain_id": 8453,
+  "deployment_block_num": 26322945,
+  "init_block_num": 26322946,
+  "deployment_tx": "0x9cb982e7f49d5a44b76515e421a04a9473b535e290eb42963c088cd86d26331b",
+  "codehash": "0x162cfaa69083b04180c708cc55c751232a7359f1c5a7a88c228332145b001cc5",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GSN_RECIPIENT_ADDRESS_LIST_REGISTRY",
+      "value": "0x00000000000000000000000042232ff4f38639ed942e0c76723e76e1a0588899"
+    },
+    {
+      "var_name": "GSN_RECIPIENT_TRUSTED_FORWARDERS_LIST_ID",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "GLOBAL_CONFIG_CONTRACT",
+      "value": "0x00000000000000000000000065b8f1f82ce8a6b72db0937c522a52af5693d4d3"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_addressListRegistry",
+      "value": "0x42232ff4f38639ed942e0c76723e76e1a0588899"
+    },
+    {
+      "var_name": "_gsnTrustedForwardersAddressListId",
+      "value": "0x",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "_globalConfigProxy",
+      "value": "0x65b8f1f82ce8a6b72db0937c522a52af5693d4d3"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/5c8a7793025ec2fd103fb5b2743bdfec64fa46bd",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

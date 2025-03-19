@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x8e5db680405b22415bbff7ec9c897ff0671c726937089b5d2f37ff59ef346b0d",
+  "contract_name": "AllowedExternalPositionTypesPerManagerPolicy",
+  "address": "0x31af0ed80bc630522035c114972c3bec574cee60",
+  "chain_id": 8453,
+  "deployment_block_num": 23179218,
+  "init_block_num": 23179219,
+  "deployment_tx": "0xbfa7500550d9848b6cd9f77afd1df8e275c3ab4391c4c44cd3821313020f9f68",
+  "codehash": "0xfa31b7aad9df96c853d8fb254195a035b486beb3eeb0068f484cc83b926b4154",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "POLICY_MANAGER",
+      "value": "0x0000000000000000000000007d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    },
+    {
+      "var_name": "UINT_LIST_REGISTRY_CONTRACT",
+      "value": "0x000000000000000000000000305357dbb4f4a65601751eb25d275ad071466cd2"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_policyManager",
+      "value": "0x7d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    },
+    {
+      "var_name": "_uintListRegistry",
+      "value": "0x305357dbb4f4a65601751eb25d275ad071466cd2"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

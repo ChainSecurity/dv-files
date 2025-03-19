@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x3a3f47c802db029c259610e0654916f830e3808880a91c94ee63da7abe078bb4",
+  "contract_name": "ConvertedQuoteAggregatorFactory",
+  "address": "0xe14a2297328c4bd3e30c365653bb4fdb3514ebac",
+  "chain_id": 8453,
+  "deployment_block_num": 26238151,
+  "init_block_num": 26238152,
+  "deployment_tx": "0x48af2441946f7fc6dd664891a030dcd860075df036d82aaab313cff4f7ca4d18",
+  "codehash": "0x9110b1228b41c0fb1c77d77586e2ff54d59ce642dfa1c9846df3f110a0c271b7",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/5c8a7793025ec2fd103fb5b2743bdfec64fa46bd",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

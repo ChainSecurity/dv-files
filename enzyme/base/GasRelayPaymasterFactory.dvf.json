@@ -1,0 +1,59 @@
+{
+  "version": "0.9.1",
+  "id": "0x7f99c03a89a4bcb4a69be9f18ef1eb61789425681ac84a99fca84385da0f1c06",
+  "contract_name": "GasRelayPaymasterFactory",
+  "address": "0xc6780e244fd22f21f019fec4b802019d17bd558d",
+  "chain_id": 8453,
+  "deployment_block_num": 23178800,
+  "init_block_num": 23178801,
+  "deployment_tx": "0x1fbd3fdef1098aa268242fdb5bd1b2a16457a8378f136618bdeddd3d240f6e3d",
+  "codehash": "0xffdac3192eb03aca5203415d194e11fc31f2d896d760b7d5956ec275b32faaeb",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DISPATCHER",
+      "value": "0x000000000000000000000000d79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dispatcher",
+      "value": "0xd79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    },
+    {
+      "var_name": "_paymasterLib",
+      "value": "0xafcfa6e8689a7a5469c6bda351c507cd0108423a"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "canonicalLib",
+      "var_type": "t_address",
+      "value": "0xafcfa6e8689a7a5469c6bda351c507cd0108423a",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "CanonicalLibSet(address)",
+      "topic0": "0x9007c6c0b3b1622c381c19563620e3ce8b824e958af3020495bd6654e8a0310a",
+      "occurrences": [
+        {
+          "topics": [
+            "0x9007c6c0b3b1622c381c19563620e3ce8b824e958af3020495bd6654e8a0310a"
+          ],
+          "data": "0x000000000000000000000000afcfa6e8689a7a5469c6bda351c507cd0108423a"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

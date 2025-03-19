@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x3b755997bb51a0d59e9ccb4fc6f1112ce3caf2cf3b88c5ac858d1847552f410b",
+  "contract_name": "AllowedRedeemersForSpecificAssetsPolicy",
+  "address": "0xe7bf2797190fe8c8cf1618bcc348a2ece2bacef4",
+  "chain_id": 8453,
+  "deployment_block_num": 23179225,
+  "init_block_num": 23179226,
+  "deployment_tx": "0x2e6cded54c0b4776f76eac4c572b305bec4cb177ad8fa75dd937f2dc900fef55",
+  "codehash": "0xef54828dfc0df6f11a40364be5b41bd32614d1e33021d5d9fdc33b89dc129d52",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "ADDRESS_LIST_REGISTRY",
+      "value": "0x00000000000000000000000042232ff4f38639ed942e0c76723e76e1a0588899"
+    },
+    {
+      "var_name": "POLICY_MANAGER",
+      "value": "0x0000000000000000000000007d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_policyManager",
+      "value": "0x7d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    },
+    {
+      "var_name": "_addressListRegistry",
+      "value": "0x42232ff4f38639ed942e0c76723e76e1a0588899"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/86c6b19",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

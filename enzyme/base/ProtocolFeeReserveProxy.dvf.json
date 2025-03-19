@@ -1,0 +1,70 @@
+{
+  "version": "0.9.1",
+  "id": "0x9696ecdaf998919f04618dca923537b78a46ee1c7e538b91a756cf10a6f7bb9d",
+  "contract_name": "ProtocolFeeReserveProxy",
+  "address": "0x410f5bc40668b729675dacb48a3467861bb36c50",
+  "chain_id": 8453,
+  "deployment_block_num": 23178812,
+  "init_block_num": 23178813,
+  "deployment_tx": "0x2bacb077d139489a8f0cbba3efeff264de61ab58691dabd0732714f6824ccb88",
+  "codehash": "0x7829a66349871c1147e43a392ee8500d83d790554a73abfc164d263853b122b5",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "_constructData",
+      "value": "0x19ab453c000000000000000000000000d79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    },
+    {
+      "var_name": "_protocolFeeReserveLib",
+      "value": "0x27d5746b4fa825bfac62954bc561937ca90adc2b"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "offset": 0,
+      "var_name": "EIP_1967_SLOT",
+      "var_type": "t_address",
+      "value": "0x27d5746b4fa825bfac62954bc561937ca90adc2b",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000d79fcd6eb56115f9757ec4c90fc2c5d143f83c16",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ProtocolFeeReserveLibSet(address)",
+      "topic0": "0x637d0ba5806b2c873952a12cd23e7cf28669dba115b2ded43df3d2d75c71e8c1",
+      "occurrences": [
+        {
+          "topics": [
+            "0x637d0ba5806b2c873952a12cd23e7cf28669dba115b2ded43df3d2d75c71e8c1"
+          ],
+          "data": "0x00000000000000000000000027d5746b4fa825bfac62954bc561937ca90adc2b"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "0xc17ccf516b753429f2dfbde1540cd6eb39e8c225d6475b9fe99808d327716bc8",
+      "contract_name": "ProtocolFeeReserveLib"
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com",
+    "implementation_name": "ProtocolFeeReserveLib",
+    "implementation_address": "0x27d5746b4fa825bfac62954bc561937ca90adc2b"
+  }
+}

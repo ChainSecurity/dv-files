@@ -1,0 +1,49 @@
+{
+  "version": "0.9.1",
+  "id": "0x33368fc8ad7207e86e34d0686361d790697078d0e6c8a0e8abb47090f8ddac01",
+  "contract_name": "IntegrationManager",
+  "address": "0x5d8703b4a08fd3f698bafd5389fa25463fb383dd",
+  "chain_id": 8453,
+  "deployment_block_num": 23178821,
+  "init_block_num": 23178822,
+  "deployment_tx": "0x599e0efa4c447bde87d80a7c4fe65451142ce27ae1723fccad2d0db4c10895ac",
+  "codehash": "0xa0cd4b3ba5887cca20d446032ae2fa1b09d14d88b0ceea9bca8950c118b50463",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "POLICY_MANAGER",
+      "value": "0x0000000000000000000000007d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    },
+    {
+      "var_name": "VALUE_INTERPRETER",
+      "value": "0x000000000000000000000000a76bc052a4d200d851c27312b32c35502824e8e1"
+    },
+    {
+      "var_name": "FUND_DEPLOYER",
+      "value": "0x000000000000000000000000bb274df654f71827cca120e0b916aec1f2ceaaeb"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_fundDeployer",
+      "value": "0xbb274df654f71827cca120e0b916aec1f2ceaaeb"
+    },
+    {
+      "var_name": "_policyManager",
+      "value": "0x7d1a8314c6a56a8312053bfd5a3b9e4c768e8d24"
+    },
+    {
+      "var_name": "_valueInterpreter",
+      "value": "0xa76bc052a4d200d851c27312b32c35502824e8e1"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

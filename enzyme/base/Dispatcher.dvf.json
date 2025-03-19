@@ -1,0 +1,136 @@
+{
+  "version": "0.9.1",
+  "id": "0x9cc878131280bedd60376c2bb9bdf7042f7292b1fd328b0c07f45af93230211b",
+  "contract_name": "Dispatcher",
+  "address": "0xd79fcd6eb56115f9757ec4c90fc2c5d143f83c16",
+  "chain_id": 8453,
+  "deployment_block_num": 23178791,
+  "init_block_num": 27748989,
+  "deployment_tx": "0x384ade227c081145a923c406fbb9f608e9f6fb2d9da56196cf7eb86e50ed2d3c",
+  "codehash": "0x911ab217409f3ed7e7cfaa251961c417e51e9d0e84fa2e29d0a28b2c2244a261",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "currentFundDeployer",
+      "var_type": "t_address",
+      "value": "0xbb274df654f71827cca120e0b916aec1f2ceaaeb",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1",
+      "offset": 0,
+      "var_name": "nominatedOwner",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2",
+      "offset": 0,
+      "var_name": "owner",
+      "var_type": "t_address",
+      "value": "0xfbeb8d15ff089da63e56e62660f74199d154cda2",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3",
+      "offset": 0,
+      "var_name": "migrationTimelock",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4",
+      "offset": 0,
+      "var_name": "sharesTokenSymbol (length=4)",
+      "var_type": "t_string_storage",
+      "value": "0x454e5a4600000000000000000000000000000000000000000000000000000008",
+      "value_hint": "ENZF",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "CurrentFundDeployerSet(address,address)",
+      "topic0": "0x44cf34a26ccbaa8a20e6098a1278e28682572ec9921eb43d8dab274a503e92f5",
+      "occurrences": [
+        {
+          "topics": [
+            "0x44cf34a26ccbaa8a20e6098a1278e28682572ec9921eb43d8dab274a503e92f5"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bb274df654f71827cca120e0b916aec1f2ceaaeb"
+        }
+      ]
+    },
+    {
+      "sig": "MigrationCancelled(address,address,address,address,address,uint256)",
+      "topic0": "0x9851a8f232c380eb2c1065756776e37d85d4fe0c8cb4005b0d72c749bfef923e",
+      "occurrences": []
+    },
+    {
+      "sig": "MigrationExecuted(address,address,address,address,address,uint256)",
+      "topic0": "0xad6fb3d36e2cda148dfd43203c1a40c0da9a9baa662ae9d6c3b0c3e4a9d6a635",
+      "occurrences": []
+    },
+    {
+      "sig": "MigrationInCancelHookFailed(bytes,address,address,address,address,address)",
+      "topic0": "0x7c79070aa51adb676fb9c8d0f7a1f841ff9cf514444b37c95297ed1c52547b32",
+      "occurrences": []
+    },
+    {
+      "sig": "MigrationOutHookFailed(bytes,uint8,address,address,address,address,address)",
+      "topic0": "0xbf0ae6830883bd89855f2e7b17a2924b5de0b2b3d4a8834d7c2c0d5dc53447db",
+      "occurrences": []
+    },
+    {
+      "sig": "MigrationSignaled(address,address,address,address,address,uint256)",
+      "topic0": "0xb519c42fdb88f83f098814813f2ebff14fbf14f3e68b054e5a98834c69d54bfb",
+      "occurrences": []
+    },
+    {
+      "sig": "MigrationTimelockSet(uint256,uint256)",
+      "topic0": "0x481ce28a1145a5d9b59e2d1d7eba33bc3350124def8fdc91032238d343ad5361",
+      "occurrences": [
+        {
+          "topics": [
+            "0x481ce28a1145a5d9b59e2d1d7eba33bc3350124def8fdc91032238d343ad5361"
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000000002a3000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "sig": "NominatedOwnerRemoved(address)",
+      "topic0": "0xe4136584a5e8bb85d66301f3ce8b11cc2e5a8bea3979f10ea2451353849acc47",
+      "occurrences": []
+    },
+    {
+      "sig": "NominatedOwnerSet(address)",
+      "topic0": "0x132c19de901bb4ed8403c34734b6c841d5dc57745824da452a52433519ea5abf",
+      "occurrences": []
+    },
+    {
+      "sig": "OwnershipTransferred(address,address)",
+      "topic0": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+      "occurrences": []
+    },
+    {
+      "sig": "SharesTokenSymbolSet(string)",
+      "topic0": "0xf0115712c23b609855a28d7b8963c6d16d732ae388b11e5d4ec6d5eae4ad8698",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

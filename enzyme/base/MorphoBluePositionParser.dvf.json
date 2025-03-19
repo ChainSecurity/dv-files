@@ -1,0 +1,33 @@
+{
+  "version": "0.9.1",
+  "id": "0x6d43999eff09005e0c3cceefaabcbc319154cb4f9e2c87f7572eba5c390293e4",
+  "contract_name": "MorphoBluePositionParser",
+  "address": "0x33691ac33507c8a9ac94ac8f879a6416b04cb53b",
+  "chain_id": 8453,
+  "deployment_block_num": 23308883,
+  "init_block_num": 23308884,
+  "deployment_tx": "0xc2237a0be481d3d162abbeb5d87e52ada8bb9e43a1177c31aed9be38e14a1c6d",
+  "codehash": "0xd952ef0d60512a1eb2c889a491c410308c21fec9c644e9d6b342d85a37732ba7",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "MORPHO_BLUE",
+      "value": "0x000000000000000000000000bbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_morphoBlueAddress",
+      "value": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/c5a8551",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

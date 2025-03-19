@@ -1,0 +1,37 @@
+{
+  "version": "0.9.1",
+  "id": "0xf220ab90baa29f5a9531871eb3cb141c560c1aea8998697e4fff8e62b84a83f4",
+  "contract_name": "EntranceRateBurnFee",
+  "address": "0xe34a4944a916330f54fd06508b674219c00725e2",
+  "chain_id": 8453,
+  "deployment_block_num": 23179170,
+  "init_block_num": 23179171,
+  "deployment_tx": "0x12e13ef18bfa9e85136624c95dd410f91ddc1f2e10fe00e4fe665ed491b3740a",
+  "codehash": "0x2f53fdebda87e3e01672571fc2fa3fdb57aacf3d5112577df3e42084c7d68642",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "SETTLEMENT_TYPE",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000003"
+    },
+    {
+      "var_name": "FEE_MANAGER",
+      "value": "0x000000000000000000000000a9928195a36ef1c238b1b8b5912b9fbce7554f73"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_feeManager",
+      "value": "0xa9928195a36ef1c238b1b8b5912b9fbce7554f73"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/86c6b19",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

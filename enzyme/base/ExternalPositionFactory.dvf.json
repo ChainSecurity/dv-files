@@ -1,0 +1,33 @@
+{
+  "version": "0.9.1",
+  "id": "0x93d5d7313ad9b00a8142bc9fd5ff4e5a62db3e1f0cb4d620ef7956aa392e857c",
+  "contract_name": "ExternalPositionFactory",
+  "address": "0x097c44da5e720641a60c2c438c0c921d28968a00",
+  "chain_id": 8453,
+  "deployment_block_num": 23178796,
+  "init_block_num": 23178797,
+  "deployment_tx": "0x52b9aac55836e22868f3c08fc343fb756d5e5c857672d851ee432dd09253a14a",
+  "codehash": "0xeb1325bd08cd6a4e516fb5d7231c621a6aac3da8017de8a40526bc3b18c20475",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DISPATCHER",
+      "value": "0x000000000000000000000000d79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dispatcher",
+      "value": "0xd79fcd6eb56115f9757ec4c90fc2c5d143f83c16"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/fe9de49",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
