@@ -1,0 +1,57 @@
+{
+  "version": "0.9.1",
+  "id": "0x5583f8623f5848b822024eb088aac095e37df523ae0e77b802832bf1de0ad469",
+  "contract_name": "SmarDexUsdnNativeRateUsdAggregator",
+  "address": "0xd5004c5d3017862839e83981b110f27ee7b36eaa",
+  "chain_id": 1,
+  "deployment_block_num": 22194208,
+  "init_block_num": 22194209,
+  "deployment_tx": "0xd428cd79e276344697c3716c567d6b6230e5ce4d741620f4c066d52973ea6662",
+  "codehash": "0x42d3c2ba01763e2d5b179622e6770a15f61c473059dc82f548e600bd6d25868f",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "USDN_PROTOCOL",
+      "value": "0x000000000000000000000000656cb8c6d154aad29d8771384089be5b5141f01a"
+    },
+    {
+      "var_name": "DECIMALS",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000008",
+      "value_hint": "8"
+    },
+    {
+      "var_name": "QUOTE_CONVERSION_AGGREGATOR_ADDRESS",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "var_name": "QUOTE_CONVERSION_AGGREGATOR_INVERTED",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "false"
+    },
+    {
+      "var_name": "PRECISION",
+      "value": "0x0000000000000000000000000000000000000000000000000000000005f5e100",
+      "value_hint": "1. * 10^8"
+    },
+    {
+      "var_name": "QUOTE_CONVERSION_AGGREGATOR_PRECISION",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_usdnProtocolAddress",
+      "value": "0x656cb8c6d154aad29d8771384089be5b5141f01a"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/259f3cad63922bbea3dc3cff1289e058e2a39e88",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
