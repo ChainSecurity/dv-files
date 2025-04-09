@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x05a3c4e94d5de6139a8eb003c995da225a8c5cc3fdb816e195a2341582e46675",
+  "contract_name": "EnzymeVaultPriceFeed",
+  "address": "0xd723241915bb1d3ac829cdef656ffdbb87ca0cf1",
+  "chain_id": 137,
+  "deployment_block_num": 70079262,
+  "init_block_num": 70079263,
+  "deployment_tx": "0x3c59196d508f9219310ca32937fa02f8487f947a93cae4bb915bab81a83c66e2",
+  "codehash": "0xd19909905ab2bc9d7806e6460b3764c9fd432b65a51bf032f4cf961a3f528b6c",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DISPATCHER",
+      "value": "0x0000000000000000000000002e25271297537b8124b8f883a92ffd95c4032733"
+    },
+    {
+      "var_name": "FUND_VALUE_CALCULATOR_ROUTER",
+      "value": "0x000000000000000000000000d70389a7d6171e1dba6c3df4db7331811fd93f08"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dispatcher",
+      "value": "0x2e25271297537b8124b8f883a92ffd95c4032733"
+    },
+    {
+      "var_name": "_fundValueCalculatorRouter",
+      "value": "0xd70389a7d6171e1dba6c3df4db7331811fd93f08"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/07335dea202218947b06108e5d9c44f21de3f769",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0xea30d6a3a71ff24deea20be09dd33c063af6e6b6e3497ea4aafd2133a7484492",
+  "contract_name": "SolvBtcYieldTokenRateUsdAggregatorFactory",
+  "address": "0x877f7a1c58ae061cbe6a207fd0379571c45f555a",
+  "chain_id": 1,
+  "deployment_block_num": 22229888,
+  "init_block_num": 22229889,
+  "deployment_tx": "0xb7b24fc542e6105cd1ada8177319e08348bdb452e3ebaa567f2f42823b14ea67",
+  "codehash": "0xd95c05c183362d9792ff38e793d50d7fc4ed7af16fb3e412fb7c5dd52c52c093",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/07335dea202218947b06108e5d9c44f21de3f769",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "0.9.1",
+  "id": "0x407a633b961272d3abd54a121e2494b13dbdd676b6ec7bfb5a93ec6171506aed",
+  "contract_name": "EnzymeV4VaultAdapter",
+  "address": "0xc7bde79a2a02fa20f18f7c3ffefdd3f6ef3790d8",
+  "chain_id": 42161,
+  "deployment_block_num": 324484293,
+  "init_block_num": 324484294,
+  "deployment_tx": "0x26c55526af313ee64fed6aee4e5b25f5afbd0f9b9a4c086ade1f0c25a3c4dbdf",
+  "codehash": "0x061a71bdceb141eba4d5976362dbfc0ea33fd1b9f515aa4e5d4b04bc7cdaf284",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DISPATCHER",
+      "value": "0x0000000000000000000000008da28441a4c594fd2fac72726c1412d8cf9e4a19"
+    },
+    {
+      "var_name": "FUND_DEPLOYER_ADDRESS",
+      "value": "0x000000000000000000000000a2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    },
+    {
+      "var_name": "INTEGRATION_MANAGER",
+      "value": "0x00000000000000000000000055df97aca98c2a708721f28ea1ca42a2be7ff934"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_integrationManagerAddress",
+      "value": "0x55df97aca98c2a708721f28ea1ca42a2be7ff934"
+    },
+    {
+      "var_name": "_fundDeployerAddress",
+      "value": "0xa2b4c827de13d4e9801ea1ca837524a1a148dec3"
+    },
+    {
+      "var_name": "_dispatcher",
+      "value": "0x8da28441a4c594fd2fac72726c1412d8cf9e4a19"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/07335dea202218947b06108e5d9c44f21de3f769",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
