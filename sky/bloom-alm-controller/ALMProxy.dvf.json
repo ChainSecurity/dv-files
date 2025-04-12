@@ -1,0 +1,76 @@
+{
+  "version": "0.9.1",
+  "id": "0x7ead51e1602c171bcfbb79135d0a5614e9438116d754466399aad09bae74c337",
+  "contract_name": "ALMProxy",
+  "address": "0x491edfb0b8b608044e227225c715981a30f3a44e",
+  "chain_id": 1,
+  "deployment_block_num": 22173193,
+  "init_block_num": 22173194,
+  "deployment_tx": "0x1248f1afe95150e9b6dbe41aeb9219ae436d8109a53e2d2221b5f647dd4da1f9",
+  "codehash": "0xccfa3c651b4ba4e3076df2872b7f4c21b80d73c51afdf22fec59bd688d4d8c6b",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "admin",
+      "value": "0x1369f7b2b38c76b6478c0f0e66d94923421891ba"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x67f386c444fe63e8b218f92d5691cb73c9cbc09a248c99846d3450f2ff6b3fe7",
+      "offset": 0,
+      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].hasRole[0x1369f7b2b38c76b6478c0f0e66d94923421891ba]",
+      "var_type": "t_bool",
+      "value": "0x01",
+      "value_hint": "true",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xad3228b676f7d3cd4284a5443f17f1962b36e491b30a40b2405849e597ba5fb6",
+      "offset": 0,
+      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].adminRole",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+      "topic0": "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleGranted(bytes32,address,address)",
+      "topic0": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+            "0x000000000000000000000000b51e492569baf6c495fda00f94d4a23ac6c48f12"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(bytes32,address,address)",
+      "topic0": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Bloom ALM Controller",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://www.chainsecurity.com/security-audit/spark-alm-controller",
+    "source_url": "https://github.com/bloom-foundation/bloom-alm-controller/tree/53e4c1ad02756d2ca45f7386078a6cc5b899864a",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

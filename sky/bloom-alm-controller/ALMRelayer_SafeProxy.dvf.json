@@ -1,0 +1,147 @@
+{
+  "version": "0.9.1",
+  "id": "0x377c27fb965ad34474c41db7a814a16e7d16e89eb7129118f24e1a493456aefd",
+  "contract_name": "SafeProxy",
+  "address": "0x0eec86649e756a23cbc68d9efed756f16ad5f85f",
+  "chain_id": 1,
+  "deployment_block_num": 22169328,
+  "init_block_num": 22169329,
+  "deployment_tx": "0x2914c932d5d5f778775ae000c6da9482f45ec6faedd02e622ff718abc5e66e4d",
+  "codehash": "0xd7d408ebcd99b2b70be43e20253d6d92a8ea8fab29bd3be7f55b10032331fb4c",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "_singleton",
+      "value": "0x41675c099f32341bf84bfc5382af534df5c7461a"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "singleton",
+      "var_type": "t_address",
+      "value": "0x41675c099f32341bf84bfc5382af534df5c7461a",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xcc69885fda6bcc1a4ace058b4a62bf5e179ea78fd58a1ccd71c22cc9b688792f",
+      "offset": 0,
+      "var_name": "modules[0x0000000000000000000000000000000000000001]",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe90b7bceb6e7df5418fb78d8ee546e97c83a08bbccc01a0644d599ccd2a7c2e0",
+      "offset": 0,
+      "var_name": "owners[0x0000000000000000000000000000000000000001]",
+      "var_type": "t_address",
+      "value": "0xa2bdfaa0329c2ebdb645f29c3971587e97e55e21",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd55a85a242ea61c4e470bc35a33ae24d504c2789da15fa3bd1cc1dfc41c7c418",
+      "offset": 0,
+      "var_name": "owners[0xa2bdfaa0329c2ebdb645f29c3971587e97e55e21]",
+      "var_type": "t_address",
+      "value": "0xc3e9458cefcf298ae11702959c15723e56b2dc0a",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x250b1fa9699b29beadfc4607d996ba2ea32dec8e2c60fcfd8ef05f140db5f06d",
+      "offset": 0,
+      "var_name": "owners[0xc3e9458cefcf298ae11702959c15723e56b2dc0a]",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3",
+      "offset": 0,
+      "var_name": "ownerCount",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "value_hint": "2",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4",
+      "offset": 0,
+      "var_name": "threshold",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x6c9a6c4a39284e37ed1cf53d337577d14212a4870fb976a4366c693b939918d5",
+      "offset": 0,
+      "var_name": "FALLBACK_HANDLER_STORAGE_SLOT",
+      "var_type": "t_address",
+      "value": "0xfd0732dc9e303f09fcef3a7388ad10a83459ec99",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "AddedOwner(address)",
+      "topic0": "0x9465fa0c962cc76958e6373a993326400c1c94f8be2fe3a952adfa7f60b2ea26",
+      "occurrences": []
+    },
+    {
+      "sig": "ChangedFallbackHandler(address)",
+      "topic0": "0x5ac6c46c93c8d0e53714ba3b53db3e7c046da994313d7ed0d192028bc7c228b0",
+      "occurrences": []
+    },
+    {
+      "sig": "ChangedGuard(address)",
+      "topic0": "0x1151116914515bc0891ff9047a6cb32cf902546f83066499bcf8ba33d2353fa2",
+      "occurrences": []
+    },
+    {
+      "sig": "ChangedThreshold(uint256)",
+      "topic0": "0x610f7ff2b304ae8903c3de74c60c6ab1f7d6226b3f52c5161905bb5ad4039c93",
+      "occurrences": []
+    },
+    {
+      "sig": "DisabledModule(address)",
+      "topic0": "0xaab4fa2b463f581b2b32cb3b7e3b704b9ce37cc209b5fb4d77e593ace4054276",
+      "occurrences": []
+    },
+    {
+      "sig": "EnabledModule(address)",
+      "topic0": "0xecdf3a3effea5783a3c4c2140e677577666428d44ed9d474a0b3a4c9943f8440",
+      "occurrences": []
+    },
+    {
+      "sig": "RemovedOwner(address)",
+      "topic0": "0xf8d49fc529812e9a7c5c50e69c20f0dccc0db8fa95c98bc58cc9a4f1c1299eaf",
+      "occurrences": []
+    },
+    {
+      "sig": "SafeSetup(address,address[],uint256,address,address)",
+      "topic0": "0x141df868a6331af528e38c83b7aa03edc19be66e37ae67f9285bf4f8e3c6a1a8",
+      "occurrences": [
+        {
+          "topics": [
+            "0x141df868a6331af528e38c83b7aa03edc19be66e37ae67f9285bf4f8e3c6a1a8",
+            "0x0000000000000000000000004e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000001000000000000000000000000bd89a1ce4dde368ffab0ec35506eece0b1ffdc54000000000000000000000000fd0732dc9e303f09fcef3a7388ad10a83459ec990000000000000000000000000000000000000000000000000000000000000002000000000000000000000000a2bdfaa0329c2ebdb645f29c3971587e97e55e21000000000000000000000000c3e9458cefcf298ae11702959c15723e56b2dc0a"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "ALM Freezer Safe Proxy",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "source_url": "https://github.com/safe-global/safe-smart-account/tree/v1.4.1",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "version": "0.9.1",
+  "id": "0xb8ee34e603ee7c58b3f32411407b63ce0a1fe8baeb6e6a6e46ff35afcd9d6e70",
+  "contract_name": "MainnetController",
+  "address": "0x3048386e09c72c20fb268a37d2b630d7f2ee9138",
+  "chain_id": 1,
+  "deployment_block_num": 22173193,
+  "init_block_num": 22173194,
+  "deployment_tx": "0x0b306f87f2158367d03e087f4928c28a3ff0203fd26daf5c964e6593a93d3e96",
+  "codehash": "0xb35a91cc3cd86a54ace97e1a54aae5b8383781e4e1dc444117fa3a45b30c3592",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "buffer",
+      "value": "0x000000000000000000000000629ad4d779f46b8a1491d3f76f7e97cb04d8b1cd"
+    },
+    {
+      "var_name": "proxy",
+      "value": "0x000000000000000000000000491edfb0b8b608044e227225c715981a30f3a44e"
+    },
+    {
+      "var_name": "buidlRedeem",
+      "value": "0x00000000000000000000000031d3f59ad4aac0eee2247c65ebe8bf6e9e470a53"
+    },
+    {
+      "var_name": "cctp",
+      "value": "0x000000000000000000000000bd3fa81b58ba92a82136038b25adec7066af3155"
+    },
+    {
+      "var_name": "daiUsds",
+      "value": "0x0000000000000000000000003225737a9bbb6473cb4a45b7244aca2befdb276a"
+    },
+    {
+      "var_name": "ethenaMinter",
+      "value": "0x000000000000000000000000e3490297a08d6fc8da46edb7b6142e4f461b62d3"
+    },
+    {
+      "var_name": "psm",
+      "value": "0x000000000000000000000000f6e72db5454dd049d0788e411b06cfaf16853042"
+    },
+    {
+      "var_name": "rateLimits",
+      "value": "0x0000000000000000000000005f5cfcb8a463868e37ab27b5eff3ba02112df19a"
+    },
+    {
+      "var_name": "superstateRedemption",
+      "value": "0x0000000000000000000000004c21b7577c8fe8b0b0669165ee7c8f67fa1454cf"
+    },
+    {
+      "var_name": "vault",
+      "value": "0x00000000000000000000000026512a41c8406800f21094a7a7a0f980f6e25d43"
+    },
+    {
+      "var_name": "dai",
+      "value": "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+      "value_hint": "Dai (DAI)"
+    },
+    {
+      "var_name": "usds",
+      "value": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f"
+    },
+    {
+      "var_name": "usde",
+      "value": "0x0000000000000000000000004c9edd5852cd905f086c759e8383e09bff1e68b3"
+    },
+    {
+      "var_name": "usdc",
+      "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    },
+    {
+      "var_name": "ustb",
+      "value": "0x00000000000000000000000043415eb6ff9db7e26a15b704e7a3edce97d31c4e"
+    },
+    {
+      "var_name": "susde",
+      "value": "0x0000000000000000000000009d39a5de30e57443bff2a8307a4256c8797a3497"
+    },
+    {
+      "var_name": "psmTo18ConversionFactor",
+      "value": "0x000000000000000000000000000000000000000000000000000000e8d4a51000",
+      "value_hint": "1. * 10^12"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "admin_",
+      "value": "0x1369f7b2b38c76b6478c0f0e66d94923421891ba"
+    },
+    {
+      "var_name": "proxy_",
+      "value": "0x491edfb0b8b608044e227225c715981a30f3a44e"
+    },
+    {
+      "var_name": "rateLimits_",
+      "value": "0x5f5cfcb8a463868e37ab27b5eff3ba02112df19a"
+    },
+    {
+      "var_name": "vault_",
+      "value": "0x26512a41c8406800f21094a7a7a0f980f6e25d43"
+    },
+    {
+      "var_name": "psm_",
+      "value": "0xf6e72db5454dd049d0788e411b06cfaf16853042"
+    },
+    {
+      "var_name": "daiUsds_",
+      "value": "0x3225737a9bbb6473cb4a45b7244aca2befdb276a"
+    },
+    {
+      "var_name": "cctp_",
+      "value": "0xbd3fa81b58ba92a82136038b25adec7066af3155"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x67f386c444fe63e8b218f92d5691cb73c9cbc09a248c99846d3450f2ff6b3fe7",
+      "offset": 0,
+      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].hasRole[0x1369f7b2b38c76b6478c0f0e66d94923421891ba]",
+      "var_type": "t_bool",
+      "value": "0x01",
+      "value_hint": "true",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xad3228b676f7d3cd4284a5443f17f1962b36e491b30a40b2405849e597ba5fb6",
+      "offset": 0,
+      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].adminRole",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "MintRecipientSet(uint32,bytes32)",
+      "topic0": "0x5e7cfea10f05abc55e716d0d5031f3eea4eabbe012e9bf1d56c5034bba4bfa30",
+      "occurrences": []
+    },
+    {
+      "sig": "RelayerRemoved(address)",
+      "topic0": "0x10e1f7ce9fd7d1b90a66d13a2ab3cb8dd7f29f3f8d520b143b063ccfbab6906b",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+      "topic0": "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleGranted(bytes32,address,address)",
+      "topic0": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+            "0x000000000000000000000000b51e492569baf6c495fda00f94d4a23ac6c48f12"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(bytes32,address,address)",
+      "topic0": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Bloom ALM Controller",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://www.chainsecurity.com/security-audit/spark-alm-controller",
+    "source_url": "https://github.com/bloom-foundation/bloom-alm-controller/tree/53e4c1ad02756d2ca45f7386078a6cc5b899864a",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
