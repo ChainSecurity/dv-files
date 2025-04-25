@@ -1,3 +1,10 @@
+---
+Title:    Bloom ALM Controller DV
+Author:   ChainSecurity  
+Date:     25. Apr, 2025
+Client:   Sky
+---
+
 # Deployment Validation Details: Bloom ALM Controller
 
 This document outlines the details regarding the deployment validation performed.
@@ -29,10 +36,29 @@ We can confirm that the bytecode matches the given repositories at the given com
 
 Addresses have been manually validated against a list of references, see [References](#references).
 
-The threshold of the Safe contracts ALM Freezer and ALM Relayer were confirmed by the team and is 1. Both contracts have the same owners which were confirmed by the team and are:
+The threshold and the owners of the Safe contracts ALM Freezer and ALM Relayer were confirmed by the team and is 4. In total, both contracts have 7 owners. Ultimately, both implement 4/7 multisig.
 
-- `0xa2bdfaa0329c2ebdb645f29c3971587e97e55e21`
-- `0xc3e9458cefcf298ae11702959c15723e56b2dc0a`
+Below the signers are listed accordingly:
+
+- ALM Freezer:
+    - `0x2d64de46817dfcb2e73a5ef2102df21ddeca3408`
+    - `0x1a0cfdb1f9cee409e66645695f9b35f7ee7edd5b`
+    - `0x64a3b5d0544fdeb044ce77360ca5d15ab25f0af2`
+    - `0xa11725106e270090c3335d3da0af6e64f613f988`
+    - `0x387cde8598e1cbb297fdc5baeba5e5c5c2735344`
+    - `0xd25468d8faf436031210e60e30e0183fee828fa6`
+    - `0xbd6d28927e7a7060638d4921a75ef35b23555e26`
+
+- ALM Relayer:
+    - `0x2d64de46817dfcb2e73a5ef2102df21ddeca3408`
+    - `0x1a0cfdb1f9cee409e66645695f9b35f7ee7edd5b`
+    - `0x64a3b5d0544fdeb044ce77360ca5d15ab25f0af2`
+    - `0xa11725106e270090c3335d3da0af6e64f613f988`
+    - `0x387cde8598e1cbb297fdc5baeba5e5c5c2735344`
+    - `0xa2bdfaa0329c2ebdb645f29c3971587e97e55e21`
+    - `0xc3e9458cefcf298ae11702959c15723e56b2dc0a`
+
+Note that 5 signers are matching.
 
 Futher, note the following adjustments have been made to the initial DV files (see [DV tool's README](https://github.com/ChainSecurity/deployment_validation?tab=readme-ov-file#step-2---validate-data-and-select-constraints)):
 
@@ -53,6 +79,15 @@ Note that the DV files will become invalid in on initialization due to new roles
 
 However, the files can be validated retroactively with the `--validationblock` option (see the respective `README`).
 The published DV files might be updated in the future to reflect the finalized initialization.
+
+## Changelog
+
+In version 2, the owners of the ALM Freezer and Relayer were adjusted to implement a 4/7 multisig. Previously, it was 1/2 multisig where the signers for both contracts were:
+
+- `0xa2bdfaa0329c2ebdb645f29c3971587e97e55e21`
+- `0xc3e9458cefcf298ae11702959c15723e56b2dc0a`
+
+Note that the two signers were removed as signers from the ALM Freezer but remained signers in the ALM Relayer.
 
 ## References
 

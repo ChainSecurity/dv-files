@@ -1,11 +1,11 @@
 {
   "version": "0.9.1",
-  "id": "0x377c27fb965ad34474c41db7a814a16e7d16e89eb7129118f24e1a493456aefd",
+  "id": "0x82c6e2f436fa0228492fd9950d3a117783afa87cb0a7722c3a5fe28f17f5cc01",
   "contract_name": "SafeProxy",
   "address": "0x0eec86649e756a23cbc68d9efed756f16ad5f85f",
   "chain_id": 1,
   "deployment_block_num": 22169328,
-  "init_block_num": 22169329,
+  "init_block_num": 22344145,
   "deployment_tx": "0x2914c932d5d5f778775ae000c6da9482f45ec6faedd02e622ff718abc5e66e4d",
   "codehash": "0xd7d408ebcd99b2b70be43e20253d6d92a8ea8fab29bd3be7f55b10032331fb4c",
   "insecure": false,
@@ -38,7 +38,47 @@
       "offset": 0,
       "var_name": "owners[0x0000000000000000000000000000000000000001]",
       "var_type": "t_address",
+      "value": "0x2d64de46817dfcb2e73a5ef2102df21ddeca3408",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe441c50d7934a0bffd0c946ce26630fc0c7172f6a51fc8956854b0f97f5d20de",
+      "offset": 0,
+      "var_name": "owners[0x1a0cfdb1f9cee409e66645695f9b35f7ee7edd5b]",
+      "var_type": "t_address",
+      "value": "0x64a3b5d0544fdeb044ce77360ca5d15ab25f0af2",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x14d0d2c61dacb40de50fd93bb870c0e6cc19796634d5aad95114cb6254c966ce",
+      "offset": 0,
+      "var_name": "owners[0x2d64de46817dfcb2e73a5ef2102df21ddeca3408]",
+      "var_type": "t_address",
+      "value": "0x1a0cfdb1f9cee409e66645695f9b35f7ee7edd5b",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe5a30ac05054af176e27b5ff4c15169f1e8f7c1db574c5f68212cbeb58a17813",
+      "offset": 0,
+      "var_name": "owners[0x387cde8598e1cbb297fdc5baeba5e5c5c2735344]",
+      "var_type": "t_address",
       "value": "0xa2bdfaa0329c2ebdb645f29c3971587e97e55e21",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf6b1773cb9a5b95b275be04a2c3db1be7e8917b410c5ff5686215f6bf84091c",
+      "offset": 0,
+      "var_name": "owners[0x64a3b5d0544fdeb044ce77360ca5d15ab25f0af2]",
+      "var_type": "t_address",
+      "value": "0xa11725106e270090c3335d3da0af6e64f613f988",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x129c4837ec05641185a8d7fce468a971b77a3054a9fcf048b2de8a41ab6710ee",
+      "offset": 0,
+      "var_name": "owners[0xa11725106e270090c3335d3da0af6e64f613f988]",
+      "var_type": "t_address",
+      "value": "0x387cde8598e1cbb297fdc5baeba5e5c5c2735344",
       "comparison_operator": "Equal"
     },
     {
@@ -58,12 +98,20 @@
       "comparison_operator": "Equal"
     },
     {
+      "slot": "0x4fb326c85a8544669253a5f8aed4581ad5a93dbead611a6d1697cf1d3abf486e",
+      "offset": 0,
+      "var_name": "owners[0x0000000000000000000000000000000000000000]",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
       "slot": "0x3",
       "offset": 0,
       "var_name": "ownerCount",
       "var_type": "t_uint256",
-      "value": "0x0000000000000000000000000000000000000000000000000000000000000002",
-      "value_hint": "2",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000007",
+      "value_hint": "7",
       "comparison_operator": "Equal"
     },
     {
@@ -71,8 +119,8 @@
       "offset": 0,
       "var_name": "threshold",
       "var_type": "t_uint256",
-      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "1",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000004",
+      "value_hint": "4",
       "comparison_operator": "Equal"
     },
     {
@@ -88,7 +136,43 @@
     {
       "sig": "AddedOwner(address)",
       "topic0": "0x9465fa0c962cc76958e6373a993326400c1c94f8be2fe3a952adfa7f60b2ea26",
-      "occurrences": []
+      "occurrences": [
+        {
+          "topics": [
+            "0x9465fa0c962cc76958e6373a993326400c1c94f8be2fe3a952adfa7f60b2ea26",
+            "0x000000000000000000000000387cde8598e1cbb297fdc5baeba5e5c5c2735344"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x9465fa0c962cc76958e6373a993326400c1c94f8be2fe3a952adfa7f60b2ea26",
+            "0x000000000000000000000000a11725106e270090c3335d3da0af6e64f613f988"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x9465fa0c962cc76958e6373a993326400c1c94f8be2fe3a952adfa7f60b2ea26",
+            "0x00000000000000000000000064a3b5d0544fdeb044ce77360ca5d15ab25f0af2"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x9465fa0c962cc76958e6373a993326400c1c94f8be2fe3a952adfa7f60b2ea26",
+            "0x0000000000000000000000001a0cfdb1f9cee409e66645695f9b35f7ee7edd5b"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x9465fa0c962cc76958e6373a993326400c1c94f8be2fe3a952adfa7f60b2ea26",
+            "0x0000000000000000000000002d64de46817dfcb2e73a5ef2102df21ddeca3408"
+          ],
+          "data": "0x"
+        }
+      ]
     },
     {
       "sig": "ChangedFallbackHandler(address)",
@@ -103,7 +187,14 @@
     {
       "sig": "ChangedThreshold(uint256)",
       "topic0": "0x610f7ff2b304ae8903c3de74c60c6ab1f7d6226b3f52c5161905bb5ad4039c93",
-      "occurrences": []
+      "occurrences": [
+        {
+          "topics": [
+            "0x610f7ff2b304ae8903c3de74c60c6ab1f7d6226b3f52c5161905bb5ad4039c93"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000004"
+        }
+      ]
     },
     {
       "sig": "DisabledModule(address)",
