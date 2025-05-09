@@ -1,0 +1,67 @@
+{
+  "version": "0.9.1",
+  "id": "0x706cebcca18cf5922aa92a3bb56f542773de8eae1e94d3414777beb9414bace6",
+  "contract_name": "AaveV3DebtPositionLib",
+  "address": "0xe72bb3a93ad2409055d5813bb8ae483533bd0438",
+  "chain_id": 1,
+  "deployment_block_num": 22437514,
+  "init_block_num": 22437515,
+  "deployment_tx": "0x7162b2bd7de64ca2d7df1d4e99c90c920ecf1a4f14d746f6ef6ab4307d4d3462",
+  "codehash": "0x7455e03bcbedda792d206526875f6b9bdb8f87a7749409b8cbafb16f2141814a",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "DATA_PROVIDER_CONTRACT",
+      "value": "0x00000000000000000000000041393e5e337606dc3821075af65aee84d7688cbd"
+    },
+    {
+      "var_name": "LENDING_POOL_ADDRESS_PROVIDER_CONTRACT",
+      "value": "0x0000000000000000000000002f39d218133afab8f2b819b1066c7e434ad94e9e"
+    },
+    {
+      "var_name": "MERKL_DISTRIBUTOR",
+      "value": "0x0000000000000000000000003ef3d8ba38ebe18db133cec108f4d14ce00dd9ae"
+    },
+    {
+      "var_name": "REFERRAL_CODE",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "REWARDS_CONTROLLER",
+      "value": "0x0000000000000000000000008164cc65827dcfe994ab23944cbc90e0aa80bfcb"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_dataProvider",
+      "value": "0x41393e5e337606dc3821075af65aee84d7688cbd"
+    },
+    {
+      "var_name": "_lendingPoolAddressProvider",
+      "value": "0x2f39d218133afab8f2b819b1066c7e434ad94e9e"
+    },
+    {
+      "var_name": "_merklDistributor",
+      "value": "0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae"
+    },
+    {
+      "var_name": "_referralCode",
+      "value": "0x0000",
+      "value_hint": "0"
+    },
+    {
+      "var_name": "_rewardsController",
+      "value": "0x8164cc65827dcfe994ab23944cbc90e0aa80bfcb"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/ff74c75a90923fa94d05e8c05fa2b739d53053fa",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
