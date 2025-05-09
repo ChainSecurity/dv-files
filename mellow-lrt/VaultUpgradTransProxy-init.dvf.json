@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x2010f9c62fcd49b7b79ce4cf13b81881392b88ac73a559240f2de1b3be6e8c12",
+  "id": "0x7ce84167b48a1982df7347169ea605ea3da81b6d30754e33fd9dcb61757bebf6",
   "contract_name": "TransparentUpgradeableProxy",
   "address": "0x5e362eb2c0706bd1d134689ec75176018385430b",
   "chain_id": 1,
@@ -524,20 +524,16 @@
   ],
   "references": [
     {
-      "id": "0xd0901611caa0473621ee1bdf2f8f749b00f7bc0f7ba661356f9dc72cff6537e0",
+      "id": "0x82b30020acd898008c9150d4224f159fd76f52026e70af1541cc6a5df8b6749c",
       "contract_name": "Vault"
     }
   ],
   "unvalidated_metadata": {
-    "author_name": "Author",
-    "description": "System Description",
-    "hardfork": [
-      "paris",
-      "shanghai"
-    ],
-    "audit_report": "https://example.org/report.pdf",
+    "author_name": "ChainSecurity",
+    "description": "Mellow Protocol",
+    "audit_report": "https://www.chainsecurity.com/security-audit/mellow-protocol",
     "source_url": "https://github.com/mellow-finance/mellow-lrt/commit/79361bae88fa93580f88be9ef998e9794db2ba17",
-    "security_contact": "security@example.org",
+    "security_contact": "disclosure@chainsecurity.com",
     "implementation_name": "Vault",
     "implementation_address": "0xe2d2e90122cb203cf1565a37ef90a256843a825a"
   }

@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0xdf8e18f2ecaf1664b1c328049fa9da846fd38558e002c48ee7a625ec790f8d32",
+  "id": "0x5591499922ec915d771f328fbac6a63d7cf876f72f447cf1f2afd61a3b85f840",
   "contract_name": "VaultConfigurator",
   "address": "0xdee41701310f48744e6bb4a5df6b5e714ce49133",
   "chain_id": 1,
@@ -210,14 +210,10 @@
     }
   ],
   "unvalidated_metadata": {
-    "author_name": "Author",
-    "description": "System Description",
-    "hardfork": [
-      "paris",
-      "shanghai"
-    ],
-    "audit_report": "https://example.org/report.pdf",
+    "author_name": "ChainSecurity",
+    "description": "Mellow Protocol",
+    "audit_report": "https://www.chainsecurity.com/security-audit/mellow-protocol",
     "source_url": "https://github.com/mellow-finance/mellow-lrt/commit/79361bae88fa93580f88be9ef998e9794db2ba17",
-    "security_contact": "security@example.org"
+    "security_contact": "disclosure@chainsecurity.com"
   }
 }

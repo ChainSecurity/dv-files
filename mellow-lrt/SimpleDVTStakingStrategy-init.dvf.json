@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x66ccb50f5d761dc06144088bbb20a5b8d2eb72e0df382cb37c630e01304c26fa",
+  "id": "0xc7020d8712c08a09d4cc9cb6cd4f5201df691b5c50313dfd64952e64df343fe1",
   "contract_name": "SimpleDVTStakingStrategy",
   "address": "0x078b1c03d14652bfeedfadf7985fdf2d8a2e8108",
   "chain_id": 1,
@@ -196,11 +196,6 @@
   ],
   "critical_events": [
     {
-      "sig": "ConvertAndDeposit(address)",
-      "topic0": "0xf5cddda62c731cd6aba8151f47dc1b72669ede763cd00f0816f973cb1c6cf3df",
-      "occurrences": []
-    },
-    {
       "sig": "MaxAllowedRemainderChanged(uint256,address)",
       "topic0": "0x474b1278083d2d1c1454c894fe2ef15a42b8a5a5bdab6b25e1a24e80017c41fa",
       "occurrences": [
@@ -211,11 +206,6 @@
           "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000188858ac61a74350116d1cb6958fbc509fd6afa1"
         }
       ]
-    },
-    {
-      "sig": "ProcessWithdrawals(address[],uint256,address)",
-      "topic0": "0xc56d615ab4eb88593d4a7fee57aeef3bd4bd9259cc11d73e0de053fce0848e08",
-      "occurrences": []
     },
     {
       "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
@@ -336,14 +326,10 @@
     }
   ],
   "unvalidated_metadata": {
-    "author_name": "Author",
-    "description": "System Description",
-    "hardfork": [
-      "paris",
-      "shanghai"
-    ],
-    "audit_report": "https://example.org/report.pdf",
+    "author_name": "ChainSecurity",
+    "description": "Mellow Protocol",
+    "audit_report": "https://www.chainsecurity.com/security-audit/mellow-protocol",
     "source_url": "https://github.com/mellow-finance/mellow-lrt/commit/79361bae88fa93580f88be9ef998e9794db2ba17",
-    "security_contact": "security@example.org"
+    "security_contact": "disclosure@chainsecurity.com"
   }
 }
