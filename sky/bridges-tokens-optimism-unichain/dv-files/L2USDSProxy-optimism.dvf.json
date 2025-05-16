@@ -1,0 +1,139 @@
+{
+  "version": "0.9.1",
+  "id": "0x42f97f1124484720ee0fcca258a7dae5838c1572135bb556b8a55af80638da8c",
+  "contract_name": "ERC1967Proxy",
+  "address": "0x4f13a96ec5c4cf34e442b46bbd98a0791f20edc3",
+  "chain_id": 10,
+  "deployment_block_num": 135198427,
+  "init_block_num": 135198430,
+  "deployment_tx": "0x7e80d7b944bb0d86482563204536257c73482c576f4fb34489c79003502593e1",
+  "codehash": "0x0b4e951bfa09b88aee363d9b2e6e51e584621397fd25aa0bc41c1f19914c8cb8",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "implementation",
+      "value": "0x2a3541003b34f34833a82f194e4dc69a7a39b057"
+    },
+    {
+      "var_name": "_data",
+      "value": "0x8129fc1c"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x1e105974d64c7c4d64135f73997d97eae18c055847aee8bf50acdc2838358a9",
+      "offset": 0,
+      "var_name": "wards[0x10e6593cdda8c58a1d0f14c5164b376352a55f2f]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x68e1b8c1e1c4dd1e7dc420f779c75b8a5efca3ada329e4937727779711900e5",
+      "offset": 0,
+      "var_name": "wards[0xab872efb64a879fa18baafed1f6992f0ebc7c99b]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "offset": 0,
+      "var_name": "StorageSlot.IMPLEMENTATION_SLOT.AddressSlot.value",
+      "var_type": "t_address",
+      "value": "0x2a3541003b34f34833a82f194e4dc69a7a39b057",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 0,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initialized",
+      "var_type": "t_uint64",
+      "value": "0x0000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 8,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initializing",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Upgraded(address)",
+      "topic0": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+      "occurrences": [
+        {
+          "topics": [
+            "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+            "0x0000000000000000000000002a3541003b34f34833a82f194e4dc69a7a39b057"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "Deny(address)",
+      "topic0": "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b",
+      "occurrences": [
+        {
+          "topics": [
+            "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b",
+            "0x000000000000000000000000ab872efb64a879fa18baafed1f6992f0ebc7c99b"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": [
+        {
+          "topics": [
+            "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        }
+      ]
+    },
+    {
+      "sig": "Rely(address)",
+      "topic0": "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+      "occurrences": [
+        {
+          "topics": [
+            "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+            "0x000000000000000000000000ab872efb64a879fa18baafed1f6992f0ebc7c99b"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+            "0x00000000000000000000000010e6593cdda8c58a1d0f14c5164b376352a55f2f"
+          ],
+          "data": "0x"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "USDS L2 Token Optimism",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://www.chainsecurity.com/security-audit/nst-smart-contracts",
+    "source_url": "https://github.com/makerdao/usds/tree/e39e3fa4befdf08f1798528cf3024db29b6de34e",
+    "security_contact": "disclosure@chainsecurity.com",
+    "implementation_name": "Usds"
+  }
+}

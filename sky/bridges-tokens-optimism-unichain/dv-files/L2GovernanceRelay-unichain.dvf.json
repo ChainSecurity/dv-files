@@ -1,0 +1,45 @@
+{
+  "version": "0.9.1",
+  "id": "0xe4cbc3ded0090447ae9848cc924fb82140443c944b102d9dd1e4119ed4ef3a0e",
+  "contract_name": "L2GovernanceRelay",
+  "address": "0x3510a7f16f549ecd0ef018de0b3c2ad7c742990f",
+  "chain_id": 130,
+  "deployment_block_num": 15192391,
+  "init_block_num": 15192392,
+  "deployment_tx": "0x5f38fd4f78db4ba9baac986a7eb191d28eb891f0d5ab23f858c201943cb54ef3",
+  "codehash": "0x0fe805266a4eb69732a2d09ad5091b3a89b66fb136b415647a88b67e61fe5e5b",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "l1GovernanceRelay",
+      "value": "0x000000000000000000000000b383070cf9f4f01c3a2cfd0ef6da4bc057b429b7"
+    },
+    {
+      "var_name": "messenger",
+      "value": "0x0000000000000000000000004200000000000000000000000000000000000007"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_l1GovernanceRelay",
+      "value": "0xb383070cf9f4f01c3a2cfd0ef6da4bc057b429b7"
+    },
+    {
+      "var_name": "_l2Messenger",
+      "value": "0x4200000000000000000000000000000000000007"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Token Bridge Module Unichain",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://www.chainsecurity.com/security-audit/makerdao-op-token-bridge",
+    "source_url": "https://github.com/makerdao/op-token-bridge/tree/82918f4853d50c6520dac53fdb70a42fd4ce671b",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

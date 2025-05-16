@@ -1,0 +1,97 @@
+{
+  "version": "0.9.1",
+  "id": "0xa2c26d504473641c21c62439660dcab1aa3e60e44fdd71d638d0d51ab270c59f",
+  "contract_name": "L1GovernanceRelay",
+  "address": "0xb383070cf9f4f01c3a2cfd0ef6da4bc057b429b7",
+  "chain_id": 1,
+  "deployment_block_num": 22375623,
+  "init_block_num": 22375628,
+  "deployment_tx": "0x4601bff3bf619432fbdfc774fa96b88a875dd0df077d07f88c21c4a1b9ab90de",
+  "codehash": "0x3725ab42081459580196650c675a862d75f9b991c4cf751aaff267d39dc66923",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "l2GovernanceRelay",
+      "value": "0x0000000000000000000000003510a7f16f549ecd0ef018de0b3c2ad7c742990f"
+    },
+    {
+      "var_name": "messenger",
+      "value": "0x0000000000000000000000009a3d64e386c18cb1d6d5179a9596a4b5736e98a6"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_l2GovernanceRelay",
+      "value": "0x3510a7f16f549ecd0ef018de0b3c2ad7c742990f"
+    },
+    {
+      "var_name": "_l1Messenger",
+      "value": "0x9a3d64e386c18cb1d6d5179a9596a4b5736e98a6"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x8499fbb2f9a808e753030f2d1ff094fb5ec7058a52c71a53b7b751b93fd6f5fe",
+      "offset": 0,
+      "var_name": "wards[0x54eade20f7dd1a67624626a3db9408185ed0039e]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3d69550be332aae11a2a6cd6632ebd14a59613d2338881b48517c5e66aa4d291",
+      "offset": 0,
+      "var_name": "wards[0xbe8e3e3618f7474f8cb1d074a26affef007e98fb]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Deny(address)",
+      "topic0": "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b",
+      "occurrences": [
+        {
+          "topics": [
+            "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b",
+            "0x00000000000000000000000054eade20f7dd1a67624626a3db9408185ed0039e"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "Rely(address)",
+      "topic0": "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+      "occurrences": [
+        {
+          "topics": [
+            "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+            "0x00000000000000000000000054eade20f7dd1a67624626a3db9408185ed0039e"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+            "0x000000000000000000000000be8e3e3618f7474f8cb1d074a26affef007e98fb"
+          ],
+          "data": "0x"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Token Bridge Module Unichain",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://www.chainsecurity.com/security-audit/makerdao-op-token-bridge",
+    "source_url": "https://github.com/makerdao/op-token-bridge/tree/82918f4853d50c6520dac53fdb70a42fd4ce671b",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

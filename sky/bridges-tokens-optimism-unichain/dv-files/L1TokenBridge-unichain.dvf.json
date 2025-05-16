@@ -1,0 +1,136 @@
+{
+  "version": "0.9.1",
+  "id": "0x65aaff505a0f5195d05f37883e9f100ffeeda58be51999fc825af40c886c40b9",
+  "contract_name": "L1TokenBridge",
+  "address": "0x8a925ccfd5f7f46332e2d719a916f8b4a643599f",
+  "chain_id": 1,
+  "deployment_block_num": 22375625,
+  "init_block_num": 22375626,
+  "deployment_tx": "0x12ee817096396d09db3650fc46b3e3c2829b7652b419d783a823305bb36c4f19",
+  "codehash": "0xb6b6969ed44a92a567a61f6cae2e73cccadd616dab9b8a04d71ea022c91d7859",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "__self",
+      "value": "0x0000000000000000000000008a925ccfd5f7f46332e2d719a916f8b4a643599f"
+    },
+    {
+      "var_name": "otherBridge",
+      "value": "0x000000000000000000000000a13152006d0216fe4627a0d3b006087a6a55d752"
+    },
+    {
+      "var_name": "messenger",
+      "value": "0x0000000000000000000000009a3d64e386c18cb1d6d5179a9596a4b5736e98a6"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_otherBridge",
+      "value": "0xa13152006d0216fe4627a0d3b006087a6a55d752"
+    },
+    {
+      "var_name": "_messenger",
+      "value": "0x9a3d64e386c18cb1d6d5179a9596a4b5736e98a6"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x2",
+      "offset": 0,
+      "var_name": "isOpen",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3",
+      "offset": 0,
+      "var_name": "escrow",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 0,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initialized",
+      "var_type": "t_uint64",
+      "value": "0xffffffffffffffff",
+      "value_hint": "1.8446744073709551615 * 10^19",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 8,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initializing",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Closed()",
+      "topic0": "0x1cdde67b72a90f19919ac732a437ac2f7a10fc128d28c2a6e525d89ce5cd9d3a",
+      "occurrences": []
+    },
+    {
+      "sig": "Deny(address)",
+      "topic0": "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b",
+      "occurrences": []
+    },
+    {
+      "sig": "ERC20BridgeFinalized(address,address,address,address,uint256,bytes)",
+      "topic0": "0xd59c65b35445225835c83f50b6ede06a7be047d22e357073e250d9af537518cd",
+      "occurrences": []
+    },
+    {
+      "sig": "ERC20BridgeInitiated(address,address,address,address,uint256,bytes)",
+      "topic0": "0x7ff126db8024424bbfd9826e8ab82ff59136289ea440b04b39a0df1b03b9cabf",
+      "occurrences": []
+    },
+    {
+      "sig": "File(bytes32,address)",
+      "topic0": "0x8fef588b5fc1afbf5b2f06c1a435d513f208da2e6704c3d8f0e0ec91167066ba",
+      "occurrences": []
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": [
+        {
+          "topics": [
+            "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000ffffffffffffffff"
+        }
+      ]
+    },
+    {
+      "sig": "Rely(address)",
+      "topic0": "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+      "occurrences": []
+    },
+    {
+      "sig": "TokenSet(address,address)",
+      "topic0": "0x0dd664a155dd89526bb019e22b00291bb7ca9d07ba3ec4a1a76b410da9797ceb",
+      "occurrences": []
+    },
+    {
+      "sig": "Upgraded(address)",
+      "topic0": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Token Bridge Module Unichain",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://www.chainsecurity.com/security-audit/makerdao-op-token-bridge",
+    "source_url": "https://github.com/makerdao/op-token-bridge/tree/82918f4853d50c6520dac53fdb70a42fd4ce671b",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

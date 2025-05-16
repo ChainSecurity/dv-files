@@ -1,0 +1,84 @@
+{
+  "version": "0.9.1",
+  "id": "0x7998bfafa1b77e8b20dbed7b2fdc6cbdedb7372021c3ebf32874db3e54ce8f5a",
+  "contract_name": "Escrow",
+  "address": "0x1196f688c585d3e5c895ef8954ffb0dcdafc566a",
+  "chain_id": 1,
+  "deployment_block_num": 22375624,
+  "init_block_num": 22375630,
+  "deployment_tx": "0x4c45c637555228eb5c182978ddf54a9d7f98e9ab36e333d36797b1d03a9c9499",
+  "codehash": "0x1b8ff47bfdded3d0eb9eea1549f9c0fd023b1874c4cb2203cd1a3f7f3b1d0e6c",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [
+    {
+      "slot": "0x8499fbb2f9a808e753030f2d1ff094fb5ec7058a52c71a53b7b751b93fd6f5fe",
+      "offset": 0,
+      "var_name": "wards[0x54eade20f7dd1a67624626a3db9408185ed0039e]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3d69550be332aae11a2a6cd6632ebd14a59613d2338881b48517c5e66aa4d291",
+      "offset": 0,
+      "var_name": "wards[0xbe8e3e3618f7474f8cb1d074a26affef007e98fb]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Approve(address,address,uint256)",
+      "topic0": "0x6e11fb1b7f119e3f2fa29896ef5fdf8b8a2d0d4df6fe90ba8668e7d8b2ffa25e",
+      "occurrences": []
+    },
+    {
+      "sig": "Deny(address)",
+      "topic0": "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b",
+      "occurrences": [
+        {
+          "topics": [
+            "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b",
+            "0x00000000000000000000000054eade20f7dd1a67624626a3db9408185ed0039e"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "Rely(address)",
+      "topic0": "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+      "occurrences": [
+        {
+          "topics": [
+            "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+            "0x00000000000000000000000054eade20f7dd1a67624626a3db9408185ed0039e"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+            "0x000000000000000000000000be8e3e3618f7474f8cb1d074a26affef007e98fb"
+          ],
+          "data": "0x"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Unichain Token Bridge Escrow",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://www.chainsecurity.com/security-audit/makerdao-op-token-bridge",
+    "source_url": "https://github.com/makerdao/op-token-bridge/tree/82918f4853d50c6520dac53fdb70a42fd4ce671b",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

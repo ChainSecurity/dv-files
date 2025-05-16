@@ -1,0 +1,37 @@
+{
+  "version": "0.9.1",
+  "id": "0xf78277d31a5c86bcf924022c743bcac8d10ed11716c4a5d612ae1539096484bb",
+  "contract_name": "L2TokenBridgeSpell",
+  "address": "0x32760698c87834c02ed9aff2d4fc3e16c029b936",
+  "chain_id": 130,
+  "deployment_block_num": 15192412,
+  "init_block_num": 15192413,
+  "deployment_tx": "0x602d4514865089d082e0bcd43b1b2b372e46bc4db212c66462de5b6c3d40326f",
+  "codehash": "0x27eb743ce2f669c2a6ce9a9f55561347c40873e9afbde9ff6063aeb6e1bb5279",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "l2Bridge",
+      "value": "0x000000000000000000000000a13152006d0216fe4627a0d3b006087a6a55d752"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "l2Bridge_",
+      "value": "0xa13152006d0216fe4627a0d3b006087a6a55d752"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Token Bridge Module Unichain",
+    "hardfork": [
+      "paris",
+      "shanghai"
+    ],
+    "audit_report": "https://www.chainsecurity.com/security-audit/makerdao-op-token-bridge",
+    "source_url": "https://github.com/makerdao/op-token-bridge/tree/82918f4853d50c6520dac53fdb70a42fd4ce671b",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
