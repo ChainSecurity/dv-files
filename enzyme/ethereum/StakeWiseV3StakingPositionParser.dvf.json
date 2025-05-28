@@ -1,0 +1,43 @@
+{
+  "version": "0.9.1",
+  "id": "0x24629b8f22e6294be3ef689dfb335cc073334c04608b3d461c52e733860b213f",
+  "contract_name": "StakeWiseV3StakingPositionParser",
+  "address": "0x0aa852b87d5134df6b7233dbd2b8274d54e3ae0e",
+  "chain_id": 1,
+  "deployment_block_num": 22579837,
+  "init_block_num": 22579838,
+  "deployment_tx": "0xa03d8332332fd87c4755eb1341d9f1532818369bef1aec22d58726d31220f579",
+  "codehash": "0x8914bb6b4de92a1576f131cbbcd5ef3a1c3d89f45f31151e6060fbc728b6fb9f",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "STAKEWISE_V3_VAULT_REGISTRY",
+      "value": "0x0000000000000000000000003a0008a588772446f6e656133c2d5029cc4fc20e"
+    },
+    {
+      "var_name": "WETH_ADDRESS",
+      "value": "0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_stakeWiseV3VaultsRegistryAddress",
+      "value": "0x3a0008a588772446f6e656133c2d5029cc4fc20e"
+    },
+    {
+      "var_name": "_wethAddress",
+      "value": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/e70c26efb5f8c6139cc7b0e913c22dc6750abaa7",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
