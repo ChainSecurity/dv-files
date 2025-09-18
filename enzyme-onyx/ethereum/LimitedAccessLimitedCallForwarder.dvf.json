@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x1a1424d727077199804d0ea757008efeb3239d543b5aa818cb99fb8d3f4a2cc0",
+  "contract_name": "LimitedAccessLimitedCallForwarder",
+  "address": "0xa49c68866ef6f01e5f43cbc2a0c7cad16f480a2f",
+  "chain_id": 1,
+  "deployment_block_num": 23324057,
+  "init_block_num": 23325057,
+  "deployment_tx": "0x60e01a9ec3ce5c53a3d4fd9739a427c3a8b0e4fffa4784b8cbcfc884ed0027a8",
+  "codehash": "0x8d419516dc4f790f132796a0f3460e26306af735e1402a35361276328b0d73c2",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-onyx",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/db2ec945d974790bc59c3e63f205328f8c670495",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
