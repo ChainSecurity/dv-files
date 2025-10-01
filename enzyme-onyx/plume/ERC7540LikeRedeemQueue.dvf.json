@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x2748bc63a0e91387343536900a8d31035414f66d2b8746208f6b7fb43a5f7d79",
+  "contract_name": "ERC7540LikeRedeemQueue",
+  "address": "0x9dd862aacaca03437cc9128d1be638d6688847f1",
+  "chain_id": 98866,
+  "deployment_block_num": 28447507,
+  "init_block_num": 28457495,
+  "deployment_tx": "0x47163185115e93a9f2124d080ccb1fa510116e9ec0dadbd71c269b0f8023957f",
+  "codehash": "0xf18722edd5ee18ff3051aa9544c5b103b116e5c3f5070cdeaebff3558023ca90",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-onyx",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/db2ec945d974790bc59c3e63f205328f8c670495",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
