@@ -1,0 +1,33 @@
+{
+  "version": "0.9.1",
+  "id": "0x677a65a8b0537b671be9a45fcbf8854d7cc15e87165b957e58893484084eeb35",
+  "contract_name": "SharesSplitterFactory",
+  "address": "0x61fc8fa186cb14e2fd19a9650e31ab4dcc60a95a",
+  "chain_id": 42161,
+  "deployment_block_num": 438221131,
+  "init_block_num": 438221181,
+  "deployment_tx": "0x55298d09aa34e90de26ba13b55565c2d87f5f5de1c7e998d48729304a93e67c2",
+  "codehash": "0x8ce67721e61d23b137f8011f4dc3c9b687aef2698428c0aba05814fa2508fcd0",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "SHARES_SPLITTER",
+      "value": "0x000000000000000000000000fe32ae93f3600042a7fe7267df7d28d666ddda8d"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_globalConfigProxy",
+      "value": "0xf9315b421904eadf2f8fce776958c147ee9bc880"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/e9571845d8f175233dc58dbec431fa418ef675ca",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
