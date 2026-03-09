@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x5cfa71dd0ae0f154b7a48b9fe1c6e578201c4357b7362b1bb8b52e718861f4de",
+  "contract_name": "CreWorkflowConsumer",
+  "address": "0x8ce67f7cb781be504ed70f85eecbf82617261c40",
+  "chain_id": 42161,
+  "deployment_block_num": 438223487,
+  "init_block_num": 438223537,
+  "deployment_tx": "0x689853d759dda2472b2ecb6af708a111090482e5a53820fffb0e2ea7d17ee818",
+  "codehash": "0xd544992a4a136357f6083986062f2ad57694e11631f621be26f9d2dc0ebee107",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "ALLOWED_WORKFLOW_OWNER",
+      "value": "0x000000000000000000000000d24bbcd06c54a5a2a6d22f4aae25ab511190c7b5"
+    },
+    {
+      "var_name": "CHAINLINK_KEYSTONE_FORWARDER",
+      "value": "0x000000000000000000000000f8344cfd5c43616a4366c34e3eee75af79a74482"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_chainlinkKeystoneForwarder",
+      "value": "0xf8344cfd5c43616a4366c34e3eee75af79a74482"
+    },
+    {
+      "var_name": "_allowedWorkflowOwner",
+      "value": "0xd24bbcd06c54a5a2a6d22f4aae25ab511190c7b5"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/957146a4dbd3caefef5632bfbf37c0dfd7aabd12",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
