@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0xfdbcd4889bcf4708a17ecec29f72dc56033e20767cc8e3b13985d7430b926a6a",
+  "contract_name": "SyncDepositHandler",
+  "address": "0x351a104a6071e82efc5ab45c3a2f73a4163e078a",
+  "chain_id": 8453,
+  "deployment_block_num": 43521509,
+  "init_block_num": 43521559,
+  "deployment_tx": "0x89fd241565ec4b1099ee08193e82dcb19fdee980fde3d2ef60a7300a43009b23",
+  "codehash": "0xeaf65c8488def0ea4201f633d0e0e445adcb0a6b4bdcbb05a8f56fe093b51133",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/aa8fce7c2ec1622687bcb6a052260a5cdd7f7436",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

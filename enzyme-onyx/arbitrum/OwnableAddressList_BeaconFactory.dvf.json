@@ -1,0 +1,48 @@
+{
+  "version": "0.9.1",
+  "id": "0xa557a0fbb4a016aadc92d4f6bc91d10c93baf3bb3fd7c6069d5a595fe17a4800",
+  "contract_name": "BeaconFactory",
+  "address": "0x8350556566b84bd8ab75c161cb332909db851c3e",
+  "chain_id": 42161,
+  "deployment_block_num": 443073422,
+  "init_block_num": 443073472,
+  "deployment_tx": "0xfa67bccf66add762f025ac78a1e5d47432d824f301471eeef95423188b13ae08",
+  "codehash": "0xf0e0b704c0a4bcdc3c7a45667e22e9ea92cdafa56c5a33c5e898a957e4ce675e",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GLOBAL",
+      "value": "0x00000000000000000000000083398d18ea22c5e85b009496bf2a521cb9c84be6"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_global",
+      "value": "0x83398d18ea22c5e85b009496bf2a521cb9c84be6"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "implementation",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ImplementationSet(address)",
+      "topic0": "0xab64f92ab780ecbf4f3866f57cee465ff36c89450dcce20237ca7a8d81fb7d13",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/aa8fce7c2ec1622687bcb6a052260a5cdd7f7436",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
