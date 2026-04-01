@@ -1,0 +1,55 @@
+{
+  "version": "0.9.1",
+  "id": "0x1ac6eb60e366b570392dda36563e63ba8023dde23b33d668f768b6304a6fddd1",
+  "contract_name": "Escrow",
+  "address": "0x6fedfbadc898b065b54ee9398812c33ec019896c",
+  "chain_id": 1,
+  "deployment_block_num": 24748257,
+  "init_block_num": 24748307,
+  "deployment_tx": "0xcb996073e5fe41bc52e395770ce27d9b925fb017dffe89a23b399dd5ad970807",
+  "codehash": "0x81edd0f1abf0f2d189956c29a2a13140c1004b738d80d6db304b738e69d27fbd",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 0,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initialized",
+      "var_type": "t_uint64",
+      "value": "0xffffffffffffffff",
+      "value_hint": "1.8446744073709551615 * 10^19",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 8,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initializing",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": [
+        {
+          "topics": [
+            "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000ffffffffffffffff"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme Myso V3",
+    "audit_report": "",
+    "source_url": "https://github.com/mysofinance/v3/tree/a47baa69aa74e996fb80c04b072170a462b22c6f",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

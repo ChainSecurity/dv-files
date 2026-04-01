@@ -1,0 +1,84 @@
+{
+  "version": "0.9.1",
+  "id": "0xb3fbb8d66c3a5a6e8544171471d32e9aef84668d4a1cb955678e9e259eaadbd8",
+  "contract_name": "Router",
+  "address": "0xb0095dced6d81d341e798f92e1ea84968842bdf2",
+  "chain_id": 1,
+  "deployment_block_num": 24748258,
+  "init_block_num": 24748308,
+  "deployment_tx": "0xef2a9d1ced1d7f7bad7d2151f12d655510f35af47a5ebc9740e698f4269e4786",
+  "codehash": "0x3119d8a8a56ce061c61fcd011a55a9c27e8644b866ecf8156370b30113600fe1",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "escrowImpl",
+      "value": "0x0000000000000000000000006fedfbadc898b065b54ee9398812c33ec019896c"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "initOwner",
+      "value": "0xb270fe91e8e4b80452fbf1b4704208792a350f53"
+    },
+    {
+      "var_name": "_escrowImpl",
+      "value": "0x6fedfbadc898b065b54ee9398812c33ec019896c"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "_owner",
+      "var_type": "t_address",
+      "value": "0xb270fe91e8e4b80452fbf1b4704208792a350f53",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1",
+      "offset": 0,
+      "var_name": "feeHandler",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "NewFeeHandler(address,address)",
+      "topic0": "0x9223780305f6b8602877f20db7cc3a6770c99586cb92db707a89375807e12337",
+      "occurrences": []
+    },
+    {
+      "sig": "OwnershipTransferred(address,address)",
+      "topic0": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+      "occurrences": [
+        {
+          "topics": [
+            "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000b270fe91e8e4b80452fbf1b4704208792a350f53"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "PauseQuotes(address,bool)",
+      "topic0": "0xdcbed411faf93d1cef89c9e1923cd8e047c29e2d465b976b24b0b22c054b340e",
+      "occurrences": []
+    },
+    {
+      "sig": "TransferOwnership(address,address,address)",
+      "topic0": "0x6954f1cdad46901994f29d9b1f78744c873c527bad04d294b4954cc8caf367da",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme Myso V3",
+    "audit_report": "",
+    "source_url": "https://github.com/mysofinance/v3/tree/a47baa69aa74e996fb80c04b072170a462b22c6f",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
