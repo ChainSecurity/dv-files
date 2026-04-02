@@ -1,13 +1,13 @@
 {
   "version": "0.9.1",
-  "id": "0x49988131db5cad6a971a4f9eb7a44a2e9fefda9dad08458cbafce0267735fd34",
+  "id": "0x602cd3681d439111f52432951375032945ecbe1f1625c8f21a574fd25128c090",
   "contract_name": "ContinuousFlatRatePerformanceFeeTracker",
-  "address": "0x73c748d17274690dae7ff816bf61bc6c07c21952",
+  "address": "0x925cf3261bc9e993073a8d896f60fe6b09840a13",
   "chain_id": 1,
-  "deployment_block_num": 23324051,
-  "init_block_num": 23325051,
-  "deployment_tx": "0x81e82d195822241e0229198311555ee6fca76b0db461ee29128e36531046f55c",
-  "codehash": "0xfd4983826131610a8e34612d86e6408324fc2f0a99b6bfa1f68cafe4a04df269",
+  "deployment_block_num": 23966776,
+  "init_block_num": 23969544,
+  "deployment_tx": "0xa2b537ac1fb910ac3c3baac32115cdd5cd89c4c5efbde5dd56da4cc1cf7e0fe7",
+  "codehash": "0xa31a9c3c8cedd0bfd36131f1169a7a4c4950285520e14c1d4a5eb9d739ded27a",
   "insecure": false,
   "immutables": [],
   "constructor_args": [],
@@ -17,7 +17,7 @@
     "author_name": "ChainSecurity",
     "description": "Enzyme",
     "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-onyx",
-    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/db2ec945d974790bc59c3e63f205328f8c670495",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/6bde0489b1a3196e6290b59e119748ecbeb8b8e4",
     "security_contact": "disclosure@chainsecurity.com"
   }
 }
