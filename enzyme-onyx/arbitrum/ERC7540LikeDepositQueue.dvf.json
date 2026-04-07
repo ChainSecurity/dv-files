@@ -1,13 +1,13 @@
 {
   "version": "0.9.1",
-  "id": "0x2df4ce21f2a665be931d624ef5d30ca7dc3982166fc73c1161cabdcc08b98c76",
+  "id": "0xc006bc558d40b2121a714529778d18c62744374d3bc8d836c5938bc74ee1db47",
   "contract_name": "ERC7540LikeDepositQueue",
-  "address": "0x27e5589d0406f7a9eb03a597c95132bf2c82f461",
+  "address": "0xd39757176fa3fbfb5bf48b1abcb34135dc0b4077",
   "chain_id": 42161,
-  "deployment_block_num": 377255899,
-  "init_block_num": 377256899,
-  "deployment_tx": "0x97e7debeeb8253ad7197406c4b64c9b315c2c19856ad99f7e54258db3d0cddeb",
-  "codehash": "0xc9fce77624d427505f8b76c09d3af035845c92ac3c8764e74ba28d4744d1d6e5",
+  "deployment_block_num": 449932137,
+  "init_block_num": 449932187,
+  "deployment_tx": "0x9d7b42a159abc04973100f078feb87c723fa88c5de679cc9473facdd669d4161",
+  "codehash": "0x26b2adc436d73aafa57fab74a08b0c0c737df532f16491c43d27a04daf9c1d9b",
   "insecure": false,
   "immutables": [],
   "constructor_args": [],
@@ -16,8 +16,8 @@
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Enzyme",
-    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-onyx",
-    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/db2ec945d974790bc59c3e63f205328f8c670495",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/67921056b3ac97782b0ae8a61751229ed2960826",
     "security_contact": "disclosure@chainsecurity.com"
   }
 }
