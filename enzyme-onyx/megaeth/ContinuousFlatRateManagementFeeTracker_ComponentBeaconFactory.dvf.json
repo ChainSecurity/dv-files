@@ -1,0 +1,61 @@
+{
+  "version": "0.9.1",
+  "id": "0xe70bcc3c08095e424203fd7a510e7b3728ebaae87e367c8bca022f2ccd2cfaa7",
+  "contract_name": "ComponentBeaconFactory",
+  "address": "0x0d252fd6838bd92c024e2086364fbc830ec252ce",
+  "chain_id": 4326,
+  "deployment_block_num": 12251859,
+  "init_block_num": 12254761,
+  "deployment_tx": "0xde616e1c8138100be7f653beadf42bb76cbef12f517454e3c4e104c426570b5e",
+  "codehash": "0x13d75ec60c0674837bde522b873f1909e5d2f31ea743d7bf1345126f79d1de27",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GLOBAL",
+      "value": "0x0000000000000000000000006ddbbcc38bea7d514f3112c5aa7d99b34b432ed8"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_global",
+      "value": "0x6ddbbcc38bea7d514f3112c5aa7d99b34b432ed8"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "implementation",
+      "var_type": "t_address",
+      "value": "0xbe579b9515fac20cecb307d4f51e0ad83839cd11",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ImplementationSet(address)",
+      "topic0": "0xab64f92ab780ecbf4f3866f57cee465ff36c89450dcce20237ca7a8d81fb7d13",
+      "occurrences": [
+        {
+          "topics": [
+            "0xab64f92ab780ecbf4f3866f57cee465ff36c89450dcce20237ca7a8d81fb7d13"
+          ],
+          "data": "0x000000000000000000000000c9c14a99ccf467ea1ff2e19584a5faba3671b8de"
+        },
+        {
+          "topics": [
+            "0xab64f92ab780ecbf4f3866f57cee465ff36c89450dcce20237ca7a8d81fb7d13"
+          ],
+          "data": "0x000000000000000000000000be579b9515fac20cecb307d4f51e0ad83839cd11"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/67921056b3ac97782b0ae8a61751229ed2960826",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

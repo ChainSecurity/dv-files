@@ -1,0 +1,55 @@
+{
+  "version": "0.9.1",
+  "id": "0x07f32bd1327aae702f100d26744a27543f8ed653f3a772fc678f96e71999b0f3",
+  "contract_name": "ComponentBeaconFactory",
+  "address": "0xb12effc2e47397c8561f73713c8ae1bd27078dde",
+  "chain_id": 4326,
+  "deployment_block_num": 12251862,
+  "init_block_num": 12251912,
+  "deployment_tx": "0xccebe0963f565a0abac5fc0f15e9d9f6602a78a610f08cd11985caf66647b933",
+  "codehash": "0x13d75ec60c0674837bde522b873f1909e5d2f31ea743d7bf1345126f79d1de27",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GLOBAL",
+      "value": "0x0000000000000000000000006ddbbcc38bea7d514f3112c5aa7d99b34b432ed8"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_global",
+      "value": "0x6ddbbcc38bea7d514f3112c5aa7d99b34b432ed8"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "implementation",
+      "var_type": "t_address",
+      "value": "0x474c8d4a0e53b7235c6f8fc27c9b6406a32dd0b1",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ImplementationSet(address)",
+      "topic0": "0xab64f92ab780ecbf4f3866f57cee465ff36c89450dcce20237ca7a8d81fb7d13",
+      "occurrences": [
+        {
+          "topics": [
+            "0xab64f92ab780ecbf4f3866f57cee465ff36c89450dcce20237ca7a8d81fb7d13"
+          ],
+          "data": "0x000000000000000000000000474c8d4a0e53b7235c6f8fc27c9b6406a32dd0b1"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/67921056b3ac97782b0ae8a61751229ed2960826",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
