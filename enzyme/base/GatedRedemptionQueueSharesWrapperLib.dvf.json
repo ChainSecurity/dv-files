@@ -1,0 +1,45 @@
+{
+  "version": "0.9.1",
+  "id": "0xd51eea369e8479c8423d0482117a6094baa6731b25a1c41da113acd081bc49d3",
+  "contract_name": "GatedRedemptionQueueSharesWrapperLib",
+  "address": "0x44336da88102d2394f62e800b7307b4dc352d223",
+  "chain_id": 8453,
+  "deployment_block_num": 44680349,
+  "init_block_num": 44680399,
+  "deployment_tx": "0x9c8a319a1170379494df87f98fe68bee6e1561751d64d640435f91af4e94f7ed",
+  "codehash": "0x76a69d585d1c0ed59d158edab84a4432f857501d1a277d4f0f5e151d5bf16293",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GLOBAL_CONFIG_CONTRACT",
+      "value": "0x00000000000000000000000065b8f1f82ce8a6b72db0937c522a52af5693d4d3"
+    },
+    {
+      "var_name": "THIS_LIB",
+      "value": "0x00000000000000000000000044336da88102d2394f62e800b7307b4dc352d223"
+    },
+    {
+      "var_name": "WRAPPED_NATIVE_ASSET_CONTRACT",
+      "value": "0x0000000000000000000000004200000000000000000000000000000000000006"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_globalConfigProxy",
+      "value": "0x65b8f1f82ce8a6b72db0937c522a52af5693d4d3"
+    },
+    {
+      "var_name": "_wrappedNativeAsset",
+      "value": "0x4200000000000000000000000000000000000006"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol/tree/0cb08e29ac4f8ff7a248d1d49be3ffcb2abcf46a",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
