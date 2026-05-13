@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0xd45e9bff056e9b021c0f2926fd9f4743a9c613127c624548434cdaf1c4fbc49f",
+  "contract_name": "WalletsManager",
+  "address": "0x024d4ebd80a1a8b1b5d059cb64f26a1363c700bf",
+  "chain_id": 1,
+  "deployment_block_num": 25079510,
+  "init_block_num": 25079560,
+  "deployment_tx": "0x06f2d6aabad38a9dab099af8de4a150ad0ab0bc7810a28a63392c69cd5f4202c",
+  "codehash": "0x94dc3da080421d3cd411cdf815f5ce97d0ab8e072ab0d92c6537219d0fa159b4",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "i_ccipRouter",
+      "value": "0x00000000000000000000000080226fc0ee2b096224eeac085bb9a8cba1146f7d"
+    },
+    {
+      "var_name": "DEPOSITOR_WALLETS_FACTORY",
+      "value": "0x0000000000000000000000001e59d018f1493d270e026663607c188467d754b3"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_ccipRouter",
+      "value": "0x80226fc0ee2b096224eeac085bb9a8cba1146f7d"
+    },
+    {
+      "var_name": "_depositorWalletsFactory",
+      "value": "0x1e59d018f1493d270e026663607c188467d754b3"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/0ad564bcb851804c9e72444a36d3a18b5201e066",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
