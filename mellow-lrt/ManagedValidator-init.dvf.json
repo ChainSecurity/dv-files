@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0xaf71954f1782b4030dead100915b31e3da807deafd9ee5b45c085194cb01bcea",
+  "id": "0x402d7688da137c119a73a9b7f43e296389801655ae7bf0c1f90ff9006179734f",
   "contract_name": "ManagedValidator",
   "address": "0xa1b3a352c3fc7cfcbd36381cc2d0b157d6843473",
   "chain_id": 1,
@@ -132,14 +132,10 @@
     }
   ],
   "unvalidated_metadata": {
-    "author_name": "Author",
-    "description": "System Description",
-    "hardfork": [
-      "paris",
-      "shanghai"
-    ],
-    "audit_report": "https://example.org/report.pdf",
+    "author_name": "ChainSecurity",
+    "description": "Mellow Protocol",
+    "audit_report": "https://www.chainsecurity.com/security-audit/mellow-protocol",
     "source_url": "https://github.com/mellow-finance/mellow-lrt/commit/79361bae88fa93580f88be9ef998e9794db2ba17",
-    "security_contact": "security@example.org"
+    "security_contact": "disclosure@chainsecurity.com"
   }
 }
