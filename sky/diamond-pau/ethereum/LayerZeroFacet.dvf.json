@@ -1,0 +1,39 @@
+{
+  "version": "0.9.1",
+  "id": "0x265b5a423c63f72193e8cd51cff97095ecddb54a06633f65dc8ba90e200e56b4",
+  "contract_name": "LayerZeroFacet",
+  "address": "0xa0c323a0acb20f259ea4ff343319d450be6472e5",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x3f54a7bb83e7d8cdd2ea7e279ab1c9012269031917efb2973e24a52eec3772e3",
+  "codehash": "0xa85e4a26ce588166912e32a7469c5495827d905777234a2d32cf255ffdc16cc2",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    },
+    {
+      "sig": "LayerZeroRecipientSet(uint32,bytes32)",
+      "topic0": "0x6c34eba04bf16b35385ac7487ab08f9023bcd9836a5bd53dc60ec0da331b4543",
+      "occurrences": []
+    },
+    {
+      "sig": "LayerZeroTransfer(address,uint32,uint256,uint256)",
+      "topic0": "0xf58511023ea8294ab82ff96bb3a8c7c6416cd5fbc2b7116ddde0ce66d6bd492e",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "0.9.1",
+  "id": "0x320063d42ce1cdc1594da10947c6e8e8a45a92f88e2f04c432405e4ff4185be0",
+  "contract_name": "CurveFacet",
+  "address": "0x139d81d7d6040faef7cf0ef5a2636ca8a97a30d8",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x53c71b7b9ed3614b378f23f5e58278c6b888c0139a58d843a11036ae6a598a2b",
+  "codehash": "0x25357da7ab4b033969777de0d76ca5ac3853dc9bcf4fb824941d1773fec4e3cd",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "CurveAddLiquidity(address,uint256,uint256[])",
+      "topic0": "0x4fdb0ec568c43a737ffcfb43154d425e83336f0c189e7b54b7e17ffd4a3324e4",
+      "occurrences": []
+    },
+    {
+      "sig": "CurveMaxSlippageSet(address,uint256)",
+      "topic0": "0x15df6839e3f684b01bfb3841cb31b85eca4a0e76305381edfa73033a390da03f",
+      "occurrences": []
+    },
+    {
+      "sig": "CurveRemoveLiquidity(address,uint256,uint256[])",
+      "topic0": "0x76510b71383dc3fd496bdc2b579e6835507b1364f0a8511e1c764e8bc3456c0c",
+      "occurrences": []
+    },
+    {
+      "sig": "CurveSwap(address,uint256,uint256,uint256,uint256)",
+      "topic0": "0x22c8ae789cefa12aeb53c0cdf296956d285b2fac5cc0ed131acc865c443bf76c",
+      "occurrences": []
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

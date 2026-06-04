@@ -1,0 +1,39 @@
+{
+  "version": "0.9.1",
+  "id": "0x780a19f5a8d6397b1905dfcd1cb46e73a4f65a821d96b4caa362d0978b2fa6fa",
+  "contract_name": "MapleFacet",
+  "address": "0x691b5c26ad2b74d2376f4ed87904e9d3e47bd630",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x105d0fb339f125fa4e3e6a922652e1aa147f46e1dd3d463fa4aa0040543e2f6b",
+  "codehash": "0x72071252b13d99aaac40d45177f3072a9a5a92c07bffcb3e838b8cddcf3c6b6a",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    },
+    {
+      "sig": "MapleCancelRedemption(address,uint256)",
+      "topic0": "0x62e98951622e280cdff08448fda901f0c9e813be1d78d29fbd142eba1fdc228b",
+      "occurrences": []
+    },
+    {
+      "sig": "MapleRequestRedemption(address,uint256)",
+      "topic0": "0x77bd9df45653e37e78f6efadd8c9e4d473b82b8bfc250bc5bf69c44aa0b2570f",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

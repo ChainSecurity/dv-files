@@ -1,0 +1,115 @@
+{
+  "version": "0.9.1",
+  "id": "0x4ef05ca47208d8d9e0c101f1c65f75df6d56a0775bb65fe3d84561d1b24f5e52",
+  "contract_name": "Beacon",
+  "address": "0x829dc2b7e94b1954f0764e573f2e0d45afa28199",
+  "chain_id": 1,
+  "deployment_block_num": 25235341,
+  "init_block_num": 25235391,
+  "deployment_tx": "0x2e8d2db0621f801b03ef61803d528602c552ae9c947e478dbf0ba70b2e70c2ea",
+  "codehash": "0x6942fe0a7dfabe69099c5ac1078b5c3581b6bcb39b0a5fa6038117cb9ae38ec7",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "admin",
+      "value": "0x1ca4ecaf0e13ca833c80da835deea15e1684361d"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "_status",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3",
+      "offset": 0,
+      "var_name": "_integrationIds._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x7d2944a272ac5bae96b5bd2f67b6c13276d541dc09eb1cf414d96b19a09e1c2f",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xac33ff75c19e70fe83507db0d683fd3465c996598dc972688b7ace676c89077b",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb0739cb21799e384d2e9595dc63d0a283cba9cc0edd107bd1835972ed564847f",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xcab322f9ac131accbb3cfa021cc51630703f3c01387a646def81f12e3fa14e8a",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "IntegrationRemoved(bytes32)",
+      "topic0": "0x043c2a2fce5883ae183cf4a77a5b7883a31824c8f21570b619972fbe500b79e6",
+      "occurrences": []
+    },
+    {
+      "sig": "IntegrationSet(bytes32,(address,(bytes4,bytes4)[]))",
+      "topic0": "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+      "topic0": "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleGranted(bytes32,address,address)",
+      "topic0": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(bytes32,address,address)",
+      "topic0": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": "0.9.1",
+  "id": "0x9492695f246d4627ee26e117f031e9d779d5d39f94d1d67ac5c279063510eff2",
+  "contract_name": "MerklFacet",
+  "address": "0x321138db5e056e9d0080d4c278e10a1edc091eb0",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x53ae64acdf7eff8958d3676825f7b9e2753e1aaadf9c29acafe6c307850e7872",
+  "codehash": "0xe8b533e3c99738bf0f9523ada447c76a3d77f51cdc2ecb82668fb2e328ecad68",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    },
+    {
+      "sig": "MerklToggleOperator(address,address)",
+      "topic0": "0x4dbde1466ca262c0e5f5ee092e25929f118d1256b5f4208b27631ae7faf8c5f0",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

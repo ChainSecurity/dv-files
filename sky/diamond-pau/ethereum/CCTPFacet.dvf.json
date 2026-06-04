@@ -1,0 +1,59 @@
+{
+  "version": "0.9.1",
+  "id": "0x5225b2b09c034c346aee94056c3daa01f3baa0938aa7e4e3d657d08a9599d92d",
+  "contract_name": "CCTPFacet",
+  "address": "0xadf62692340e46ef90336f2e75ce3b37f1148873",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x6c53b279bbd30da02cbde04a2aaa6f2d46abb7ecc1e0410b111cd4b254adbf73",
+  "codehash": "0x71c6b48e1adb4dfe5c4eab8117ff7e71239bbad74f31261aa719c9f15fa68b8f",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "cctp",
+      "value": "0x00000000000000000000000028b5a0e9c621a5badaa536219b3a228c8168cf5d"
+    },
+    {
+      "var_name": "usdc",
+      "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "cctp_",
+      "value": "0x28b5a0e9c621a5badaa536219b3a228c8168cf5d"
+    },
+    {
+      "var_name": "usdc_",
+      "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "CCTPDomainParametersSet(uint32,bytes32,uint32,uint32)",
+      "topic0": "0x49c4e6263644b808cc1a537773d6d16451503bd5ce481c3f330d33f0c8574110",
+      "occurrences": []
+    },
+    {
+      "sig": "CCTPTransferInitiated(uint32,bytes32,uint256,uint256)",
+      "topic0": "0xdb2088e7f5ae2550da92551258b9d806170b0e7d011600d518daf5e539355841",
+      "occurrences": []
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

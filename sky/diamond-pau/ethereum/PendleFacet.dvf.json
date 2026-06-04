@@ -1,0 +1,44 @@
+{
+  "version": "0.9.1",
+  "id": "0xf1154708b6a5816ad180908f4cca1f839a7592bcb440d86b93f10d003bb99a74",
+  "contract_name": "PendleFacet",
+  "address": "0xcc9dd4c9b2a9c08f2692e7060f43d29a03e87348",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x5eacce85e00d1a98ed6b151cd59938c4cecb64b20f1d9e38906977f93ea9add8",
+  "codehash": "0xe8805f0090daad6fe385fb1e88054c565beafe0c7be096030ce10390e67e101a",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "router",
+      "value": "0x000000000000000000000000888888888889758f76e7103c6cbf23abbf58f946"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "router_",
+      "value": "0x888888888889758f76e7103c6cbf23abbf58f946"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    },
+    {
+      "sig": "PendleRedeem(address,uint256,uint256)",
+      "topic0": "0x9459f0368e56e0bd00b2312639dd536e6ce50755100bb1e3d6398620c473895c",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

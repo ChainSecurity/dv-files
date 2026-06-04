@@ -1,0 +1,49 @@
+{
+  "version": "0.9.1",
+  "id": "0x34902b81fc7fd87a95d86576128100bddc915afe2d0a33b19d26e9fc731b6401",
+  "contract_name": "ERC4626Facet",
+  "address": "0x1dca18608c89174181153e786778705b4a0e1a06",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x83a10561ff4b10b299038d6ddf3013b9964e0edc7b2d7cf20041e412cb3ea3eb",
+  "codehash": "0xa3653b3e840684d7b5f3e02700280b1e2d6236587e39864f77c21cd903866916",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "ERC4626Deposit(address,uint256,uint256)",
+      "topic0": "0x726a0d55f4fd10755245e51bcf5c9b69592fe273315586e9a753bc173d139168",
+      "occurrences": []
+    },
+    {
+      "sig": "ERC4626MaxExchangeRateSet(address,uint256)",
+      "topic0": "0x0357b338178e1b6a462ee13d8e266e1317ac9a1ed1ca355a5a74aaad21ab5726",
+      "occurrences": []
+    },
+    {
+      "sig": "ERC4626Redeem(address,uint256,uint256)",
+      "topic0": "0xdfaaa2e0cc70bbbf6d34aaa26751f0461788db6c08868aafe2bb325d44bca572",
+      "occurrences": []
+    },
+    {
+      "sig": "ERC4626Withdraw(address,uint256,uint256)",
+      "topic0": "0x3c5681f40ca0849bc9826d51bfcc0471999a6a1d4c5267b3f66b5a90f47e261e",
+      "occurrences": []
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "version": "0.9.1",
+  "id": "0x9c85cb3a85b526f126b36beb61c4514c70b88919e584ea0e48a1498dd0d5dcad",
+  "contract_name": "UniswapV3Facet",
+  "address": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x01fffd333489d0f65eb6d7b21f672637c21c6ef9db176737f1e5ebad8987af95",
+  "codehash": "0x225d028286a5090b27a9590c63b80d486a6c6da3a6a6762932abae8d9bff9233",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "positionManager",
+      "value": "0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88"
+    },
+    {
+      "var_name": "router",
+      "value": "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "positionManager_",
+      "value": "0xc36442b4a4522e871399cd717abdd847ab11fe88"
+    },
+    {
+      "var_name": "router_",
+      "value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    },
+    {
+      "sig": "UniswapV3AddLiquidity(address,uint256,int24,int24,uint128,uint256,uint256)",
+      "topic0": "0x4f693f8d638a68c51aef047e25c140567a1e1d7e38c5b4927dae1599af0f3eca",
+      "occurrences": []
+    },
+    {
+      "sig": "UniswapV3LowerTickSet(address,int24)",
+      "topic0": "0xbaf782500281216eb9c851cb698e3939396a95078976c37a4dcddfc4aaa683de",
+      "occurrences": []
+    },
+    {
+      "sig": "UniswapV3MaxSlippageSet(address,uint256)",
+      "topic0": "0xe15efea556f0d902b0ea8b5c924992f421e1338e64af0d85b28cd4dd5182d76f",
+      "occurrences": []
+    },
+    {
+      "sig": "UniswapV3MaxTickDeltaSet(address,uint24)",
+      "topic0": "0x0a26e9e49194d4c8b8444011e994a8b13e3cc2f8ccaf06ae664e338071f6ff86",
+      "occurrences": []
+    },
+    {
+      "sig": "UniswapV3RemoveLiquidity(address,uint256,uint128,uint256,uint256)",
+      "topic0": "0x540c8ba74c92c8c782d3b9aa8a9021e3855273eaae0084b99064c58a49ad5e5d",
+      "occurrences": []
+    },
+    {
+      "sig": "UniswapV3Swap(address,address,uint256,uint256)",
+      "topic0": "0x8e99f5cd325872a0cce2a922151cbe230768e9a157f61c96e1831ae497f71522",
+      "occurrences": []
+    },
+    {
+      "sig": "UniswapV3TWAPSecondsAgoSet(address,uint32)",
+      "topic0": "0x25b41767cfc646b287b6bf3b8ee243f82b7c58453b7a911716d57da72a2b375b",
+      "occurrences": []
+    },
+    {
+      "sig": "UniswapV3UpperTickSet(address,int24)",
+      "topic0": "0x38c9b14bb68d2e158fa131b848ce439ad182f524f3124bda29494cb675338c9d",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

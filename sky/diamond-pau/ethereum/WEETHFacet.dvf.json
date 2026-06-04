@@ -1,0 +1,64 @@
+{
+  "version": "0.9.1",
+  "id": "0xa9e128b51724a1b8e136cc5881632ae37d23e91c9d478e6fe4acd4e169fb8092",
+  "contract_name": "WEETHFacet",
+  "address": "0x1d8d089eb7d558f5dc6aa0cf98dde13b77b3f641",
+  "chain_id": 1,
+  "deployment_block_num": 25235516,
+  "init_block_num": 25235566,
+  "deployment_tx": "0xda3faf45fe5bdb4ded8341f2d6c8ae953030bd015935f0584a928f4bed72969d",
+  "codehash": "0xc82d8941bc0da453d2a50d54f92541ad2b0fe876136305d79026abb89866b516",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "weeth",
+      "value": "0x000000000000000000000000cd5fe23c85820f7b72d0926fc9b05b43e359b7ee"
+    },
+    {
+      "var_name": "weth",
+      "value": "0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "weeth_",
+      "value": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee"
+    },
+    {
+      "var_name": "weth_",
+      "value": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    },
+    {
+      "sig": "WEETHClaimWithdrawal(address,uint256,uint256)",
+      "topic0": "0x60b060a94c5186078d7f9829b2cb1893fd568e340ee06fc5edd8a2ee6a84b754",
+      "occurrences": []
+    },
+    {
+      "sig": "WEETHDeposit(uint256,uint256,uint256)",
+      "topic0": "0x8f3903aef6833843d604ca6cd03e54dd48142914343f9cc14c06aae9285d7961",
+      "occurrences": []
+    },
+    {
+      "sig": "WEETHRequestWithdraw(address,uint256,uint256,uint256)",
+      "topic0": "0x8fd36a7406c59f36c4f37e37f42fdecc47ea08658a25f951e8e276fc6311344d",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "version": "0.9.1",
+  "id": "0xdaabc4b1f46cb6aa5ac67b20b25d4da8ef6af28004c0be5c65a5192414d87dc5",
+  "contract_name": "DAIUSDSFacet",
+  "address": "0x3817f734cae6ad2bdb79f9ff23091f2ad478da5f",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x17e263b00b6b92c995351b62ccdb663d7a533a046c6e5d6bb2f66cc4f1508e03",
+  "codehash": "0x9b9ce00d908f4d1c92f72da291b48db5a0cc52a4e90947ce873ed1830e667355",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "dai",
+      "value": "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+      "value_hint": "Dai (DAI)"
+    },
+    {
+      "var_name": "daiUSDS",
+      "value": "0x0000000000000000000000003225737a9bbb6473cb4a45b7244aca2befdb276a"
+    },
+    {
+      "var_name": "usds",
+      "value": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "dai_",
+      "value": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "value_hint": "Dai (DAI)"
+    },
+    {
+      "var_name": "daiUSDS_",
+      "value": "0x3225737a9bbb6473cb4a45b7244aca2befdb276a"
+    },
+    {
+      "var_name": "usds_",
+      "value": "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "DAIUSDSSwapDAIToUSDS(uint256)",
+      "topic0": "0x154c43a1aa9aeb213573f6834160b16991b50aa5f0b90a414ccb0e04d802f3e6",
+      "occurrences": []
+    },
+    {
+      "sig": "DAIUSDSSwapUSDSToDAI(uint256)",
+      "topic0": "0x5838ec17cb016cf45fd2b4427dd61db6ef1287a8c21e292dac7223360c9b1881",
+      "occurrences": []
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

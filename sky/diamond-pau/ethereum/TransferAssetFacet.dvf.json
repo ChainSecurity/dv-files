@@ -1,0 +1,34 @@
+{
+  "version": "0.9.1",
+  "id": "0x2745fd2bbe45a4d981b646384b177b15ed1d1414f9286ca2a83f120159b31a72",
+  "contract_name": "TransferAssetFacet",
+  "address": "0x4da7608c331b8f135df5b985018933780ecd089d",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x4b2e458b08a6c81f3d1f1c02e02e7d63411e1efb69d8f5536bdf05000e83ffca",
+  "codehash": "0xc09a16c2a7b120f19b65d2ad94bc6481fc0f1720ae9407393c0f38ddd23cb2c8",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    },
+    {
+      "sig": "TransferAssetTransfer(address,address,uint256)",
+      "topic0": "0xff364e1ef6190841ba9dfd518157372a542d1a297893d3d0a7e9beda04cb0cd0",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

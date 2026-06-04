@@ -1,0 +1,39 @@
+{
+  "version": "0.9.1",
+  "id": "0x6292ac018a6f4fc23662241f9e76d8b7b54115a13577a9beea96fc8f769989d0",
+  "contract_name": "BasinFacet",
+  "address": "0xc84825bcd13aeddc372400239499380376a44a39",
+  "chain_id": 1,
+  "deployment_block_num": 25235514,
+  "init_block_num": 25235564,
+  "deployment_tx": "0x82b5f324a732e02804e76ab9166f5c4a44bba1dc2f06e4d39102b663be5c11d2",
+  "codehash": "0xaaa4e7d649c1876207f8fd07d5de9bacab19b096be07b4b15a55c4cef01f945d",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "BasinDeposit(address,address,uint256,uint256)",
+      "topic0": "0x4cdc4159250e521d639725c5b295f9356c2eed07005dd6a5bc972fd184d491b5",
+      "occurrences": []
+    },
+    {
+      "sig": "BasinWithdraw(address,address,uint256,uint256)",
+      "topic0": "0xe0ddb6714af5d059a8fe901bc59216dc5d7fc1f8899814fc13d0694044a6c348",
+      "occurrences": []
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

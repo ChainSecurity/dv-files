@@ -1,0 +1,49 @@
+{
+  "version": "0.9.1",
+  "id": "0xadace0c584ee43f1291f7c6248a7fafab12ed3c9470ce42f3c3d76befc774d5c",
+  "contract_name": "ERC7540Facet",
+  "address": "0x4f7e0e3612b0e1e156a2b6570a51d4bd709f1315",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x32d5d6866acc92091067d983baae6610ff6ebc61183d0fc31363d862383e7286",
+  "codehash": "0x377959f0409af06ff8926611707f102c1403055f47dc0ec7d2271924f13cf035",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "ERC7540ClaimDeposit(address,uint256)",
+      "topic0": "0x701fbe124141bd94f8ed055b2493519db90f3ca908868090743203989023a98b",
+      "occurrences": []
+    },
+    {
+      "sig": "ERC7540ClaimRedeem(address,uint256)",
+      "topic0": "0x47bf3ca24403c88a2c5f0554d78349f6fb05feceff2acf741dde6cd88360a39f",
+      "occurrences": []
+    },
+    {
+      "sig": "ERC7540RequestDeposit(address,uint256)",
+      "topic0": "0x5b7392e8acc1bc6d5ac4bc75a8477f9501d845b36e2c4e508e8b7ccd7009f911",
+      "occurrences": []
+    },
+    {
+      "sig": "ERC7540RequestRedeem(address,uint256)",
+      "topic0": "0x4b2304a2249500160ee11e6f63e5acf0f1f3f157edd9f500fd2e5b1b60836aca",
+      "occurrences": []
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

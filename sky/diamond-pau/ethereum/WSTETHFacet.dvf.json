@@ -1,0 +1,72 @@
+{
+  "version": "0.9.1",
+  "id": "0x90bbcee4229640c243a4d26f039db4d828cf33866f3fec445e4a59126c007a81",
+  "contract_name": "WSTETHFacet",
+  "address": "0x3a82d11cd37fb0098363262dc69425d07fa05516",
+  "chain_id": 1,
+  "deployment_block_num": 25235516,
+  "init_block_num": 25235566,
+  "deployment_tx": "0x44e427a0894b74567daec509a241c2d2548b648f82eed7efcc054d5198d577d6",
+  "codehash": "0x2464ee33b04c9d7d84e755521f02c12ae378f951b55707ece27f31f0f39b7e45",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "weth",
+      "value": "0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    },
+    {
+      "var_name": "withdrawQueue",
+      "value": "0x000000000000000000000000889edc2edab5f40e902b864ad4d7ade8e412f9b1"
+    },
+    {
+      "var_name": "wsteth",
+      "value": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "weth_",
+      "value": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "value_hint": "Wrapped Ether (WETH)"
+    },
+    {
+      "var_name": "withdrawQueue_",
+      "value": "0x889edc2edab5f40e902b864ad4d7ade8e412f9b1"
+    },
+    {
+      "var_name": "wsteth_",
+      "value": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    },
+    {
+      "sig": "WSTETHClaimWithdrawal(uint256,uint256)",
+      "topic0": "0x022de8a2b9093b6df963d925052a118302586722e7b512405ea0af6b12354965",
+      "occurrences": []
+    },
+    {
+      "sig": "WSTETHDeposit(uint256)",
+      "topic0": "0xb4a1119a897031ed2d9cf3cee74854aae439dab0433dafb279433d717b06e31a",
+      "occurrences": []
+    },
+    {
+      "sig": "WSTETHRequestWithdraw(uint256,uint256,uint256[])",
+      "topic0": "0xb857468945a0c519e8d87318fb70355344eecf841ced6f5b6ab26bba8a4fe0ac",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

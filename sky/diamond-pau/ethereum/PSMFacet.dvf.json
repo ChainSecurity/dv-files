@@ -1,0 +1,85 @@
+{
+  "version": "0.9.1",
+  "id": "0x109c4039c4f7e67fdd70c9bf3e902a4e70eaad3f6ed9734ce8952a2d88368821",
+  "contract_name": "PSMFacet",
+  "address": "0xe4a5dac768a310cc2316f258901b32e499653064",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x42b747111336792761dc45daecb8cc8fd904a1daf349316e6b9011e85585b17c",
+  "codehash": "0xb17165681e669b85828cf26152ce8ebc5c0d487e91f4531cf93adf662a37e941",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "dai",
+      "value": "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+      "value_hint": "Dai (DAI)"
+    },
+    {
+      "var_name": "daiUSDS",
+      "value": "0x0000000000000000000000003225737a9bbb6473cb4a45b7244aca2befdb276a"
+    },
+    {
+      "var_name": "psm",
+      "value": "0x000000000000000000000000f6e72db5454dd049d0788e411b06cfaf16853042"
+    },
+    {
+      "var_name": "usdc",
+      "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    },
+    {
+      "var_name": "usds",
+      "value": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "dai_",
+      "value": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "value_hint": "Dai (DAI)"
+    },
+    {
+      "var_name": "daiUSDS_",
+      "value": "0x3225737a9bbb6473cb4a45b7244aca2befdb276a"
+    },
+    {
+      "var_name": "psm_",
+      "value": "0xf6e72db5454dd049d0788e411b06cfaf16853042"
+    },
+    {
+      "var_name": "usdc_",
+      "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    },
+    {
+      "var_name": "usds_",
+      "value": "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    },
+    {
+      "sig": "PSMSwapUSDCToUSDS(uint256)",
+      "topic0": "0x3804046dd222e99d07fed40a1c19955a91775ecc4fad23277d6251a88a36694d",
+      "occurrences": []
+    },
+    {
+      "sig": "PSMSwapUSDSToUSDC(uint256)",
+      "topic0": "0xc7f58cb985734cb0513483efb74493cb6ba23f8c4e54cca1b74bced7304642af",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
