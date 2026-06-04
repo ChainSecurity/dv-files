@@ -30,53 +30,7 @@
     }
   ],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV3AddLiquidity(address,uint256,int24,int24,uint128,uint256,uint256)",
-      "topic0": "0x4f693f8d638a68c51aef047e25c140567a1e1d7e38c5b4927dae1599af0f3eca",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV3LowerTickSet(address,int24)",
-      "topic0": "0xbaf782500281216eb9c851cb698e3939396a95078976c37a4dcddfc4aaa683de",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV3MaxSlippageSet(address,uint256)",
-      "topic0": "0xe15efea556f0d902b0ea8b5c924992f421e1338e64af0d85b28cd4dd5182d76f",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV3MaxTickDeltaSet(address,uint24)",
-      "topic0": "0x0a26e9e49194d4c8b8444011e994a8b13e3cc2f8ccaf06ae664e338071f6ff86",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV3RemoveLiquidity(address,uint256,uint128,uint256,uint256)",
-      "topic0": "0x540c8ba74c92c8c782d3b9aa8a9021e3855273eaae0084b99064c58a49ad5e5d",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV3Swap(address,address,uint256,uint256)",
-      "topic0": "0x8e99f5cd325872a0cce2a922151cbe230768e9a157f61c96e1831ae497f71522",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV3TWAPSecondsAgoSet(address,uint32)",
-      "topic0": "0x25b41767cfc646b287b6bf3b8ee243f82b7c58453b7a911716d57da72a2b375b",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV3UpperTickSet(address,int24)",
-      "topic0": "0x38c9b14bb68d2e158fa131b848ce439ad182f524f3124bda29494cb675338c9d",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

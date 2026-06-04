@@ -12,38 +12,7 @@
   "immutables": [],
   "constructor_args": [],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    },
-    {
-      "sig": "OTCBufferSet(address,address)",
-      "topic0": "0x52ecbf9622123ad771d6d7c84d7d7bba3377823912a9494ee9affb9d17f2f38d",
-      "occurrences": []
-    },
-    {
-      "sig": "OTCClaimed(address,address,address,uint256)",
-      "topic0": "0xd12a2360d173cab3c3741f1d2d1d0da3d93f723ff221e7fe278421097c7cb367",
-      "occurrences": []
-    },
-    {
-      "sig": "OTCMaxSlippageSet(address,uint256)",
-      "topic0": "0xc1f5140a2f611f0a95afcf3c9f1d307ea916e04dedd58f8c22dad3b2e13c4cf9",
-      "occurrences": []
-    },
-    {
-      "sig": "OTCRechargeRateSet(address,uint256)",
-      "topic0": "0x0eda8de073f101ce7f8cc49fa62ef60a101225278b4fcab1aac7acf045d4e30c",
-      "occurrences": []
-    },
-    {
-      "sig": "OTCSent(address,address,address,uint256)",
-      "topic0": "0x64b89d4b7364236840be79c5d78827bb224a0a7ef205baea9d1a57febae958d3",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

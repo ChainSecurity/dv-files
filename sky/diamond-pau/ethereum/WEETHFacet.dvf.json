@@ -32,28 +32,7 @@
     }
   ],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    },
-    {
-      "sig": "WEETHClaimWithdrawal(address,uint256,uint256)",
-      "topic0": "0x60b060a94c5186078d7f9829b2cb1893fd568e340ee06fc5edd8a2ee6a84b754",
-      "occurrences": []
-    },
-    {
-      "sig": "WEETHDeposit(uint256,uint256,uint256)",
-      "topic0": "0x8f3903aef6833843d604ca6cd03e54dd48142914343f9cc14c06aae9285d7961",
-      "occurrences": []
-    },
-    {
-      "sig": "WEETHRequestWithdraw(address,uint256,uint256,uint256)",
-      "topic0": "0x8fd36a7406c59f36c4f37e37f42fdecc47ea08658a25f951e8e276fc6311344d",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

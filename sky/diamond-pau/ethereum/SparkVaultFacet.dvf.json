@@ -12,18 +12,7 @@
   "immutables": [],
   "constructor_args": [],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    },
-    {
-      "sig": "SparkVaultTake(address,uint256)",
-      "topic0": "0xcbad38f70bc5be920ebd8eed95c7d8e22b476d1066ff1ffb28af8fdd08d95181",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

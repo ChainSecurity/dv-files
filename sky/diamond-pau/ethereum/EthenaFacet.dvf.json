@@ -48,48 +48,7 @@
     }
   ],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "EthenaCooldownAssets(uint256,uint256)",
-      "topic0": "0xc57514e0ddefeaba4514810292fee7c8116493d9821fcd9fb7f7810ef7f75e84",
-      "occurrences": []
-    },
-    {
-      "sig": "EthenaCooldownShares(uint256,uint256)",
-      "topic0": "0xfefdfd1899bfd4f82c4b363dee3f161ff1292fea1365ca8cb46657e65c631474",
-      "occurrences": []
-    },
-    {
-      "sig": "EthenaPrepareBurn(uint256)",
-      "topic0": "0x60ec0de1e1b26e0660a17f54954f59f131bfdeba8d1e1c49cfe3db3351e9e241",
-      "occurrences": []
-    },
-    {
-      "sig": "EthenaPrepareMint(uint256)",
-      "topic0": "0xb847ceceb441a7cd7e1630ce271b161da663f860c92034798d5247b09cca89ca",
-      "occurrences": []
-    },
-    {
-      "sig": "EthenaRemoveDelegatedSigner(address)",
-      "topic0": "0x97dc39e6037ef7b120abcdfc665c9d8f28a5ce04da3dde18a0e8dcdc20c66feb",
-      "occurrences": []
-    },
-    {
-      "sig": "EthenaSetDelegatedSigner(address)",
-      "topic0": "0xc25b1b520f0883ba3a3a62959dbdea05bfa08c23cdc928811b646266bd83a209",
-      "occurrences": []
-    },
-    {
-      "sig": "EthenaUnstake(uint256)",
-      "topic0": "0xc80f6cfde6d4c825ad5b50d80e26141777c992164565ed806912fc13a7465941",
-      "occurrences": []
-    },
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

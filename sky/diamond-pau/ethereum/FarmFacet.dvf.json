@@ -12,28 +12,7 @@
   "immutables": [],
   "constructor_args": [],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "FarmDeposit(address,uint256)",
-      "topic0": "0x95c69f28931892718784e3d6e5c63dbe5d85f4b155e470f596c310c4f3f6ab0a",
-      "occurrences": []
-    },
-    {
-      "sig": "FarmReward(address,uint256)",
-      "topic0": "0xbf2b84a429a7ef531128567fb167be8c048924d95fd2c81a64bcb01001131e84",
-      "occurrences": []
-    },
-    {
-      "sig": "FarmWithdraw(address,uint256)",
-      "topic0": "0x51a43c294e818b05bc274d24029a807142b1d4e7576f5496dab3e86caa1f36fa",
-      "occurrences": []
-    },
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

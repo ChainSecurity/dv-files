@@ -32,23 +32,7 @@
     }
   ],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "CCTPDomainParametersSet(uint32,bytes32,uint32,uint32)",
-      "topic0": "0x49c4e6263644b808cc1a537773d6d16451503bd5ce481c3f330d33f0c8574110",
-      "occurrences": []
-    },
-    {
-      "sig": "CCTPTransferInitiated(uint32,bytes32,uint256,uint256)",
-      "topic0": "0xdb2088e7f5ae2550da92551258b9d806170b0e7d011600d518daf5e539355841",
-      "occurrences": []
-    },
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

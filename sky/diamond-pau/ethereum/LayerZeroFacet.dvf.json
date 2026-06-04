@@ -12,23 +12,7 @@
   "immutables": [],
   "constructor_args": [],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    },
-    {
-      "sig": "LayerZeroRecipientSet(uint32,bytes32)",
-      "topic0": "0x6c34eba04bf16b35385ac7487ab08f9023bcd9836a5bd53dc60ec0da331b4543",
-      "occurrences": []
-    },
-    {
-      "sig": "LayerZeroTransfer(address,uint32,uint256,uint256)",
-      "topic0": "0xf58511023ea8294ab82ff96bb3a8c7c6416cd5fbc2b7116ddde0ce66d6bd492e",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

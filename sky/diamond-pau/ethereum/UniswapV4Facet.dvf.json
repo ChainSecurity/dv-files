@@ -40,43 +40,7 @@
     }
   ],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV4DecreasePosition(bytes32,uint256,uint128,uint128,uint128)",
-      "topic0": "0xa91807c7c3fa2d13094ce2f375147b8e0351777531b2425a11f442cfa37ddfe4",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV4IncreasePosition(bytes32,uint256,uint128,uint128,uint128)",
-      "topic0": "0xf8b5e7fe2de28cf511d7b8ce3e5498bfed73f6050c37442b9d5165141ad68705",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV4MaxSlippageSet(bytes32,uint256)",
-      "topic0": "0xf65bc09bf95d95e546f1e4855620ca4f652cebfe2e2f902566d46cb5a3fe4b9f",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV4MintPosition(bytes32,uint256,int24,int24,uint128,uint128,uint128)",
-      "topic0": "0x94d2ee50aef567268620643bf1457693e1e882077103a7db97560b641a1986af",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV4Swap(bytes32,address,address,uint128,uint128)",
-      "topic0": "0x7ac4d48a4ea864490d67734040c531fcccdf4383d391ef2c095b7d8e09948e09",
-      "occurrences": []
-    },
-    {
-      "sig": "UniswapV4TickLimitsSet(bytes32,int24,int24,uint24)",
-      "topic0": "0xc9534133270e640725a0c57ced2f1820d1ca4f2a4490515494260b46c6c7cddd",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

@@ -40,23 +40,7 @@
     }
   ],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "DAIUSDSSwapDAIToUSDS(uint256)",
-      "topic0": "0x154c43a1aa9aeb213573f6834160b16991b50aa5f0b90a414ccb0e04d802f3e6",
-      "occurrences": []
-    },
-    {
-      "sig": "DAIUSDSSwapUSDSToDAI(uint256)",
-      "topic0": "0x5838ec17cb016cf45fd2b4427dd61db6ef1287a8c21e292dac7223360c9b1881",
-      "occurrences": []
-    },
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

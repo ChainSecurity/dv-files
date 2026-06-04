@@ -12,28 +12,7 @@
   "immutables": [],
   "constructor_args": [],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "AaveDeposit(address,uint256)",
-      "topic0": "0xb9502a1d03581de22384074d48ceaaa27afec91a287bdecda7cd20ecd0500a53",
-      "occurrences": []
-    },
-    {
-      "sig": "AaveMaxSlippageSet(address,uint256)",
-      "topic0": "0x1b1b993194d7a7f2cbae83811c2983111e6d4120730e15535578412726e99584",
-      "occurrences": []
-    },
-    {
-      "sig": "AaveWithdraw(address,uint256)",
-      "topic0": "0xa6228ebfcbd71e0cd9dbde30a858013017cb04b0c319d4010219143d08ea34fd",
-      "occurrences": []
-    },
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

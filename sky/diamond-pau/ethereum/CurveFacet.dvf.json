@@ -12,33 +12,7 @@
   "immutables": [],
   "constructor_args": [],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "CurveAddLiquidity(address,uint256,uint256[])",
-      "topic0": "0x4fdb0ec568c43a737ffcfb43154d425e83336f0c189e7b54b7e17ffd4a3324e4",
-      "occurrences": []
-    },
-    {
-      "sig": "CurveMaxSlippageSet(address,uint256)",
-      "topic0": "0x15df6839e3f684b01bfb3841cb31b85eca4a0e76305381edfa73033a390da03f",
-      "occurrences": []
-    },
-    {
-      "sig": "CurveRemoveLiquidity(address,uint256,uint256[])",
-      "topic0": "0x76510b71383dc3fd496bdc2b579e6835507b1364f0a8511e1c764e8bc3456c0c",
-      "occurrences": []
-    },
-    {
-      "sig": "CurveSwap(address,uint256,uint256,uint256,uint256)",
-      "topic0": "0x22c8ae789cefa12aeb53c0cdf296956d285b2fac5cc0ed131acc865c443bf76c",
-      "occurrences": []
-    },
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

@@ -12,43 +12,7 @@
   "immutables": [],
   "constructor_args": [],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "CentrifugeCancelDepositRequest(address)",
-      "topic0": "0xf6b422c08fa5e7a416309652c288131a10832ec8b82c24b429aef4c9bf035f55",
-      "occurrences": []
-    },
-    {
-      "sig": "CentrifugeCancelRedeemRequest(address)",
-      "topic0": "0xed3ea1cb0c962c3099d411ce1ced85285932faa14cc4116fe83814192330ddf1",
-      "occurrences": []
-    },
-    {
-      "sig": "CentrifugeClaimCancelDepositRequest(address,uint256)",
-      "topic0": "0x453cb28ab18c67dd4cdc778352ca468256344ca2081598b411f7c48a528ae1b2",
-      "occurrences": []
-    },
-    {
-      "sig": "CentrifugeClaimCancelRedeemRequest(address,uint256)",
-      "topic0": "0x397dc6be1c132c73b6e0b7989edb1f66390ee89d676c7341a8b1d1c05e912cbd",
-      "occurrences": []
-    },
-    {
-      "sig": "CentrifugeRecipientSet(uint16,bytes32)",
-      "topic0": "0x44cb267bb9745c1d8f9c953d077e0c7f61d15ed326a273995423fa92fe95dbfc",
-      "occurrences": []
-    },
-    {
-      "sig": "CentrifugeTransferShares(address,uint128,uint16)",
-      "topic0": "0xc95cf1b8f2d08582b982c7759f1d634e17ee048c5358808994f3c3a9bf4435a1",
-      "occurrences": []
-    },
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",

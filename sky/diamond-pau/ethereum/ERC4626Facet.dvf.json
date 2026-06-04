@@ -12,33 +12,7 @@
   "immutables": [],
   "constructor_args": [],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "ERC4626Deposit(address,uint256,uint256)",
-      "topic0": "0x726a0d55f4fd10755245e51bcf5c9b69592fe273315586e9a753bc173d139168",
-      "occurrences": []
-    },
-    {
-      "sig": "ERC4626MaxExchangeRateSet(address,uint256)",
-      "topic0": "0x0357b338178e1b6a462ee13d8e266e1317ac9a1ed1ca355a5a74aaad21ab5726",
-      "occurrences": []
-    },
-    {
-      "sig": "ERC4626Redeem(address,uint256,uint256)",
-      "topic0": "0xdfaaa2e0cc70bbbf6d34aaa26751f0461788db6c08868aafe2bb325d44bca572",
-      "occurrences": []
-    },
-    {
-      "sig": "ERC4626Withdraw(address,uint256,uint256)",
-      "topic0": "0x3c5681f40ca0849bc9826d51bfcc0471999a6a1d4c5267b3f66b5a90f47e261e",
-      "occurrences": []
-    },
-    {
-      "sig": "Initialized(uint64)",
-      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
-      "occurrences": []
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",
