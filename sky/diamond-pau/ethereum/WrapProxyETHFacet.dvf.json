@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x341ae1011f154e4eac906f2d844a14b2568d1451e6ea1c1151d6261bbf939082",
+  "id": "0x52c30126164fe4a6c32c636d258e36fb7a6dc4a0cd0b3cd3223a01f56ecf8685",
   "contract_name": "WrapProxyETHFacet",
   "address": "0x081506de21c695af5e61a81ad288c8a96b6b59b9",
   "chain_id": 1,
