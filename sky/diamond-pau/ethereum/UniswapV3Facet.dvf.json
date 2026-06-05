@@ -1,0 +1,41 @@
+{
+  "version": "0.9.1",
+  "id": "0x4e482a32779cc151d475d380266611715ec95fae6b4a42332d12260462f0c49d",
+  "contract_name": "UniswapV3Facet",
+  "address": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x01fffd333489d0f65eb6d7b21f672637c21c6ef9db176737f1e5ebad8987af95",
+  "codehash": "0x225d028286a5090b27a9590c63b80d486a6c6da3a6a6762932abae8d9bff9233",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "positionManager",
+      "value": "0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88"
+    },
+    {
+      "var_name": "router",
+      "value": "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "positionManager_",
+      "value": "0xc36442b4a4522e871399cd717abdd847ab11fe88"
+    },
+    {
+      "var_name": "router_",
+      "value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

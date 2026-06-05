@@ -1,0 +1,51 @@
+{
+  "version": "0.9.1",
+  "id": "0x891250eb3e1ed61b3e653dc7302bbef9e18b15d49f4d41224e8a83382061f3b3",
+  "contract_name": "UniswapV4Facet",
+  "address": "0x75d35ffb8e6b871e12eb549ccf6afd324c46e47d",
+  "chain_id": 1,
+  "deployment_block_num": 25235516,
+  "init_block_num": 25235566,
+  "deployment_tx": "0x2b7b618d71adf4d0607314e768e2c3ddcbd523ae7a71a8e018c574fd297ddb72",
+  "codehash": "0x0789f012604a887e711bcbb4e86e73890e67960a6a90c553cad1ef501bed76e0",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "permit2",
+      "value": "0x000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba3",
+      "value_hint": "Uniswap: Permit2"
+    },
+    {
+      "var_name": "positionManager",
+      "value": "0x000000000000000000000000bd216513d74c8cf14cf4747e6aaa6420ff64ee9e"
+    },
+    {
+      "var_name": "router",
+      "value": "0x00000000000000000000000066a9893cc07d91d95644aedd05d03f95e1dba8af"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "permit2_",
+      "value": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "value_hint": "Uniswap: Permit2"
+    },
+    {
+      "var_name": "positionManager_",
+      "value": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e"
+    },
+    {
+      "var_name": "router_",
+      "value": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

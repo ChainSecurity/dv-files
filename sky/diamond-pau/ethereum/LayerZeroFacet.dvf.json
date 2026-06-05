@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x24110f891b35f45a6949f9ef4269e5e1beb99c537ba5e3813b711357d963ae82",
+  "contract_name": "LayerZeroFacet",
+  "address": "0xa0c323a0acb20f259ea4ff343319d450be6472e5",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x3f54a7bb83e7d8cdd2ea7e279ab1c9012269031917efb2973e24a52eec3772e3",
+  "codehash": "0xa85e4a26ce588166912e32a7469c5495827d905777234a2d32cf255ffdc16cc2",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

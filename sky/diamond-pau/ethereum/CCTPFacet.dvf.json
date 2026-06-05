@@ -1,0 +1,43 @@
+{
+  "version": "0.9.1",
+  "id": "0x3dd924228ed7c6af750469120118f1a7a0ca0fe6769b7cae94e30689e2d68492",
+  "contract_name": "CCTPFacet",
+  "address": "0xadf62692340e46ef90336f2e75ce3b37f1148873",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x6c53b279bbd30da02cbde04a2aaa6f2d46abb7ecc1e0410b111cd4b254adbf73",
+  "codehash": "0x71c6b48e1adb4dfe5c4eab8117ff7e71239bbad74f31261aa719c9f15fa68b8f",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "cctp",
+      "value": "0x00000000000000000000000028b5a0e9c621a5badaa536219b3a228c8168cf5d"
+    },
+    {
+      "var_name": "usdc",
+      "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "cctp_",
+      "value": "0x28b5a0e9c621a5badaa536219b3a228c8168cf5d"
+    },
+    {
+      "var_name": "usdc_",
+      "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

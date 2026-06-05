@@ -1,0 +1,59 @@
+{
+  "version": "0.9.1",
+  "id": "0x631a4c504be83926873ec25c34d0414dd58e59b5383a0b6f51bac3e868abf84c",
+  "contract_name": "EthenaFacet",
+  "address": "0xec48d773ceef1c6b07cda1afa2716c478b55187b",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x15a534f6c5501be1212d117fa4cc12f7d60c4e8027448de0afdfb3619465c9c1",
+  "codehash": "0x87bbb809b29c98cb3fd929d2a747d84f2ccff9cbcc6f47104eb9a0223d4d14eb",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "minter",
+      "value": "0x000000000000000000000000e3490297a08d6fc8da46edb7b6142e4f461b62d3"
+    },
+    {
+      "var_name": "susde",
+      "value": "0x0000000000000000000000009d39a5de30e57443bff2a8307a4256c8797a3497"
+    },
+    {
+      "var_name": "usdc",
+      "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    },
+    {
+      "var_name": "usde",
+      "value": "0x0000000000000000000000004c9edd5852cd905f086c759e8383e09bff1e68b3"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "minter_",
+      "value": "0xe3490297a08d6fc8da46edb7b6142e4f461b62d3"
+    },
+    {
+      "var_name": "susde_",
+      "value": "0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+    },
+    {
+      "var_name": "usdc_",
+      "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    },
+    {
+      "var_name": "usde_",
+      "value": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

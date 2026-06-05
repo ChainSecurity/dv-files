@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x247047e0953159bb4dd0fc8edebcbef909835b7721ac09664b4f9e1a27fd31dd",
+  "contract_name": "ERC7540Facet",
+  "address": "0x4f7e0e3612b0e1e156a2b6570a51d4bd709f1315",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x32d5d6866acc92091067d983baae6610ff6ebc61183d0fc31363d862383e7286",
+  "codehash": "0x377959f0409af06ff8926611707f102c1403055f47dc0ec7d2271924f13cf035",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": "0.9.1",
+  "id": "0x71bbedccb8869e8774ec5345f7537c3e57d34c3936cb58b31184d99d0effdcf9",
+  "contract_name": "USDSFacet",
+  "address": "0x1221cc4b85ab260660ad21c2829e0eb516dffbc7",
+  "chain_id": 1,
+  "deployment_block_num": 25235516,
+  "init_block_num": 25235566,
+  "deployment_tx": "0x967ad0b098a56e62a31a6a83b1d4dd749568f8acd75363d3d288aa53dfd5ce30",
+  "codehash": "0x60a29823fd0c123add0ab8b7abfa75f6c9d1a4d18acaf5b7e3414634a022e685",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "usds",
+      "value": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "usds_",
+      "value": "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

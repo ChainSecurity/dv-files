@@ -1,0 +1,43 @@
+{
+  "version": "0.9.1",
+  "id": "0x590c570d449f47e359a91d1ca9f94bce1ba26832fd2eb29762307b5d297f8d37",
+  "contract_name": "SuperstateFacet",
+  "address": "0xee197475607e9a27ccaa4786e740d2f0d0e706a7",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0xdc171e191be43c57c568dccb75a727360a4826e4b7313832bbde669bd682151f",
+  "codehash": "0xbda7b457c2dca190ebf152eebf4572cb8d98ff26d3ca6025d15e444a7532c070",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "usdc",
+      "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    },
+    {
+      "var_name": "ustb",
+      "value": "0x00000000000000000000000043415eb6ff9db7e26a15b704e7a3edce97d31c4e"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "usdc_",
+      "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    },
+    {
+      "var_name": "ustb_",
+      "value": "0x43415eb6ff9db7e26a15b704e7a3edce97d31c4e"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

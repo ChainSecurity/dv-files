@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x7e3a140688b4a3baff5a92141d47cbf40c1bd02d09dc037ae1033301cb2b20d9",
+  "contract_name": "SparkVaultFacet",
+  "address": "0xff0d19920e207e3a17eb5a2e5ba3afa44836362b",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0xca73983f136be305bb03dba59fd0f8a9365fdff70751af1336443ff6752c43a6",
+  "codehash": "0xa155a82c1ad0f2697010e691f981c2c94d75565353ddc7a61df60ea2ae3cf155",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

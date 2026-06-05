@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x78cf82f5c352277e75745d7c41a61abc2b4984edaf10887f9031c23a725440cc",
+  "contract_name": "MerklFacet",
+  "address": "0x321138db5e056e9d0080d4c278e10a1edc091eb0",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0x53ae64acdf7eff8958d3676825f7b9e2753e1aaadf9c29acafe6c307850e7872",
+  "codehash": "0xe8b533e3c99738bf0f9523ada447c76a3d77f51cdc2ecb82668fb2e328ecad68",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

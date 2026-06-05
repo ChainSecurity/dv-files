@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x0e267064dd7f39261a4d1213cec025c250ffe2dd43dadc43b7d0f66689e6c39e",
+  "contract_name": "CentrifugeFacet",
+  "address": "0xa0a10ba97be1412730d694b8de1afe7eff20ec31",
+  "chain_id": 1,
+  "deployment_block_num": 25235515,
+  "init_block_num": 25235565,
+  "deployment_tx": "0xd3393ab44098930fe2fb81859a6f128eee6a7c37f5a22e639f6baad47ac72a38",
+  "codehash": "0x2e13cf572d0a5b74c97036ae09b6e288465234889d9f7b95232ef9e25c8cbf34",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/a84fe9616412e3b6d10ea64301a3481f7dcf9a05",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
