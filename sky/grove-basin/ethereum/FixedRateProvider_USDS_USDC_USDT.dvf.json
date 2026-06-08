@@ -1,0 +1,35 @@
+{
+  "version": "0.9.1",
+  "id": "0xecf51554614b2c960ac003aa3e1a87ad9024da9ed631b186bd79be6e6502bc50",
+  "contract_name": "FixedRateProvider",
+  "address": "0x7928a185b8137d1cd2a0996a810a04db2837419d",
+  "chain_id": 1,
+  "deployment_block_num": 25074314,
+  "init_block_num": 25271281,
+  "deployment_tx": "0xfc222a7bc6442a387de4b1cc9abba93c796783ca8b720ef521e559688e37a271",
+  "codehash": "0xc945ef89379627549ca5be0d31ac452670924c73efa3b1037552274f8713ff39",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "rate",
+      "value": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000",
+      "value_hint": "1. * 10^27"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "rate_",
+      "value": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000",
+      "value_hint": "1. * 10^27"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Grove",
+    "audit_report": "https://www.chainsecurity.com/security-audit/grove-basin-smart-contracts",
+    "source_url": "https://github.com/grove-labs/grove-basin/tree/6fdcbd5173dffc54d172e23fca083e441560f737",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

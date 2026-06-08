@@ -1,0 +1,685 @@
+{
+  "version": "0.9.1",
+  "id": "0xd24e803f2b5af42515cb0c055e2383bda081e93eb6608eeca65859517b741edf",
+  "contract_name": "GroveBasin",
+  "address": "0x1fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+  "chain_id": 1,
+  "deployment_block_num": 25079122,
+  "init_block_num": 25271286,
+  "deployment_tx": "0x7d3a7d8b0e3f06bd945482ee9d10bbd8c8f0dc2524736edc81d3ed99f94f0b82",
+  "codehash": "0x6ae823a2b49592a58c123a730ce8876c54ded423dac7e5e0d165937ab862c6b8",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "_swapTokenPrecision",
+      "value": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+      "value_hint": "1. * 10^18"
+    },
+    {
+      "var_name": "_collateralTokenPrecision",
+      "value": "0x00000000000000000000000000000000000000000000000000000000000f4240",
+      "value_hint": "1. * 10^6"
+    },
+    {
+      "var_name": "_creditTokenPrecision",
+      "value": "0x00000000000000000000000000000000000000000000000000000000000f4240",
+      "value_hint": "1. * 10^6"
+    },
+    {
+      "var_name": "liquidityProvider",
+      "value": "0x000000000000000000000000491edfb0b8b608044e227225c715981a30f3a44e"
+    },
+    {
+      "var_name": "swapToken",
+      "value": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f"
+    },
+    {
+      "var_name": "collateralToken",
+      "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    },
+    {
+      "var_name": "creditToken",
+      "value": "0x0000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "owner_",
+      "value": "0x6d99f476e7e9fccd189fb87023cfa301364fa817"
+    },
+    {
+      "var_name": "liquidityProvider_",
+      "value": "0x491edfb0b8b608044e227225c715981a30f3a44e"
+    },
+    {
+      "var_name": "swapToken_",
+      "value": "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+    },
+    {
+      "var_name": "collateralToken_",
+      "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USD Coin (USDC)"
+    },
+    {
+      "var_name": "creditToken_",
+      "value": "0x8c213ee79581ff4984583c6a801e5263418c4b86"
+    },
+    {
+      "var_name": "swapTokenRateProvider_",
+      "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d"
+    },
+    {
+      "var_name": "collateralTokenRateProvider_",
+      "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d"
+    },
+    {
+      "var_name": "creditTokenRateProvider_",
+      "value": "0x29209cecfefa6f675e6f1f829320d67ce2b025e5"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x1",
+      "offset": 0,
+      "var_name": "swapTokenRateProvider",
+      "var_type": "t_address",
+      "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2",
+      "offset": 0,
+      "var_name": "collateralTokenRateProvider",
+      "var_type": "t_address",
+      "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3",
+      "offset": 0,
+      "var_name": "creditTokenRateProvider",
+      "var_type": "t_address",
+      "value": "0x29209cecfefa6f675e6f1f829320d67ce2b025e5",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4",
+      "offset": 0,
+      "var_name": "pocket",
+      "var_type": "t_address",
+      "value": "0xa15b8c07fa32a4f8bea3882600a673dc9cc1d6b9",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5",
+      "offset": 0,
+      "var_name": "totalShares",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+      "value_hint": "1. * 10^18",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x6",
+      "offset": 0,
+      "var_name": "pendingCreditTokenBalance",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x7",
+      "offset": 0,
+      "var_name": "maxSwapSize",
+      "var_type": "t_uint256",
+      "value": "0x000000000000000000000000000000000000000000295be96e64066972000000",
+      "value_hint": "5. * 10^25",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8",
+      "offset": 0,
+      "var_name": "maxSwapSizeLowerBound",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9",
+      "offset": 0,
+      "var_name": "maxSwapSizeUpperBound",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000",
+      "value_hint": "1. * 10^27",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa",
+      "offset": 0,
+      "var_name": "purchaseFee",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb",
+      "offset": 0,
+      "var_name": "redemptionFee",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xc",
+      "offset": 0,
+      "var_name": "minFee",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd",
+      "offset": 0,
+      "var_name": "maxFee",
+      "var_type": "t_uint256",
+      "value": "0x00000000000000000000000000000000000000000000000000000000000001f4",
+      "value_hint": "500",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe",
+      "offset": 0,
+      "var_name": "stalenessThreshold",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000093a80",
+      "value_hint": "6.048 * 10^5",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf",
+      "offset": 0,
+      "var_name": "minStalenessThreshold",
+      "var_type": "t_uint256",
+      "value": "0x000000000000000000000000000000000000000000000000000000000000012c",
+      "value_hint": "300",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x10",
+      "offset": 0,
+      "var_name": "maxStalenessThreshold",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000127500",
+      "value_hint": "1.2096 * 10^6",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x11",
+      "offset": 0,
+      "var_name": "feeClaimer",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1bbeb2def7abeaab9a309a27b545dc669a1c8d406c950ddb2f0e5069cb448cc",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1d6b584237c0e2219c4004bd7add7b9b0cdfb8327353a6a5960e3fb286a7079c",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2d644eb513f4a812c316b941d9537be37f0c49b7c56dd7166cd08b7ed5a433bb",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x37e6b76ae7c6cfa47b96fe110a841253af6f262f279f4bbd125ed5599eb6596b",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x41a7de97a654b03beddefbdcfb94274310cf948c795298d6a8f9d05d7ecf44cc",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x6df35c8e6751bf81196df740056ffef7e29c48db5e1436077d9d725b52b67ab9",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x752b0d3ca40af5e4e1221f7acb145e6ff09a21290f0f3dec7d7eea30384f6a29",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8fa6efc3be94b5b348b21fea823fe8d100408cee9b7f90524494500445d8ff6c",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9e3ac48b22c2aab70b19a7b0d17ae94d954a6fe48b63ff9fd7be1264b53742e4",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9f39ee3a21d62b92a264d051623bd6d8380f6a1f1e9833894dc1f89fee08cae2",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd1617365ca7fa26486bce63ec15737b1a8193025f7c7d47d7462fbb0c7bce6ef",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xddb9a1f5cae380f5894ad1b49d4496e30ab651af3086d40753a04198283f017a",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xdef2ef821d86a6927e95532ba74950d06e98c61ada666446985367ca32560b0f",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe84508f2c7fa9c351146748b3025cb78b45df37d868e48c6a75102fecdeee646",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf7c9542c591017a21c74b6f3fab6263c7952fc0aaf9db4c22a2a04ddc7f86750",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Deposit(address,address,address,uint256,uint256)",
+      "topic0": "0x5fe47ed6d4225326d3303476197d782ded5a4e9c14f479dc9ec4992af4e85d59",
+      "occurrences": [
+        {
+          "topics": [
+            "0x5fe47ed6d4225326d3303476197d782ded5a4e9c14f479dc9ec4992af4e85d59",
+            "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f",
+            "0x00000000000000000000000078dc98d689fe9a1b0056ac1cdfc14722bda6d49a",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a76400000000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        }
+      ]
+    },
+    {
+      "sig": "DepositLiquidityFailed(address,address,uint256)",
+      "topic0": "0x06a7d971de5ce2a53782269a493286f7c77593172828d08bb3014637565a7a84",
+      "occurrences": []
+    },
+    {
+      "sig": "FeeBoundsSet(uint256,uint256,uint256,uint256)",
+      "topic0": "0x586fb44ccfd9dc34bb2ab6973fa4f59df7d5dbbecf97486e7525d351256c05f5",
+      "occurrences": [
+        {
+          "topics": [
+            "0x586fb44ccfd9dc34bb2ab6973fa4f59df7d5dbbecf97486e7525d351256c05f5"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001f4"
+        }
+      ]
+    },
+    {
+      "sig": "FeeClaimerSet(address,address)",
+      "topic0": "0xe0c050706270392bb01afdb044b1a4caa7340648ff60784fd9b7c6930a1c5434",
+      "occurrences": []
+    },
+    {
+      "sig": "FeeSharesAccrued(address,uint256)",
+      "topic0": "0x1499a484e64b2e19bd6a4008717f4e8a89f66d9ff36d7e035d1205d26abab68b",
+      "occurrences": []
+    },
+    {
+      "sig": "MaxSwapSizeBoundsSet(uint256,uint256,uint256,uint256)",
+      "topic0": "0x61e8c23eea5479fd501def9f6c604871803f6e9ec3b9ce9d7036bf9c4a56193c",
+      "occurrences": []
+    },
+    {
+      "sig": "MaxSwapSizeSet(uint256,uint256)",
+      "topic0": "0x1cb1afc474b9886f5ec442cd146779d7b6a3cda1d76036005fc4fae6285e2784",
+      "occurrences": []
+    },
+    {
+      "sig": "PausedSet(bytes4,bool)",
+      "topic0": "0xc3a2bafcbe5144c18f136e5a01410623cc77da8502a78a93729bd52c62ab174b",
+      "occurrences": [
+        {
+          "topics": [
+            "0xc3a2bafcbe5144c18f136e5a01410623cc77da8502a78a93729bd52c62ab174b",
+            "0x5ca76d6100000000000000000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+          "topics": [
+            "0xc3a2bafcbe5144c18f136e5a01410623cc77da8502a78a93729bd52c62ab174b",
+            "0xb6becc3f00000000000000000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+          "topics": [
+            "0xc3a2bafcbe5144c18f136e5a01410623cc77da8502a78a93729bd52c62ab174b",
+            "0xa478474e00000000000000000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+          "topics": [
+            "0xc3a2bafcbe5144c18f136e5a01410623cc77da8502a78a93729bd52c62ab174b",
+            "0x1701e67100000000000000000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        }
+      ]
+    },
+    {
+      "sig": "PocketSet(address,address,uint256)",
+      "topic0": "0x3fc246ba2ebf4dedf8b9de3cc4b46795e44b56db70960136b44fccbe99daa478",
+      "occurrences": [
+        {
+          "topics": [
+            "0x3fc246ba2ebf4dedf8b9de3cc4b46795e44b56db70960136b44fccbe99daa478",
+            "0x0000000000000000000000001fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+            "0x000000000000000000000000a15b8c07fa32a4f8bea3882600a673dc9cc1d6b9"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        }
+      ]
+    },
+    {
+      "sig": "PurchaseFeeSet(uint256,uint256)",
+      "topic0": "0x525ad74c8a8eb66a2372d62022c6d2813136ef0f41574506841342146cf694db",
+      "occurrences": []
+    },
+    {
+      "sig": "RateProviderSet(address,address,address)",
+      "topic0": "0xe51987975a2be0c8051dcd0fc6ccb3802ed0b979e329e94ab77f58384a994f0b",
+      "occurrences": []
+    },
+    {
+      "sig": "RedeemCompleted(address,address,uint256)",
+      "topic0": "0x13eb5fe4e130586328212f8eee597341aaf6680fefba68a5441684311a41afe9",
+      "occurrences": []
+    },
+    {
+      "sig": "RedeemInitiated(address,address,uint256)",
+      "topic0": "0x59862feec418c14a7636196068d2a399c2d280c34b1934812c116231142fe69f",
+      "occurrences": []
+    },
+    {
+      "sig": "RedemptionFeeSet(uint256,uint256)",
+      "topic0": "0x2956acfe8584fb02384e06c675ee215bf10d55c3de1e6ff9b2f621e8a40c6470",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+      "topic0": "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+      "occurrences": [
+        {
+          "topics": [
+            "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+            "0x241ecf16d79d0f8dbfb92cbc07fe17840425976cf0667f022fe9877caa831b08",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+            "0x65d7a28e3265b37a6474929f336521b332c1681b933f6cb9f3376673440d862a",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+            "0x809ac8ca8fe3a1876fa731b7e1bd9a29dece6eaca667a96893f116fdd97ce877",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+            "0x44ac9762eec3a11893fefb11d028bb3102560094137c3ed4518712475b2577cc",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleGranted(bytes32,address,address)",
+      "topic0": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817",
+            "0x00000000000000000000000078dc98d689fe9a1b0056ac1cdfc14722bda6d49a"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
+            "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x809ac8ca8fe3a1876fa731b7e1bd9a29dece6eaca667a96893f116fdd97ce877",
+            "0x000000000000000000000000212697f0a9fc218210d98cd1a159dc8d8a87b8a8",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x241ecf16d79d0f8dbfb92cbc07fe17840425976cf0667f022fe9877caa831b08",
+            "0x0000000000000000000000000eec86649e756a23cbc68d9efed756f16ad5f85f",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x65d7a28e3265b37a6474929f336521b332c1681b933f6cb9f3376673440d862a",
+            "0x000000000000000000000000b0113804960345fd0a245788b3423319c86940e5",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x44ac9762eec3a11893fefb11d028bb3102560094137c3ed4518712475b2577cc",
+            "0x000000000000000000000000b6e8d3e47c4fc5606e6c24d097dd1791885ce05a",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x65d7a28e3265b37a6474929f336521b332c1681b933f6cb9f3376673440d862a",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000a52dc9876ab4a9db6dafbb83410554086054d140",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(bytes32,address,address)",
+      "topic0": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "occurrences": [
+        {
+          "topics": [
+            "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+            "0x65d7a28e3265b37a6474929f336521b332c1681b933f6cb9f3376673440d862a",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+            "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "StalenessThresholdBoundsSet(uint256,uint256,uint256,uint256)",
+      "topic0": "0xcbcb5d951de40440c90e0c615394c042d4861d6808d8c15e9ec84518d0a05ac7",
+      "occurrences": []
+    },
+    {
+      "sig": "StalenessThresholdSet(uint256,uint256)",
+      "topic0": "0x06e7fb7643b9bfa7045dbe7a542dd5c9760a6b50a87232198eb2656014441be4",
+      "occurrences": []
+    },
+    {
+      "sig": "Swap(address,address,address,address,uint256,uint256,uint256)",
+      "topic0": "0xdba43ee9916cb156cc32a5d3406e87341e568126a46815294073ba25c9400246",
+      "occurrences": []
+    },
+    {
+      "sig": "TokenRedeemerAdded(address)",
+      "topic0": "0x6794aa6ee2e29e908a1d0f6e157f4991d68550671e8d9a8167dd0374a597bd4a",
+      "occurrences": [
+        {
+          "topics": [
+            "0x6794aa6ee2e29e908a1d0f6e157f4991d68550671e8d9a8167dd0374a597bd4a",
+            "0x000000000000000000000000212697f0a9fc218210d98cd1a159dc8d8a87b8a8"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "TokenRedeemerRemoved(address)",
+      "topic0": "0xadfaecaf06af9ed436d053962c84cbbddfdfc3b5a8f7891016c7be9881b48d29",
+      "occurrences": []
+    },
+    {
+      "sig": "Withdraw(address,address,address,uint256,uint256)",
+      "topic0": "0xfbde797d201c681b91056529119e0b02407c7bb96a4a2c75c01fc9667232c8db",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Grove",
+    "audit_report": "https://www.chainsecurity.com/security-audit/grove-basin-smart-contracts",
+    "source_url": "https://github.com/grove-labs/grove-basin/tree/6fdcbd5173dffc54d172e23fca083e441560f737",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

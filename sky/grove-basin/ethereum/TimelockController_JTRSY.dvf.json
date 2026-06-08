@@ -1,0 +1,221 @@
+{
+  "version": "0.9.1",
+  "id": "0x9b14740881f5a3746fc4896a23d2dc1909be05ee9272a4927a4dc7bf379b024b",
+  "contract_name": "TimelockController",
+  "address": "0xa52dc9876ab4a9db6dafbb83410554086054d140",
+  "chain_id": 1,
+  "deployment_block_num": 25075779,
+  "init_block_num": 25271284,
+  "deployment_tx": "0xec51cda57fcb7698dbc3fb9a7da1bd8eb0fca506332700546a311ffd3b265b9d",
+  "codehash": "0x8c5b266729881ecfc600ba323b16902248514be4957031d9edc4c9326a1b7f6a",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "minDelay",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000093a80",
+      "value_hint": "6.048 * 10^5"
+    },
+    {
+      "var_name": "proposers",
+      "value": "0x0000000000000000000000009184ddbcc4824b76ce2aefa72534a1a87aa5037c"
+    },
+    {
+      "var_name": "executors",
+      "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba"
+    },
+    {
+      "var_name": "admin",
+      "value": "0x6d99f476e7e9fccd189fb87023cfa301364fa817"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x2",
+      "offset": 0,
+      "var_name": "_minDelay",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000093a80",
+      "value_hint": "6.048 * 10^5",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x266d712cc49f6a5229fc60b757bc60a1357cc3016f550e778218df2776f9c3cd",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x45074af677fe9aff199bb3b76135306a519b086e6300f9d9c5e7f8f168e4c9e7",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000000000000000000000000000000000006a10abdb",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x69534b15bd32489c48ddfe4d646c54c93c78085160ff3794d69b6de9323bfc7e",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8c915f6cf8c9c49f59374bdb84cac5c01ab4111c3f861590af24db9ca97c24c3",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9f39ee3a21d62b92a264d051623bd6d8380f6a1f1e9833894dc1f89fee08cae2",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa8a5fe2a9dc3b3c7608b9deedf53f2ddf5221b7ce693bb15a29fc9a8309caded",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "CallExecuted(bytes32,uint256,address,uint256,bytes)",
+      "topic0": "0xc2617efa69bab66782fa219543714338489c4e9e178271560a91b82c3f612b58",
+      "occurrences": []
+    },
+    {
+      "sig": "CallSalt(bytes32,bytes32)",
+      "topic0": "0x20fda5fd27a1ea7bf5b9567f143ac5470bb059374a27e8f67cb44f946f6d0387",
+      "occurrences": []
+    },
+    {
+      "sig": "CallScheduled(bytes32,uint256,address,uint256,bytes,bytes32,uint256)",
+      "topic0": "0x4cf4410cc57040e44862ef0f45f3dd5a5e02db8eb8add648d4b0e236f1d07dca",
+      "occurrences": [
+        {
+          "topics": [
+            "0x4cf4410cc57040e44862ef0f45f3dd5a5e02db8eb8add648d4b0e236f1d07dca",
+            "0x918594c78acdd8baaceca8187f0000d489cfcd20f2b46f2558ec1a2d04e3e21a",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000009184ddbcc4824b76ce2aefa72534a1a87aa5037c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000093a800000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "sig": "Cancelled(bytes32)",
+      "topic0": "0xbaa1eb22f2a492ba1a5fea61b8df4d27c6c8b5f3971e63bb58fa14ff72eedb70",
+      "occurrences": []
+    },
+    {
+      "sig": "MinDelayChange(uint256,uint256)",
+      "topic0": "0x11c24f4ead16507c69ac467fbd5e4eed5fb5c699626d2cc6d66421df253886d5",
+      "occurrences": [
+        {
+          "topics": [
+            "0x11c24f4ead16507c69ac467fbd5e4eed5fb5c699626d2cc6d66421df253886d5"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000093a80"
+        }
+      ]
+    },
+    {
+      "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+      "topic0": "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleGranted(bytes32,address,address)",
+      "topic0": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000a52dc9876ab4a9db6dafbb83410554086054d140",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0xb09aa5aeb3702cfd50b6b62bc4532604938f21248a27a1d5ca736082b6819cc1",
+            "0x0000000000000000000000009184ddbcc4824b76ce2aefa72534a1a87aa5037c",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0xfd643c72710c63c0180259aba6b2d05451e3591a24e58b62239378085726f783",
+            "0x0000000000000000000000009184ddbcc4824b76ce2aefa72534a1a87aa5037c",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0xd8aa0f3194971a2a116679f7c2090f6939c8d4e01a2a8d7e41d55e5351469e63",
+            "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0xfd643c72710c63c0180259aba6b2d05451e3591a24e58b62239378085726f783",
+            "0x000000000000000000000000b0113804960345fd0a245788b3423319c86940e5",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(bytes32,address,address)",
+      "topic0": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "occurrences": [
+        {
+          "topics": [
+            "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Grove",
+    "audit_report": "https://www.chainsecurity.com/security-audit/grove-basin-smart-contracts",
+    "source_url": "https://github.com/grove-labs/grove-basin/tree/6fdcbd5173dffc54d172e23fca083e441560f737",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

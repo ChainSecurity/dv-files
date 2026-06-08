@@ -1,0 +1,62 @@
+{
+  "version": "0.9.1",
+  "id": "0x9a87ef149315dd010bad13b2b1cde2fce7479ccc30f3ff4d72a41d2214d2fcff",
+  "contract_name": "GroveBasinFactory",
+  "address": "0x78dc98d689fe9a1b0056ac1cdfc14722bda6d49a",
+  "chain_id": 1,
+  "deployment_block_num": 25074894,
+  "init_block_num": 25271278,
+  "deployment_tx": "0x6154253c2283e32872ab8c3ead1658eefa2f30b0916236ca5ef649b1bdde1679",
+  "codehash": "0xcb17a9b9929c8b2a0e8a01018cd7af10a1ce85de008ebe1ad9210dcd4acbcb54",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "GroveBasinDeployed(address,address,address,address,address)",
+      "topic0": "0x03b2a39aa778ce728fc0bc34b650f0dc4b010bb0f909e314bd8e56dba1a8fa02",
+      "occurrences": [
+        {
+          "topics": [
+            "0x03b2a39aa778ce728fc0bc34b650f0dc4b010bb0f909e314bd8e56dba1a8fa02",
+            "0x0000000000000000000000004db97904b5427d815edb1a695ab56787686757dc",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86"
+        },
+        {
+          "topics": [
+            "0x03b2a39aa778ce728fc0bc34b650f0dc4b010bb0f909e314bd8e56dba1a8fa02",
+            "0x0000000000000000000000001fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86"
+        },
+        {
+          "topics": [
+            "0x03b2a39aa778ce728fc0bc34b650f0dc4b010bb0f909e314bd8e56dba1a8fa02",
+            "0x000000000000000000000000e1661c5e7e2435db710485c333a60892dca1e823",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000006a9da2d710bb9b700acde7cb81f10f1ff8c89041"
+        },
+        {
+          "topics": [
+            "0x03b2a39aa778ce728fc0bc34b650f0dc4b010bb0f909e314bd8e56dba1a8fa02",
+            "0x00000000000000000000000010b3d3a96646720f8b3a29229cf96d513f3c84f1",
+            "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+          ],
+          "data": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000007712c34205737192402172409a8f7ccef8aa2aec"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Grove",
+    "audit_report": "https://www.chainsecurity.com/security-audit/grove-basin-smart-contracts",
+    "source_url": "https://github.com/grove-labs/grove-basin/tree/6fdcbd5173dffc54d172e23fca083e441560f737",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
