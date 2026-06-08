@@ -42,50 +42,56 @@
     {
       "slot": "0x266d712cc49f6a5229fc60b757bc60a1357cc3016f550e778218df2776f9c3cd",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_roles[CANCELLER_ROLE].members[0xB0113804960345fd0a245788b3423319c86940e5]",
+      "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "ALM freezer"
     },
     {
       "slot": "0x45074af677fe9aff199bb3b76135306a519b086e6300f9d9c5e7f8f168e4c9e7",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_timestamps[operationId]",
+      "var_type": "t_uint256",
       "value": "0x000000000000000000000000000000000000000000000000000000006a10abdb",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "scheduled operation ETA (unix seconds)"
     },
     {
       "slot": "0x69534b15bd32489c48ddfe4d646c54c93c78085160ff3794d69b6de9323bfc7e",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_roles[CANCELLER_ROLE].members[0x9184DdBCc4824B76CE2AEFA72534a1a87aA5037c]",
+      "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "JTRSY proposer"
     },
     {
       "slot": "0x8c915f6cf8c9c49f59374bdb84cac5c01ab4111c3f861590af24db9ca97c24c3",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_roles[PROPOSER_ROLE].members[0x9184DdBCc4824B76CE2AEFA72534a1a87aA5037c]",
+      "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "JTRSY proposer"
     },
     {
       "slot": "0x9f39ee3a21d62b92a264d051623bd6d8380f6a1f1e9833894dc1f89fee08cae2",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_roles[DEFAULT_ADMIN_ROLE].members[0xA52dC9876aB4A9DB6dAfbb83410554086054d140]",
+      "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "self-administration"
     },
     {
       "slot": "0xa8a5fe2a9dc3b3c7608b9deedf53f2ddf5221b7ce693bb15a29fc9a8309caded",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_roles[EXECUTOR_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
+      "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "Grove proxy"
     }
   ],
   "critical_events": [
