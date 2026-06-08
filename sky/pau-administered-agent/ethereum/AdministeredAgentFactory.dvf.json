@@ -12,21 +12,7 @@
   "immutables": [],
   "constructor_args": [],
   "critical_storage_variables": [],
-  "critical_events": [
-    {
-      "sig": "AdministeredAgentDeployed(address)",
-      "topic0": "0xf403b4c002ecf92eb862794f17686c0a7d2dd1ed273fb106e877672f12ba71a3",
-      "occurrences": [
-        {
-          "topics": [
-            "0xf403b4c002ecf92eb862794f17686c0a7d2dd1ed273fb106e877672f12ba71a3",
-            "0x0000000000000000000000000f7ca6616cc38132530dc4695778a54de42c21f4"
-          ],
-          "data": "0x"
-        }
-      ]
-    }
-  ],
+  "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",
