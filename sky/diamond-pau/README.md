@@ -15,9 +15,10 @@ The deployment validation (DV) has been performed with the [Deployment Validatio
 
 - Diamond PAU Contracts:
     - Repository: https://github.com/sky-ecosystem/diamond-pau
-    - Commit: `a84fe9616412e3b6d10ea64301a3481f7dcf9a05`
+    - Commit: `a84fe9616412e3b6d10ea64301a3481f7dcf9a05` (`PAUFactory` from `5c5ad6ae174bf467081ca82342ced2bd42a5c732`)
     - Contracts:
         - Beacon: `0x829dc2b7e94b1954f0764e573f2e0d45afa28199`
+        - PAUFactory: `0x69a5d548830ac2a4ba90a44a2c75bda71f97fc66`
         - AaveFacet: `0x8ce890a96a193ff2dd4b2ea3c682326f655f6b62`
         - BasinFacet: `0xc84825bcd13aeddc372400239499380376a44a39`
         - CCTPFacet: `0xadf62692340e46ef90336f2e75ce3b37f1148873`
@@ -60,6 +61,7 @@ Further, note the following adjustments have been made to the initial DV files (
 - *Beacon*:
     - `critical_events`: All of the `Beacon`'s events relate to access control or integration configuration (`IntegrationSet`, `IntegrationRemoved`, `RoleAdminChanged`, `RoleGranted`, `RoleRevoked`) and were retained; none were removed.
     - `critical_storage_variables`: The tool reports the integration registry and role-membership slots as `unknown`, since they are nested mapping/struct/array entries reached through computed (`keccak256`) slots. These have been programmatically labeled with `var_name`, `var_type`, `offset` and `value_hint` — derived from the deploy script and the facet interfaces — splitting packed slots (e.g. `Dispatch` and `Wire`) into their individual fields. The reentrancy guard (`_status`) was retained at its initialized value.
+- *PAUFactory*: A stateless, permissionless deployer whose only state is the `beacon` immutable (the `Beacon`). It has no `critical_storage_variables`, and all `critical_events` (the `*Deployed` factory-deployment records) were removed.
 
 ## Considerations
 
