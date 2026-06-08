@@ -47,7 +47,7 @@ The deployment validation (DV) has been performed with the [Deployment Validatio
 
 ## Details
 
-In summary, the deployed bytecode matches the source repository at the given commit (see [Scope](#scope)), and the on-chain configuration matches the deployment scripts in the [`diamond-pau-deploy`](https://github.com/sky-ecosystem/diamond-pau-deploy/tree/90df5687155df6ba8ca9b9bcfdf947ff69895405) repository.
+In summary, the deployed bytecode matches the source repository at the given commit (see [Scope](#scope)), and the on-chain configuration matches the deployment scripts in the [`diamond-pau-deploy`](https://github.com/sky-ecosystem/diamond-pau-deploy/tree/90df5687155df6ba8ca9b9bcfdf947ff69895405) repository. The `PAUFactory` is not covered by those scripts — it was deployed standalone.
 
 Addresses have been manually and/or automatically validated against a list of references, see [References](#references).
 
