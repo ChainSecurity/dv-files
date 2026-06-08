@@ -1,0 +1,147 @@
+{
+  "version": "0.9.1",
+  "id": "0x53541037c7684972fb62189705faa3ea0c54048a5e1f2737c2de083be917d6e8",
+  "contract_name": "AccessControls",
+  "address": "0x10d1ade77f1b81ef95057bb2face292313f66277",
+  "chain_id": 1,
+  "deployment_block_num": 25252648,
+  "init_block_num": 25275340,
+  "deployment_tx": "0xaabaa0852eb161222ee3675c8dc98e2360c863eff4c5a1977a05ee0f0521070a",
+  "codehash": "0xc1f06e2b3976696a0257b75971e8be593fbd5be387aae82681e66065f164dd0d",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "admin",
+      "value": "0x1ca4ecaf0e13ca833c80da835deea15e1684361d"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0xeb5be412f275a18f6e4d622aee4ff40b21467c926224771b782d4c095d1444b",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1b943a14f2e7b228fa738dcfd6c641d7bf9d4b6e6fc281290cf1640983218c62",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1d147b3aabb27fd9a21305d82c52211487d76a90d9a00d733529f9ec221f4860",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3dcbdf6b60518d513ab5d4186e9ac1202be1fa0c3506b2b10327d6a3bc52487a",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x67f386c444fe63e8b218f92d5691cb73c9cbc09a248c99846d3450f2ff6b3fe7",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa6eef7e35abe7026729641147f7915573c7e97b47efa546f5f6e3230263bcb49",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb416e0f6c81eef66838a0185edb348cd9369b56b416588b6dd0bea32fb0c4634",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa33822d8e624227a2502e1822a6d0343778b58aa8b127fdc549156aa38e12b2",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000f7ca6616cc38132530dc4695778a54de42c21f4",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+      "topic0": "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleGranted(bytes32,address,address)",
+      "topic0": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d",
+            "0x00000000000000000000000069a5d548830ac2a4ba90a44a2c75bda71f97fc66"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x68bf109b95a5c15fb2bb99041323c27d15f8675e11bf7420a1cd6ad64c394f46",
+            "0x0000000000000000000000000f7ca6616cc38132530dc4695778a54de42c21f4",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(bytes32,address,address)",
+      "topic0": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "occurrences": [
+        {
+          "topics": [
+            "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/5c5ad6ae174bf467081ca82342ced2bd42a5c732",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

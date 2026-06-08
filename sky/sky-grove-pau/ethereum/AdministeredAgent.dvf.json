@@ -1,0 +1,246 @@
+{
+  "version": "0.9.1",
+  "id": "0xbde24c85f17fafbd7dadb62c1b61c99ca11c7759ec035859af7a27bcffe62f00",
+  "contract_name": "AdministeredAgent",
+  "address": "0x0f7ca6616cc38132530dc4695778a54de42c21f4",
+  "chain_id": 1,
+  "deployment_block_num": 25252654,
+  "init_block_num": 25275344,
+  "deployment_tx": "0x4c5411439b0fc87250dfdd3c66f50e1a3f44eeb2f56bba739539a3a1c3b8b177",
+  "codehash": "0xb56e803a74ca3a82b1bff9be86f8aeb1b22a90470c607ee76d510d9cc76a15a9",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "admin",
+      "value": "0x1ca4ecaf0e13ca833c80da835deea15e1684361d"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "_actors._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "value_hint": "3",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2",
+      "offset": 0,
+      "var_name": "_admins._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4",
+      "offset": 0,
+      "var_name": "_grantors._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "0",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x6",
+      "offset": 0,
+      "var_name": "_revokers._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563",
+      "offset": 0,
+      "var_name": "_actors._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000000eec86649e756a23cbc68d9efed756f16ad5f85f",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e564",
+      "offset": 0,
+      "var_name": "_actors._inner._values[1]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000004364d17b578b0ed1c42be9075d774d1d6aeafe96",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e565",
+      "offset": 0,
+      "var_name": "_actors._inner._values[2]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000009187807e07112359c481870feb58f0c117a29179",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2f03d448b68f1e285b4b22c6cbbcab4f3802b5469bfc511c3561fb0075b660bb",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
+      "offset": 0,
+      "var_name": "_admins._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9dab77fcb730c9d146a19e66dd93a03ddb38619707cc6dd88c5e3b821aa962e5",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb1ce541cbeac64e03fd70ac9d53f93caeb03774a018ff03deb52e621240b03ba",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd51ff8678d019e9479d5370a1c2d2ce0ab017d561b2a25e3c12c48eefacebb51",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377c0d3f",
+      "offset": 0,
+      "var_name": "_revokers._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x000000000000000000000000b0113804960345fd0a245788b3423319c86940e5",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf732b7819dc9bd2518a0be62b418e52e299e9fb78f00e1839c0d14408b119b2c",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ActorAdded(address,address)",
+      "topic0": "0xd8b8d40582460da214d7dd2b2e4866eadcbc2cbe60bebc81e83957b9a0b44dcd",
+      "occurrences": [
+        {
+          "topics": [
+            "0xd8b8d40582460da214d7dd2b2e4866eadcbc2cbe60bebc81e83957b9a0b44dcd",
+            "0x0000000000000000000000000eec86649e756a23cbc68d9efed756f16ad5f85f",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xd8b8d40582460da214d7dd2b2e4866eadcbc2cbe60bebc81e83957b9a0b44dcd",
+            "0x0000000000000000000000004364d17b578b0ed1c42be9075d774d1d6aeafe96",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xd8b8d40582460da214d7dd2b2e4866eadcbc2cbe60bebc81e83957b9a0b44dcd",
+            "0x0000000000000000000000009187807e07112359c481870feb58f0c117a29179",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "ActorRemoved(address,address)",
+      "topic0": "0x113fb10e44edec55526f9774e8fcd1247488290bdd11e42dcc7fc52835e363ea",
+      "occurrences": []
+    },
+    {
+      "sig": "AdminAdded(address,address)",
+      "topic0": "0xbf3f493c772c8c283fd124432c2d0f539ab343faa04258fe88e52912d36b102b",
+      "occurrences": [
+        {
+          "topics": [
+            "0xbf3f493c772c8c283fd124432c2d0f539ab343faa04258fe88e52912d36b102b",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d",
+            "0x0000000000000000000000002968c3b5478cf93b70ab1e24255d4edbbd27a089"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0xbf3f493c772c8c283fd124432c2d0f539ab343faa04258fe88e52912d36b102b",
+            "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "AdminRemoved(address,address)",
+      "topic0": "0xdb9d5d31320daf5bc7181d565b6da4d12e30f0f4d5aa324a992426c14a1d19ce",
+      "occurrences": [
+        {
+          "topics": [
+            "0xdb9d5d31320daf5bc7181d565b6da4d12e30f0f4d5aa324a992426c14a1d19ce",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "GrantorAdded(address,address)",
+      "topic0": "0x9d4fdd69b7b217598f3fcde5f236bef39d7ee6ef62bf42bb7474bf4b408778ca",
+      "occurrences": []
+    },
+    {
+      "sig": "GrantorRemoved(address,address)",
+      "topic0": "0x44318a448a685df64d28b21690cf118d69f6b02ca88fbb04f98900288477d591",
+      "occurrences": []
+    },
+    {
+      "sig": "RevokerAdded(address,address)",
+      "topic0": "0x2b5f18afd9a7b21f41bf023b012b3d4c8a22a21b79fa425cd4494ecbe2970196",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2b5f18afd9a7b21f41bf023b012b3d4c8a22a21b79fa425cd4494ecbe2970196",
+            "0x000000000000000000000000b0113804960345fd0a245788b3423319c86940e5",
+            "0x0000000000000000000000001ca4ecaf0e13ca833c80da835deea15e1684361d"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RevokerRemoved(address,address)",
+      "topic0": "0xb6fe3ab11eb9ab1d9f1d41c8f42a5d72d10122099ba1548e4a6d1a4d8cefec4b",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "",
+    "source_url": "https://github.com/sky-ecosystem/pau-administered-agent/tree/bfaaf709a8664d74d12604455f0365a0a12439cf",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
