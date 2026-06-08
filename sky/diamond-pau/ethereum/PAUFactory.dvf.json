@@ -12,13 +12,15 @@
   "immutables": [
     {
       "var_name": "beacon",
-      "value": "0x000000000000000000000000829dc2b7e94b1954f0764e573f2e0d45afa28199"
+      "value": "0x000000000000000000000000829dc2b7e94b1954f0764e573f2e0d45afa28199",
+      "value_hint": "Beacon"
     }
   ],
   "constructor_args": [
     {
       "var_name": "beacon_",
-      "value": "0x829dc2b7e94b1954f0764e573f2e0d45afa28199"
+      "value": "0x829dc2b7e94b1954f0764e573f2e0d45afa28199",
+      "value_hint": "Beacon"
     }
   ],
   "critical_storage_variables": [],
