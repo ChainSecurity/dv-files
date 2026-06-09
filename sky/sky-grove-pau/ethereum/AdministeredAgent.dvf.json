@@ -80,10 +80,11 @@
     {
       "slot": "0x2f03d448b68f1e285b4b22c6cbbcab4f3802b5469bfc511c3561fb0075b660bb",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_admins._inner._positions[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
+      "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "Grove proxy"
     },
     {
       "slot": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
@@ -96,26 +97,29 @@
     {
       "slot": "0x9dab77fcb730c9d146a19e66dd93a03ddb38619707cc6dd88c5e3b821aa962e5",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_actors._inner._positions[0x9187807e07112359C481870feB58f0c117a29179]",
+      "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000003",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "Grove secondary relayer operator"
     },
     {
       "slot": "0xb1ce541cbeac64e03fd70ac9d53f93caeb03774a018ff03deb52e621240b03ba",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_revokers._inner._positions[0xB0113804960345fd0a245788b3423319c86940e5]",
+      "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "ALM freezer"
     },
     {
       "slot": "0xd51ff8678d019e9479d5370a1c2d2ce0ab017d561b2a25e3c12c48eefacebb51",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_actors._inner._positions[0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f]",
+      "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "ALM relayer"
     },
     {
       "slot": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377c0d3f",
@@ -128,10 +132,11 @@
     {
       "slot": "0xf732b7819dc9bd2518a0be62b418e52e299e9fb78f00e1839c0d14408b119b2c",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_actors._inner._positions[0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96]",
+      "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000002",
-      "comparison_operator": "Equal"
+      "comparison_operator": "Equal",
+      "value_hint": "Grove primary relayer operator"
     }
   ],
   "critical_events": [
