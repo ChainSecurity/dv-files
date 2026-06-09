@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x53541037c7684972fb62189705faa3ea0c54048a5e1f2737c2de083be917d6e8",
+  "id": "0xe4ceedc93723474ca2c9e32fe73cd59a91b711b3318eeb4994bfddcb372bf08a",
   "contract_name": "AccessControls",
   "address": "0x10d1ade77f1b81ef95057bb2face292313f66277",
   "chain_id": 1,
@@ -23,8 +23,8 @@
       "var_name": "_roleMembers[DEFAULT_ADMIN_ROLE]._inner._values[0]",
       "var_type": "t_address",
       "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
-      "comparison_operator": "Equal",
-      "value_hint": "Grove proxy"
+      "value_hint": "Grove proxy",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x1b943a14f2e7b228fa738dcfd6c641d7bf9d4b6e6fc281290cf1640983218c62",
@@ -56,8 +56,8 @@
       "var_name": "_roles[DEFAULT_ADMIN_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "Grove proxy"
+      "value_hint": "Grove proxy",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xa6eef7e35abe7026729641147f7915573c7e97b47efa546f5f6e3230263bcb49",
@@ -73,8 +73,8 @@
       "var_name": "_roles[ALLOCATOR_ROLE].members[0x0f7ca6616CC38132530dC4695778a54de42C21F4]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "AdministeredAgent"
+      "value_hint": "AdministeredAgent",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xfa33822d8e624227a2502e1822a6d0343778b58aa8b127fdc549156aa38e12b2",
@@ -82,8 +82,8 @@
       "var_name": "_roleMembers[ALLOCATOR_ROLE]._inner._values[0]",
       "var_type": "t_address",
       "value": "0x0000000000000000000000000f7ca6616cc38132530dc4695778a54de42c21f4",
-      "comparison_operator": "Equal",
-      "value_hint": "AdministeredAgent"
+      "value_hint": "AdministeredAgent",
+      "comparison_operator": "Equal"
     }
   ],
   "critical_events": [
