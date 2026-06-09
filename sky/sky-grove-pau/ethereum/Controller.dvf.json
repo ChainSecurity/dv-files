@@ -1840,7 +1840,7 @@
       ]
     },
     {
-      "sig": "Unknown Signature",
+      "sig": "UniswapV3TWAPSecondsAgoSet(address,uint32)",
       "topic0": "0x25b41767cfc646b287b6bf3b8ee243f82b7c58453b7a911716d57da72a2b375b",
       "occurrences": [
         {
@@ -1853,7 +1853,7 @@
       ]
     },
     {
-      "sig": "Unknown Signature",
+      "sig": "ERC4626MaxExchangeRateSet(address,uint256)",
       "topic0": "0x0357b338178e1b6a462ee13d8e266e1317ac9a1ed1ca355a5a74aaad21ab5726",
       "occurrences": [
         {
@@ -1866,7 +1866,7 @@
       ]
     },
     {
-      "sig": "Unknown Signature",
+      "sig": "UniswapV3MaxSlippageSet(address,uint256)",
       "topic0": "0xe15efea556f0d902b0ea8b5c924992f421e1338e64af0d85b28cd4dd5182d76f",
       "occurrences": [
         {
@@ -1879,7 +1879,7 @@
       ]
     },
     {
-      "sig": "Unknown Signature",
+      "sig": "UniswapV3MaxTickDeltaSet(address,uint24)",
       "topic0": "0x0a26e9e49194d4c8b8444011e994a8b13e3cc2f8ccaf06ae664e338071f6ff86",
       "occurrences": [
         {
@@ -1892,7 +1892,7 @@
       ]
     },
     {
-      "sig": "Unknown Signature",
+      "sig": "UniswapV3UpperTickSet(address,int24)",
       "topic0": "0x38c9b14bb68d2e158fa131b848ce439ad182f524f3124bda29494cb675338c9d",
       "occurrences": [
         {
@@ -1905,7 +1905,7 @@
       ]
     },
     {
-      "sig": "Unknown Signature",
+      "sig": "UniswapV3LowerTickSet(address,int24)",
       "topic0": "0xbaf782500281216eb9c851cb698e3939396a95078976c37a4dcddfc4aaa683de",
       "occurrences": [
         {
