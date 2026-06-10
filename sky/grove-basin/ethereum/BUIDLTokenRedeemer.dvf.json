@@ -1,0 +1,86 @@
+{
+  "version": "0.9.1",
+  "id": "0x0e239edf4b8dcf2f2e73230ae3570d249ef2295a7787378d89e0d6111e81aaab",
+  "contract_name": "BUIDLTokenRedeemer",
+  "address": "0x99e5e7c533c7319f855b940561df285be022c82d",
+  "chain_id": 1,
+  "deployment_block_num": 25137254,
+  "init_block_num": 25271297,
+  "deployment_tx": "0xc61524108a1fecf43252b20082c169ce60096b8e4f78c59125a2585d33f6dc49",
+  "codehash": "0x0b80675fa76992c80ab9dad1841a755a4ba21ae724422e30c94b7bf61caf0f00",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "creditToken",
+      "value": "0x0000000000000000000000007712c34205737192402172409a8f7ccef8aa2aec",
+      "value_hint": "BUIDL"
+    },
+    {
+      "var_name": "collateralToken",
+      "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "value_hint": "USDC"
+    },
+    {
+      "var_name": "redemptionAddress",
+      "value": "0x0000000000000000000000008780dd016171b91e4df47075da0a947959c34200",
+      "value_hint": "BUIDLI_REDEEM"
+    },
+    {
+      "var_name": "basin",
+      "value": "0x00000000000000000000000010b3d3a96646720f8b3a29229cf96d513f3c84f1",
+      "value_hint": "GroveBasin (BUIDL/USDS/USDC)"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "creditToken_",
+      "value": "0x7712c34205737192402172409a8f7ccef8aa2aec",
+      "value_hint": "BUIDL"
+    },
+    {
+      "var_name": "redemptionAddress_",
+      "value": "0x8780dd016171b91e4df47075da0a947959c34200",
+      "value_hint": "BUIDLI_REDEEM"
+    },
+    {
+      "var_name": "basin_",
+      "value": "0x10b3d3a96646720f8b3a29229cf96d513f3c84f1",
+      "value_hint": "GroveBasin (BUIDL/USDS/USDC)"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "redemptionActive",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "RedeemCompleted(uint256)",
+      "topic0": "0xe91bd60487cf3a9799fb86c28aa98742ff4d822408d03f7b0943bce0b3f30d02",
+      "occurrences": []
+    },
+    {
+      "sig": "RedeemInitiated(uint256)",
+      "topic0": "0x82bc492997ad0548fc8d1efacc586df2673d58dcf009a2bc370bbbfd17bf58bb",
+      "occurrences": []
+    },
+    {
+      "sig": "Swept(address,uint256)",
+      "topic0": "0xc36b5179cb9c303b200074996eab2b3473eac370fdd7eba3bec636fe35109696",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Grove",
+    "audit_report": "https://www.chainsecurity.com/security-audit/grove-basin-smart-contracts",
+    "source_url": "https://github.com/grove-labs/grove-basin/tree/6fdcbd5173dffc54d172e23fca083e441560f737",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

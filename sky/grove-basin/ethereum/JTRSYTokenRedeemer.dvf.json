@@ -1,0 +1,81 @@
+{
+  "version": "0.9.1",
+  "id": "0x8c9573d1e5db0748405e44da0efcf459a5d954a09fa31a37f0936fc636d7d137",
+  "contract_name": "JTRSYTokenRedeemer",
+  "address": "0x212697f0a9fc218210d98cd1a159dc8d8a87b8a8",
+  "chain_id": 1,
+  "deployment_block_num": 25079127,
+  "init_block_num": 25271289,
+  "deployment_tx": "0x2386be7468d4c752f78d92d6f9435af778e8d1e92d8b93c85e9ed3891a562b82",
+  "codehash": "0x531e3d3e5baf2babc9a1191cf3c57d5ae364b971275649b4b9e601d0e8d90b28",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "creditToken",
+      "value": "0x0000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86",
+      "value_hint": "JTRSY"
+    },
+    {
+      "var_name": "vault",
+      "value": "0x000000000000000000000000fe6920eb6c421f1179ca8c8d4170530cdbdfd77a",
+      "value_hint": "JTRSY vault"
+    },
+    {
+      "var_name": "basin",
+      "value": "0x0000000000000000000000001fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+      "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "creditToken_",
+      "value": "0x8c213ee79581ff4984583c6a801e5263418c4b86",
+      "value_hint": "JTRSY"
+    },
+    {
+      "var_name": "vault_",
+      "value": "0xfe6920eb6c421f1179ca8c8d4170530cdbdfd77a",
+      "value_hint": "JTRSY vault"
+    },
+    {
+      "var_name": "basin_",
+      "value": "0x1fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+      "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "redemptionActive",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "RedeemCompleted(uint256)",
+      "topic0": "0xe91bd60487cf3a9799fb86c28aa98742ff4d822408d03f7b0943bce0b3f30d02",
+      "occurrences": []
+    },
+    {
+      "sig": "RedeemInitiated(uint256)",
+      "topic0": "0x82bc492997ad0548fc8d1efacc586df2673d58dcf009a2bc370bbbfd17bf58bb",
+      "occurrences": []
+    },
+    {
+      "sig": "Swept(address,uint256)",
+      "topic0": "0xc36b5179cb9c303b200074996eab2b3473eac370fdd7eba3bec636fe35109696",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Grove",
+    "audit_report": "https://www.chainsecurity.com/security-audit/grove-basin-smart-contracts",
+    "source_url": "https://github.com/grove-labs/grove-basin/tree/6fdcbd5173dffc54d172e23fca083e441560f737",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

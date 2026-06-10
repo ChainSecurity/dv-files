@@ -1,0 +1,35 @@
+{
+  "version": "0.9.1",
+  "id": "0x1cc190af0907b1e5c8b2a1c8c6cbf055034829e2c5a07543570689b37ad358ef",
+  "contract_name": "ChronicleRateProvider",
+  "address": "0x69a171853575ffd41574ea80abfc6337acbc4d43",
+  "chain_id": 1,
+  "deployment_block_num": 25074093,
+  "init_block_num": 25271290,
+  "deployment_tx": "0xf92bfcada2976746a9b7fce8bd98636895db6a6046da44bc710abe42c6efd248",
+  "codehash": "0xd9370a353e580dc986395625d2ed9e8ca6abeee4afd7b504ca720f674356dc8c",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "oracle",
+      "value": "0x0000000000000000000000008c68e0cacb61a065b99e2104457acc829d61cbb0",
+      "value_hint": "Chronicle BUIDL oracle"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "oracle_",
+      "value": "0x8c68e0cacb61a065b99e2104457acc829d61cbb0",
+      "value_hint": "Chronicle BUIDL oracle"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Grove",
+    "audit_report": "https://www.chainsecurity.com/security-audit/grove-basin-smart-contracts",
+    "source_url": "https://github.com/grove-labs/grove-basin/tree/6fdcbd5173dffc54d172e23fca083e441560f737",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
