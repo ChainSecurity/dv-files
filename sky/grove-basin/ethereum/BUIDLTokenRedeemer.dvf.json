@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0xa86a75f47d3e27f34d4ef8f2fa34be53e3e12dc24fe1838a842d1f73692f6044",
+  "id": "0x0e239edf4b8dcf2f2e73230ae3570d249ef2295a7787378d89e0d6111e81aaab",
   "contract_name": "BUIDLTokenRedeemer",
   "address": "0x99e5e7c533c7319f855b940561df285be022c82d",
   "chain_id": 1,
@@ -12,34 +12,40 @@
   "immutables": [
     {
       "var_name": "creditToken",
-      "value": "0x0000000000000000000000007712c34205737192402172409a8f7ccef8aa2aec"
+      "value": "0x0000000000000000000000007712c34205737192402172409a8f7ccef8aa2aec",
+      "value_hint": "BUIDL"
     },
     {
       "var_name": "collateralToken",
       "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-      "value_hint": "USD Coin (USDC)"
+      "value_hint": "USDC"
     },
     {
       "var_name": "redemptionAddress",
-      "value": "0x0000000000000000000000008780dd016171b91e4df47075da0a947959c34200"
+      "value": "0x0000000000000000000000008780dd016171b91e4df47075da0a947959c34200",
+      "value_hint": "BUIDLI_REDEEM"
     },
     {
       "var_name": "basin",
-      "value": "0x00000000000000000000000010b3d3a96646720f8b3a29229cf96d513f3c84f1"
+      "value": "0x00000000000000000000000010b3d3a96646720f8b3a29229cf96d513f3c84f1",
+      "value_hint": "GroveBasin (BUIDL/USDS/USDC)"
     }
   ],
   "constructor_args": [
     {
       "var_name": "creditToken_",
-      "value": "0x7712c34205737192402172409a8f7ccef8aa2aec"
+      "value": "0x7712c34205737192402172409a8f7ccef8aa2aec",
+      "value_hint": "BUIDL"
     },
     {
       "var_name": "redemptionAddress_",
-      "value": "0x8780dd016171b91e4df47075da0a947959c34200"
+      "value": "0x8780dd016171b91e4df47075da0a947959c34200",
+      "value_hint": "BUIDLI_REDEEM"
     },
     {
       "var_name": "basin_",
-      "value": "0x10b3d3a96646720f8b3a29229cf96d513f3c84f1"
+      "value": "0x10b3d3a96646720f8b3a29229cf96d513f3c84f1",
+      "value_hint": "GroveBasin (BUIDL/USDS/USDC)"
     }
   ],
   "critical_storage_variables": [

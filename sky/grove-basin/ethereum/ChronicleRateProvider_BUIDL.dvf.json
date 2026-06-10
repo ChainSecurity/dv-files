@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0xc9fca5c60a14431de975952ccbb3aeac12d161cb20d6c67fa746d4f2f71f47cc",
+  "id": "0x1cc190af0907b1e5c8b2a1c8c6cbf055034829e2c5a07543570689b37ad358ef",
   "contract_name": "ChronicleRateProvider",
   "address": "0x69a171853575ffd41574ea80abfc6337acbc4d43",
   "chain_id": 1,
@@ -12,13 +12,15 @@
   "immutables": [
     {
       "var_name": "oracle",
-      "value": "0x0000000000000000000000008c68e0cacb61a065b99e2104457acc829d61cbb0"
+      "value": "0x0000000000000000000000008c68e0cacb61a065b99e2104457acc829d61cbb0",
+      "value_hint": "Chronicle BUIDL oracle"
     }
   ],
   "constructor_args": [
     {
       "var_name": "oracle_",
-      "value": "0x8c68e0cacb61a065b99e2104457acc829d61cbb0"
+      "value": "0x8c68e0cacb61a065b99e2104457acc829d61cbb0",
+      "value_hint": "Chronicle BUIDL oracle"
     }
   ],
   "critical_storage_variables": [],

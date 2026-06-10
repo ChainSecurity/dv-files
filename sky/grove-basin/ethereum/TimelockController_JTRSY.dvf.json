@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x1d66986bbf10b4921e70ac1cf22d9bf1974095fea69efe6f86f9c2e081c37058",
+  "id": "0xc284525136f8b9500098862a0b07297d0fc2212f10203a477af65c3483089986",
   "contract_name": "TimelockController",
   "address": "0xa52dc9876ab4a9db6dafbb83410554086054d140",
   "chain_id": 1,
@@ -18,15 +18,18 @@
     },
     {
       "var_name": "proposers",
-      "value": "0x0000000000000000000000009184ddbcc4824b76ce2aefa72534a1a87aa5037c"
+      "value": "0x0000000000000000000000009184ddbcc4824b76ce2aefa72534a1a87aa5037c",
+      "value_hint": "JTRSY issuer multisig"
     },
     {
       "var_name": "executors",
-      "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba"
+      "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+      "value_hint": "GROVE_SUBPROXY"
     },
     {
       "var_name": "admin",
-      "value": "0x6d99f476e7e9fccd189fb87023cfa301364fa817"
+      "value": "0x6d99f476e7e9fccd189fb87023cfa301364fa817",
+      "value_hint": "deployer"
     }
   ],
   "critical_storage_variables": [
@@ -45,7 +48,7 @@
       "var_name": "_roles[CANCELLER_ROLE].members[0xB0113804960345fd0a245788b3423319c86940e5]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "ALM freezer",
+      "value_hint": "ALM_FREEZER",
       "comparison_operator": "Equal"
     },
     {
@@ -63,7 +66,7 @@
       "var_name": "_roles[CANCELLER_ROLE].members[0x9184DdBCc4824B76CE2AEFA72534a1a87aA5037c]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "JTRSY proposer",
+      "value_hint": "JTRSY issuer multisig",
       "comparison_operator": "Equal"
     },
     {
@@ -72,7 +75,7 @@
       "var_name": "_roles[PROPOSER_ROLE].members[0x9184DdBCc4824B76CE2AEFA72534a1a87aA5037c]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "JTRSY proposer",
+      "value_hint": "JTRSY issuer multisig",
       "comparison_operator": "Equal"
     },
     {
@@ -90,7 +93,7 @@
       "var_name": "_roles[EXECUTOR_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "Grove proxy",
+      "value_hint": "GROVE_SUBPROXY",
       "comparison_operator": "Equal"
     }
   ],

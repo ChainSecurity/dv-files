@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x10e175140c19a071cb3f53ac7b927c4bd6b2067c1ca11fbd186904251baefa75",
+  "id": "0x311f1821176590d9077650909aef941bcd907ea877933a58a2880ddd25f44d58",
   "contract_name": "TimelockController",
   "address": "0xdb8c7c814e9780659b23478ef4bda9032cc9ff34",
   "chain_id": 1,
@@ -18,15 +18,18 @@
     },
     {
       "var_name": "proposers",
-      "value": "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
+      "value": "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817",
+      "value_hint": "deployer"
     },
     {
       "var_name": "executors",
-      "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba"
+      "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+      "value_hint": "GROVE_SUBPROXY"
     },
     {
       "var_name": "admin",
-      "value": "0x6d99f476e7e9fccd189fb87023cfa301364fa817"
+      "value": "0x6d99f476e7e9fccd189fb87023cfa301364fa817",
+      "value_hint": "deployer"
     }
   ],
   "critical_storage_variables": [
@@ -45,7 +48,7 @@
       "var_name": "_roles[CANCELLER_ROLE].members[0xB0113804960345fd0a245788b3423319c86940e5]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "ALM freezer",
+      "value_hint": "ALM_FREEZER",
       "comparison_operator": "Equal"
     },
     {
@@ -54,7 +57,7 @@
       "var_name": "_roles[EXECUTOR_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "Grove proxy",
+      "value_hint": "GROVE_SUBPROXY",
       "comparison_operator": "Equal"
     },
     {
@@ -72,7 +75,7 @@
       "var_name": "_roles[CANCELLER_ROLE].members[0x453A28B31fdc31858C35B02bc3A42BCD8bfbAd3a]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "BUIDL proposer",
+      "value_hint": "Securitize issuer multisig",
       "comparison_operator": "Equal"
     },
     {
@@ -81,7 +84,7 @@
       "var_name": "_roles[PROPOSER_ROLE].members[0x453A28B31fdc31858C35B02bc3A42BCD8bfbAd3a]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "BUIDL proposer",
+      "value_hint": "Securitize issuer multisig",
       "comparison_operator": "Equal"
     },
     {

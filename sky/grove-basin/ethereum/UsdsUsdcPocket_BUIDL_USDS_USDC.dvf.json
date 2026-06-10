@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0xb7586dc0e3fd0306e591d44728048d4f8a5b0f4d55da9b6e045d0144cac8f929",
+  "id": "0x0f43f164da70102ff746c17b7b32af11428dd29dc75bcf5f0b763eec2d4a98a8",
   "contract_name": "UsdsUsdcPocket",
   "address": "0x621727a05db6aeb33118b3f9de3eaf2d8fc86ada",
   "chain_id": 1,
@@ -12,47 +12,55 @@
   "immutables": [
     {
       "var_name": "_basin",
-      "value": "0x00000000000000000000000010b3d3a96646720f8b3a29229cf96d513f3c84f1"
+      "value": "0x00000000000000000000000010b3d3a96646720f8b3a29229cf96d513f3c84f1",
+      "value_hint": "GroveBasin (BUIDL/USDS/USDC)"
     },
     {
       "var_name": "usdc",
       "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-      "value_hint": "USD Coin (USDC)"
+      "value_hint": "USDC"
     },
     {
       "var_name": "usds",
-      "value": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f"
+      "value": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f",
+      "value_hint": "USDS"
     },
     {
       "var_name": "psm",
-      "value": "0x000000000000000000000000a188eec8f81263234da3622a406892f3d630f98c"
+      "value": "0x000000000000000000000000a188eec8f81263234da3622a406892f3d630f98c",
+      "value_hint": "WRAPPER_USDS_LITE_PSM_USDC_A"
     },
     {
       "var_name": "groveProxy",
-      "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba"
+      "value": "0x0000000000000000000000001369f7b2b38c76b6478c0f0e66d94923421891ba",
+      "value_hint": "GROVE_SUBPROXY"
     }
   ],
   "constructor_args": [
     {
       "var_name": "basin_",
-      "value": "0x10b3d3a96646720f8b3a29229cf96d513f3c84f1"
+      "value": "0x10b3d3a96646720f8b3a29229cf96d513f3c84f1",
+      "value_hint": "GroveBasin (BUIDL/USDS/USDC)"
     },
     {
       "var_name": "usdc_",
       "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-      "value_hint": "USD Coin (USDC)"
+      "value_hint": "USDC"
     },
     {
       "var_name": "usds_",
-      "value": "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+      "value": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "value_hint": "USDS"
     },
     {
       "var_name": "psm_",
-      "value": "0xa188eec8f81263234da3622a406892f3d630f98c"
+      "value": "0xa188eec8f81263234da3622a406892f3d630f98c",
+      "value_hint": "WRAPPER_USDS_LITE_PSM_USDC_A"
     },
     {
       "var_name": "groveProxy_",
-      "value": "0x1369f7b2b38c76b6478c0f0e66d94923421891ba"
+      "value": "0x1369f7b2b38c76b6478c0f0e66d94923421891ba",
+      "value_hint": "GROVE_SUBPROXY"
     }
   ],
   "critical_storage_variables": [],

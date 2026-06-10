@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x9bdb7f9d6f8856a806c9b0c787000f5c7b9268aec57b5e80ec5d7be70aa17cd9",
+  "id": "0xc55c99c86229f1e64e6e6717c2499936ebd1ee3266749e400f79a67a37899e9c",
   "contract_name": "GroveBasin",
   "address": "0x1fa4db8d545cbd22b7bba2084348a2e6ef36e363",
   "chain_id": 1,
@@ -27,55 +27,65 @@
     },
     {
       "var_name": "liquidityProvider",
-      "value": "0x000000000000000000000000491edfb0b8b608044e227225c715981a30f3a44e"
+      "value": "0x000000000000000000000000491edfb0b8b608044e227225c715981a30f3a44e",
+      "value_hint": "ALM_PROXY"
     },
     {
       "var_name": "swapToken",
-      "value": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f"
+      "value": "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f",
+      "value_hint": "USDS"
     },
     {
       "var_name": "collateralToken",
       "value": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-      "value_hint": "USD Coin (USDC)"
+      "value_hint": "USDC"
     },
     {
       "var_name": "creditToken",
-      "value": "0x0000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86"
+      "value": "0x0000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86",
+      "value_hint": "JTRSY"
     }
   ],
   "constructor_args": [
     {
       "var_name": "owner_",
-      "value": "0x6d99f476e7e9fccd189fb87023cfa301364fa817"
+      "value": "0x6d99f476e7e9fccd189fb87023cfa301364fa817",
+      "value_hint": "deployer"
     },
     {
       "var_name": "liquidityProvider_",
-      "value": "0x491edfb0b8b608044e227225c715981a30f3a44e"
+      "value": "0x491edfb0b8b608044e227225c715981a30f3a44e",
+      "value_hint": "ALM_PROXY"
     },
     {
       "var_name": "swapToken_",
-      "value": "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+      "value": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "value_hint": "USDS"
     },
     {
       "var_name": "collateralToken_",
       "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-      "value_hint": "USD Coin (USDC)"
+      "value_hint": "USDC"
     },
     {
       "var_name": "creditToken_",
-      "value": "0x8c213ee79581ff4984583c6a801e5263418c4b86"
+      "value": "0x8c213ee79581ff4984583c6a801e5263418c4b86",
+      "value_hint": "JTRSY"
     },
     {
       "var_name": "swapTokenRateProvider_",
-      "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d"
+      "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d",
+      "value_hint": "FixedRateProvider"
     },
     {
       "var_name": "collateralTokenRateProvider_",
-      "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d"
+      "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d",
+      "value_hint": "FixedRateProvider"
     },
     {
       "var_name": "creditTokenRateProvider_",
-      "value": "0x29209cecfefa6f675e6f1f829320d67ce2b025e5"
+      "value": "0x29209cecfefa6f675e6f1f829320d67ce2b025e5",
+      "value_hint": "JTRSY ChronicleRateProvider"
     }
   ],
   "critical_storage_variables": [
@@ -85,6 +95,7 @@
       "var_name": "swapTokenRateProvider",
       "var_type": "t_address",
       "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d",
+      "value_hint": "FixedRateProvider",
       "comparison_operator": "Equal"
     },
     {
@@ -93,6 +104,7 @@
       "var_name": "collateralTokenRateProvider",
       "var_type": "t_address",
       "value": "0x7928a185b8137d1cd2a0996a810a04db2837419d",
+      "value_hint": "FixedRateProvider",
       "comparison_operator": "Equal"
     },
     {
@@ -101,6 +113,7 @@
       "var_name": "creditTokenRateProvider",
       "var_type": "t_address",
       "value": "0x29209cecfefa6f675e6f1f829320d67ce2b025e5",
+      "value_hint": "JTRSY ChronicleRateProvider",
       "comparison_operator": "Equal"
     },
     {
@@ -109,6 +122,7 @@
       "var_name": "pocket",
       "var_type": "t_address",
       "value": "0xa15b8c07fa32a4f8bea3882600a673dc9cc1d6b9",
+      "value_hint": "UsdsUsdcPocket (JTRSY/USDS/USDC)",
       "comparison_operator": "Equal"
     },
     {
@@ -241,7 +255,7 @@
       "var_name": "_roles[PAUSER_ROLE].members[0xB0113804960345fd0a245788b3423319c86940e5]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "ALM freezer",
+      "value_hint": "ALM_FREEZER",
       "comparison_operator": "Equal"
     },
     {
@@ -276,7 +290,7 @@
       "var_name": "_roles[MANAGER_ADMIN_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "Grove proxy",
+      "value_hint": "GROVE_SUBPROXY",
       "comparison_operator": "Equal"
     },
     {
@@ -302,7 +316,7 @@
       "var_name": "_roles[MANAGER_ROLE].members[0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "ALM relayer",
+      "value_hint": "ALM_RELAYER",
       "comparison_operator": "Equal"
     },
     {
@@ -311,7 +325,7 @@
       "var_name": "_roles[OWNER_ROLE].members[0xA52dC9876aB4A9DB6dAfbb83410554086054d140]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "JTRSY admin timelock",
+      "value_hint": "JTRSY admin TimelockController",
       "comparison_operator": "Equal"
     },
     {

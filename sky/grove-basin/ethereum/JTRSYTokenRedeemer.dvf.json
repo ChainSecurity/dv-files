@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x5c85a042a4ae2fe343c93e4c22b65c4d5588627700974d1e3d1434cad2d6c729",
+  "id": "0x8c9573d1e5db0748405e44da0efcf459a5d954a09fa31a37f0936fc636d7d137",
   "contract_name": "JTRSYTokenRedeemer",
   "address": "0x212697f0a9fc218210d98cd1a159dc8d8a87b8a8",
   "chain_id": 1,
@@ -12,29 +12,35 @@
   "immutables": [
     {
       "var_name": "creditToken",
-      "value": "0x0000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86"
+      "value": "0x0000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86",
+      "value_hint": "JTRSY"
     },
     {
       "var_name": "vault",
-      "value": "0x000000000000000000000000fe6920eb6c421f1179ca8c8d4170530cdbdfd77a"
+      "value": "0x000000000000000000000000fe6920eb6c421f1179ca8c8d4170530cdbdfd77a",
+      "value_hint": "JTRSY vault"
     },
     {
       "var_name": "basin",
-      "value": "0x0000000000000000000000001fa4db8d545cbd22b7bba2084348a2e6ef36e363"
+      "value": "0x0000000000000000000000001fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+      "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
     }
   ],
   "constructor_args": [
     {
       "var_name": "creditToken_",
-      "value": "0x8c213ee79581ff4984583c6a801e5263418c4b86"
+      "value": "0x8c213ee79581ff4984583c6a801e5263418c4b86",
+      "value_hint": "JTRSY"
     },
     {
       "var_name": "vault_",
-      "value": "0xfe6920eb6c421f1179ca8c8d4170530cdbdfd77a"
+      "value": "0xfe6920eb6c421f1179ca8c8d4170530cdbdfd77a",
+      "value_hint": "JTRSY vault"
     },
     {
       "var_name": "basin_",
-      "value": "0x1fa4db8d545cbd22b7bba2084348a2e6ef36e363"
+      "value": "0x1fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+      "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
     }
   ],
   "critical_storage_variables": [
