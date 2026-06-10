@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x9b14740881f5a3746fc4896a23d2dc1909be05ee9272a4927a4dc7bf379b024b",
+  "id": "0x1d66986bbf10b4921e70ac1cf22d9bf1974095fea69efe6f86f9c2e081c37058",
   "contract_name": "TimelockController",
   "address": "0xa52dc9876ab4a9db6dafbb83410554086054d140",
   "chain_id": 1,
@@ -45,8 +45,8 @@
       "var_name": "_roles[CANCELLER_ROLE].members[0xB0113804960345fd0a245788b3423319c86940e5]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "ALM freezer"
+      "value_hint": "ALM freezer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x45074af677fe9aff199bb3b76135306a519b086e6300f9d9c5e7f8f168e4c9e7",
@@ -54,8 +54,8 @@
       "var_name": "_timestamps[operationId]",
       "var_type": "t_uint256",
       "value": "0x000000000000000000000000000000000000000000000000000000006a10abdb",
-      "comparison_operator": "Equal",
-      "value_hint": "scheduled operation ETA (unix seconds)"
+      "value_hint": "scheduled operation ETA (unix seconds)",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x69534b15bd32489c48ddfe4d646c54c93c78085160ff3794d69b6de9323bfc7e",
@@ -63,8 +63,8 @@
       "var_name": "_roles[CANCELLER_ROLE].members[0x9184DdBCc4824B76CE2AEFA72534a1a87aA5037c]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "JTRSY proposer"
+      "value_hint": "JTRSY proposer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x8c915f6cf8c9c49f59374bdb84cac5c01ab4111c3f861590af24db9ca97c24c3",
@@ -72,8 +72,8 @@
       "var_name": "_roles[PROPOSER_ROLE].members[0x9184DdBCc4824B76CE2AEFA72534a1a87aA5037c]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "JTRSY proposer"
+      "value_hint": "JTRSY proposer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x9f39ee3a21d62b92a264d051623bd6d8380f6a1f1e9833894dc1f89fee08cae2",
@@ -81,8 +81,8 @@
       "var_name": "_roles[DEFAULT_ADMIN_ROLE].members[0xA52dC9876aB4A9DB6dAfbb83410554086054d140]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "self-administration"
+      "value_hint": "self-administration",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xa8a5fe2a9dc3b3c7608b9deedf53f2ddf5221b7ce693bb15a29fc9a8309caded",
@@ -90,8 +90,8 @@
       "var_name": "_roles[EXECUTOR_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "Grove proxy"
+      "value_hint": "Grove proxy",
+      "comparison_operator": "Equal"
     }
   ],
   "critical_events": [

@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x4deddc213b805185a5327d394c5dffd480cba51e50b1be76c1624c0a48ebfbd8",
+  "id": "0xf5affcccb20c43413d5d8aaa8afe5cb7963a8b9519aa4e44f9fcebcb90409c48",
   "contract_name": "GroveBasin",
   "address": "0x10b3d3a96646720f8b3a29229cf96d513f3c84f1",
   "chain_id": 1,
@@ -241,8 +241,8 @@
       "var_name": "_roles[REDEEMER_CONTRACT_ROLE].members[0x99E5E7c533C7319f855B940561Df285bE022c82d]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "BUIDLTokenRedeemer"
+      "value_hint": "BUIDLTokenRedeemer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x1d6b584237c0e2219c4004bd7add7b9b0cdfb8327353a6a5960e3fb286a7079c",
@@ -250,8 +250,8 @@
       "var_name": "_roles[PAUSER_ROLE].members[0xB0113804960345fd0a245788b3423319c86940e5]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "ALM freezer"
+      "value_hint": "ALM freezer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x41a7de97a654b03beddefbdcfb94274310cf948c795298d6a8f9d05d7ecf44cc",
@@ -267,8 +267,8 @@
       "var_name": "_roles[MANAGER_ADMIN_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "Grove proxy"
+      "value_hint": "Grove proxy",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x752b0d3ca40af5e4e1221f7acb145e6ff09a21290f0f3dec7d7eea30384f6a29",
@@ -284,8 +284,8 @@
       "var_name": "_roles[REDEEMER_ROLE].members[0xcBeEe2c39601e1ee5502F2593F6758e6598C47a6]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "Securitize redeemer"
+      "value_hint": "Securitize redeemer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x8fa6efc3be94b5b348b21fea823fe8d100408cee9b7f90524494500445d8ff6c",
@@ -293,8 +293,8 @@
       "var_name": "shares[0x0000000000000000000000000000000000000000]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
-      "comparison_operator": "Equal",
-      "value_hint": "1e18"
+      "value_hint": "1e18",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x9e3ac48b22c2aab70b19a7b0d17ae94d954a6fe48b63ff9fd7be1264b53742e4",
@@ -302,8 +302,8 @@
       "var_name": "_roles[MANAGER_ROLE].members[0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "ALM relayer"
+      "value_hint": "ALM relayer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xc536fedcc481a0a83c11ba6d8a76b6f6fa4d2d05a7e0f8a4ce38fd3ae675f3b1",
@@ -311,8 +311,8 @@
       "var_name": "_roles[OWNER_ROLE].members[0xdB8C7c814E9780659B23478EF4Bda9032CC9Ff34]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "BUIDL admin timelock"
+      "value_hint": "BUIDL admin timelock",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xd1617365ca7fa26486bce63ec15737b1a8193025f7c7d47d7462fbb0c7bce6ef",
@@ -320,8 +320,8 @@
       "var_name": "_roles[REDEEMER_CONTRACT_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
-      "comparison_operator": "Equal",
-      "value_hint": "MANAGER_ADMIN_ROLE"
+      "value_hint": "MANAGER_ADMIN_ROLE",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xddb9a1f5cae380f5894ad1b49d4496e30ab651af3086d40753a04198283f017a",
@@ -329,8 +329,8 @@
       "var_name": "_roles[REDEEMER_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
-      "comparison_operator": "Equal",
-      "value_hint": "MANAGER_ADMIN_ROLE"
+      "value_hint": "MANAGER_ADMIN_ROLE",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xdef2ef821d86a6927e95532ba74950d06e98c61ada666446985367ca32560b0f",
@@ -346,8 +346,8 @@
       "var_name": "_roles[MANAGER_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
-      "comparison_operator": "Equal",
-      "value_hint": "MANAGER_ADMIN_ROLE"
+      "value_hint": "MANAGER_ADMIN_ROLE",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xf7c9542c591017a21c74b6f3fab6263c7952fc0aaf9db4c22a2a04ddc7f86750",
@@ -355,8 +355,8 @@
       "var_name": "_roles[PAUSER_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
-      "comparison_operator": "Equal",
-      "value_hint": "MANAGER_ADMIN_ROLE"
+      "value_hint": "MANAGER_ADMIN_ROLE",
+      "comparison_operator": "Equal"
     }
   ],
   "critical_events": [

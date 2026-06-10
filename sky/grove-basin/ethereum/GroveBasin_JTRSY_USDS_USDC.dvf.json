@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0xd24e803f2b5af42515cb0c055e2383bda081e93eb6608eeca65859517b741edf",
+  "id": "0x9bdb7f9d6f8856a806c9b0c787000f5c7b9268aec57b5e80ec5d7be70aa17cd9",
   "contract_name": "GroveBasin",
   "address": "0x1fa4db8d545cbd22b7bba2084348a2e6ef36e363",
   "chain_id": 1,
@@ -241,8 +241,8 @@
       "var_name": "_roles[PAUSER_ROLE].members[0xB0113804960345fd0a245788b3423319c86940e5]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "ALM freezer"
+      "value_hint": "ALM freezer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x2d644eb513f4a812c316b941d9537be37f0c49b7c56dd7166cd08b7ed5a433bb",
@@ -250,8 +250,8 @@
       "var_name": "_roles[REDEEMER_CONTRACT_ROLE].members[0x212697f0A9Fc218210D98cd1A159dc8D8A87b8A8]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "JTRSYTokenRedeemer"
+      "value_hint": "JTRSYTokenRedeemer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x37e6b76ae7c6cfa47b96fe110a841253af6f262f279f4bbd125ed5599eb6596b",
@@ -259,8 +259,8 @@
       "var_name": "_roles[REDEEMER_ROLE].members[0xb6e8D3E47c4FC5606E6C24D097Dd1791885Ce05a]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "JTRSY redeemer"
+      "value_hint": "JTRSY redeemer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x41a7de97a654b03beddefbdcfb94274310cf948c795298d6a8f9d05d7ecf44cc",
@@ -276,8 +276,8 @@
       "var_name": "_roles[MANAGER_ADMIN_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "Grove proxy"
+      "value_hint": "Grove proxy",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x752b0d3ca40af5e4e1221f7acb145e6ff09a21290f0f3dec7d7eea30384f6a29",
@@ -293,8 +293,8 @@
       "var_name": "shares[0x0000000000000000000000000000000000000000]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
-      "comparison_operator": "Equal",
-      "value_hint": "1e18"
+      "value_hint": "1e18",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x9e3ac48b22c2aab70b19a7b0d17ae94d954a6fe48b63ff9fd7be1264b53742e4",
@@ -302,8 +302,8 @@
       "var_name": "_roles[MANAGER_ROLE].members[0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "ALM relayer"
+      "value_hint": "ALM relayer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0x9f39ee3a21d62b92a264d051623bd6d8380f6a1f1e9833894dc1f89fee08cae2",
@@ -311,8 +311,8 @@
       "var_name": "_roles[OWNER_ROLE].members[0xA52dC9876aB4A9DB6dAfbb83410554086054d140]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "JTRSY admin timelock"
+      "value_hint": "JTRSY admin timelock",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xd1617365ca7fa26486bce63ec15737b1a8193025f7c7d47d7462fbb0c7bce6ef",
@@ -320,8 +320,8 @@
       "var_name": "_roles[REDEEMER_CONTRACT_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
-      "comparison_operator": "Equal",
-      "value_hint": "MANAGER_ADMIN_ROLE"
+      "value_hint": "MANAGER_ADMIN_ROLE",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xddb9a1f5cae380f5894ad1b49d4496e30ab651af3086d40753a04198283f017a",
@@ -329,8 +329,8 @@
       "var_name": "_roles[REDEEMER_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
-      "comparison_operator": "Equal",
-      "value_hint": "MANAGER_ADMIN_ROLE"
+      "value_hint": "MANAGER_ADMIN_ROLE",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xdef2ef821d86a6927e95532ba74950d06e98c61ada666446985367ca32560b0f",
@@ -346,8 +346,8 @@
       "var_name": "_roles[MANAGER_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
-      "comparison_operator": "Equal",
-      "value_hint": "MANAGER_ADMIN_ROLE"
+      "value_hint": "MANAGER_ADMIN_ROLE",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xf7c9542c591017a21c74b6f3fab6263c7952fc0aaf9db4c22a2a04ddc7f86750",
@@ -355,8 +355,8 @@
       "var_name": "_roles[PAUSER_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x65679f3435cf1ad6f3000e262bbc3daacdb883fb807fd1e0c0fa64b5f996bfea",
-      "comparison_operator": "Equal",
-      "value_hint": "MANAGER_ADMIN_ROLE"
+      "value_hint": "MANAGER_ADMIN_ROLE",
+      "comparison_operator": "Equal"
     }
   ],
   "critical_events": [

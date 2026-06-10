@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x233d3300c74c2c8073b22240ae1f1b72549420a7f662df167993000b7379073e",
+  "id": "0x10e175140c19a071cb3f53ac7b927c4bd6b2067c1ca11fbd186904251baefa75",
   "contract_name": "TimelockController",
   "address": "0xdb8c7c814e9780659b23478ef4bda9032cc9ff34",
   "chain_id": 1,
@@ -45,8 +45,8 @@
       "var_name": "_roles[CANCELLER_ROLE].members[0xB0113804960345fd0a245788b3423319c86940e5]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "ALM freezer"
+      "value_hint": "ALM freezer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xa8a5fe2a9dc3b3c7608b9deedf53f2ddf5221b7ce693bb15a29fc9a8309caded",
@@ -54,8 +54,8 @@
       "var_name": "_roles[EXECUTOR_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "Grove proxy"
+      "value_hint": "Grove proxy",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xc536fedcc481a0a83c11ba6d8a76b6f6fa4d2d05a7e0f8a4ce38fd3ae675f3b1",
@@ -63,8 +63,8 @@
       "var_name": "_roles[DEFAULT_ADMIN_ROLE].members[0xdB8C7c814E9780659B23478EF4Bda9032CC9Ff34]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "self-administration"
+      "value_hint": "self-administration",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xc5dbd31b84faae7073b14d26a69dba2fa27dede89bbd2de6808756bad189a13d",
@@ -72,8 +72,8 @@
       "var_name": "_roles[CANCELLER_ROLE].members[0x453A28B31fdc31858C35B02bc3A42BCD8bfbAd3a]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "BUIDL proposer"
+      "value_hint": "BUIDL proposer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xdc50c4e296b7a3aa130189c7279f8026125d97eed22f980a17bb8507bcbab20e",
@@ -81,8 +81,8 @@
       "var_name": "_roles[PROPOSER_ROLE].members[0x453A28B31fdc31858C35B02bc3A42BCD8bfbAd3a]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal",
-      "value_hint": "BUIDL proposer"
+      "value_hint": "BUIDL proposer",
+      "comparison_operator": "Equal"
     },
     {
       "slot": "0xe0b5da90de0f67ef33c424f0c63f45353df137e61c7d3eaac85a815d5ff0ac2f",
@@ -90,8 +90,8 @@
       "var_name": "_timestamps[operationId]",
       "var_type": "t_uint256",
       "value": "0x000000000000000000000000000000000000000000000000000000006a189e47",
-      "comparison_operator": "Equal",
-      "value_hint": "scheduled operation ETA (unix seconds)"
+      "value_hint": "scheduled operation ETA (unix seconds)",
+      "comparison_operator": "Equal"
     }
   ],
   "critical_events": [
