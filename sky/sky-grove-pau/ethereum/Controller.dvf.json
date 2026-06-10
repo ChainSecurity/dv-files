@@ -1,0 +1,1928 @@
+{
+  "version": "0.9.1",
+  "id": "0x33863ea18b2bc6b4c6f76fd9ddedc5f88d36a5a84b5e67d31510cbe1c5aa8929",
+  "contract_name": "Controller",
+  "address": "0x0dd65461610fe5b65ce50a870b10ed0f3d24d8c2",
+  "chain_id": 1,
+  "deployment_block_num": 25252654,
+  "init_block_num": 25275341,
+  "deployment_tx": "0xccba0fb882f603ef3e3189f10da5472846b18c8057c221202c3ac3faac8502fc",
+  "codehash": "0x32c6dfc13d8e64e085d883efc14fe4146d71e039dcd31c7b297e61a2f75fb7c4",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "beacon",
+      "value": "0x000000000000000000000000829dc2b7e94b1954f0764e573f2e0d45afa28199"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "accessControls_",
+      "value": "0x10d1ade77f1b81ef95057bb2face292313f66277"
+    },
+    {
+      "var_name": "beacon_",
+      "value": "0x829dc2b7e94b1954f0764e573f2e0d45afa28199"
+    },
+    {
+      "var_name": "proxy_",
+      "value": "0x491edfb0b8b608044e227225c715981a30f3a44e"
+    },
+    {
+      "var_name": "rateLimits_",
+      "value": "0x5f5cfcb8a463868e37ab27b5eff3ba02112df19a"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x2e3bf42e34a8ececb8378e78c4d896dcfec215fa26e57e21d617a1d672fe4e7",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_getCancelRedeemRateLimitKey(address)].facet",
+      "var_type": "t_address",
+      "value": "0x691b5c26ad2b74d2376f4ed87904e9d3e47bd630",
+      "value_hint": "MapleFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2e3bf42e34a8ececb8378e78c4d896dcfec215fa26e57e21d617a1d672fe4e7",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_getCancelRedeemRateLimitKey(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xc6529f84",
+      "value_hint": "getCancelRedeemRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xcd132a4d467594231aaa3af29a4cf8585f4a9cf2de227752df189ef442017f3",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xcd132a4d467594231aaa3af29a4cf8585f4a9cf2de227752df189ef442017f4",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000017",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x20c26b51106e06e6a292c013e765f42327600f0e756cfa2b00f8769b5a5dc862",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_deposit(address,address,uint256,uint256)].facet",
+      "var_type": "t_address",
+      "value": "0xc84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x20c26b51106e06e6a292c013e765f42327600f0e756cfa2b00f8769b5a5dc862",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_deposit(address,address,uint256,uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x20e8c565",
+      "value_hint": "deposit(address,address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x22f69910df4be31cdc2b4e22fc82c229fa1de26fd4d311cca7bda23757bd87c5",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._positions['BASIN_FACET']",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x29bc8e6a315164411b8b9ecfec7f996a1f25fde45efe568fc312cf6acb433fb2",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x29bc8e6a315164411b8b9ecfec7f996a1f25fde45efe568fc312cf6acb433fb3",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000009",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x29d7969eac78f52407c3c23470cbe493c3c40e27674a3fd1e3ba0fd492be21af",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getAssetWithdrawRateLimitKey(address,address)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x29d7969eac78f52407c3c23470cbe493c3c40e27674a3fd1e3ba0fd492be21af",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getAssetWithdrawRateLimitKey(address,address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xca0169fa",
+      "value_hint": "getAssetWithdrawRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2aa203a8c9fe958790987c8769ebda7105a7261554296b4f73dd9832c734e71a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_VERSION()].facet",
+      "var_type": "t_address",
+      "value": "0x691b5c26ad2b74d2376f4ed87904e9d3e47bd630",
+      "value_hint": "MapleFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2aa203a8c9fe958790987c8769ebda7105a7261554296b4f73dd9832c734e71a",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_VERSION()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xffa1ad74",
+      "value_hint": "VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2dd16d2c8978432a015c3b95fcf52b1d9662fb4e32d6e9a0713aab4de668ce28",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x424153494e5f4641434554000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2dd16d2c8978432a015c3b95fcf52b1d9662fb4e32d6e9a0713aab4de668ce29",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values[1]",
+      "var_type": "t_bytes32",
+      "value": "0x455243343632365f464143455400000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2dd16d2c8978432a015c3b95fcf52b1d9662fb4e32d6e9a0713aab4de668ce2a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values[2]",
+      "var_type": "t_bytes32",
+      "value": "0x4d41504c455f4641434554000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2dd16d2c8978432a015c3b95fcf52b1d9662fb4e32d6e9a0713aab4de668ce2b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values[3]",
+      "var_type": "t_bytes32",
+      "value": "0x554e49535741505f56335f464143455400000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3128167238cfb31df72541d92753a517dba901674e6cba3886cba6a2c3d6b5cd",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_removeLiquidity(address,uint256,uint128,(uint256,uint256),uint256)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3128167238cfb31df72541d92753a517dba901674e6cba3886cba6a2c3d6b5cd",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_removeLiquidity(address,uint256,uint128,(uint256,uint256),uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x69ee06c3",
+      "value_hint": "removeLiquidity(address,uint256,uint128,(uint256,uint256),uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x33400699df383d2b570ea3ff002c07d8166b9fd3934da18a3b31aab85b620789",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getAggregateDepositRateLimitKey(address)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x33400699df383d2b570ea3ff002c07d8166b9fd3934da18a3b31aab85b620789",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getAggregateDepositRateLimitKey(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x0238451d",
+      "value_hint": "getAggregateDepositRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x34a1ea49241feb339d92e8ae2414a8bbb00f52716f8438a80dbac70539cdcbb1",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_getDepositRateLimitKey(address,address)].facet",
+      "var_type": "t_address",
+      "value": "0xc84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x34a1ea49241feb339d92e8ae2414a8bbb00f52716f8438a80dbac70539cdcbb1",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_getDepositRateLimitKey(address,address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x9108d4f6",
+      "value_hint": "getDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3d4f448d56faa066b018ce6f32cb368330765f2658bbde4e60c71ebef96a945d",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_VERSION()].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3d4f448d56faa066b018ce6f32cb368330765f2658bbde4e60c71ebef96a945d",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_VERSION()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xffa1ad74",
+      "value_hint": "VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3da208caa0a3fe4f1f146d6c75ae1b8a83722ebdcdda07b04dd20c74d1bf5da1",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setMaxSlippage(address,uint256)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3da208caa0a3fe4f1f146d6c75ae1b8a83722ebdcdda07b04dd20c74d1bf5da1",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setMaxSlippage(address,uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x73d76dbe",
+      "value_hint": "setMaxSlippage(address,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3de4a395f17938417f4a6b33894621e2c76c7a4cbe748a114ed3aae6ef8e496a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_MAX_TICK()].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3de4a395f17938417f4a6b33894621e2c76c7a4cbe748a114ed3aae6ef8e496a",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_MAX_TICK()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x6882a888",
+      "value_hint": "MAX_TICK()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3faf600e96b90137a4c4da1f43f3acb8f7e067dcfd6cab8d8b9b4be6ff8e3cdc",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getAssetDepositRateLimitKey(address,address)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3faf600e96b90137a4c4da1f43f3acb8f7e067dcfd6cab8d8b9b4be6ff8e3cdc",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getAssetDepositRateLimitKey(address,address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xba92d50c",
+      "value_hint": "getAssetDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x402ff0a06e6bc37d1483e76325e7286709b565f9e1d0ef52faff9361796bbfed",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_withdraw(address,uint256,uint256)].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x402ff0a06e6bc37d1483e76325e7286709b565f9e1d0ef52faff9361796bbfed",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_withdraw(address,uint256,uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xb5c5f672",
+      "value_hint": "withdraw(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x459d330dd39f812e6ff4a7e3ed4a04c949f6789d6dea4f05d5b4b05637c52233",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_getWithdrawRateLimitKey(address,address)].facet",
+      "var_type": "t_address",
+      "value": "0xc84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x459d330dd39f812e6ff4a7e3ed4a04c949f6789d6dea4f05d5b4b05637c52233",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_getWithdrawRateLimitKey(address,address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x01da872b",
+      "value_hint": "getWithdrawRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x478b4f7f19dd56429109295b304e246e13d9e20ccc1f624fe83f745eff4fd3b6",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setLiquidityUpperTickBound(address,int24)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x478b4f7f19dd56429109295b304e246e13d9e20ccc1f624fe83f745eff4fd3b6",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setLiquidityUpperTickBound(address,int24)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x916afd77",
+      "value_hint": "setLiquidityUpperTickBound(address,int24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4c9d378257613cfb1e241b226131e469c8d5996efb55f6b0dcdad22da627f9c0",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._positions['UNISWAP_V3_FACET']",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000004",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[0].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x8727e305",
+      "value_hint": "erc4626_VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541a",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[0].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xffa1ad74",
+      "value_hint": "VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[1].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xa3124407",
+      "value_hint": "erc4626_setMaxExchangeRate(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541b",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[1].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x7011df99",
+      "value_hint": "setMaxExchangeRate(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541c",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[2].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xfc78974a",
+      "value_hint": "erc4626_deposit(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541c",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[2].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x0efe6a8b",
+      "value_hint": "deposit(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541d",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[3].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xd04771b8",
+      "value_hint": "erc4626_withdraw(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541d",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[3].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xb5c5f672",
+      "value_hint": "withdraw(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541e",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[4].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xe7accdce",
+      "value_hint": "erc4626_redeem(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541e",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[4].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x2b83cccd",
+      "value_hint": "redeem(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541f",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[5].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xd9aa77a8",
+      "value_hint": "erc4626_EXCHANGE_RATE_PRECISION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf541f",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[5].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x3a01b964",
+      "value_hint": "EXCHANGE_RATE_PRECISION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf5420",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[6].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x9d6e4747",
+      "value_hint": "erc4626_getMaxExchangeRate(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf5420",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[6].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x7ed9b88c",
+      "value_hint": "getMaxExchangeRate(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf5421",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[7].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x4f3c9dd9",
+      "value_hint": "erc4626_getDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf5421",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[7].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x9108d4f6",
+      "value_hint": "getDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf5422",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[8].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xb2d5ea4b",
+      "value_hint": "erc4626_getWithdrawRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4d068afc0d1474546afe4738536858fad37bf003017c81d00b2761d54dcf5422",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['ERC4626_FACET'].wires[8].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x180c92e7",
+      "value_hint": "getWithdrawRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x563a1391f46ae10568fec519cb0a14ba68e2207e17a229932fdeeb174f3550a4",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_addLiquidity(address,uint256,(int24,int24),(uint256,uint256),(uint256,uint256),uint256)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x563a1391f46ae10568fec519cb0a14ba68e2207e17a229932fdeeb174f3550a4",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_addLiquidity(address,uint256,(int24,int24),(uint256,uint256),(uint256,uint256),uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x4443e82d",
+      "value_hint": "addLiquidity(address,uint256,(int24,int24),(uint256,uint256),(uint256,uint256),uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5e2c7b315d5494a809ea4f27919b11ee839847908630c213ff3b138e3df9dc16",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_cancelRedemption(address,uint256)].facet",
+      "var_type": "t_address",
+      "value": "0x691b5c26ad2b74d2376f4ed87904e9d3e47bd630",
+      "value_hint": "MapleFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5e2c7b315d5494a809ea4f27919b11ee839847908630c213ff3b138e3df9dc16",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_cancelRedemption(address,uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x635403f6",
+      "value_hint": "cancelRedemption(address,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d125",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[0].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x3e2b0185",
+      "value_hint": "maple_VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d125",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[0].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xffa1ad74",
+      "value_hint": "VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d126",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[1].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x52c959b8",
+      "value_hint": "maple_requestRedemption(address,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d126",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[1].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x65d8480b",
+      "value_hint": "requestRedemption(address,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d127",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[2].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x3b45c0e5",
+      "value_hint": "maple_cancelRedemption(address,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d127",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[2].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x635403f6",
+      "value_hint": "cancelRedemption(address,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d128",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[3].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xe6b45f94",
+      "value_hint": "maple_getCancelRedeemRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d128",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[3].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xc6529f84",
+      "value_hint": "getCancelRedeemRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d129",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[4].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x18141579",
+      "value_hint": "maple_getRequestRedeemRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5eec1e1b402ac24affd8d25a1923cf655f28f53584dfd8467977d0cbcdd5d129",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires[4].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x57e1aa90",
+      "value_hint": "getRequestRedeemRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5f83154a6ddb6979eee8528c365493c4b39dd246158a6e507130aba628e4406d",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_getRequestRedeemRateLimitKey(address)].facet",
+      "var_type": "t_address",
+      "value": "0x691b5c26ad2b74d2376f4ed87904e9d3e47bd630",
+      "value_hint": "MapleFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5f83154a6ddb6979eee8528c365493c4b39dd246158a6e507130aba628e4406d",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_getRequestRedeemRateLimitKey(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x57e1aa90",
+      "value_hint": "getRequestRedeemRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x60f8ade7f485d6f385f3587a6d91ddd6c2d80612da5cca07d9ce16970b69b7e4",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getTWAPSecondsAgo(address)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x60f8ade7f485d6f385f3587a6d91ddd6c2d80612da5cca07d9ce16970b69b7e4",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getTWAPSecondsAgo(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x4d31ce22",
+      "value_hint": "getTWAPSecondsAgo(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x67090cf0c2e1aa840f21e8e0b57972b319cc2f20df6d9c7f2830b870fb380690",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_VERSION()].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x67090cf0c2e1aa840f21e8e0b57972b319cc2f20df6d9c7f2830b870fb380690",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_VERSION()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xffa1ad74",
+      "value_hint": "VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x6f390a830e198859a2e9e2d8da93856f61be15134fe58f0c9e06e4918e9024df",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setMaxTickDelta(address,uint24)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x6f390a830e198859a2e9e2d8da93856f61be15134fe58f0c9e06e4918e9024df",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setMaxTickDelta(address,uint24)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x690b2c22",
+      "value_hint": "setMaxTickDelta(address,uint24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x70e70ce9490acad82a845dbc30a9186ab1342ef2a4a46c6445fbe5582430456e",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getSwapRateLimitKey(address,address)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x70e70ce9490acad82a845dbc30a9186ab1342ef2a4a46c6445fbe5582430456e",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getSwapRateLimitKey(address,address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xecbe2511",
+      "value_hint": "getSwapRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x760321a7850775c09c46b4eacafd872fc32d3a88104d7384cc53d7c0139451dc",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setLiquidityLowerTickBound(address,int24)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x760321a7850775c09c46b4eacafd872fc32d3a88104d7384cc53d7c0139451dc",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setLiquidityLowerTickBound(address,int24)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x62f609da",
+      "value_hint": "setLiquidityLowerTickBound(address,int24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77adf60bdbfedf206f8b8310f3d364080b7f61dcc0e46caac13c29bb1eb5cc00",
+      "offset": 0,
+      "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.accessControls",
+      "var_type": "t_address",
+      "value": "0x10d1ade77f1b81ef95057bb2face292313f66277",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77adf60bdbfedf206f8b8310f3d364080b7f61dcc0e46caac13c29bb1eb5cc01",
+      "offset": 0,
+      "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.proxy",
+      "var_type": "t_address",
+      "value": "0x491edfb0b8b608044e227225c715981a30f3a44e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77adf60bdbfedf206f8b8310f3d364080b7f61dcc0e46caac13c29bb1eb5cc02",
+      "offset": 0,
+      "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.rateLimits",
+      "var_type": "t_address",
+      "value": "0x5f5cfcb8a463868e37ab27b5eff3ba02112df19a",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x790ba64dd1b653f362c8e86a1999237159ef1d5859b61314e78ffa9ad9903bdd",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_EXCHANGE_RATE_PRECISION()].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x790ba64dd1b653f362c8e86a1999237159ef1d5859b61314e78ffa9ad9903bdd",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_EXCHANGE_RATE_PRECISION()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x3a01b964",
+      "value_hint": "EXCHANGE_RATE_PRECISION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x7a732f4d0105a5547715ce918c2df0b77ee6b3a7784d5ee5bc6212f811dd32e4",
+      "offset": 0,
+      "var_name": "UniswapV3Facet.FacetStorage.maxSlippages[0xbAFeAd7c60Ea473758ED6c6021505E8BBd7e8E5d]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000ddd2935029d8000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x7f06f32fc0fca08b00b28539a8e1d4cd51cb564a9ee662d48f3a10303f28bdd4",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._positions['MAPLE_FACET']",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x7fabced139b572c4d69269fde04bbc5401a0d854b655f8d98d8643693c186fdf",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getLiquidityTickBounds(address)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x7fabced139b572c4d69269fde04bbc5401a0d854b655f8d98d8643693c186fdf",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getLiquidityTickBounds(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xf3e86c39",
+      "value_hint": "getLiquidityTickBounds(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8442d00aa153a044d909eab2bbfdbe1b12ac088f1de3a7501c1783d469e17309",
+      "offset": 0,
+      "var_name": "ERC4626Facet.FacetStorage.maxExchangeRates[0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b]",
+      "var_type": "t_uint256",
+      "value": "0x000000000000000000000000000000000241c76b735b154119e2dd3000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x84cb79fa4ff5baad1bde2f1a51a9de1e4f404b77282360aebd52a80ad6987bec",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setTWAPSecondsAgo(address,uint32)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x84cb79fa4ff5baad1bde2f1a51a9de1e4f404b77282360aebd52a80ad6987bec",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_setTWAPSecondsAgo(address,uint32)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xf380eb03",
+      "value_hint": "setTWAPSecondsAgo(address,uint32)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x86f14a31b2a060b73b42687cfbd77863ff83769a93456e1d8b183be9cbeae894",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_positionManager()].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x86f14a31b2a060b73b42687cfbd77863ff83769a93456e1d8b183be9cbeae894",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_positionManager()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x791b98bc",
+      "value_hint": "positionManager()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9708ad3d2b64731dffc79d4f5edbc898f5af468bfc24b7cd787085e640c73d5f",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_getDepositRateLimitKey(address,address)].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9708ad3d2b64731dffc79d4f5edbc898f5af468bfc24b7cd787085e640c73d5f",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_getDepositRateLimitKey(address,address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x9108d4f6",
+      "value_hint": "getDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x98246100dd30cffdafe8e72d372a51ccd0bf8a08fafb620c7d44a2915ea5c60a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_MIN_TICK()].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x98246100dd30cffdafe8e72d372a51ccd0bf8a08fafb620c7d44a2915ea5c60a",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_MIN_TICK()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xa1634b14",
+      "value_hint": "MIN_TICK()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9b779b17422d0df92223018b32b4d1fa46e071723d6817e2486d003becc55f00",
+      "offset": 0,
+      "var_name": "ReentrancyGuardUpgradeable.ReentrancyGuardStorageLocation.ReentrancyGuardStorage._status",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9fe25ea1b55e2f128659cfd280398de00c651579ccad4ac26134e6d66af818cd",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_router()].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9fe25ea1b55e2f128659cfd280398de00c651579ccad4ac26134e6d66af818cd",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_router()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xf887ea40",
+      "value_hint": "router()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa44f42caa1acb8babbf768721371a7fa121db16fe1b74d77128d64d65baac51e",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_withdraw(address,address,uint256,uint256)].facet",
+      "var_type": "t_address",
+      "value": "0xc84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa44f42caa1acb8babbf768721371a7fa121db16fe1b74d77128d64d65baac51e",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_withdraw(address,address,uint256,uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x7bfe950c",
+      "value_hint": "withdraw(address,address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa706f30179740b0ed4c65bd516aa139e20073780f3b9747a437aad05dff4864e",
+      "offset": 0,
+      "var_name": "UniswapV3Facet.FacetStorage.poolParams[0xbAFeAd7c60Ea473758ED6c6021505E8BBd7e8E5d].swapMaxTickDelta",
+      "var_type": "t_uint24",
+      "value": "0x00000000000000000000000000000000000000000000000000000000000000c8",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa706f30179740b0ed4c65bd516aa139e20073780f3b9747a437aad05dff4864f",
+      "offset": 0,
+      "var_name": "UniswapV3Facet.FacetStorage.poolParams[0xbAFeAd7c60Ea473758ED6c6021505E8BBd7e8E5d].liquidityTickBounds.lower",
+      "var_type": "t_int24",
+      "value": "0xfffff6",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa706f30179740b0ed4c65bd516aa139e20073780f3b9747a437aad05dff4864f",
+      "offset": 3,
+      "var_name": "UniswapV3Facet.FacetStorage.poolParams[0xbAFeAd7c60Ea473758ED6c6021505E8BBd7e8E5d].liquidityTickBounds.upper",
+      "var_type": "t_int24",
+      "value": "0x00000a",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa706f30179740b0ed4c65bd516aa139e20073780f3b9747a437aad05dff48650",
+      "offset": 0,
+      "var_name": "UniswapV3Facet.FacetStorage.poolParams[0xbAFeAd7c60Ea473758ED6c6021505E8BBd7e8E5d].twapSecondsAgo",
+      "var_type": "t_uint32",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000258",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa8ce9d636318442a0767f1652e6aea559b0439db1b5e3c563a325911feeda057",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getMaxTickDelta(address)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa8ce9d636318442a0767f1652e6aea559b0439db1b5e3c563a325911feeda057",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getMaxTickDelta(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xc503f5e0",
+      "value_hint": "getMaxTickDelta(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xaaa6eedb6e4c08ef8a9cb95cb0429d150f60a388cc822eb61f2f71ea80c4481c",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_swap(address,address,uint256,uint256,uint24)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xaaa6eedb6e4c08ef8a9cb95cb0429d150f60a388cc822eb61f2f71ea80c4481c",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_swap(address,address,uint256,uint256,uint24)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xb40b7e0b",
+      "value_hint": "swap(address,address,uint256,uint256,uint24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xad25b78e16d780fbefc008d485b956504775623400e575530fd8394ce162e272",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].facet",
+      "var_type": "t_address",
+      "value": "0x691b5c26ad2b74d2376f4ed87904e9d3e47bd630",
+      "value_hint": "MapleFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xad25b78e16d780fbefc008d485b956504775623400e575530fd8394ce162e273",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['MAPLE_FACET'].wires.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000005",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb28ff4093f2158c9da9d37b8271c612abc45807f350c18564aea0bea4a71f151",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getAggregateWithdrawRateLimitKey(address)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb28ff4093f2158c9da9d37b8271c612abc45807f350c18564aea0bea4a71f151",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getAggregateWithdrawRateLimitKey(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xbd75d2c8",
+      "value_hint": "getAggregateWithdrawRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb8a3118cd15e4058299b2a80c2b4c9d5d01df21276e2f876087f06d1f9aa3a3a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].facet",
+      "var_type": "t_address",
+      "value": "0xc84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb8a3118cd15e4058299b2a80c2b4c9d5d01df21276e2f876087f06d1f9aa3a3b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000005",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xbceacbd1e33e2b74b8832088e5a93b2c7a0574913ae8ebc4deb0f63fc1866d0b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_MAX_TICK_DELTA()].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xbceacbd1e33e2b74b8832088e5a93b2c7a0574913ae8ebc4deb0f63fc1866d0b",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_MAX_TICK_DELTA()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x127234a5",
+      "value_hint": "MAX_TICK_DELTA()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xc971938bb5bc44742b4e2d363aa69eac8411585020bad4b6756a90083f6cf48a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_VERSION()].facet",
+      "var_type": "t_address",
+      "value": "0xc84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xc971938bb5bc44742b4e2d363aa69eac8411585020bad4b6756a90083f6cf48a",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_VERSION()].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xffa1ad74",
+      "value_hint": "VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd08fe9876ce7438f3792030e26b94e22ad9df8f0128abea4091e4a0df21a4c45",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_getMaxExchangeRate(address)].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd08fe9876ce7438f3792030e26b94e22ad9df8f0128abea4091e4a0df21a4c45",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_getMaxExchangeRate(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x7ed9b88c",
+      "value_hint": "getMaxExchangeRate(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd0921cedc008996e7c0aa36dc9434232954e511a259b6166f38d8618eced27c1",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_requestRedemption(address,uint256)].facet",
+      "var_type": "t_address",
+      "value": "0x691b5c26ad2b74d2376f4ed87904e9d3e47bd630",
+      "value_hint": "MapleFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd0921cedc008996e7c0aa36dc9434232954e511a259b6166f38d8618eced27c1",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[maple_requestRedemption(address,uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x65d8480b",
+      "value_hint": "requestRedemption(address,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd52eb288d09d817e4e213180402c3f53e806df63926d6736a595a11f9afb3be1",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_getWithdrawRateLimitKey(address)].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd52eb288d09d817e4e213180402c3f53e806df63926d6736a595a11f9afb3be1",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_getWithdrawRateLimitKey(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x180c92e7",
+      "value_hint": "getWithdrawRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd6b42ec569bc985d91b94bded0a2b8f4c25f6d9738c7e3bdec7c61b344c705b2",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getMaxSlippage(address)].facet",
+      "var_type": "t_address",
+      "value": "0x445d9dc752f269be48250f1a180cac4c61ce4bab",
+      "value_hint": "UniswapV3Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd6b42ec569bc985d91b94bded0a2b8f4c25f6d9738c7e3bdec7c61b344c705b2",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[uniswapV3_getMaxSlippage(address)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xd86483e1",
+      "value_hint": "getMaxSlippage(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe2d74cfb173844f10025c85ef10f80b38854c9be5f87ad299f048857867b539f",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_setMaxExchangeRate(address,uint256,uint256)].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe2d74cfb173844f10025c85ef10f80b38854c9be5f87ad299f048857867b539f",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_setMaxExchangeRate(address,uint256,uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x7011df99",
+      "value_hint": "setMaxExchangeRate(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe5a889f87efdc68d274a91818f91848fc6d167b98f08632e410ca58f2ebf7c4c",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_redeem(address,uint256,uint256)].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe5a889f87efdc68d274a91818f91848fc6d167b98f08632e410ca58f2ebf7c4c",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_redeem(address,uint256,uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x2b83cccd",
+      "value_hint": "redeem(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a2",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[0].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x48f43741",
+      "value_hint": "uniswapV3_VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a2",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[0].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xffa1ad74",
+      "value_hint": "VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a3",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[1].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x83d76441",
+      "value_hint": "uniswapV3_MAX_TICK_DELTA()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a3",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[1].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x127234a5",
+      "value_hint": "MAX_TICK_DELTA()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a4",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[2].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xda256b1b",
+      "value_hint": "uniswapV3_MIN_TICK()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a4",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[2].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xa1634b14",
+      "value_hint": "MIN_TICK()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a5",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[3].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x03b3902e",
+      "value_hint": "uniswapV3_MAX_TICK()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a5",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[3].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x6882a888",
+      "value_hint": "MAX_TICK()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a6",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[4].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xb659d553",
+      "value_hint": "uniswapV3_positionManager()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a6",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[4].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x791b98bc",
+      "value_hint": "positionManager()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a7",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[5].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xee85a53d",
+      "value_hint": "uniswapV3_router()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a7",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[5].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xf887ea40",
+      "value_hint": "router()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a8",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[6].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x140aad6a",
+      "value_hint": "uniswapV3_setMaxSlippage(address,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a8",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[6].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x73d76dbe",
+      "value_hint": "setMaxSlippage(address,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a9",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[7].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x25eb3da5",
+      "value_hint": "uniswapV3_setMaxTickDelta(address,uint24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3a9",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[7].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x690b2c22",
+      "value_hint": "setMaxTickDelta(address,uint24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3aa",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[8].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x59301309",
+      "value_hint": "uniswapV3_setLiquidityLowerTickBound(address,int24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3aa",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[8].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x62f609da",
+      "value_hint": "setLiquidityLowerTickBound(address,int24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3ab",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[9].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xb1068e83",
+      "value_hint": "uniswapV3_setLiquidityUpperTickBound(address,int24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3ab",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[9].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x916afd77",
+      "value_hint": "setLiquidityUpperTickBound(address,int24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3ac",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[10].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x3c32faa3",
+      "value_hint": "uniswapV3_setTWAPSecondsAgo(address,uint32)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3ac",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[10].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xf380eb03",
+      "value_hint": "setTWAPSecondsAgo(address,uint32)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3ad",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[11].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xf8692e56",
+      "value_hint": "uniswapV3_swap(address,address,uint256,uint256,uint24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3ad",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[11].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xb40b7e0b",
+      "value_hint": "swap(address,address,uint256,uint256,uint24)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3ae",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[12].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x1c72ed54",
+      "value_hint": "uniswapV3_addLiquidity(address,uint256,(int24,int24),(uint256,uint256),(uint256,uint256),uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3ae",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[12].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x4443e82d",
+      "value_hint": "addLiquidity(address,uint256,(int24,int24),(uint256,uint256),(uint256,uint256),uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3af",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[13].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x669ca079",
+      "value_hint": "uniswapV3_removeLiquidity(address,uint256,uint128,(uint256,uint256),uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3af",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[13].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x69ee06c3",
+      "value_hint": "removeLiquidity(address,uint256,uint128,(uint256,uint256),uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b0",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[14].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x396aff85",
+      "value_hint": "uniswapV3_getAggregateDepositRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b0",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[14].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x0238451d",
+      "value_hint": "getAggregateDepositRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b1",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[15].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x36a18e59",
+      "value_hint": "uniswapV3_getAssetDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b1",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[15].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xba92d50c",
+      "value_hint": "getAssetDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b2",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[16].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x6e0137d7",
+      "value_hint": "uniswapV3_getLiquidityTickBounds(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b2",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[16].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xf3e86c39",
+      "value_hint": "getLiquidityTickBounds(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b3",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[17].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xa91abea2",
+      "value_hint": "uniswapV3_getMaxSlippage(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b3",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[17].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xd86483e1",
+      "value_hint": "getMaxSlippage(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b4",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[18].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x98616f93",
+      "value_hint": "uniswapV3_getMaxTickDelta(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b4",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[18].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xc503f5e0",
+      "value_hint": "getMaxTickDelta(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b5",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[19].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x6f9d3ee2",
+      "value_hint": "uniswapV3_getSwapRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b5",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[19].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xecbe2511",
+      "value_hint": "getSwapRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b6",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[20].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xc0a1fcb7",
+      "value_hint": "uniswapV3_getTWAPSecondsAgo(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b6",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[20].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x4d31ce22",
+      "value_hint": "getTWAPSecondsAgo(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b7",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[21].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x1d45115a",
+      "value_hint": "uniswapV3_getAggregateWithdrawRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b7",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[21].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xbd75d2c8",
+      "value_hint": "getAggregateWithdrawRateLimitKey(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b8",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[22].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xa8e7eff1",
+      "value_hint": "uniswapV3_getAssetWithdrawRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xeb27d0981bfa3be18001e76d84f20f27db33c804f05347a0cf49d6e79bbcd3b8",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['UNISWAP_V3_FACET'].wires[22].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xca0169fa",
+      "value_hint": "getAssetWithdrawRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922297",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[0].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xe906f996",
+      "value_hint": "basin_VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922297",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[0].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0xffa1ad74",
+      "value_hint": "VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922298",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[1].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xe4696d83",
+      "value_hint": "basin_deposit(address,address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922298",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[1].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x20e8c565",
+      "value_hint": "deposit(address,address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922299",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[2].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0xa51e3864",
+      "value_hint": "basin_withdraw(address,address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922299",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[2].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x7bfe950c",
+      "value_hint": "withdraw(address,address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa992229a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[3].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x4a0430a7",
+      "value_hint": "basin_getDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa992229a",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[3].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x9108d4f6",
+      "value_hint": "getDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa992229b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[4].callSelector",
+      "var_type": "t_bytes4",
+      "value": "0x8a752f15",
+      "value_hint": "basin_getWithdrawRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa992229b",
+      "offset": 4,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[4].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x01da872b",
+      "value_hint": "getWithdrawRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xee25394e09bdf9f095ffaf6289395c59de06e33ff54692b0774d5012253c4d00",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000004",
+      "value_hint": "4",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xef47baae1ecdcfba581ee8cd393d8a1c91b7f9a39a85a970bae2cc538d1746a0",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._positions['ERC4626_FACET']",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 0,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initialized",
+      "var_type": "t_uint64",
+      "value": "0x0000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 8,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initializing",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf149377a37a756d25df9e309c10379fd1c45b02d9988ef5b3837fedf73deca59",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_deposit(address,uint256,uint256)].facet",
+      "var_type": "t_address",
+      "value": "0x1dca18608c89174181153e786778705b4a0e1a06",
+      "value_hint": "ERC4626Facet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf149377a37a756d25df9e309c10379fd1c45b02d9988ef5b3837fedf73deca59",
+      "offset": 20,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[erc4626_deposit(address,uint256,uint256)].delegateSelector",
+      "var_type": "t_bytes4",
+      "value": "0x0efe6a8b",
+      "value_hint": "deposit(address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": [
+        {
+          "topics": [
+            "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        }
+      ]
+    },
+    {
+      "sig": "IntegrationRemoved(bytes32)",
+      "topic0": "0x043c2a2fce5883ae183cf4a77a5b7883a31824c8f21570b619972fbe500b79e6",
+      "occurrences": []
+    },
+    {
+      "sig": "IntegrationSet(bytes32,(address,(bytes4,bytes4)[]))",
+      "topic0": "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+      "occurrences": [
+        {
+          "topics": [
+            "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+            "0x424153494e5f4641434554000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000c84825bcd13aeddc372400239499380376a44a3900000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000005e906f99600000000000000000000000000000000000000000000000000000000ffa1ad7400000000000000000000000000000000000000000000000000000000e4696d830000000000000000000000000000000000000000000000000000000020e8c56500000000000000000000000000000000000000000000000000000000a51e3864000000000000000000000000000000000000000000000000000000007bfe950c000000000000000000000000000000000000000000000000000000004a0430a7000000000000000000000000000000000000000000000000000000009108d4f6000000000000000000000000000000000000000000000000000000008a752f150000000000000000000000000000000000000000000000000000000001da872b00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "topics": [
+            "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+            "0x455243343632365f464143455400000000000000000000000000000000000000"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000001dca18608c89174181153e786778705b4a0e1a06000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000098727e30500000000000000000000000000000000000000000000000000000000ffa1ad7400000000000000000000000000000000000000000000000000000000a3124407000000000000000000000000000000000000000000000000000000007011df9900000000000000000000000000000000000000000000000000000000fc78974a000000000000000000000000000000000000000000000000000000000efe6a8b00000000000000000000000000000000000000000000000000000000d04771b800000000000000000000000000000000000000000000000000000000b5c5f67200000000000000000000000000000000000000000000000000000000e7accdce000000000000000000000000000000000000000000000000000000002b83cccd00000000000000000000000000000000000000000000000000000000d9aa77a8000000000000000000000000000000000000000000000000000000003a01b964000000000000000000000000000000000000000000000000000000009d6e4747000000000000000000000000000000000000000000000000000000007ed9b88c000000000000000000000000000000000000000000000000000000004f3c9dd9000000000000000000000000000000000000000000000000000000009108d4f600000000000000000000000000000000000000000000000000000000b2d5ea4b00000000000000000000000000000000000000000000000000000000180c92e700000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "topics": [
+            "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+            "0x4d41504c455f4641434554000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000691b5c26ad2b74d2376f4ed87904e9d3e47bd630000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000053e2b018500000000000000000000000000000000000000000000000000000000ffa1ad740000000000000000000000000000000000000000000000000000000052c959b80000000000000000000000000000000000000000000000000000000065d8480b000000000000000000000000000000000000000000000000000000003b45c0e500000000000000000000000000000000000000000000000000000000635403f600000000000000000000000000000000000000000000000000000000e6b45f9400000000000000000000000000000000000000000000000000000000c6529f8400000000000000000000000000000000000000000000000000000000181415790000000000000000000000000000000000000000000000000000000057e1aa9000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "topics": [
+            "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+            "0x554e49535741505f56335f464143455400000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000445d9dc752f269be48250f1a180cac4c61ce4bab0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000001748f4374100000000000000000000000000000000000000000000000000000000ffa1ad740000000000000000000000000000000000000000000000000000000083d7644100000000000000000000000000000000000000000000000000000000127234a500000000000000000000000000000000000000000000000000000000da256b1b00000000000000000000000000000000000000000000000000000000a1634b140000000000000000000000000000000000000000000000000000000003b3902e000000000000000000000000000000000000000000000000000000006882a88800000000000000000000000000000000000000000000000000000000b659d55300000000000000000000000000000000000000000000000000000000791b98bc00000000000000000000000000000000000000000000000000000000ee85a53d00000000000000000000000000000000000000000000000000000000f887ea4000000000000000000000000000000000000000000000000000000000140aad6a0000000000000000000000000000000000000000000000000000000073d76dbe0000000000000000000000000000000000000000000000000000000025eb3da500000000000000000000000000000000000000000000000000000000690b2c2200000000000000000000000000000000000000000000000000000000593013090000000000000000000000000000000000000000000000000000000062f609da00000000000000000000000000000000000000000000000000000000b1068e8300000000000000000000000000000000000000000000000000000000916afd77000000000000000000000000000000000000000000000000000000003c32faa300000000000000000000000000000000000000000000000000000000f380eb0300000000000000000000000000000000000000000000000000000000f8692e5600000000000000000000000000000000000000000000000000000000b40b7e0b000000000000000000000000000000000000000000000000000000001c72ed54000000000000000000000000000000000000000000000000000000004443e82d00000000000000000000000000000000000000000000000000000000669ca0790000000000000000000000000000000000000000000000000000000069ee06c300000000000000000000000000000000000000000000000000000000396aff85000000000000000000000000000000000000000000000000000000000238451d0000000000000000000000000000000000000000000000000000000036a18e5900000000000000000000000000000000000000000000000000000000ba92d50c000000000000000000000000000000000000000000000000000000006e0137d700000000000000000000000000000000000000000000000000000000f3e86c3900000000000000000000000000000000000000000000000000000000a91abea200000000000000000000000000000000000000000000000000000000d86483e10000000000000000000000000000000000000000000000000000000098616f9300000000000000000000000000000000000000000000000000000000c503f5e0000000000000000000000000000000000000000000000000000000006f9d3ee200000000000000000000000000000000000000000000000000000000ecbe251100000000000000000000000000000000000000000000000000000000c0a1fcb7000000000000000000000000000000000000000000000000000000004d31ce22000000000000000000000000000000000000000000000000000000001d45115a00000000000000000000000000000000000000000000000000000000bd75d2c800000000000000000000000000000000000000000000000000000000a8e7eff100000000000000000000000000000000000000000000000000000000ca0169fa00000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "sig": "UniswapV3TWAPSecondsAgoSet(address,uint32)",
+      "topic0": "0x25b41767cfc646b287b6bf3b8ee243f82b7c58453b7a911716d57da72a2b375b",
+      "occurrences": [
+        {
+          "topics": [
+            "0x25b41767cfc646b287b6bf3b8ee243f82b7c58453b7a911716d57da72a2b375b",
+            "0x000000000000000000000000bafead7c60ea473758ed6c6021505e8bbd7e8e5d"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000258"
+        }
+      ]
+    },
+    {
+      "sig": "ERC4626MaxExchangeRateSet(address,uint256)",
+      "topic0": "0x0357b338178e1b6a462ee13d8e266e1317ac9a1ed1ca355a5a74aaad21ab5726",
+      "occurrences": [
+        {
+          "topics": [
+            "0x0357b338178e1b6a462ee13d8e266e1317ac9a1ed1ca355a5a74aaad21ab5726",
+            "0x00000000000000000000000080ac24aa929eaf5013f6436cda2a7ba190f5cc0b"
+          ],
+          "data": "0x000000000000000000000000000000000241c76b735b154119e2dd3000000000"
+        }
+      ]
+    },
+    {
+      "sig": "UniswapV3MaxSlippageSet(address,uint256)",
+      "topic0": "0xe15efea556f0d902b0ea8b5c924992f421e1338e64af0d85b28cd4dd5182d76f",
+      "occurrences": [
+        {
+          "topics": [
+            "0xe15efea556f0d902b0ea8b5c924992f421e1338e64af0d85b28cd4dd5182d76f",
+            "0x000000000000000000000000bafead7c60ea473758ed6c6021505e8bbd7e8e5d"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000ddd2935029d8000"
+        }
+      ]
+    },
+    {
+      "sig": "UniswapV3MaxTickDeltaSet(address,uint24)",
+      "topic0": "0x0a26e9e49194d4c8b8444011e994a8b13e3cc2f8ccaf06ae664e338071f6ff86",
+      "occurrences": [
+        {
+          "topics": [
+            "0x0a26e9e49194d4c8b8444011e994a8b13e3cc2f8ccaf06ae664e338071f6ff86",
+            "0x000000000000000000000000bafead7c60ea473758ed6c6021505e8bbd7e8e5d"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000000000c8"
+        }
+      ]
+    },
+    {
+      "sig": "UniswapV3UpperTickSet(address,int24)",
+      "topic0": "0x38c9b14bb68d2e158fa131b848ce439ad182f524f3124bda29494cb675338c9d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x38c9b14bb68d2e158fa131b848ce439ad182f524f3124bda29494cb675338c9d",
+            "0x000000000000000000000000bafead7c60ea473758ed6c6021505e8bbd7e8e5d"
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000000000000a"
+        }
+      ]
+    },
+    {
+      "sig": "UniswapV3LowerTickSet(address,int24)",
+      "topic0": "0xbaf782500281216eb9c851cb698e3939396a95078976c37a4dcddfc4aaa683de",
+      "occurrences": [
+        {
+          "topics": [
+            "0xbaf782500281216eb9c851cb698e3939396a95078976c37a4dcddfc4aaa683de",
+            "0x000000000000000000000000bafead7c60ea473758ed6c6021505e8bbd7e8e5d"
+          ],
+          "data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/5c5ad6ae174bf467081ca82342ced2bd42a5c732",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
