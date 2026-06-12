@@ -1,0 +1,45 @@
+{
+  "version": "0.9.1",
+  "id": "0x677c8203100cf8a56aed34415ba6311cb5f334a84431dcec59636c90c0c76102",
+  "contract_name": "DefaultPAUAssembler",
+  "address": "0xc812aad3fae2d3511c664374b601a9bebfecca2e",
+  "chain_id": 1,
+  "deployment_block_num": 25295657,
+  "init_block_num": 25301687,
+  "deployment_tx": "0x2e64afa56ade0428804383a98c0066967ec645fd1e9e9663d704e55a4653361d",
+  "codehash": "0x971e7c1142c2cc19dacf76ab737b5667d84a11563fc7821b35fbd0c8193c4cfa",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "administeredAgentFactory",
+      "value": "0x0000000000000000000000002968c3b5478cf93b70ab1e24255d4edbbd27a089",
+      "value_hint": "AdministeredAgentFactory"
+    },
+    {
+      "var_name": "pauFactory",
+      "value": "0x00000000000000000000000069a5d548830ac2a4ba90a44a2c75bda71f97fc66",
+      "value_hint": "PAUFactory"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "administeredAgentFactory_",
+      "value": "0x2968c3b5478cf93b70ab1e24255d4edbbd27a089",
+      "value_hint": "AdministeredAgentFactory"
+    },
+    {
+      "var_name": "pauFactory_",
+      "value": "0x69a5d548830ac2a4ba90a44a2c75bda71f97fc66",
+      "value_hint": "PAUFactory"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "",
+    "source_url": "https://github.com/sky-ecosystem/pau-assemblers/tree/d7d6f084604d4f7e45879a3b15d03ee870231467",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
