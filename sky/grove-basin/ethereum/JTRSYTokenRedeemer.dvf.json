@@ -12,29 +12,35 @@
   "immutables": [
     {
       "var_name": "creditToken",
-      "value": "0x0000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86"
+      "value": "0x0000000000000000000000008c213ee79581ff4984583c6a801e5263418c4b86",
+      "value_hint": "JTRSY"
     },
     {
       "var_name": "vault",
-      "value": "0x000000000000000000000000fe6920eb6c421f1179ca8c8d4170530cdbdfd77a"
+      "value": "0x000000000000000000000000fe6920eb6c421f1179ca8c8d4170530cdbdfd77a",
+      "value_hint": "JTRSY vault"
     },
     {
       "var_name": "basin",
-      "value": "0x000000000000000000000000f08943f817e1f902debc884c7b19ea5764594ac9"
+      "value": "0x000000000000000000000000f08943f817e1f902debc884c7b19ea5764594ac9",
+      "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
     }
   ],
   "constructor_args": [
     {
       "var_name": "creditToken_",
-      "value": "0x8c213ee79581ff4984583c6a801e5263418c4b86"
+      "value": "0x8c213ee79581ff4984583c6a801e5263418c4b86",
+      "value_hint": "JTRSY"
     },
     {
       "var_name": "vault_",
-      "value": "0xfe6920eb6c421f1179ca8c8d4170530cdbdfd77a"
+      "value": "0xfe6920eb6c421f1179ca8c8d4170530cdbdfd77a",
+      "value_hint": "JTRSY vault"
     },
     {
       "var_name": "basin_",
-      "value": "0xf08943f817e1f902debc884c7b19ea5764594ac9"
+      "value": "0xf08943f817e1f902debc884c7b19ea5764594ac9",
+      "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
     }
   ],
   "critical_storage_variables": [
