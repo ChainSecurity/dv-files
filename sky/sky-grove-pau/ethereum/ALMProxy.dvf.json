@@ -13,24 +13,27 @@
   "constructor_args": [
     {
       "var_name": "admin",
-      "value": "0xc812aad3fae2d3511c664374b601a9bebfecca2e"
+      "value": "0xc812aad3fae2d3511c664374b601a9bebfecca2e",
+      "value_hint": "DefaultPAUAssembler"
     }
   ],
   "critical_storage_variables": [
     {
       "slot": "0x165a5221dd0825cadba3dce11b7e14445388c17fceaaa11043ffb123fa3cbc0e",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_roles[CONTROLLER].members[0xbf83F5974B932c7D842254042717D6A2706CE5eE]",
+      "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "Controller",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0x67f386c444fe63e8b218f92d5691cb73c9cbc09a248c99846d3450f2ff6b3fe7",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "_roles[DEFAULT_ADMIN_ROLE].members[0x1369f7b2b38c76B6478c0f0E66D94923421891Ba]",
+      "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "GROVE_PROXY",
       "comparison_operator": "Equal"
     }
   ],

@@ -12,130 +12,40 @@
   "immutables": [
     {
       "var_name": "beacon",
-      "value": "0x000000000000000000000000829dc2b7e94b1954f0764e573f2e0d45afa28199"
+      "value": "0x000000000000000000000000829dc2b7e94b1954f0764e573f2e0d45afa28199",
+      "value_hint": "Beacon"
     }
   ],
   "constructor_args": [
     {
       "var_name": "accessControls_",
-      "value": "0x4f6d1704700cd494dd4cd9bf59c0c39da1bc9164"
+      "value": "0x4f6d1704700cd494dd4cd9bf59c0c39da1bc9164",
+      "value_hint": "AccessControls"
     },
     {
       "var_name": "beacon_",
-      "value": "0x829dc2b7e94b1954f0764e573f2e0d45afa28199"
+      "value": "0x829dc2b7e94b1954f0764e573f2e0d45afa28199",
+      "value_hint": "Beacon"
     },
     {
       "var_name": "proxy_",
-      "value": "0x0dcd9298e163dfd3c0b5b00f0d9093c36e40a153"
+      "value": "0x0dcd9298e163dfd3c0b5b00f0d9093c36e40a153",
+      "value_hint": "ALMProxy"
     },
     {
       "var_name": "rateLimits_",
-      "value": "0xe016ae733a77ba77e7907aaa749394fc5e75c0e1"
+      "value": "0xe016ae733a77ba77e7907aaa749394fc5e75c0e1",
+      "value_hint": "RateLimits"
     }
   ],
   "critical_storage_variables": [
     {
-      "slot": "0xb922cbcce8f383047b7b500b56a2ff4b1d7ccd4294dc9adf003b9a54d99a0ca",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000012cda159e4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594ec",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000ffa1ad7423c04f02",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594ed",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000004cf282fb3ca47c53",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594ee",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000006817031bbc4bf322",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594ef",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000a0712d68a5b7e02d",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594f0",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000000000000000000000000000000000000042966c6848d63a13",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594f1",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000fbfa77cf6662401e",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594f2",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000335b7bbc6b38cb7b",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594f3",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000e86835050cef4e7d",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x20c26b51106e06e6a292c013e765f42327600f0e756cfa2b00f8769b5a5dc862",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000020e8c565c84825bcd13aeddc372400239499380376a44a39",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x21daa292c04804446b1226c222169b2cce1f78bc5b027773933d76b54333a211",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000ffa1ad74e4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
       "slot": "0x22f69910df4be31cdc2b4e22fc82c229fa1de26fd4d311cca7bda23757bd87c5",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._positions['BASIN_FACET']",
+      "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000003",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x2a1a692597108680bf114dc71e8183bfe3456a1ddb78d0a2510bf2aa9f1866e1",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "value_hint": "BASIN_FACET",
       "comparison_operator": "Equal"
     },
     {
@@ -144,6 +54,7 @@
       "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values[0]",
       "var_type": "t_bytes32",
       "value": "0x555344535f464143455400000000000000000000000000000000000000000000",
+      "value_hint": "USDS_FACET",
       "comparison_operator": "Equal"
     },
     {
@@ -152,6 +63,7 @@
       "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values[1]",
       "var_type": "t_bytes32",
       "value": "0x50534d5f46414345540000000000000000000000000000000000000000000000",
+      "value_hint": "PSM_FACET",
       "comparison_operator": "Equal"
     },
     {
@@ -160,174 +72,7 @@
       "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values[2]",
       "var_type": "t_bytes32",
       "value": "0x424153494e5f4641434554000000000000000000000000000000000000000000",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x34a1ea49241feb339d92e8ae2414a8bbb00f52716f8438a80dbac70539cdcbb1",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000009108d4f6c84825bcd13aeddc372400239499380376a44a39",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x375712f935545a31e83a0343b2f8309f52d6226ca0dfdc1419ee083d7f4836a9",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000004010f777e4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x459d330dd39f812e6ff4a7e3ed4a04c949f6789d6dea4f05d5b4b05637c52233",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000001da872bc84825bcd13aeddc372400239499380376a44a39",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x45ee34a61c1ef30781b590626a9ddb49435bb04c99bf1c20c248a112a69350f4",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000ffa1ad741221cc4b85ab260660ad21c2829e0eb516dffbc7",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x48419e4953cc4e94af0d2cc66b69cd03066fa2314f72b30b63ab3732db3a67f3",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000005acb7053e4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x53807bf2d21fcf94843998784c879c3addbbe5a774db7abd059b0a210f9fc46f",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000042966c681221cc4b85ab260660ad21c2829e0eb516dffbc7",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f923",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000ffa1ad74d05beca7",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f924",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000f4b9fa75244562d4",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f925",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000c5237ab091c203d5",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f926",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000000000000000000000000000000000000004bda262f4edaca3",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f927",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000003e413beeca222cae",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f928",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000004cf282fb2b245db3",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f929",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000005acb70533f45168c",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f92a",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000115c48d58c88adef",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f92b",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000004010f777a50e742a",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f92c",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000000000000000000000000000000000000012cda15961ae39da",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f92d",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000a9b1bb461fc67bed",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x5a505c79456ed4cd37df23b5080c47f7e8b0aaed011b73a9de8f9272d717f780",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000a0712d681221cc4b85ab260660ad21c2829e0eb516dffbc7",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x64c2004ec314e923df96f8fbb058d66d36048f98b5183ae9d874337868a5edd1",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000115c48d5e4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x70a7e74b08b945b05db2b6213c1d801f21c5359a6c98a340779e7763d3ff8691",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000004cf282fb1221cc4b85ab260660ad21c2829e0eb516dffbc7",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x74c6af037ebfaa1e7fdcdf867c187eb15c9a1755f5cc134e39ac96b7b3cb0b43",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000fbfa77cf1221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "BASIN_FACET",
       "comparison_operator": "Equal"
     },
     {
@@ -336,6 +81,7 @@
       "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.accessControls",
       "var_type": "t_address",
       "value": "0x4f6d1704700cd494dd4cd9bf59c0c39da1bc9164",
+      "value_hint": "AccessControls",
       "comparison_operator": "Equal"
     },
     {
@@ -344,6 +90,7 @@
       "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.proxy",
       "var_type": "t_address",
       "value": "0x0dcd9298e163dfd3c0b5b00f0d9093c36e40a153",
+      "value_hint": "ALMProxy",
       "comparison_operator": "Equal"
     },
     {
@@ -352,38 +99,7 @@
       "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.rateLimits",
       "var_type": "t_address",
       "value": "0xe016ae733a77ba77e7907aaa749394fc5e75c0e1",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x790ecd25bb0f3e5316dccbfcb64f11bce4f2e2c7f3ca682b1ae68c9854e77cb3",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x7dafb22fabea656217525ab1c4166fcee4d063dc7e8d04d5ec7adeb4eb6b928a",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000006817031b1221cc4b85ab260660ad21c2829e0eb516dffbc7",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x888f2ed15d56cd7eeeef622cf2290c763bb3a47e28d8ea402a41737c36b60bb0",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000a9b1bb46e4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0x8cb79661a32d29c77cfd1ddec6b9980490c23c36bac3f6753019f87fb98a57ba",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000f4b9fa75e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "RateLimits",
       "comparison_operator": "Equal"
     },
     {
@@ -396,139 +112,20 @@
       "comparison_operator": "Equal"
     },
     {
-      "slot": "0xa44f42caa1acb8babbf768721371a7fa121db16fe1b74d77128d64d65baac51e",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000007bfe950cc84825bcd13aeddc372400239499380376a44a39",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xa70145b3e80027dfe0395c9d9719c1b4777e08d502007e78041964cb120eb43d",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000e4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xa70145b3e80027dfe0395c9d9719c1b4777e08d502007e78041964cb120eb43e",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000000000000000000b",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xaa2e97bcb29933857425c1f6534331bfcdb7554c2e35ba06d4f6a6a8a931e21c",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000001221cc4b85ab260660ad21c2829e0eb516dffbc7",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xaa2e97bcb29933857425c1f6534331bfcdb7554c2e35ba06d4f6a6a8a931e21d",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000000000000000000008",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xafa8d5915c08a11a657889aaec715e8af6ecf05a3810008f88b932ec22d1b4c4",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000e86835051221cc4b85ab260660ad21c2829e0eb516dffbc7",
-      "comparison_operator": "Equal"
-    },
-    {
       "slot": "0xb8a3118cd15e4058299b2a80c2b4c9d5d01df21276e2f876087f06d1f9aa3a3a",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].facet",
+      "var_type": "t_address",
       "value": "0x000000000000000000000000c84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0xb8a3118cd15e4058299b2a80c2b4c9d5d01df21276e2f876087f06d1f9aa3a3b",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires.length",
+      "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000005",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xbd4bf4a35ee8f74729dbb1c0efa953917e80ad85728af1c6fdf1d9700494345e",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000004cf282fbe4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xc971938bb5bc44742b4e2d363aa69eac8411585020bad4b6756a90083f6cf48a",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000ffa1ad74c84825bcd13aeddc372400239499380376a44a39",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xd34c1d20e40b17229305f4855d1b8f73927c186041da7752f70a035bdc07fb94",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000003e413beee4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xd3c23e2e9e273a0f269cba42e992506db4ade1a968574499b84607ae4f312d3d",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000004bda262e4a5dac768a310cc2316f258901b32e499653064",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922297",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x000000000000000000000000000000000000000000000000ffa1ad74e906f996",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922298",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000000000000000000000000000000000000020e8c565e4696d83",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922299",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000007bfe950ca51e3864",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa992229a",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x0000000000000000000000000000000000000000000000009108d4f64a0430a7",
-      "comparison_operator": "Equal"
-    },
-    {
-      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa992229b",
-      "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
-      "value": "0x00000000000000000000000000000000000000000000000001da872b8a752f15",
       "comparison_operator": "Equal"
     },
     {
@@ -559,19 +156,487 @@
       "comparison_operator": "Equal"
     },
     {
+      "slot": "0x790ecd25bb0f3e5316dccbfcb64f11bce4f2e2c7f3ca682b1ae68c9854e77cb3",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._positions['USDS_FACET']",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "USDS_FACET",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2a1a692597108680bf114dc71e8183bfe3456a1ddb78d0a2510bf2aa9f1866e1",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._positions['PSM_FACET']",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "value_hint": "PSM_FACET",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xaa2e97bcb29933857425c1f6534331bfcdb7554c2e35ba06d4f6a6a8a931e21c",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].facet",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000001221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "USDSFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xaa2e97bcb29933857425c1f6534331bfcdb7554c2e35ba06d4f6a6a8a931e21d",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].wires.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000008",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594ec",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].wires[0]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000ffa1ad7423c04f02",
+      "value_hint": "usds_VERSION() → VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594ed",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].wires[1]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000004cf282fb3ca47c53",
+      "value_hint": "usds_usds() → usds()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594ee",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].wires[2]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000006817031bbc4bf322",
+      "value_hint": "usds_setVault(address) → setVault(address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594ef",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].wires[3]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000a0712d68a5b7e02d",
+      "value_hint": "usds_mint(uint256) → mint(uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594f0",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].wires[4]",
+      "var_type": "t_bytes8",
+      "value": "0x00000000000000000000000000000000000000000000000042966c6848d63a13",
+      "value_hint": "usds_burn(uint256) → burn(uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594f1",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].wires[5]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000fbfa77cf6662401e",
+      "value_hint": "usds_vault() → vault()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594f2",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].wires[6]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000335b7bbc6b38cb7b",
+      "value_hint": "usds_mintRateLimitKey() → mintRateLimitKey()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa0f7b89b02048c5d55c34e12de95632b326aa9ad9de164d622b079471594f3",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['USDS_FACET'].wires[7]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000e86835050cef4e7d",
+      "value_hint": "usds_burnRateLimitKey() → burnRateLimitKey()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x45ee34a61c1ef30781b590626a9ddb49435bb04c99bf1c20c248a112a69350f4",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[usds_VERSION()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000ffa1ad741221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "USDSFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x70a7e74b08b945b05db2b6213c1d801f21c5359a6c98a340779e7763d3ff8691",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[usds_usds()]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000004cf282fb1221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "USDSFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x7dafb22fabea656217525ab1c4166fcee4d063dc7e8d04d5ec7adeb4eb6b928a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[usds_setVault(address)]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000006817031b1221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "USDSFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x5a505c79456ed4cd37df23b5080c47f7e8b0aaed011b73a9de8f9272d717f780",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[usds_mint(uint256)]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000a0712d681221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "USDSFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x53807bf2d21fcf94843998784c879c3addbbe5a774db7abd059b0a210f9fc46f",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[usds_burn(uint256)]",
+      "var_type": "t_bytes32",
+      "value": "0x000000000000000042966c681221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "USDSFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x74c6af037ebfaa1e7fdcdf867c187eb15c9a1755f5cc134e39ac96b7b3cb0b43",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[usds_vault()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000fbfa77cf1221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "USDSFacet",
+      "comparison_operator": "Equal"
+    },
+    {
       "slot": "0xf3554a81e85ac52214bfc1ea2999df57dc98257909d5aafa9f74bc6c74f25d7b",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[usds_mintRateLimitKey()]",
+      "var_type": "t_bytes32",
       "value": "0x0000000000000000335b7bbc1221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "USDSFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xafa8d5915c08a11a657889aaec715e8af6ecf05a3810008f88b932ec22d1b4c4",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[usds_burnRateLimitKey()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000e86835051221cc4b85ab260660ad21c2829e0eb516dffbc7",
+      "value_hint": "USDSFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa70145b3e80027dfe0395c9d9719c1b4777e08d502007e78041964cb120eb43d",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].facet",
+      "var_type": "t_address",
+      "value": "0x000000000000000000000000e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa70145b3e80027dfe0395c9d9719c1b4777e08d502007e78041964cb120eb43e",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires.length",
+      "var_type": "t_uint256",
+      "value": "0x000000000000000000000000000000000000000000000000000000000000000b",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f923",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[0]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000ffa1ad74d05beca7",
+      "value_hint": "psm_VERSION() → VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f924",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[1]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000f4b9fa75244562d4",
+      "value_hint": "psm_dai() → dai()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f925",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[2]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000c5237ab091c203d5",
+      "value_hint": "psm_daiUSDS() → daiUSDS()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f926",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[3]",
+      "var_type": "t_bytes8",
+      "value": "0x00000000000000000000000000000000000000000000000004bda262f4edaca3",
+      "value_hint": "psm_psm() → psm()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f927",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[4]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000003e413beeca222cae",
+      "value_hint": "psm_usdc() → usdc()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f928",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[5]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000004cf282fb2b245db3",
+      "value_hint": "psm_usds() → usds()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f929",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[6]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000005acb70533f45168c",
+      "value_hint": "psm_swapUSDSToUSDC(uint256) → swapUSDSToUSDC(uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f92a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[7]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000115c48d58c88adef",
+      "value_hint": "psm_swapUSDCToUSDS(uint256) → swapUSDCToUSDS(uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f92b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[8]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000004010f777a50e742a",
+      "value_hint": "psm_to18ConversionFactor() → to18ConversionFactor()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f92c",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[9]",
+      "var_type": "t_bytes8",
+      "value": "0x00000000000000000000000000000000000000000000000012cda15961ae39da",
+      "value_hint": "psm_usdcToUSDSSwapRateLimitKey() → usdcToUSDSSwapRateLimitKey()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x584bd667e703d67c16c7e44432882f6be39da529a5f4b109e16e6e1f8a56f92d",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['PSM_FACET'].wires[10]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000a9b1bb461fc67bed",
+      "value_hint": "psm_usdsToUSDCSwapRateLimitKey() → usdsToUSDCSwapRateLimitKey()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x21daa292c04804446b1226c222169b2cce1f78bc5b027773933d76b54333a211",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_VERSION()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000ffa1ad74e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8cb79661a32d29c77cfd1ddec6b9980490c23c36bac3f6753019f87fb98a57ba",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_dai()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000f4b9fa75e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0xf77581ed3268900cc09fc23b36877e1e7172eccb8f3b6a581aab752a12a07248",
       "offset": 0,
-      "var_name": "unknown",
-      "var_type": null,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_daiUSDS()]",
+      "var_type": "t_bytes32",
       "value": "0x0000000000000000c5237ab0e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd3c23e2e9e273a0f269cba42e992506db4ade1a968574499b84607ae4f312d3d",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_psm()]",
+      "var_type": "t_bytes32",
+      "value": "0x000000000000000004bda262e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd34c1d20e40b17229305f4855d1b8f73927c186041da7752f70a035bdc07fb94",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_usdc()]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000003e413beee4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xbd4bf4a35ee8f74729dbb1c0efa953917e80ad85728af1c6fdf1d9700494345e",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_usds()]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000004cf282fbe4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x48419e4953cc4e94af0d2cc66b69cd03066fa2314f72b30b63ab3732db3a67f3",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_swapUSDSToUSDC(uint256)]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000005acb7053e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x64c2004ec314e923df96f8fbb058d66d36048f98b5183ae9d874337868a5edd1",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_swapUSDCToUSDS(uint256)]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000115c48d5e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x375712f935545a31e83a0343b2f8309f52d6226ca0dfdc1419ee083d7f4836a9",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_to18ConversionFactor()]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000004010f777e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xb922cbcce8f383047b7b500b56a2ff4b1d7ccd4294dc9adf003b9a54d99a0ca",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_usdcToUSDSSwapRateLimitKey()]",
+      "var_type": "t_bytes32",
+      "value": "0x000000000000000012cda159e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x888f2ed15d56cd7eeeef622cf2290c763bb3a47e28d8ea402a41737c36b60bb0",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[psm_usdsToUSDCSwapRateLimitKey()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000a9b1bb46e4a5dac768a310cc2316f258901b32e499653064",
+      "value_hint": "PSMFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922297",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[0]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000ffa1ad74e906f996",
+      "value_hint": "basin_VERSION() → VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922298",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[1]",
+      "var_type": "t_bytes8",
+      "value": "0x00000000000000000000000000000000000000000000000020e8c565e4696d83",
+      "value_hint": "basin_deposit(address,address,uint256,uint256) → deposit(address,address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa9922299",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[2]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000007bfe950ca51e3864",
+      "value_hint": "basin_withdraw(address,address,uint256,uint256) → withdraw(address,address,uint256,uint256)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa992229a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[3]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000009108d4f64a0430a7",
+      "value_hint": "basin_getDepositRateLimitKey(address,address) → getDepositRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xece9355ab711d4b91ffa57488a32bf442466ebb093f55e63d3cdad6fa992229b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['BASIN_FACET'].wires[4]",
+      "var_type": "t_bytes8",
+      "value": "0x00000000000000000000000000000000000000000000000001da872b8a752f15",
+      "value_hint": "basin_getWithdrawRateLimitKey(address,address) → getWithdrawRateLimitKey(address,address)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xc971938bb5bc44742b4e2d363aa69eac8411585020bad4b6756a90083f6cf48a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_VERSION()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000ffa1ad74c84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x20c26b51106e06e6a292c013e765f42327600f0e756cfa2b00f8769b5a5dc862",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_deposit(address,address,uint256,uint256)]",
+      "var_type": "t_bytes32",
+      "value": "0x000000000000000020e8c565c84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa44f42caa1acb8babbf768721371a7fa121db16fe1b74d77128d64d65baac51e",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_withdraw(address,address,uint256,uint256)]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000007bfe950cc84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x34a1ea49241feb339d92e8ae2414a8bbb00f52716f8438a80dbac70539cdcbb1",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_getDepositRateLimitKey(address,address)]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000009108d4f6c84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x459d330dd39f812e6ff4a7e3ed4a04c949f6789d6dea4f05d5b4b05637c52233",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[basin_getWithdrawRateLimitKey(address,address)]",
+      "var_type": "t_bytes32",
+      "value": "0x000000000000000001da872bc84825bcd13aeddc372400239499380376a44a39",
+      "value_hint": "BasinFacet",
       "comparison_operator": "Equal"
     }
   ],
