@@ -1,13 +1,13 @@
 {
   "version": "0.9.1",
-  "id": "0x0e239edf4b8dcf2f2e73230ae3570d249ef2295a7787378d89e0d6111e81aaab",
+  "id": "0xb8b424ae7a1d39499e84d800e048ecb7c7d911d924a9fd8de0277081e7ca5659",
   "contract_name": "BUIDLTokenRedeemer",
-  "address": "0x99e5e7c533c7319f855b940561df285be022c82d",
+  "address": "0x73414528187a4986e2af5d551fd14871b723e506",
   "chain_id": 1,
-  "deployment_block_num": 25137254,
-  "init_block_num": 25271297,
-  "deployment_tx": "0xc61524108a1fecf43252b20082c169ce60096b8e4f78c59125a2585d33f6dc49",
-  "codehash": "0x0b80675fa76992c80ab9dad1841a755a4ba21ae724422e30c94b7bf61caf0f00",
+  "deployment_block_num": 25324018,
+  "init_block_num": 25339717,
+  "deployment_tx": "0x888266d7097dbd63221f7087e33dad9abf6b11c31bd8ce5799b5993b12bc5a99",
+  "codehash": "0x8c5f5f6ea750e9adfb568772ea4888de36c478cce7632a85d50dac2bc8391826",
   "insecure": false,
   "immutables": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "var_name": "basin",
-      "value": "0x00000000000000000000000010b3d3a96646720f8b3a29229cf96d513f3c84f1",
+      "value": "0x000000000000000000000000cba428fb052b365557daf52b744dfff20d5fbedd",
       "value_hint": "GroveBasin (BUIDL/USDS/USDC)"
     }
   ],
@@ -44,7 +44,7 @@
     },
     {
       "var_name": "basin_",
-      "value": "0x10b3d3a96646720f8b3a29229cf96d513f3c84f1",
+      "value": "0xcba428fb052b365557daf52b744dfff20d5fbedd",
       "value_hint": "GroveBasin (BUIDL/USDS/USDC)"
     }
   ],

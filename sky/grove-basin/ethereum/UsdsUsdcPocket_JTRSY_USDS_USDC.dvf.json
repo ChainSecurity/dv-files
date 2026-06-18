@@ -1,18 +1,18 @@
 {
   "version": "0.9.1",
-  "id": "0xc4673db7cc396047c7df5571460aca05884f12dcee2d3123cab153838e695668",
+  "id": "0x3720c3d0b5e4bf3c74bfe495b6262f5d78cd7b6b31a4e26b94bc6bf23368944a",
   "contract_name": "UsdsUsdcPocket",
-  "address": "0xa15b8c07fa32a4f8bea3882600a673dc9cc1d6b9",
+  "address": "0x2cd296095788a2741e72056d66b3ae1faee23ea2",
   "chain_id": 1,
-  "deployment_block_num": 25079125,
-  "init_block_num": 25271288,
-  "deployment_tx": "0x64604be1965dda0a8b72745206d43630fc0a7f8e598d40d75d0a183f420def81",
-  "codehash": "0x5df5dde2ffab8fe054a912e2c8abb9fc52c7d316653cb8f647f1048cb4a86713",
+  "deployment_block_num": 25323683,
+  "init_block_num": 25339714,
+  "deployment_tx": "0xa7d03ed1f6ec5f718858a1c5c53cbf693604b7050cba4692de150a87b86a42a0",
+  "codehash": "0x27a96a174be3a9a79babfd8757ac2e85b9d68863c2a3f9a427e55f5619fe203e",
   "insecure": false,
   "immutables": [
     {
       "var_name": "_basin",
-      "value": "0x0000000000000000000000001fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+      "value": "0x000000000000000000000000f08943f817e1f902debc884c7b19ea5764594ac9",
       "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
     },
     {
@@ -39,7 +39,7 @@
   "constructor_args": [
     {
       "var_name": "basin_",
-      "value": "0x1fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+      "value": "0xf08943f817e1f902debc884c7b19ea5764594ac9",
       "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
     },
     {

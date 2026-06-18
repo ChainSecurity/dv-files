@@ -1,13 +1,13 @@
 {
   "version": "0.9.1",
-  "id": "0xc55c99c86229f1e64e6e6717c2499936ebd1ee3266749e400f79a67a37899e9c",
+  "id": "0x89f52d8ba02c977f47463df37166d5dca902d08fa3a9813f247ecdd86cc62e41",
   "contract_name": "GroveBasin",
-  "address": "0x1fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+  "address": "0xf08943f817e1f902debc884c7b19ea5764594ac9",
   "chain_id": 1,
-  "deployment_block_num": 25079122,
-  "init_block_num": 25271286,
-  "deployment_tx": "0x7d3a7d8b0e3f06bd945482ee9d10bbd8c8f0dc2524736edc81d3ed99f94f0b82",
-  "codehash": "0x6ae823a2b49592a58c123a730ce8876c54ded423dac7e5e0d165937ab862c6b8",
+  "deployment_block_num": 25323679,
+  "init_block_num": 25339712,
+  "deployment_tx": "0x17e4e472d6a5874fd057f7e34c2e3cb8d29fa5544b373ef371e46ff6ce6332da",
+  "codehash": "0xc513a70dac7916481c9d9ff9387a2077d870ad9130130da8ceba36d7ff11d3bd",
   "insecure": false,
   "immutables": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "var_name": "liquidityProvider",
-      "value": "0x000000000000000000000000491edfb0b8b608044e227225c715981a30f3a44e",
+      "value": "0x0000000000000000000000000dcd9298e163dfd3c0b5b00f0d9093c36e40a153",
       "value_hint": "ALM_PROXY"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "var_name": "liquidityProvider_",
-      "value": "0x491edfb0b8b608044e227225c715981a30f3a44e",
+      "value": "0x0dcd9298e163dfd3c0b5b00f0d9093c36e40a153",
       "value_hint": "ALM_PROXY"
     },
     {
@@ -121,7 +121,7 @@
       "offset": 0,
       "var_name": "pocket",
       "var_type": "t_address",
-      "value": "0xa15b8c07fa32a4f8bea3882600a673dc9cc1d6b9",
+      "value": "0x2cd296095788a2741e72056d66b3ae1faee23ea2",
       "value_hint": "UsdsUsdcPocket (JTRSY/USDS/USDC)",
       "comparison_operator": "Equal"
     },
@@ -259,9 +259,9 @@
       "comparison_operator": "Equal"
     },
     {
-      "slot": "0x2d644eb513f4a812c316b941d9537be37f0c49b7c56dd7166cd08b7ed5a433bb",
+      "slot": "0x1f43d50828226bcc871a04cd92f7b0fc4f04b11933476fe92bb4597039ef0ff0",
       "offset": 0,
-      "var_name": "_roles[REDEEMER_CONTRACT_ROLE].members[0x212697f0A9Fc218210D98cd1A159dc8D8A87b8A8]",
+      "var_name": "_roles[REDEEMER_CONTRACT_ROLE].members[0x7c5Ce1a1D50a6cb3Da97C9e202B3E7CD8e5b5b6c]",
       "var_type": "t_bool",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
       "value_hint": "JTRSYTokenRedeemer",
@@ -467,8 +467,8 @@
         {
           "topics": [
             "0x3fc246ba2ebf4dedf8b9de3cc4b46795e44b56db70960136b44fccbe99daa478",
-            "0x0000000000000000000000001fa4db8d545cbd22b7bba2084348a2e6ef36e363",
-            "0x000000000000000000000000a15b8c07fa32a4f8bea3882600a673dc9cc1d6b9"
+            "0x000000000000000000000000f08943f817e1f902debc884c7b19ea5764594ac9",
+            "0x0000000000000000000000002cd296095788a2741e72056d66b3ae1faee23ea2"
           ],
           "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
         }
@@ -576,7 +576,7 @@
           "topics": [
             "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
             "0x809ac8ca8fe3a1876fa731b7e1bd9a29dece6eaca667a96893f116fdd97ce877",
-            "0x000000000000000000000000212697f0a9fc218210d98cd1a159dc8d8a87b8a8",
+            "0x0000000000000000000000007c5ce1a1d50a6cb3da97c9e202b3e7cd8e5b5b6c",
             "0x0000000000000000000000006d99f476e7e9fccd189fb87023cfa301364fa817"
           ],
           "data": "0x"
@@ -683,7 +683,7 @@
         {
           "topics": [
             "0x6794aa6ee2e29e908a1d0f6e157f4991d68550671e8d9a8167dd0374a597bd4a",
-            "0x000000000000000000000000212697f0a9fc218210d98cd1a159dc8d8a87b8a8"
+            "0x0000000000000000000000007c5ce1a1d50a6cb3da97c9e202b3e7cd8e5b5b6c"
           ],
           "data": "0x"
         }

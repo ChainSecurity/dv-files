@@ -1,13 +1,13 @@
 {
   "version": "0.9.1",
-  "id": "0x8c9573d1e5db0748405e44da0efcf459a5d954a09fa31a37f0936fc636d7d137",
+  "id": "0x92eebf3345b18e0b7b49e897470b3a7bb13074e1115d022f1373c069b76bfbfa",
   "contract_name": "JTRSYTokenRedeemer",
-  "address": "0x212697f0a9fc218210d98cd1a159dc8d8a87b8a8",
+  "address": "0x7c5ce1a1d50a6cb3da97c9e202b3e7cd8e5b5b6c",
   "chain_id": 1,
-  "deployment_block_num": 25079127,
-  "init_block_num": 25271289,
-  "deployment_tx": "0x2386be7468d4c752f78d92d6f9435af778e8d1e92d8b93c85e9ed3891a562b82",
-  "codehash": "0x531e3d3e5baf2babc9a1191cf3c57d5ae364b971275649b4b9e601d0e8d90b28",
+  "deployment_block_num": 25323686,
+  "init_block_num": 25339715,
+  "deployment_tx": "0x17bf9bd8e28c8ca2ffeb39baaada6615c75c749a1bfaf2596172df531e6289af",
+  "codehash": "0x5cf54e227e9a15791408451ea49a57a82250dd0494b54cfdf027886e01195e9f",
   "insecure": false,
   "immutables": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "var_name": "basin",
-      "value": "0x0000000000000000000000001fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+      "value": "0x000000000000000000000000f08943f817e1f902debc884c7b19ea5764594ac9",
       "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
     }
   ],
@@ -39,7 +39,7 @@
     },
     {
       "var_name": "basin_",
-      "value": "0x1fa4db8d545cbd22b7bba2084348a2e6ef36e363",
+      "value": "0xf08943f817e1f902debc884c7b19ea5764594ac9",
       "value_hint": "GroveBasin (JTRSY/USDS/USDC)"
     }
   ],
