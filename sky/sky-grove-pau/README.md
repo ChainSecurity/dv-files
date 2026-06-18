@@ -13,41 +13,42 @@ This document outlines the details regarding the deployment validation performed
 
 The deployment validation (DV) has been performed with the [Deployment Validation Tool](https://github.com/ChainSecurity/deployment_validation). The contracts come from two codebases:
 
-- Diamond PAU Contracts (`AccessControls`, `Controller`):
+- Diamond PAU Contracts (`AccessControls`, `Controller`, `ALMProxy`, `RateLimits`):
     - Repository: https://github.com/sky-ecosystem/diamond-pau
     - Commit: `5c5ad6ae174bf467081ca82342ced2bd42a5c732`
     - Contracts:
-        - AccessControls: `0x10d1ade77f1b81ef95057bb2face292313f66277`
-        - Controller: `0x0dd65461610fe5b65ce50a870b10ed0f3d24d8c2`
+        - AccessControls: `0x4f6d1704700cd494dd4cd9bf59c0c39da1bc9164`
+        - Controller: `0xbf83f5974b932c7d842254042717d6a2706ce5ee`
+        - ALMProxy: `0x0dcd9298e163dfd3c0b5b00f0d9093c36e40a153`
+        - RateLimits: `0xe016ae733a77ba77e7907aaa749394fc5e75c0e1`
 
 - Administered Agent Contracts (`AdministeredAgent`):
     - Repository: https://github.com/sky-ecosystem/pau-administered-agent
     - Commit: `bfaaf709a8664d74d12604455f0365a0a12439cf`
     - Contracts:
-        - AdministeredAgent: `0x0f7ca6616cc38132530dc4695778a54de42c21f4`
+        - AdministeredAgent: `0xdbd17832df0e57b1732ce1c84c652e820e549baa`
 
-The shared `ALMProxy` (`0x491edfb0b8b608044e227225c715981a30f3a44e`) and `RateLimits` (`0x5f5cfcb8a463868e37ab27b5eff3ba02112df19a`) referenced by the `Controller` are validated under `sky/bloom-alm-controller` and are not in scope here.
+All five contracts were deployed and configured by the `DefaultPAUAssembler` (`0xc812aad3fae2d3511c664374b601a9bebfecca2e`, validated under `sky/pau-assemblers`).
 
 ## Details
 
-In summary, the deployed bytecode matches the source repositories at the given commits, and the on-chain configuration matches the deployment scripts in the [`grove-pau-deploy`](https://github.com/sky-ecosystem/grove-pau-deploy/tree/3d6c4e761c0df94a831567065c7084e997f04d35) repository. The `Controller`'s integration wiring matches the `Beacon` wiring in [`diamond-pau-deploy`](https://github.com/sky-ecosystem/diamond-pau-deploy/tree/90df5687155df6ba8ca9b9bcfdf947ff69895405).
+In summary, the deployed bytecode matches the source repositories at the given commits. The contracts were assembled by the `DefaultPAUAssembler`, which held `DEFAULT_ADMIN_ROLE` on each during configuration and was revoked afterwards, leaving `GROVE_PROXY` as the sole admin. The `Controller`'s integration wiring matches the `Beacon` wiring in [`diamond-pau-deploy`](https://github.com/sky-ecosystem/diamond-pau-deploy/tree/90df5687155df6ba8ca9b9bcfdf947ff69895405).
 
 Addresses have been manually and/or automatically validated against a list of references, see [References](#references).
 
-- *Controller*: ERC-7201 namespaced. Holds the integration registry (`configs`/`dispatches`) for the four enabled facets (`BASIN`, `ERC4626`, `MAPLE`, `UNISWAP_V3`), copied from the `Beacon`; operational calls `delegatecall` the wired facet, gated on `ALLOCATOR_ROLE`. Per-facet config (UniswapV3 pool params/slippage, ERC4626 max exchange rate) is stored under the facets' own namespaces and was copied from the previous controller (`ALM_CONTROLLER`).
-- *AccessControls*: `AccessControlEnumerable`. `DEFAULT_ADMIN_ROLE` → `GROVE_PROXY`, `ALLOCATOR_ROLE` → the `AdministeredAgent`. The deployer's admin role was revoked after configuration.
-- *AdministeredAgent*: actors are `ALM_RELAYER` and the Grove primary/secondary relayer operators, admin is `GROVE_PROXY`, revoker is `ALM_FREEZER`. Deployed by the `AdministeredAgentFactory` (validated separately); the deployer was removed as admin after configuration.
+- *Controller*: ERC-7201 namespaced. Holds the integration registry (`configs`/`dispatches`) for the three enabled facets (`USDS_FACET`, `PSM_FACET`, `BASIN_FACET`), copied from the `Beacon`; operational calls `delegatecall` the wired facet, gated on `ALLOCATOR_ROLE`. Its `SharedControllerStorage` references the `AccessControls`, `ALMProxy` and `RateLimits`.
+- *AccessControls*: `AccessControlEnumerable`. `DEFAULT_ADMIN_ROLE` → `GROVE_PROXY`, `ALLOCATOR_ROLE` → the `AdministeredAgent`.
+- *AdministeredAgent*: actors are `ALM_RELAYER` and the Grove primary/secondary relayer operators, admin is `GROVE_PROXY`, revoker is `ALM_FREEZER`. Deployed by the `AdministeredAgentFactory` (validated separately).
+- *ALMProxy* / *RateLimits*: `AccessControl`. `DEFAULT_ADMIN_ROLE` → `GROVE_PROXY`; the `CONTROLLER` role → the `Controller`.
 
 Further, note the following adjustments have been made to the initial DV files (see [DV tool's README](https://github.com/ChainSecurity/deployment_validation?tab=readme-ov-file#step-2---validate-data-and-select-constraints)):
 
-- *Storage*: The role-membership, integration-registry and facet-config slots are reported as `unknown` (nested/ERC-7201 mapping/struct/array entries reached through computed slots). These were programmatically labeled (`var_name`, `var_type`, `offset`, `value_hint`) from the deploy scripts and facet interfaces, splitting packed slots into their fields.
-- *Events*: All events are access-control / configuration events and were retained. Six `Controller` events reported as `Unknown Signature` were resolved — they are facet config-setter events (`ERC4626MaxExchangeRateSet` and the UniswapV3 setters) emitted via `delegatecall`, hence absent from the `Controller` ABI.
+- *Storage*: The role-membership, integration-registry and shared-storage slots are reported as `unknown` (nested/ERC-7201 mapping/struct/array entries reached through computed slots). These were programmatically labeled (`var_name`, `var_type`, `value_hint`) from the deploy scripts and facet interfaces.
+- *Events*: All events (access-control, integration-config and rate-limit) were retained; none removed.
 
 ## Considerations
 
-The `Controller`'s integration registry and per-facet configuration are admin/allocator-configurable; re-wiring or reconfiguring will change storage and invalidate the DV file.
-
-The per-facet config values were copied from the previous controller (`ALM_CONTROLLER`) rather than set to literals, so they were validated structurally (correct keys/slots).
+The `Controller`'s integration registry and the contracts' access control are admin/allocator-configurable; re-wiring or reconfiguring will change storage and invalidate the DV file.
 
 The files can be validated retroactively with the `--validationblock` option (see the respective `README`).
 
@@ -56,5 +57,5 @@ The files can be validated retroactively with the `--validationblock` option (se
 Note that addresses are validated manually and/or automatically.
 Below is the list of references to the expected values used for comparing the address values.
 
-- [Grove Address Registry](https://github.com/grove-labs/grove-address-registry/blob/main/src/Ethereum.sol) for `GROVE_PROXY`, `ALM_RELAYER`, `ALM_FREEZER`, the relayer operators, `MAPLE_SYRUP_USDC` and `UNISWAP_V3_AUSD_USDC`.
-- [Sky Chainlog](https://chainlog.skyeco.com/) for the shared `ALMProxy` and `RateLimits`.
+- [Grove Address Registry](https://github.com/grove-labs/grove-address-registry/blob/main/src/Ethereum.sol) for `GROVE_PROXY`, `ALM_RELAYER`, `ALM_FREEZER` and the relayer operators.
+- The `USDSFacet`, `PSMFacet`, `BasinFacet` and `Beacon` are validated under `sky/diamond-pau`; the `DefaultPAUAssembler` under `sky/pau-assemblers`.
