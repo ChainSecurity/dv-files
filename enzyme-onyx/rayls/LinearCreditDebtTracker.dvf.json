@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0xa3c3eb4bf4e9528857367b1a3138c29950e6fba67af151b5b2d10b9e10a4930a",
+  "contract_name": "LinearCreditDebtTracker",
+  "address": "0x42bc95f119fb08b9fc72262d255016fa5546caa4",
+  "chain_id": 72957,
+  "deployment_block_num": 1142653,
+  "init_block_num": 1142703,
+  "deployment_tx": "0xb09d6678af2499e8504f91ab68e07e99a8c8f0784b82aa4b538d12c0b1290127",
+  "codehash": "0xee9210b840a5bcd435fdde5867939e21e1ba37314ce9a4b7f3643b610d21bd40",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/d7cbfad161ce75c4f9ec35852d851a613f98069a",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
