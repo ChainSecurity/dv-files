@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x1c86e2abde6a89f9de7e751785dc8c445d3459cd5e31ae7ea1afbe59bcfc75ba",
+  "contract_name": "ChainlinkAceERC7540LikeRedeemQueuePostExecuteRedeemRequestExtractor",
+  "address": "0xf8c4bdf19b80af180bd29e557a1b9efcb44c9096",
+  "chain_id": 4326,
+  "deployment_block_num": 22521012,
+  "init_block_num": 22995814,
+  "deployment_tx": "0x0fad05e52cb75dcacc7f8c7348522b52db4751e2dd85a445ba036d21fcbef7f7",
+  "codehash": "0xce1323b2986ccd58b4d6fbaf788be06a28ceef2cd3f71bd6115354e3d5e80b6d",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/fd6bc5cbddfd4f53b76a153829f0d2848e884495",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

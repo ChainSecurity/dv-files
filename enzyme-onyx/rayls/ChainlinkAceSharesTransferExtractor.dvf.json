@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x6efd4fcdd78cdcf9cf1c3acb8501313b2f2770a98fc8cf29638a51b67cb3a7b1",
+  "contract_name": "ChainlinkAceSharesTransferExtractor",
+  "address": "0x56a1892b2276bbb9968d1b5aa0000a71bf0fa7b8",
+  "chain_id": 72957,
+  "deployment_block_num": 5894678,
+  "init_block_num": 6260378,
+  "deployment_tx": "0xbdb1339878197377525b2356616058234ec93a6b40a387175012dec3c99ce710",
+  "codehash": "0xdbbf1fde839ceabca0920d680e806267ac36c527e2fb2358b03a6693c4d6a182",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/fd6bc5cbddfd4f53b76a153829f0d2848e884495",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
