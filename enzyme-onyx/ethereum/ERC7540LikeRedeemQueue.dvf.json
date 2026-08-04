@@ -1,13 +1,13 @@
 {
   "version": "0.9.1",
-  "id": "0xaa0c45c605491cc04574dd365d76b167f8b798bd46cecfedfed46a8c6547fe52",
+  "id": "0x27caa38ad67021c3fd753b4fc2299d079981d4faadb3efec8fe6690146085ba8",
   "contract_name": "ERC7540LikeRedeemQueue",
-  "address": "0x2c7b9f6f77de567eb3ab837b894fa599e6a7daae",
+  "address": "0xbdbb6a7ce349dbf0710351cd64ae3f03bf6d4bc8",
   "chain_id": 1,
-  "deployment_block_num": 23324056,
-  "init_block_num": 23325056,
-  "deployment_tx": "0x4c7e222d0036568f74da6bc9bf1dbafc492251b60b17e1f253cddc794f4b91dd",
-  "codehash": "0xf18722edd5ee18ff3051aa9544c5b103b116e5c3f5070cdeaebff3558023ca90",
+  "deployment_block_num": 25637589,
+  "init_block_num": 25678342,
+  "deployment_tx": "0xea642856c658c764dd9ed3ff30a5e5497ace86a17fd4ebc81e14b50ec5164fc1",
+  "codehash": "0x79cb221137b0573099edca6471d93cdd9163e4b4a557794e91b2cc7bfed148a3",
   "insecure": false,
   "immutables": [],
   "constructor_args": [],
@@ -16,8 +16,8 @@
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Enzyme",
-    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-onyx",
-    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/db2ec945d974790bc59c3e63f205328f8c670495",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/fd6bc5cbddfd4f53b76a153829f0d2848e884495",
     "security_contact": "disclosure@chainsecurity.com"
   }
 }
