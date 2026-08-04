@@ -1,0 +1,35 @@
+{
+  "version": "0.9.1",
+  "id": "0xa0bcc0b405f2871709ad6aef3a79dc1831cf311b009d7678a5f340b4992ea70d",
+  "contract_name": "ComponentBeaconFactory",
+  "address": "0xaf7f53a3a511d9c5783554bd19dcdd0be6f84a60",
+  "chain_id": 1,
+  "deployment_block_num": 25637589,
+  "init_block_num": 25674627,
+  "deployment_tx": "0x8e9df26305c033c22d821a74de4019b8ba9ca6e74a6a2047c25215926c243e12",
+  "codehash": "0x1db6cee7ec40720fd9c129f62535b2f9e6e757b692d7fc6abec42fa6f4a58641",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GLOBAL",
+      "value": "0x0000000000000000000000004eae0e594df9bea235fff3e44d93a3e383b87bad",
+      "value_hint": "GlobalProxy"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_global",
+      "value": "0x4eae0e594df9bea235fff3e44d93a3e383b87bad",
+      "value_hint": "GlobalProxy"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/fd6bc5cbddfd4f53b76a153829f0d2848e884495",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
