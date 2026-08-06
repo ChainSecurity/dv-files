@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0xbfc869e9b3380f4edeabc072baa58e6957900d68bfc8a093a0d538ab91e79e96",
+  "contract_name": "SharesMintHandler",
+  "address": "0x35ca4430c011aadf9c190668778e7482a533cbc1",
+  "chain_id": 8453,
+  "deployment_block_num": 49263475,
+  "init_block_num": 49501711,
+  "deployment_tx": "0x15d70f99caca5bf01a8a1cbdf37cc2a5098569c99c997ef9ac42f6f05dacd01d",
+  "codehash": "0x3f89441e2051d0d6c8bb1ea7435c943987f2099a0fb49f54895261dc0798763e",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/fd6bc5cbddfd4f53b76a153829f0d2848e884495",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
