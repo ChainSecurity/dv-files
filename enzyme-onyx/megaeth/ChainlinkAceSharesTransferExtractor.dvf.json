@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x1f55a390bcc5a05bfa90149aaa72e42166c7413624f23ec90f8e20cc85095e51",
+  "id": "0xfdad952ed7e29bfcf076e24a648c426f61ca6ecadfe6f8679b664199d348ab36",
   "contract_name": "ChainlinkAceSharesTransferExtractor",
   "address": "0xbb9e8f25205e1919d626baca033c2fd7f70ba4bf",
   "chain_id": 4326,

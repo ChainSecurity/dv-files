@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0xc75b84317c807d4a97585e01a906ed4c4f845bde4032d197555738477c1a0c4a",
+  "id": "0x4a07165af0d1a0094bf847c81b02b23282b020e6a165ef60b0695fef8d99ffd9",
   "contract_name": "ChainlinkAceSharesMintHandlerPreMintValidator",
   "address": "0x884d909ea86ec61128a4cfe1b455d5b440cde9c8",
   "chain_id": 72957,

@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x20f12749e98d193652223b10b1001d26e278c717b85eecb61b1b9b1d54d30c86",
+  "id": "0xa44e5b8da67ba83010a48fe01a5b5987b651e67150a839c283b1d7f1db0ecf1a",
   "contract_name": "SyncDepositHandler",
   "address": "0xad6a9b422b861a4a90a1f99a0d549d6699cab5cf",
   "chain_id": 42161,

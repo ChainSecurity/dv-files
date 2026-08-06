@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x893007c186d27b465c0c94ab42962a00bdfd1d747c268ab6d8a30241e52867e6",
+  "id": "0x2cf1335c7f8379106d1e27a293bd02a92c9b12d99f452ca00202a91947520810",
   "contract_name": "ChainlinkAceSyncDepositHandlerPostDepositExtractor",
   "address": "0xd2002dd5a197e7997ec6cf05e0ca168dd86d2aec",
   "chain_id": 1,

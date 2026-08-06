@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x46377bed496561179fa71201965dbb4f3b16cd39d732db17d568bc1088fa02c3",
+  "id": "0xfe85364b1f717c7fa24238d2e15a44586be9d0f06c3fc14ec1ca40bcfe9ab290",
   "contract_name": "ChainlinkAceSharesBurnHandlerPreBurnExtractor",
   "address": "0x6f1e1b876f1b096694e631510421765da95f22dc",
   "chain_id": 4326,
