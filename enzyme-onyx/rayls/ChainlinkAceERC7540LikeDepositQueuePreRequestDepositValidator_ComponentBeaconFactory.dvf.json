@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x9c38be7e3646b29dce088f93bd9feda540701d23a92d279186b9093749afb8e1",
+  "id": "0xaa69a7d86d5ee7c15da5da89f80b4c59ad67c0a17a05a7141314056acb8b5316",
   "contract_name": "ComponentBeaconFactory",
   "address": "0x5f2e2e7ffbcaee69d570d531a00228322632231e",
   "chain_id": 72957,
@@ -23,8 +23,23 @@
       "value_hint": "GlobalProxy"
     }
   ],
-  "critical_storage_variables": [],
-  "critical_events": [],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "implementation",
+      "var_type": "t_address",
+      "value": "0x0000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ImplementationSet(address)",
+      "topic0": "0xab64f92ab780ecbf4f3866f57cee465ff36c89450dcce20237ca7a8d81fb7d13",
+      "occurrences": []
+    }
+  ],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Enzyme",
