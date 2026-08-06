@@ -1,13 +1,13 @@
 {
   "version": "0.9.1",
-  "id": "0x238d49f4d9b81f32dd21fbdd1c8f05724f4b87a0e66bf5209605accc76a5dcea",
+  "id": "0xab9df38f4f0a406e7bdc4114acb1a7d7e3f711ecb10b2e9ccc583269e3c183ea",
   "contract_name": "AddressListsSharesTransferValidator",
-  "address": "0x96b4a1a925afec64fd810e9e69e3119db07c9a4c",
+  "address": "0xbaf74023508df0540ac870b3588ed5acd181b920",
   "chain_id": 8453,
-  "deployment_block_num": 44734545,
-  "init_block_num": 44734545,
-  "deployment_tx": "0x8678e8e84e8496e174fbf658720bd15a80d9a56086ff342b4d483b8bb882e2dc",
-  "codehash": "0x3724ad134dafca4b54e26a9e600f2df580cb20cfbd72f8bd29398726998a45c9",
+  "deployment_block_num": 49263475,
+  "init_block_num": 49508720,
+  "deployment_tx": "0xc106ba66ad1069e01be0d4e1b6f4297f1036f2ef1a265eb16b9938afc8aaf70f",
+  "codehash": "0xd535519bd039f9985ef4de106b89ed19793b6c828ce51bcc41696201c32a90f9",
   "insecure": false,
   "immutables": [],
   "constructor_args": [],
@@ -17,7 +17,7 @@
     "author_name": "ChainSecurity",
     "description": "Enzyme",
     "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
-    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/67921056b3ac97782b0ae8a61751229ed2960826",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/fd6bc5cbddfd4f53b76a153829f0d2848e884495",
     "security_contact": "disclosure@chainsecurity.com"
   }
 }

@@ -1,23 +1,42 @@
 {
   "version": "0.9.1",
-  "id": "0x5570296401bd5db3b3ded18d8b3584dfc6ab4b901b82d275bbc1fd3388e1b062",
+  "id": "0x1023e776bdf045248293ef81f068218be10d4844e71773cfbc30ae25c02b39b5",
   "contract_name": "Shares",
-  "address": "0xd2bdd90629351cc1cd4427917ae23f97fd9d9933",
+  "address": "0x67248ad2dd1aec4bcba85ae7bc2e5561a1ccf546",
   "chain_id": 4326,
-  "deployment_block_num": 12251865,
-  "init_block_num": 12251915,
-  "deployment_tx": "0x29d42a2b1b72314e79e2625ca80d1aba8adc1a41863fd8b5f1995b225b14dae7",
-  "codehash": "0xf863daacd7596c30b23192e175b7ed896573b794691a16e6256b981aafae6fd9",
+  "deployment_block_num": 22521026,
+  "init_block_num": 23010187,
+  "deployment_tx": "0x2683515d36ccf495c46616bfe5e76c208b25bdf6f1dd1ce0c0e4ca3be1cd3f56",
+  "codehash": "0x13844ca6d6f3f024894f3b869bb8e5643d00591b9f617ea992dcf5d8d1a16ec9",
   "insecure": false,
   "immutables": [],
   "constructor_args": [],
-  "critical_storage_variables": [],
+  "critical_storage_variables": [
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 0,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initialized",
+      "var_type": "t_uint64",
+      "value": "0xffffffffffffffff",
+      "value_hint": "1.8446744073709551615 * 10^19",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 8,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initializing",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    }
+  ],
   "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Enzyme",
     "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
-    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/67921056b3ac97782b0ae8a61751229ed2960826",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/fd6bc5cbddfd4f53b76a153829f0d2848e884495",
     "security_contact": "disclosure@chainsecurity.com"
   }
 }

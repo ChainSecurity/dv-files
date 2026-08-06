@@ -1,23 +1,42 @@
 {
   "version": "0.9.1",
-  "id": "0x7392a8e3d0605847a53c1e4a009630283fb4b85052f9564e716856ffe64345af",
+  "id": "0x4258f027c0a2ba536a88c0916cdd2c2fff08507ee03d915f0929d0cf29ff212a",
   "contract_name": "Shares",
-  "address": "0x8c1d64562e30f3e306051adc401ec9823b0b30a2",
+  "address": "0x4568729e884c9ab6e4622ac4112c427667857774",
   "chain_id": 8453,
-  "deployment_block_num": 35306013,
-  "init_block_num": 35307013,
-  "deployment_tx": "0xd3c593d97f7763578520d97cf6d91041938bb53fc6713c21d7bbe14cd1565b3d",
-  "codehash": "0xda76a54b0810c98e9f940fa228db8b9370844e8070444c01a8454013564c5a0c",
+  "deployment_block_num": 49263475,
+  "init_block_num": 49508853,
+  "deployment_tx": "0x07f32a13aa69573934cb7d4b654fb8a42bbf79fc1a47b9379cee7f110d03b375",
+  "codehash": "0x13844ca6d6f3f024894f3b869bb8e5643d00591b9f617ea992dcf5d8d1a16ec9",
   "insecure": false,
   "immutables": [],
   "constructor_args": [],
-  "critical_storage_variables": [],
+  "critical_storage_variables": [
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 0,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initialized",
+      "var_type": "t_uint64",
+      "value": "0xffffffffffffffff",
+      "value_hint": "1.8446744073709551615 * 10^19",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 8,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initializing",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    }
+  ],
   "critical_events": [],
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Enzyme",
-    "audit_report": "https://www.chainsecurity.com/security-audit/enzyme-onyx",
-    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/db2ec945d974790bc59c3e63f205328f8c670495",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/fd6bc5cbddfd4f53b76a153829f0d2848e884495",
     "security_contact": "disclosure@chainsecurity.com"
   }
 }
