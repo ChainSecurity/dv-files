@@ -1,0 +1,45 @@
+{
+  "version": "0.9.1",
+  "id": "0x37329b7e501b8b50f0957d5346781cd5470ed94a4ef0af0d07e7a55451491aa9",
+  "contract_name": "CreWorkflowConsumer",
+  "address": "0x34983a2d4fcbd4afc72c07e8e7d5e2c58bbd381a",
+  "chain_id": 56,
+  "deployment_block_num": 114325467,
+  "init_block_num": 114325477,
+  "deployment_tx": "0x0bd59a7ce675e0f7873bd28a7bd2e60e28508bc94d040bb02fa984d93ac61eb6",
+  "codehash": "0x94c5cbac64c25fd88bae5df197033e236e4bf20689df3f92ffba1fb16bef6488",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "ALLOWED_WORKFLOW_OWNER",
+      "value": "0x000000000000000000000000d24bbcd06c54a5a2a6d22f4aae25ab511190c7b5",
+      "value_hint": "Allowed CRE workflow owner"
+    },
+    {
+      "var_name": "CHAINLINK_KEYSTONE_FORWARDER",
+      "value": "0x00000000000000000000000076c9cf548b4179f8901cda1f8623568b58215e62",
+      "value_hint": "Chainlink Keystone Forwarder (BSC)"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_chainlinkKeystoneForwarder",
+      "value": "0x76c9cf548b4179f8901cda1f8623568b58215e62",
+      "value_hint": "Chainlink Keystone Forwarder (BSC)"
+    },
+    {
+      "var_name": "_allowedWorkflowOwner",
+      "value": "0xd24bbcd06c54a5a2a6d22f4aae25ab511190c7b5",
+      "value_hint": "Allowed CRE workflow owner"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/4509bb9e7c7a88a4f805da699b3f1a34f8568eab",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
