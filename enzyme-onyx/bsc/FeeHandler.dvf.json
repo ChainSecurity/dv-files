@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0x2b741a06b70c65ff960120b4663a915682d2be771fe19c71868c2e447ca1f6d9",
+  "contract_name": "FeeHandler",
+  "address": "0xb31c81fbf4471e07caac969364a4ca8050876753",
+  "chain_id": 56,
+  "deployment_block_num": 114325467,
+  "init_block_num": 114325477,
+  "deployment_tx": "0x73c855131bf144f37a74d731b35f873bb4226547ce531bbcc2f33e0af4055efc",
+  "codehash": "0x0a52ec6b01667e7a0e6454de2b909ba80bff3db3ca42b48b85955ef3568bbde4",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/4509bb9e7c7a88a4f805da699b3f1a34f8568eab",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

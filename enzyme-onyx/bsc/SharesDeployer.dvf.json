@@ -1,0 +1,145 @@
+{
+  "version": "0.9.1",
+  "id": "0x9167808e38823fa368730115e79934d22ecf21868fa89819204625bf3db9a0bc",
+  "contract_name": "SharesDeployer",
+  "address": "0x4d586784241c2214207cf97cd0cb59c0538d6fd9",
+  "chain_id": 56,
+  "deployment_block_num": 114325467,
+  "init_block_num": 114325477,
+  "deployment_tx": "0x8046deb5ed65f122d854e461d83db34b45830030d4732397d57d2ec5eb409828",
+  "codehash": "0x2381346c1acd6ea41ed07189e084a22bcfdf077e70136766e1a5810a6b494f48",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "SHARES_FACTORY",
+      "value": "0x0000000000000000000000009134c9975244b46692ad9a7da36dba8734ec6da3",
+      "value_hint": "Shares ComponentBeaconFactory"
+    },
+    {
+      "var_name": "FEE_HANDLER_FACTORY",
+      "value": "0x0000000000000000000000008ba6f2d9c81db32665df6a926227dd00caca7d9b",
+      "value_hint": "FeeHandler ComponentBeaconFactory"
+    },
+    {
+      "var_name": "VALUATION_HANDLER_FACTORY",
+      "value": "0x000000000000000000000000cfb6f4c08856986d13839b1907b5c645ee95388f",
+      "value_hint": "ValuationHandler ComponentBeaconFactory"
+    },
+    {
+      "var_name": "MANAGEMENT_FEE_TRACKER_FACTORY",
+      "value": "0x00000000000000000000000045919dcdecca3c7a0d29f959e6b78a605a17a3a2",
+      "value_hint": "ContinuousFlatRateManagementFeeTracker ComponentBeaconFactory"
+    },
+    {
+      "var_name": "PERFORMANCE_FEE_TRACKER_FACTORY",
+      "value": "0x000000000000000000000000fb3a9655f5fea18cac92021e83550f829ae6f7f7",
+      "value_hint": "ContinuousFlatRatePerformanceFeeTracker ComponentBeaconFactory"
+    },
+    {
+      "var_name": "ACCOUNT_ERC20_TRACKER_FACTORY",
+      "value": "0x000000000000000000000000c80bd25cd46e49277ccb56e751704a6316af30ad",
+      "value_hint": "AccountERC20Tracker ComponentBeaconFactory"
+    },
+    {
+      "var_name": "LINEAR_CREDIT_DEBT_TRACKER_FACTORY",
+      "value": "0x0000000000000000000000002180341339010c237ff8e3dd1ff24063fb18c4d0",
+      "value_hint": "LinearCreditDebtTracker ComponentBeaconFactory"
+    },
+    {
+      "var_name": "DEPOSIT_QUEUE_FACTORY",
+      "value": "0x0000000000000000000000006618bf56e1c7b6c8310bfe4096013bed8f191628",
+      "value_hint": "ERC7540LikeDepositQueue ComponentBeaconFactory"
+    },
+    {
+      "var_name": "SYNC_DEPOSIT_HANDLER_FACTORY",
+      "value": "0x000000000000000000000000b47502f30315817d7c01fce163c0f1ea25715de2",
+      "value_hint": "SyncDepositHandler ComponentBeaconFactory"
+    },
+    {
+      "var_name": "REDEEM_QUEUE_FACTORY",
+      "value": "0x0000000000000000000000009177a3354ee50bffbcc42c4c6bac27ed63979097",
+      "value_hint": "ERC7540LikeRedeemQueue ComponentBeaconFactory"
+    },
+    {
+      "var_name": "SHARES_OWNED_ADDRESS_LIST_FACTORY",
+      "value": "0x00000000000000000000000091e49f9a4b1efbb0a8448c5bfcb42b48740fb12b",
+      "value_hint": "SharesOwnedAddressList ComponentBeaconFactory"
+    },
+    {
+      "var_name": "OWNABLE_ADDRESS_LIST_FACTORY",
+      "value": "0x0000000000000000000000004c2c07b15b0b32bad989d9defaec775e2aa8a7ad",
+      "value_hint": "OwnableAddressList ComponentBeaconFactory"
+    },
+    {
+      "var_name": "ADDRESS_LISTS_SHARES_TRANSFER_VALIDATOR_FACTORY",
+      "value": "0x000000000000000000000000fc3f356217120318bd46c879b3a55c3135473752",
+      "value_hint": "AddressListsSharesTransferValidator ComponentBeaconFactory"
+    },
+    {
+      "var_name": "SHARES_MINT_HANDLER_FACTORY",
+      "value": "0x00000000000000000000000050cd5deaa9252fc612c4582d2a1adb75da784cee",
+      "value_hint": "SharesMintHandler ComponentBeaconFactory"
+    },
+    {
+      "var_name": "SHARES_BURN_HANDLER_FACTORY",
+      "value": "0x0000000000000000000000004f062f93561b0019a0b1128c8e9478d26d1370ab",
+      "value_hint": "SharesBurnHandler ComponentBeaconFactory"
+    },
+    {
+      "var_name": "CHAINLINK_ACE_DEPOSIT_QUEUE_PRE_REQUEST_VALIDATOR_FACTORY",
+      "value": "0x00000000000000000000000049aa3b8ccbf8525d8f065a83f1bc780f6779ab75",
+      "value_hint": "ChainlinkAceERC7540LikeDepositQueuePreRequestDepositValidator ComponentBeaconFactory"
+    },
+    {
+      "var_name": "CHAINLINK_ACE_DEPOSIT_QUEUE_POST_EXECUTE_VALIDATOR_FACTORY",
+      "value": "0x000000000000000000000000bf3411973f09c32e8c4e67d1345dddc5f9c7535a",
+      "value_hint": "ChainlinkAceERC7540LikeDepositQueuePostExecuteDepositRequestValidator ComponentBeaconFactory"
+    },
+    {
+      "var_name": "CHAINLINK_ACE_REDEEM_QUEUE_PRE_REQUEST_VALIDATOR_FACTORY",
+      "value": "0x0000000000000000000000002693c62beef1c5a4ac8d8caeef2fb0ec355a6845",
+      "value_hint": "ChainlinkAceERC7540LikeRedeemQueuePreRequestRedeemValidator ComponentBeaconFactory"
+    },
+    {
+      "var_name": "CHAINLINK_ACE_REDEEM_QUEUE_POST_EXECUTE_VALIDATOR_FACTORY",
+      "value": "0x0000000000000000000000007babf9fbd5ea2f0be4f18e3b9f5ce97ee057c679",
+      "value_hint": "ChainlinkAceERC7540LikeRedeemQueuePostExecuteRedeemRequestValidator ComponentBeaconFactory"
+    },
+    {
+      "var_name": "CHAINLINK_ACE_SYNC_DEPOSIT_POST_DEPOSIT_VALIDATOR_FACTORY",
+      "value": "0x0000000000000000000000001379768658ad68a0c7fc5db966c76a195f0157ce",
+      "value_hint": "ChainlinkAceSyncDepositHandlerPostDepositValidator ComponentBeaconFactory"
+    },
+    {
+      "var_name": "CHAINLINK_ACE_MINT_PRE_MINT_VALIDATOR_FACTORY",
+      "value": "0x0000000000000000000000006ab3d13124ded464003867d0dfb5a9b4e25eb907",
+      "value_hint": "ChainlinkAceSharesMintHandlerPreMintValidator ComponentBeaconFactory"
+    },
+    {
+      "var_name": "CHAINLINK_ACE_BURN_PRE_BURN_VALIDATOR_FACTORY",
+      "value": "0x000000000000000000000000de4a42052db0fb0e8935c9f3015b8cd56a3ddf43",
+      "value_hint": "ChainlinkAceSharesBurnHandlerPreBurnValidator ComponentBeaconFactory"
+    },
+    {
+      "var_name": "CHAINLINK_ACE_SHARES_TRANSFER_VALIDATOR_FACTORY",
+      "value": "0x000000000000000000000000b3646e9b6df463a2dc36de67ffd28cbab3f8a5cc",
+      "value_hint": "ChainlinkAceSharesTransferValidator ComponentBeaconFactory"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_factories",
+      "value": "0x9134c9975244b46692ad9a7da36dba8734ec6da38ba6f2d9c81db32665df6a926227dd00caca7d9bcfb6f4c08856986d13839b1907b5c645ee95388f45919dcdecca3c7a0d29f959e6b78a605a17a3a2fb3a9655f5fea18cac92021e83550f829ae6f7f7c80bd25cd46e49277ccb56e751704a6316af30ad2180341339010c237ff8e3dd1ff24063fb18c4d06618bf56e1c7b6c8310bfe4096013bed8f191628b47502f30315817d7c01fce163c0f1ea25715de29177a3354ee50bffbcc42c4c6bac27ed6397909791e49f9a4b1efbb0a8448c5bfcb42b48740fb12b4c2c07b15b0b32bad989d9defaec775e2aa8a7adfc3f356217120318bd46c879b3a55c313547375250cd5deaa9252fc612c4582d2a1adb75da784cee4f062f93561b0019a0b1128c8e9478d26d1370ab49aa3b8ccbf8525d8f065a83f1bc780f6779ab75bf3411973f09c32e8c4e67d1345dddc5f9c7535a2693c62beef1c5a4ac8d8caeef2fb0ec355a68457babf9fbd5ea2f0be4f18e3b9f5ce97ee057c6791379768658ad68a0c7fc5db966c76a195f0157ce6ab3d13124ded464003867d0dfb5a9b4e25eb907de4a42052db0fb0e8935c9f3015b8cd56a3ddf43b3646e9b6df463a2dc36de67ffd28cbab3f8a5cc",
+      "value_hint": "the 25 beacon factories (Shares/component + ACE validator factories)"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/4509bb9e7c7a88a4f805da699b3f1a34f8568eab",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

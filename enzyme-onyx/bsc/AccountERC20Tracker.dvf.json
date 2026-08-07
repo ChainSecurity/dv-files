@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0xda1a232f0e3940355a6067f00092ba43e0bf8b6d39d38937907716d7fb28620a",
+  "contract_name": "AccountERC20Tracker",
+  "address": "0xa831a43f99af957bc27d03963958fd710dc1f50e",
+  "chain_id": 56,
+  "deployment_block_num": 114325467,
+  "init_block_num": 114325477,
+  "deployment_tx": "0xd015602d372989c8950e80def191fe6aaa8abbadefcc4512e77cb152de6f4a21",
+  "codehash": "0x05938f8948177d16c46a46a6171095c5e81705b018639a3b62c4a8a7a75fe362",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/4509bb9e7c7a88a4f805da699b3f1a34f8568eab",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

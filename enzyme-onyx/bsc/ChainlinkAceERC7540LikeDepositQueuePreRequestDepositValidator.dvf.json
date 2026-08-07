@@ -1,0 +1,55 @@
+{
+  "version": "0.9.1",
+  "id": "0xfeb5ab2c22cd92fe3a146e91269b9dcb37aabbaee9803b266e8b3e1b647417f6",
+  "contract_name": "ChainlinkAceERC7540LikeDepositQueuePreRequestDepositValidator",
+  "address": "0x21fc97450c65dafe14255a06cf9c5c88483ba309",
+  "chain_id": 56,
+  "deployment_block_num": 114325467,
+  "init_block_num": 114325477,
+  "deployment_tx": "0xa284aa94c1f71c70e9358e0228cea2ca12b7ece4055617eedab33cb0d92a11a6",
+  "codehash": "0x09fa061759fb172d8904e2cd7151af702cdb4ac5826cfbf01341885259bdeda0",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 0,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initialized",
+      "var_type": "t_uint64",
+      "value": "0xffffffffffffffff",
+      "value_hint": "1.8446744073709551615 * 10^19",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 8,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initializing",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": [
+        {
+          "topics": [
+            "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000ffffffffffffffff"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/4509bb9e7c7a88a4f805da699b3f1a34f8568eab",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
