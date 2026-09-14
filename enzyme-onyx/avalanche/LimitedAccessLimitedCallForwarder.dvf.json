@@ -1,0 +1,23 @@
+{
+  "version": "0.9.1",
+  "id": "0xc73eea6f56616d30f4cce04d35aedf60422c494059107e8ce40453d8fe337cb2",
+  "contract_name": "LimitedAccessLimitedCallForwarder",
+  "address": "0xfb0e95e3c515ae9ef8200bb03987f023afdad7bc",
+  "chain_id": 43114,
+  "deployment_block_num": 94790973,
+  "init_block_num": 94790983,
+  "deployment_tx": "0xb44ddfad4b754762fbe204a98e0562bab91e18b7ee6a66614cfb77ecdfcdeb3c",
+  "codehash": "0x9d7964ad5abf48a652dd4748a8f829f085685f024e10cfa1bd20b1855d064d87",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/3c8c3c9e3bacde3a2df04bc01ec6a133651865b5",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

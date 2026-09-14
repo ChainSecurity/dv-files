@@ -1,0 +1,58 @@
+{
+  "version": "0.9.1",
+  "id": "0xa46a56330d67674dda108a71d31cf5f95b336d56ad0e0d6b484df64852c75c6d",
+  "contract_name": "ComponentBeaconFactory",
+  "address": "0xaab0ee9c9d83eb672820434860a6b8c01f56d68e",
+  "chain_id": 43114,
+  "deployment_block_num": 94790973,
+  "init_block_num": 94790983,
+  "deployment_tx": "0x031c18bac6f0d97868a398b02b635d7ba2c1c652ea6177c0751d82d2ab0534e4",
+  "codehash": "0x9303cfc4e142d2354352b47d4ad641f655faeae42937e8d2d078e4fbddf158c3",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "GLOBAL",
+      "value": "0x0000000000000000000000001db6ee7876cd9ad873f2fbcf12688ffeaba35d10",
+      "value_hint": "GlobalProxy"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "_global",
+      "value": "0x1db6ee7876cd9ad873f2fbcf12688ffeaba35d10",
+      "value_hint": "GlobalProxy"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x0",
+      "offset": 0,
+      "var_name": "implementation",
+      "var_type": "t_address",
+      "value": "0x6b8ff3204a24125696f2494c69199c17ed513f54",
+      "value_hint": "ERC7540LikeRedeemQueue",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "ImplementationSet(address)",
+      "topic0": "0xab64f92ab780ecbf4f3866f57cee465ff36c89450dcce20237ca7a8d81fb7d13",
+      "occurrences": [
+        {
+          "topics": [
+            "0xab64f92ab780ecbf4f3866f57cee465ff36c89450dcce20237ca7a8d81fb7d13"
+          ],
+          "data": "0x0000000000000000000000006b8ff3204a24125696f2494c69199c17ed513f54"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Enzyme",
+    "audit_report": "https://www.chainsecurity.com/smart-contract-audit-reports?client=Enzyme",
+    "source_url": "https://github.com/enzymefinance/protocol-onyx/tree/3c8c3c9e3bacde3a2df04bc01ec6a133651865b5",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
