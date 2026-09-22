@@ -1,0 +1,141 @@
+{
+  "version": "0.9.1",
+  "id": "0x2b56a93d61f1d0c6a95912c427d727247e36d0ac50fd3e69eef9b72730b5d419",
+  "contract_name": "RateLimits",
+  "address": "0x4824c4336a1a11979068a544958dce5d49b42752",
+  "chain_id": 42161,
+  "deployment_block_num": 506440780,
+  "init_block_num": 507698925,
+  "deployment_tx": "0x7bfc18fef9d27b3fb973141d41942cc818ca21fd1ae4da5d2e4f182a3dc81b6d",
+  "codehash": "0xac8e644c901f8caebcd927673918900b255fdc99ec99f9d3954f3dc81690cabd",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "admin_",
+      "value": "0xc758519ace14e884fdba9cce25f2dbe81b7e136f"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x7ce1cf29740b7677461062478c3c661927c64112e5326c87449608861eb30564",
+      "offset": 0,
+      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].hasRole[0xc758519ace14e884fdba9cce25f2dbe81b7e136f]",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8ad90f348abf41394c1eb27a292c9e04c06e9bf627760ac6154be3098057606d",
+      "offset": 0,
+      "var_name": "_roles[70546d1c92f8c2132ae23a23f5177aa8526356051c7510df99f50e012d221529].adminRole",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xad3228b676f7d3cd4284a5443f17f1962b36e491b30a40b2405849e597ba5fb6",
+      "offset": 0,
+      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].adminRole",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xc5f01f1c2b35417c133ca0933fb8db77d6a4e4aa3a58fe3f7a6365e3e62d9947",
+      "offset": 0,
+      "var_name": "_roles[70546d1c92f8c2132ae23a23f5177aa8526356051c7510df99f50e012d221529].hasRole[0x04acb9e9bbd64a425677edc535d6b30cfd74e42f]",
+      "var_type": "t_bool",
+      "value": "0x01",
+      "value_hint": "true",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xdd7710deb62c3d40b26f77ad10921cd71add4d5278b6a2d2d07896be8b91890c",
+      "offset": 0,
+      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].hasRole[0x65d946e533748a998b1f0e430803e39a6388f7a1]",
+      "var_type": "t_bool",
+      "value": "0x01",
+      "value_hint": "true",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "RateLimitDataSet(bytes32,uint256,uint256,uint256,uint256)",
+      "topic0": "0x356822943b80f809508a684c67d901d5c13b6a22161bf07d510e50a6cb727028",
+      "occurrences": []
+    },
+    {
+      "sig": "RateLimitDecreaseTriggered(bytes32,uint256,uint256,uint256)",
+      "topic0": "0x2f9bcbd665fb7984aac3b6a05bb4ac8b303137a34ed4cc5fcd47622f52bdf046",
+      "occurrences": []
+    },
+    {
+      "sig": "RateLimitIncreaseTriggered(bytes32,uint256,uint256,uint256)",
+      "topic0": "0xb824249bbde4df2bf5473f603ab3aa717ea2e37b908d9fb4440b962fb656d0ac",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+      "topic0": "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleGranted(bytes32,address,address)",
+      "topic0": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f",
+            "0x0000000000000000000000003968a022d955bbb7927cc011a48601b65a33f346"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000065d946e533748a998b1f0e430803e39a6388f7a1",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x70546d1c92f8c2132ae23a23f5177aa8526356051c7510df99f50e012d221529",
+            "0x00000000000000000000000004acb9e9bbd64a425677edc535d6b30cfd74e42f",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(bytes32,address,address)",
+      "topic0": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "occurrences": [
+        {
+          "topics": [
+            "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f"
+          ],
+          "data": "0x"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/cbf71b2ac840ca9288eb867d3dd354e08089e1d7",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

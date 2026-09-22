@@ -1,0 +1,37 @@
+{
+  "version": "0.9.1",
+  "id": "0x2c065ffa5f5f9b52bba4bb9370c921956ceba503e0905071d94d2d5c85454a91",
+  "contract_name": "AdministeredAgentFactory",
+  "address": "0xcba0c0a2a0b6bb11233ec4ea85c5bffea33e724d",
+  "chain_id": 42161,
+  "deployment_block_num": 506440767,
+  "init_block_num": 507703015,
+  "deployment_tx": "0xf6234c9b8c863f95e32b65f38e85cef34050f7ad4f36a384aefeb6e4e92a0c20",
+  "codehash": "0xa55067e7a127ad6e0724ce2826d1cd3903325197a5a31f41aa41aecdbc4c6d35",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "AdministeredAgentDeployed(address)",
+      "topic0": "0xf403b4c002ecf92eb862794f17686c0a7d2dd1ed273fb106e877672f12ba71a3",
+      "occurrences": [
+        {
+          "topics": [
+            "0xf403b4c002ecf92eb862794f17686c0a7d2dd1ed273fb106e877672f12ba71a3",
+            "0x0000000000000000000000000745aae633e8318a063d383791bcc0d8c82f46c6"
+          ],
+          "data": "0x"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "",
+    "source_url": "https://github.com/sky-ecosystem/pau-administered-agent/tree/bfaaf709a8664d74d12604455f0365a0a12439cf",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

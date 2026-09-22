@@ -1,0 +1,330 @@
+{
+  "version": "0.9.1",
+  "id": "0x3eec5c931bdc8c3786a1cf5f101f2f3f76be5ba87bfab09482bed0211de4f142",
+  "contract_name": "Controller",
+  "address": "0x04acb9e9bbd64a425677edc535d6b30cfd74e42f",
+  "chain_id": 42161,
+  "deployment_block_num": 506440784,
+  "init_block_num": 507699053,
+  "deployment_tx": "0x73bf66b91491dcee12e53723b19a7622e6d7b29ca54d9fe80a45db5971434371",
+  "codehash": "0x3e2532d63ed044c7342a37b4e538853c402ae4b886cab70a9181aa313d80ad2f",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "beacon",
+      "value": "0x00000000000000000000000086036ce5d2f792367c0aa43164e688d13c5a60a8"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "accessControls_",
+      "value": "0x8386f819860d54b1180539ff4852e4caecef8a1d"
+    },
+    {
+      "var_name": "beacon_",
+      "value": "0x86036ce5d2f792367c0aa43164e688d13c5a60a8"
+    },
+    {
+      "var_name": "proxy_",
+      "value": "0x92afd6f2385a90e44da3a8b60fe36f6cbe1d8709"
+    },
+    {
+      "var_name": "rateLimits_",
+      "value": "0x4824c4336a1a11979068a544958dce5d49b42752"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x169a0f98470f5e9ab14e37a6aefe50a490d8677acf30069ead11a70bfc15cc38",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000127febbdecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1bf9343f967b1ec8605f424effdaa8e4371e1f423d95b411ba656bd084a858c8",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x00000000000000003e413beeecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x28354c78da7e7fe0fc669c7b95d62112e626653cffed1c11f859c3af63242e1c",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000e3329e32ecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2dd16d2c8978432a015c3b95fcf52b1d9662fb4e32d6e9a0713aab4de668ce28",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x434354505f464143455400000000000000000000000000000000000000000000",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x41766f860e2b6878114f32375f65db11b7a48969c451f8dd349be2026eadc88b",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000ecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x41766f860e2b6878114f32375f65db11b7a48969c451f8dd349be2026eadc88c",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000000000000000000000000000000000000000000a",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4cb53cf3b4df121348bfdeec03867b18c9fcb0a6a3d4862065f0f1b159c02e3b",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000ffa1ad74ecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x52f46b58cde2730c3daef1b1442e1816133fb5c969dd7cc7af36d77c17757916",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000a24e0ef5ecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x71036d49a08e65ff4772ebfc7b6f7773c792ea0ea66b41dda2703a0f1f357f3b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._positions[434354505f464143455400000000000000000000000000000000000000000000]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77adf60bdbfedf206f8b8310f3d364080b7f61dcc0e46caac13c29bb1eb5cc00",
+      "offset": 0,
+      "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.accessControls",
+      "var_type": "t_address",
+      "value": "0x8386f819860d54b1180539ff4852e4caecef8a1d",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77adf60bdbfedf206f8b8310f3d364080b7f61dcc0e46caac13c29bb1eb5cc01",
+      "offset": 0,
+      "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.proxy",
+      "var_type": "t_address",
+      "value": "0x92afd6f2385a90e44da3a8b60fe36f6cbe1d8709",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77adf60bdbfedf206f8b8310f3d364080b7f61dcc0e46caac13c29bb1eb5cc02",
+      "offset": 0,
+      "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.rateLimits",
+      "var_type": "t_address",
+      "value": "0x4824c4336a1a11979068a544958dce5d49b42752",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8ac4fd04bdcffd4d59e679d35280f221c3952364f1bba443497761a971c5973b",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x00000000000000000f32bb10ecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9497e5ef43e3c313a3adffe10fc8ae69d6d31a6af45320f5f1cee36732e17c31",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000845da79becca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9574a7b763c58c18841052c1e84d60ce1d79b0a36114a3bf9f994f345e4f6c4c",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x00000000000000005bd0f214ecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9b779b17422d0df92223018b32b4d1fa46e071723d6817e2486d003becc55f00",
+      "offset": 0,
+      "var_name": "ReentrancyGuardUpgradeable.ReentrancyGuardStorageLocation.ReentrancyGuardStorage._status",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xee25394e09bdf9f095ffaf6289395c59de06e33ff54692b0774d5012253c4d00",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 0,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initialized",
+      "var_type": "t_uint64",
+      "value": "0x0000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 8,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initializing",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf1975e15a91a7e9ac303f4a9ca0a561195cdd5059363cab203531d3be029d680",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000b9bbdcf2ecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572a",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000000f32bb106969ad0b",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572b",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000000000000000000000000000b9bbdcf2d82592c1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572c",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000000000000000000000000000127febbd9bbb03f2",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572d",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000000000000000000000000000a24e0ef53c7020e9",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572e",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000000000000000000000000000845da79bb2a4d06f",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572f",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000000000000000000000000000ffa1ad7487bd715a",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a5730",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x00000000000000000000000000000000000000000000000062cef4b92c7389a0",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a5731",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000005bd0f21475ef4015",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a5732",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000000000000000000000000000000000000e3329e32f9b8d11c",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a5733",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x0000000000000000000000000000000000000000000000003e413bee3520c914",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf8df50ace49f85e3eb4776b7e6cd66795e1a7b639d4eeb1aaebae8baa3d4b287",
+      "offset": 0,
+      "var_name": "unknown",
+      "var_type": null,
+      "value": "0x000000000000000062cef4b9ecca0d296cb133081d41e9772b60d57f5fd2798e",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": [
+        {
+          "topics": [
+            "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        }
+      ]
+    },
+    {
+      "sig": "IntegrationRemoved(bytes32)",
+      "topic0": "0x043c2a2fce5883ae183cf4a77a5b7883a31824c8f21570b619972fbe500b79e6",
+      "occurrences": []
+    },
+    {
+      "sig": "IntegrationSet(bytes32,(address,(bytes4,bytes4)[]))",
+      "topic0": "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+      "occurrences": [
+        {
+          "topics": [
+            "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+            "0x434354505f464143455400000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000ecca0d296cb133081d41e9772b60d57f5fd2798e0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000a6969ad0b000000000000000000000000000000000000000000000000000000000f32bb1000000000000000000000000000000000000000000000000000000000d82592c100000000000000000000000000000000000000000000000000000000b9bbdcf2000000000000000000000000000000000000000000000000000000009bbb03f200000000000000000000000000000000000000000000000000000000127febbd000000000000000000000000000000000000000000000000000000003c7020e900000000000000000000000000000000000000000000000000000000a24e0ef500000000000000000000000000000000000000000000000000000000b2a4d06f00000000000000000000000000000000000000000000000000000000845da79b0000000000000000000000000000000000000000000000000000000087bd715a00000000000000000000000000000000000000000000000000000000ffa1ad74000000000000000000000000000000000000000000000000000000002c7389a00000000000000000000000000000000000000000000000000000000062cef4b90000000000000000000000000000000000000000000000000000000075ef4015000000000000000000000000000000000000000000000000000000005bd0f21400000000000000000000000000000000000000000000000000000000f9b8d11c00000000000000000000000000000000000000000000000000000000e3329e32000000000000000000000000000000000000000000000000000000003520c914000000000000000000000000000000000000000000000000000000003e413bee00000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/cbf71b2ac840ca9288eb867d3dd354e08089e1d7",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

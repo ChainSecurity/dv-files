@@ -1,0 +1,57 @@
+{
+  "version": "0.9.1",
+  "id": "0x6736f3f6eef4c1e82aeefbcb138dd9d0f55a63e96c6dd6179df561541bf1c2e1",
+  "contract_name": "CCTPFacet",
+  "address": "0xb22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+  "chain_id": 8453,
+  "deployment_block_num": 51606638,
+  "init_block_num": 51607000,
+  "deployment_tx": "0xd2e1319c13bad4cb00450f961121503846bdc31edecc2af94a622ea18bb7442e",
+  "codehash": "0x64d4f4dbdf5fe32cb901e99131f71535c5460e5c3d9ef499cb665f7636a80571",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "cctp",
+      "value": "0x00000000000000000000000028b5a0e9c621a5badaa536219b3a228c8168cf5d"
+    },
+    {
+      "var_name": "usdc",
+      "value": "0x000000000000000000000000833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "cctp_",
+      "value": "0x28b5a0e9c621a5badaa536219b3a228c8168cf5d"
+    },
+    {
+      "var_name": "usdc_",
+      "value": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "CCTPDomainParametersSet(uint32,bytes32,uint32,uint32)",
+      "topic0": "0x49c4e6263644b808cc1a537773d6d16451503bd5ce481c3f330d33f0c8574110",
+      "occurrences": []
+    },
+    {
+      "sig": "CCTPTransferInitiated(uint32,bytes32,uint256,uint256)",
+      "topic0": "0xdb2088e7f5ae2550da92551258b9d806170b0e7d011600d518daf5e539355841",
+      "occurrences": []
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/cbf71b2ac840ca9288eb867d3dd354e08089e1d7",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
