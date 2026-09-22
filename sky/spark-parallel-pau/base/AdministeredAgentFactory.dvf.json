@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0xa081ffdedb34732186354088ad8be1312cfd09cdabf4d88366c6dc7ce34a9e79",
+  "id": "0x8004acff43390d1df927061980aaf4b0fb9b6bd1020d7b615c95a33523d7a631",
   "contract_name": "AdministeredAgentFactory",
   "address": "0xd711dbfd937a45e2c89ca0d4781cfa5bab32e752",
   "chain_id": 8453,
@@ -30,7 +30,7 @@
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",
-    "audit_report": "",
+    "audit_report": "https://www.chainsecurity.com/security-audit/pau-administered-agent",
     "source_url": "https://github.com/sky-ecosystem/pau-administered-agent/tree/bfaaf709a8664d74d12604455f0365a0a12439cf",
     "security_contact": "disclosure@chainsecurity.com"
   }

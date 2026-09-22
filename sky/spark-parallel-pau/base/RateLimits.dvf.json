@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x0be848b6ad12f99e59488b4b81e4f18d2767fee2f0e8f86bc5401ad4de28499a",
+  "id": "0x0bd0ad7243f790ddb1e98008c67e63854ed338aff7b97989028ce442243b68c4",
   "contract_name": "RateLimits",
   "address": "0x5e311e8bce95f4e8d4920e70985ed4ac122a838a",
   "chain_id": 8453,
@@ -137,7 +137,7 @@
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",
-    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau-v1-14",
     "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/cbf71b2ac840ca9288eb867d3dd354e08089e1d7",
     "security_contact": "disclosure@chainsecurity.com"
   }

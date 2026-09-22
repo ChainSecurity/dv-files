@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x3f786983a8cfa7aafd813a0d085acc34a70c94f88853baa9b20db54dbcdbb86f",
+  "id": "0x8c13d79c5b7bdf1c7d12de8ab56cf551ca28a1dabf078aafc4b46b5918660c80",
   "contract_name": "CCTPFacet",
   "address": "0xecca0d296cb133081d41e9772b60d57f5fd2798e",
   "chain_id": 42161,
@@ -54,7 +54,7 @@
   "unvalidated_metadata": {
     "author_name": "ChainSecurity",
     "description": "Sky",
-    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau-v1-14",
     "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/cbf71b2ac840ca9288eb867d3dd354e08089e1d7",
     "security_contact": "disclosure@chainsecurity.com"
   }
