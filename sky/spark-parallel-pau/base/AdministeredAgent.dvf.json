@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0xcb1cce62edf28eb39def40a33e58fd4c9a3ecc9141cafac0d8d2400d9c6f0db6",
+  "id": "0x4bffbf77fa3c5ca6b0f6432b492da624c5155d77829d50dbe0b7bd344e3d5b61",
   "contract_name": "AdministeredAgent",
   "address": "0x70e46baf2e3f27a119757d7b796c641c8bc087ce",
   "chain_id": 8453,
@@ -13,7 +13,8 @@
   "constructor_args": [
     {
       "var_name": "admin",
-      "value": "0xc758519ace14e884fdba9cce25f2dbe81b7e136f"
+      "value": "0xc758519ace14e884fdba9cce25f2dbe81b7e136f",
+      "value_hint": "deployer EOA"
     }
   ],
   "critical_storage_variables": [
@@ -56,10 +57,10 @@
     {
       "slot": "0x1fda2fb6c1b0ecb83a4fff6f8c75bff2ee4a0b65d06887819af6b88dbba18fd2",
       "offset": 0,
-      "var_name": "_admins._inner._positions[000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f]",
+      "var_name": "_admins._inner._positions[0xc758519ace14e884fdba9cce25f2dbe81b7e136f]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "value_hint": "0",
+      "value_hint": "deployer EOA",
       "comparison_operator": "Equal"
     },
     {
@@ -68,6 +69,7 @@
       "var_name": "_actors._inner._values[0]",
       "var_type": "t_bytes32",
       "value": "0x0000000000000000000000008a25a24ede9482c4fc0738f99611be58f1c839ab",
+      "value_hint": "ALM_RELAYER_MULTISIG",
       "comparison_operator": "Equal"
     },
     {
@@ -76,15 +78,16 @@
       "var_name": "_admins._inner._values[0]",
       "var_type": "t_bytes32",
       "value": "0x000000000000000000000000f93b7122450a50af3e5a76e1d546e95ac1d0f579",
+      "value_hint": "SPARK_EXECUTOR",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0x4f72760be97766791b7594c0df905e270c9acde6d54ca8489c5babec2599b695",
       "offset": 0,
-      "var_name": "_revokers._inner._positions[00000000000000000000000090d8c80c028b4c09c0d8dcaab9bbb057f0513431]",
+      "var_name": "_revokers._inner._positions[0x90d8c80c028b4c09c0d8dcaab9bbb057f0513431]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "1",
+      "value_hint": "ALM_FREEZER_MULTISIG",
       "comparison_operator": "Equal"
     },
     {
@@ -93,33 +96,34 @@
       "var_name": "_grantors._inner._values[0]",
       "var_type": "t_bytes32",
       "value": "0x0000000000000000000000004b61a0e48dd1e300f64090c60f414c1ac6cbc514",
+      "value_hint": "PAU_GRANTOR_MULTISIG",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0x901e7129fbaf972169e2bba92e661e5bdc86cef1b1bc15a405f9e6f68fd07e0e",
       "offset": 0,
-      "var_name": "_actors._inner._positions[0000000000000000000000008a25a24ede9482c4fc0738f99611be58f1c839ab]",
+      "var_name": "_actors._inner._positions[0x8a25a24ede9482c4fc0738f99611be58f1c839ab]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "1",
+      "value_hint": "ALM_RELAYER_MULTISIG",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0xaa6c4dc2f38391262af4abe3f1074fa78e6ac9790fe0abf745a7784e60ef7709",
       "offset": 0,
-      "var_name": "_grantors._inner._positions[0000000000000000000000004b61a0e48dd1e300f64090c60f414c1ac6cbc514]",
+      "var_name": "_grantors._inner._positions[0x4b61a0e48dd1e300f64090c60f414c1ac6cbc514]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "1",
+      "value_hint": "PAU_GRANTOR_MULTISIG",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0xc4c10d1485e5619d495ebd7b769f6783e89b6da4afe6266db6c90123949ad07d",
       "offset": 0,
-      "var_name": "_admins._inner._positions[000000000000000000000000f93b7122450a50af3e5a76e1d546e95ac1d0f579]",
+      "var_name": "_admins._inner._positions[0xf93b7122450a50af3e5a76e1d546e95ac1d0f579]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "1",
+      "value_hint": "SPARK_EXECUTOR",
       "comparison_operator": "Equal"
     },
     {
@@ -128,6 +132,7 @@
       "var_name": "_revokers._inner._values[0]",
       "var_type": "t_bytes32",
       "value": "0x00000000000000000000000090d8c80c028b4c09c0d8dcaab9bbb057f0513431",
+      "value_hint": "ALM_FREEZER_MULTISIG",
       "comparison_operator": "Equal"
     }
   ],

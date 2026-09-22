@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x0515be01c555dba24f1c8fb5ee8c870b708e1e4076e7228df7909c70535bfebf",
+  "id": "0x90fc44a705fa7ca8a70e3f451dabba427a53b5b486c3e822f893c44cef15eeb2",
   "contract_name": "AccessControls",
   "address": "0xe593c8c6a31d88cab100244afd352efb127f9a16",
   "chain_id": 8453,
@@ -13,31 +13,33 @@
   "constructor_args": [
     {
       "var_name": "admin",
-      "value": "0xc758519ace14e884fdba9cce25f2dbe81b7e136f"
+      "value": "0xc758519ace14e884fdba9cce25f2dbe81b7e136f",
+      "value_hint": "deployer EOA"
     }
   ],
   "critical_storage_variables": [
     {
       "slot": "0xeb5be412f275a18f6e4d622aee4ff40b21467c926224771b782d4c095d1444b",
       "offset": 0,
-      "var_name": "_roleMembers[0000000000000000000000000000000000000000000000000000000000000000]._inner._values[0]",
+      "var_name": "_roleMembers[DEFAULT_ADMIN_ROLE]._inner._values[0]",
       "var_type": "t_bytes32",
       "value": "0x000000000000000000000000f93b7122450a50af3e5a76e1d546e95ac1d0f579",
+      "value_hint": "SPARK_EXECUTOR",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0x173cfba4e9384e70e73eb132bad6a43ca2707e1e2014cae75bfeedef594fc392",
       "offset": 0,
-      "var_name": "_roleMembers[68bf109b95a5c15fb2bb99041323c27d15f8675e11bf7420a1cd6ad64c394f46]._inner._positions[00000000000000000000000070e46baf2e3f27a119757d7b796c641c8bc087ce]",
+      "var_name": "_roleMembers[ALLOCATOR_ROLE]._inner._positions[0x70e46baf2e3f27a119757d7b796c641c8bc087ce]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "1",
+      "value_hint": "AdministeredAgent",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0x1b943a14f2e7b228fa738dcfd6c641d7bf9d4b6e6fc281290cf1640983218c62",
       "offset": 0,
-      "var_name": "_roleMembers[68bf109b95a5c15fb2bb99041323c27d15f8675e11bf7420a1cd6ad64c394f46]._inner._values.length",
+      "var_name": "_roleMembers[ALLOCATOR_ROLE]._inner._values.length",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
       "value_hint": "1",
@@ -46,34 +48,34 @@
     {
       "slot": "0x77d63ee3fcbd9b913a1f6380947a8d7de949c5ca059d6ce53a0fb5b9e0ad8e8b",
       "offset": 0,
-      "var_name": "_roleMembers[0000000000000000000000000000000000000000000000000000000000000000]._inner._positions[000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f]",
+      "var_name": "_roleMembers[DEFAULT_ADMIN_ROLE]._inner._positions[0xc758519ace14e884fdba9cce25f2dbe81b7e136f]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "value_hint": "0",
+      "value_hint": "deployer EOA",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0x7bd95cf999196f098e19c9ce0c56a0db892518775a8ca4183d8da3f662872753",
       "offset": 0,
-      "var_name": "_roles[68bf109b95a5c15fb2bb99041323c27d15f8675e11bf7420a1cd6ad64c394f46].hasRole[0x70e46baf2e3f27a119757d7b796c641c8bc087ce]",
+      "var_name": "_roles[ALLOCATOR_ROLE].hasRole[0x70e46baf2e3f27a119757d7b796c641c8bc087ce]",
       "var_type": "t_bool",
       "value": "0x01",
-      "value_hint": "true",
+      "value_hint": "AdministeredAgent",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0x7ce1cf29740b7677461062478c3c661927c64112e5326c87449608861eb30564",
       "offset": 0,
-      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].hasRole[0xc758519ace14e884fdba9cce25f2dbe81b7e136f]",
+      "var_name": "_roles[DEFAULT_ADMIN_ROLE].hasRole[0xc758519ace14e884fdba9cce25f2dbe81b7e136f]",
       "var_type": "t_bool",
       "value": "0x00",
-      "value_hint": "false",
+      "value_hint": "deployer EOA",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0xa6eef7e35abe7026729641147f7915573c7e97b47efa546f5f6e3230263bcb49",
       "offset": 0,
-      "var_name": "_roleMembers[0000000000000000000000000000000000000000000000000000000000000000]._inner._values.length",
+      "var_name": "_roleMembers[DEFAULT_ADMIN_ROLE]._inner._values.length",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
       "value_hint": "1",
@@ -82,43 +84,46 @@
     {
       "slot": "0xad3228b676f7d3cd4284a5443f17f1962b36e491b30a40b2405849e597ba5fb6",
       "offset": 0,
-      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].adminRole",
+      "var_name": "_roles[DEFAULT_ADMIN_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "DEFAULT_ADMIN_ROLE",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0xd167639ed8c88325048d8622157fa941d8533a9b5785d8890ae7139a00656142",
       "offset": 0,
-      "var_name": "_roles[68bf109b95a5c15fb2bb99041323c27d15f8675e11bf7420a1cd6ad64c394f46].adminRole",
+      "var_name": "_roles[ALLOCATOR_ROLE].adminRole",
       "var_type": "t_bytes32",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "DEFAULT_ADMIN_ROLE",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0xe17df842101dfe0e36b4d260a7168922670849ce283ccfb9e5ea49a0f262636a",
       "offset": 0,
-      "var_name": "_roles[0000000000000000000000000000000000000000000000000000000000000000].hasRole[0xf93b7122450a50af3e5a76e1d546e95ac1d0f579]",
+      "var_name": "_roles[DEFAULT_ADMIN_ROLE].hasRole[0xf93b7122450a50af3e5a76e1d546e95ac1d0f579]",
       "var_type": "t_bool",
       "value": "0x01",
-      "value_hint": "true",
+      "value_hint": "SPARK_EXECUTOR",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0xe53f75d43e9463d823b2548dafa7b8067c18ed4f430c1abb44257f0084a16b2a",
       "offset": 0,
-      "var_name": "_roleMembers[0000000000000000000000000000000000000000000000000000000000000000]._inner._positions[000000000000000000000000f93b7122450a50af3e5a76e1d546e95ac1d0f579]",
+      "var_name": "_roleMembers[DEFAULT_ADMIN_ROLE]._inner._positions[0xf93b7122450a50af3e5a76e1d546e95ac1d0f579]",
       "var_type": "t_uint256",
       "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
-      "value_hint": "1",
+      "value_hint": "SPARK_EXECUTOR",
       "comparison_operator": "Equal"
     },
     {
       "slot": "0xfa33822d8e624227a2502e1822a6d0343778b58aa8b127fdc549156aa38e12b2",
       "offset": 0,
-      "var_name": "_roleMembers[68bf109b95a5c15fb2bb99041323c27d15f8675e11bf7420a1cd6ad64c394f46]._inner._values[0]",
+      "var_name": "_roleMembers[ALLOCATOR_ROLE]._inner._values[0]",
       "var_type": "t_bytes32",
       "value": "0x00000000000000000000000070e46baf2e3f27a119757d7b796c641c8bc087ce",
+      "value_hint": "AdministeredAgent",
       "comparison_operator": "Equal"
     }
   ],

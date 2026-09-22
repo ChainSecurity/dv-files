@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x80a13b9983152e7fbdb0ae8c96e226b7bf09e3d9b01b275c5fdbff0089d49b07",
+  "id": "0x839c5e811e139851dc920ef335de84267a78cdbb3292aba746a525e2f0a67722",
   "contract_name": "PAUFactory",
   "address": "0x011a115b5498b85b3d12245a3a7296f77325b5c3",
   "chain_id": 8453,
@@ -12,13 +12,15 @@
   "immutables": [
     {
       "var_name": "beacon",
-      "value": "0x0000000000000000000000007ac96180c4d6b2a328d3a19ac059d0e7fc3c6d41"
+      "value": "0x0000000000000000000000007ac96180c4d6b2a328d3a19ac059d0e7fc3c6d41",
+      "value_hint": "Beacon"
     }
   ],
   "constructor_args": [
     {
       "var_name": "beacon_",
-      "value": "0x7ac96180c4d6b2a328d3a19ac059d0e7fc3c6d41"
+      "value": "0x7ac96180c4d6b2a328d3a19ac059d0e7fc3c6d41",
+      "value_hint": "Beacon"
     }
   ],
   "critical_storage_variables": [],

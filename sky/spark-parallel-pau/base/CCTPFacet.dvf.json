@@ -1,6 +1,6 @@
 {
   "version": "0.9.1",
-  "id": "0x6736f3f6eef4c1e82aeefbcb138dd9d0f55a63e96c6dd6179df561541bf1c2e1",
+  "id": "0xfa7338065a42b5996636c496b68034a10a19c4125c917fe83da9ce673eccf584",
   "contract_name": "CCTPFacet",
   "address": "0xb22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
   "chain_id": 8453,
@@ -12,21 +12,25 @@
   "immutables": [
     {
       "var_name": "cctp",
-      "value": "0x00000000000000000000000028b5a0e9c621a5badaa536219b3a228c8168cf5d"
+      "value": "0x00000000000000000000000028b5a0e9c621a5badaa536219b3a228c8168cf5d",
+      "value_hint": "CCTP TokenMessengerV2"
     },
     {
       "var_name": "usdc",
-      "value": "0x000000000000000000000000833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      "value": "0x000000000000000000000000833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "value_hint": "USD Coin (USDC)"
     }
   ],
   "constructor_args": [
     {
       "var_name": "cctp_",
-      "value": "0x28b5a0e9c621a5badaa536219b3a228c8168cf5d"
+      "value": "0x28b5a0e9c621a5badaa536219b3a228c8168cf5d",
+      "value_hint": "CCTP TokenMessengerV2"
     },
     {
       "var_name": "usdc_",
-      "value": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      "value": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "value_hint": "USD Coin (USDC)"
     }
   ],
   "critical_storage_variables": [],
