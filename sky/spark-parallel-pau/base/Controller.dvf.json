@@ -1,0 +1,361 @@
+{
+  "version": "0.9.1",
+  "id": "0x00ba6d033ac232ab2458225736d44a9cc9faf1cf3f8fe4878ec322554f48cf47",
+  "contract_name": "Controller",
+  "address": "0xd864bf1ea2f78dc2013e3fc7e4c474383be9d456",
+  "chain_id": 8453,
+  "deployment_block_num": 51606638,
+  "init_block_num": 51607000,
+  "deployment_tx": "0x9f0cd3752b09380b2d571b698c43d58fa282ec7bdfb9c433187ed7176f5200a9",
+  "codehash": "0x381238889ec756310e361b66c11bd0c8c67fe9893aabc812d9f3af3c63479078",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "beacon",
+      "value": "0x0000000000000000000000007ac96180c4d6b2a328d3a19ac059d0e7fc3c6d41",
+      "value_hint": "Beacon"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "accessControls_",
+      "value": "0xe593c8c6a31d88cab100244afd352efb127f9a16",
+      "value_hint": "AccessControls"
+    },
+    {
+      "var_name": "beacon_",
+      "value": "0x7ac96180c4d6b2a328d3a19ac059d0e7fc3c6d41",
+      "value_hint": "Beacon"
+    },
+    {
+      "var_name": "proxy_",
+      "value": "0x2917956eff0b5eaf030abdb4ef4296df775009ca",
+      "value_hint": "ALM_PROXY"
+    },
+    {
+      "var_name": "rateLimits_",
+      "value": "0x5e311e8bce95f4e8d4920e70985ed4ac122a838a",
+      "value_hint": "RateLimits"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0x169a0f98470f5e9ab14e37a6aefe50a490d8677acf30069ead11a70bfc15cc38",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_toCCTPRateLimitKey()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000127febbdb22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1bf9343f967b1ec8605f424effdaa8e4371e1f423d95b411ba656bd084a858c8",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_usdc()]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000003e413beeb22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x28354c78da7e7fe0fc669c7b95d62112e626653cffed1c11f859c3af63242e1c",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_cctp()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000e3329e32b22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x2dd16d2c8978432a015c3b95fcf52b1d9662fb4e32d6e9a0713aab4de668ce28",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x434354505f464143455400000000000000000000000000000000000000000000",
+      "value_hint": "CCTP_FACET",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x41766f860e2b6878114f32375f65db11b7a48969c451f8dd349be2026eadc88b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].facet",
+      "var_type": "t_address",
+      "value": "0x000000000000000000000000b22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x41766f860e2b6878114f32375f65db11b7a48969c451f8dd349be2026eadc88c",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires.length",
+      "var_type": "t_uint256",
+      "value": "0x000000000000000000000000000000000000000000000000000000000000000a",
+      "value_hint": "10",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x4cb53cf3b4df121348bfdeec03867b18c9fcb0a6a3d4862065f0f1b159c02e3b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_VERSION()]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000ffa1ad74b22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x52f46b58cde2730c3daef1b1442e1816133fb5c969dd7cc7af36d77c17757916",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_getDomainParameters(uint32)]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000a24e0ef5b22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x71036d49a08e65ff4772ebfc7b6f7773c792ea0ea66b41dda2703a0f1f357f3b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._positions['CCTP_FACET']",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77adf60bdbfedf206f8b8310f3d364080b7f61dcc0e46caac13c29bb1eb5cc00",
+      "offset": 0,
+      "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.accessControls",
+      "var_type": "t_address",
+      "value": "0xe593c8c6a31d88cab100244afd352efb127f9a16",
+      "value_hint": "AccessControls",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77adf60bdbfedf206f8b8310f3d364080b7f61dcc0e46caac13c29bb1eb5cc01",
+      "offset": 0,
+      "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.proxy",
+      "var_type": "t_address",
+      "value": "0x2917956eff0b5eaf030abdb4ef4296df775009ca",
+      "value_hint": "ALM_PROXY",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77adf60bdbfedf206f8b8310f3d364080b7f61dcc0e46caac13c29bb1eb5cc02",
+      "offset": 0,
+      "var_name": "ControllerSharedStorage.SHARED_CONTROLLER_STORAGE_LOCATION.SharedControllerStorage.rateLimits",
+      "var_type": "t_address",
+      "value": "0x5e311e8bce95f4e8d4920e70985ed4ac122a838a",
+      "value_hint": "RateLimits",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x8ac4fd04bdcffd4d59e679d35280f221c3952364f1bba443497761a971c5973b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_setDomainParameters(uint32,bytes32,uint32,uint32)]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000000f32bb10b22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9497e5ef43e3c313a3adffe10fc8ae69d6d31a6af45320f5f1cee36732e17c31",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_getToDomainRateLimitKey(uint32)]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000845da79bb22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9574a7b763c58c18841052c1e84d60ce1d79b0a36114a3bf9f994f345e4f6c4c",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_MIN_FINALITY_THRESHOLD()]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000005bd0f214b22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x9b779b17422d0df92223018b32b4d1fa46e071723d6817e2486d003becc55f00",
+      "offset": 0,
+      "var_name": "ReentrancyGuardUpgradeable.ReentrancyGuardStorageLocation.ReentrancyGuardStorage._status",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xee25394e09bdf9f095ffaf6289395c59de06e33ff54692b0774d5012253c4d00",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.integrationIds._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 0,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initialized",
+      "var_type": "t_uint64",
+      "value": "0x0000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00",
+      "offset": 8,
+      "var_name": "Initializable.INITIALIZABLE_STORAGE.InitializableStorage._initializing",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "false",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf1975e15a91a7e9ac303f4a9ca0a561195cdd5059363cab203531d3be029d680",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_transfer(uint256,uint32,uint64)]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000b9bbdcf2b22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572a",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[0]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000000f32bb106969ad0b",
+      "value_hint": "cctp_setDomainParameters(uint32,bytes32,uint32,uint32) → setDomainParameters(uint32,bytes32,uint32,uint32)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572b",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[1]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000b9bbdcf2d82592c1",
+      "value_hint": "cctp_transfer(uint256,uint32,uint64) → transfer(uint256,uint32,uint64)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572c",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[2]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000127febbd9bbb03f2",
+      "value_hint": "cctp_toCCTPRateLimitKey() → toCCTPRateLimitKey()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572d",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[3]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000a24e0ef53c7020e9",
+      "value_hint": "cctp_getDomainParameters(uint32) → getDomainParameters(uint32)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572e",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[4]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000845da79bb2a4d06f",
+      "value_hint": "cctp_getToDomainRateLimitKey(uint32) → getToDomainRateLimitKey(uint32)",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a572f",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[5]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000ffa1ad7487bd715a",
+      "value_hint": "cctp_VERSION() → VERSION()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a5730",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[6]",
+      "var_type": "t_bytes8",
+      "value": "0x00000000000000000000000000000000000000000000000062cef4b92c7389a0",
+      "value_hint": "cctp_DESTINATION_CALLER() → DESTINATION_CALLER()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a5731",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[7]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000005bd0f21475ef4015",
+      "value_hint": "cctp_MIN_FINALITY_THRESHOLD() → MIN_FINALITY_THRESHOLD()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a5732",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[8]",
+      "var_type": "t_bytes8",
+      "value": "0x000000000000000000000000000000000000000000000000e3329e32f9b8d11c",
+      "value_hint": "cctp_cctp() → cctp()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf81977a95e756e788256ba5d3f6f06a085ec9edcb3fa97388885348b796a5733",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.configs['CCTP_FACET'].wires[9]",
+      "var_type": "t_bytes8",
+      "value": "0x0000000000000000000000000000000000000000000000003e413bee3520c914",
+      "value_hint": "cctp_usdc() → usdc()",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xf8df50ace49f85e3eb4776b7e6cd66795e1a7b639d4eeb1aaebae8baa3d4b287",
+      "offset": 0,
+      "var_name": "Controller.CONTROLLER_STORAGE_LOCATION.ControllerStorage.dispatches[cctp_DESTINATION_CALLER()]",
+      "var_type": "t_bytes32",
+      "value": "0x000000000000000062cef4b9b22d50c393c6e1d13e3e05b172448dd8bf8ddc32",
+      "value_hint": "CCTPFacet",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": [
+        {
+          "topics": [
+            "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        }
+      ]
+    },
+    {
+      "sig": "IntegrationRemoved(bytes32)",
+      "topic0": "0x043c2a2fce5883ae183cf4a77a5b7883a31824c8f21570b619972fbe500b79e6",
+      "occurrences": []
+    },
+    {
+      "sig": "IntegrationSet(bytes32,(address,(bytes4,bytes4)[]))",
+      "topic0": "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+      "occurrences": [
+        {
+          "topics": [
+            "0x5d055c4f05bd18deea319d5a3203b45d847aedd23073a618067b95ddd537c946",
+            "0x434354505f464143455400000000000000000000000000000000000000000000"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000b22d50c393c6e1d13e3e05b172448dd8bf8ddc320000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000a6969ad0b000000000000000000000000000000000000000000000000000000000f32bb1000000000000000000000000000000000000000000000000000000000d82592c100000000000000000000000000000000000000000000000000000000b9bbdcf2000000000000000000000000000000000000000000000000000000009bbb03f200000000000000000000000000000000000000000000000000000000127febbd000000000000000000000000000000000000000000000000000000003c7020e900000000000000000000000000000000000000000000000000000000a24e0ef500000000000000000000000000000000000000000000000000000000b2a4d06f00000000000000000000000000000000000000000000000000000000845da79b0000000000000000000000000000000000000000000000000000000087bd715a00000000000000000000000000000000000000000000000000000000ffa1ad74000000000000000000000000000000000000000000000000000000002c7389a00000000000000000000000000000000000000000000000000000000062cef4b90000000000000000000000000000000000000000000000000000000075ef4015000000000000000000000000000000000000000000000000000000005bd0f21400000000000000000000000000000000000000000000000000000000f9b8d11c00000000000000000000000000000000000000000000000000000000e3329e32000000000000000000000000000000000000000000000000000000003520c914000000000000000000000000000000000000000000000000000000003e413bee00000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau-v1-14",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/cbf71b2ac840ca9288eb867d3dd354e08089e1d7",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

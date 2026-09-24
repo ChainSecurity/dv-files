@@ -1,0 +1,192 @@
+{
+  "version": "0.9.1",
+  "id": "0xee4586f55fccf25fd54afc0317ccc18189749d8f6084344bec0a24f4c3c65e7d",
+  "contract_name": "AccessControls",
+  "address": "0x8386f819860d54b1180539ff4852e4caecef8a1d",
+  "chain_id": 42161,
+  "deployment_block_num": 506440776,
+  "init_block_num": 507698528,
+  "deployment_tx": "0xeb410a03bad6c4084807f43dfb3b523ee6a8566e130bfecb3e356714dc684f22",
+  "codehash": "0x9d66607717eae13bb2f4ea7ca27bca8e614f04408727447f8fb1173291e0e14e",
+  "insecure": false,
+  "immutables": [],
+  "constructor_args": [
+    {
+      "var_name": "admin",
+      "value": "0xc758519ace14e884fdba9cce25f2dbe81b7e136f",
+      "value_hint": "deployer EOA"
+    }
+  ],
+  "critical_storage_variables": [
+    {
+      "slot": "0xeb5be412f275a18f6e4d622aee4ff40b21467c926224771b782d4c095d1444b",
+      "offset": 0,
+      "var_name": "_roleMembers[DEFAULT_ADMIN_ROLE]._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x00000000000000000000000065d946e533748a998b1f0e430803e39a6388f7a1",
+      "value_hint": "SPARK_EXECUTOR",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x1b943a14f2e7b228fa738dcfd6c641d7bf9d4b6e6fc281290cf1640983218c62",
+      "offset": 0,
+      "var_name": "_roleMembers[ALLOCATOR_ROLE]._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x3bd4e4b336950d27b57841b19a46e515dea118031a113561c4f26131e1ba7075",
+      "offset": 0,
+      "var_name": "_roleMembers[DEFAULT_ADMIN_ROLE]._inner._positions[0x65d946e533748a998b1f0e430803e39a6388f7a1]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "SPARK_EXECUTOR",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x77d63ee3fcbd9b913a1f6380947a8d7de949c5ca059d6ce53a0fb5b9e0ad8e8b",
+      "offset": 0,
+      "var_name": "_roleMembers[DEFAULT_ADMIN_ROLE]._inner._positions[0xc758519ace14e884fdba9cce25f2dbe81b7e136f]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "deployer EOA",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0x7ce1cf29740b7677461062478c3c661927c64112e5326c87449608861eb30564",
+      "offset": 0,
+      "var_name": "_roles[DEFAULT_ADMIN_ROLE].hasRole[0xc758519ace14e884fdba9cce25f2dbe81b7e136f]",
+      "var_type": "t_bool",
+      "value": "0x00",
+      "value_hint": "deployer EOA",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xa6eef7e35abe7026729641147f7915573c7e97b47efa546f5f6e3230263bcb49",
+      "offset": 0,
+      "var_name": "_roleMembers[DEFAULT_ADMIN_ROLE]._inner._values.length",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "1",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xad3228b676f7d3cd4284a5443f17f1962b36e491b30a40b2405849e597ba5fb6",
+      "offset": 0,
+      "var_name": "_roles[DEFAULT_ADMIN_ROLE].adminRole",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "DEFAULT_ADMIN_ROLE",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xc34cde49a71b6f4c1d2b9eda328c9deff4ea8985123a4662734ee1d520970b56",
+      "offset": 0,
+      "var_name": "_roles[ALLOCATOR_ROLE].hasRole[0x0745aae633e8318a063d383791bcc0d8c82f46c6]",
+      "var_type": "t_bool",
+      "value": "0x01",
+      "value_hint": "AdministeredAgent",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xd167639ed8c88325048d8622157fa941d8533a9b5785d8890ae7139a00656142",
+      "offset": 0,
+      "var_name": "_roles[ALLOCATOR_ROLE].adminRole",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "value_hint": "DEFAULT_ADMIN_ROLE",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xdd7710deb62c3d40b26f77ad10921cd71add4d5278b6a2d2d07896be8b91890c",
+      "offset": 0,
+      "var_name": "_roles[DEFAULT_ADMIN_ROLE].hasRole[0x65d946e533748a998b1f0e430803e39a6388f7a1]",
+      "var_type": "t_bool",
+      "value": "0x01",
+      "value_hint": "SPARK_EXECUTOR",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xe73f505df7c2849d7ef36a682bb789657b72320963ad85a24b02493e84491677",
+      "offset": 0,
+      "var_name": "_roleMembers[ALLOCATOR_ROLE]._inner._positions[0x0745aae633e8318a063d383791bcc0d8c82f46c6]",
+      "var_type": "t_uint256",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "value_hint": "AdministeredAgent",
+      "comparison_operator": "Equal"
+    },
+    {
+      "slot": "0xfa33822d8e624227a2502e1822a6d0343778b58aa8b127fdc549156aa38e12b2",
+      "offset": 0,
+      "var_name": "_roleMembers[ALLOCATOR_ROLE]._inner._values[0]",
+      "var_type": "t_bytes32",
+      "value": "0x0000000000000000000000000745aae633e8318a063d383791bcc0d8c82f46c6",
+      "value_hint": "AdministeredAgent",
+      "comparison_operator": "Equal"
+    }
+  ],
+  "critical_events": [
+    {
+      "sig": "RoleAdminChanged(bytes32,bytes32,bytes32)",
+      "topic0": "0xbd79b86ffe0ab8e8776151514217cd7cacd52c909f66475c3af44e129f0b00ff",
+      "occurrences": []
+    },
+    {
+      "sig": "RoleGranted(bytes32,address,address)",
+      "topic0": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "occurrences": [
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f",
+            "0x0000000000000000000000003968a022d955bbb7927cc011a48601b65a33f346"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000065d946e533748a998b1f0e430803e39a6388f7a1",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f"
+          ],
+          "data": "0x"
+        },
+        {
+          "topics": [
+            "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+            "0x68bf109b95a5c15fb2bb99041323c27d15f8675e11bf7420a1cd6ad64c394f46",
+            "0x0000000000000000000000000745aae633e8318a063d383791bcc0d8c82f46c6",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "RoleRevoked(bytes32,address,address)",
+      "topic0": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "occurrences": [
+        {
+          "topics": [
+            "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f",
+            "0x000000000000000000000000c758519ace14e884fdba9cce25f2dbe81b7e136f"
+          ],
+          "data": "0x"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau-v1-14",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/cbf71b2ac840ca9288eb867d3dd354e08089e1d7",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

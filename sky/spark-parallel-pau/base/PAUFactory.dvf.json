@@ -1,0 +1,85 @@
+{
+  "version": "0.9.1",
+  "id": "0x7228adeb11a6c20a33105738dac7fcdbc551e1cac6336f25f0cc9463edbe8c74",
+  "contract_name": "PAUFactory",
+  "address": "0x011a115b5498b85b3d12245a3a7296f77325b5c3",
+  "chain_id": 8453,
+  "deployment_block_num": 51606638,
+  "init_block_num": 51607000,
+  "deployment_tx": "0x556d07fbd7679a436271779bda2907ae7ac637c4ba83791e6951ce388fac8106",
+  "codehash": "0xf2a6a9ec61c3ca10ac9a631073161430faf6f17161dc062b07a07ed78ebb9bec",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "beacon",
+      "value": "0x0000000000000000000000007ac96180c4d6b2a328d3a19ac059d0e7fc3c6d41",
+      "value_hint": "Beacon"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "beacon_",
+      "value": "0x7ac96180c4d6b2a328d3a19ac059d0e7fc3c6d41",
+      "value_hint": "Beacon"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "ALMProxyDeployed(address)",
+      "topic0": "0x24661dbaf5e257d31620488710b1472df101b6509083ac08681ce0149c921894",
+      "occurrences": []
+    },
+    {
+      "sig": "ALMProxyFreezableDeployed(address)",
+      "topic0": "0x044592372f833d08b05537fc754c99c9c08f064e3e4f5449ad9ae4502064887d",
+      "occurrences": []
+    },
+    {
+      "sig": "AccessControlsDeployed(address)",
+      "topic0": "0x0beb1af00f5ca15b209e2fdbe3bf168c3e6af933b2c466225243687ccd443d0a",
+      "occurrences": [
+        {
+          "topics": [
+            "0x0beb1af00f5ca15b209e2fdbe3bf168c3e6af933b2c466225243687ccd443d0a",
+            "0x000000000000000000000000e593c8c6a31d88cab100244afd352efb127f9a16"
+          ],
+          "data": "0x"
+        }
+      ]
+    },
+    {
+      "sig": "ControllerDeployed(address,address,address,address)",
+      "topic0": "0xeedc799f1549d06e41f68e520636a7e754aa8b5b11a80f5d678a576785be9324",
+      "occurrences": [
+        {
+          "topics": [
+            "0xeedc799f1549d06e41f68e520636a7e754aa8b5b11a80f5d678a576785be9324",
+            "0x000000000000000000000000d864bf1ea2f78dc2013e3fc7e4c474383be9d456"
+          ],
+          "data": "0x000000000000000000000000e593c8c6a31d88cab100244afd352efb127f9a160000000000000000000000002917956eff0b5eaf030abdb4ef4296df775009ca0000000000000000000000005e311e8bce95f4e8d4920e70985ed4ac122a838a"
+        }
+      ]
+    },
+    {
+      "sig": "RateLimitsDeployed(address)",
+      "topic0": "0x32042273d1658350d79d35cb5c869a9ec9331ec670e123faf6b4bc1e9dd84d5c",
+      "occurrences": [
+        {
+          "topics": [
+            "0x32042273d1658350d79d35cb5c869a9ec9331ec670e123faf6b4bc1e9dd84d5c",
+            "0x0000000000000000000000005e311e8bce95f4e8d4920e70985ed4ac122a838a"
+          ],
+          "data": "0x"
+        }
+      ]
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau-v1-14",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/cbf71b2ac840ca9288eb867d3dd354e08089e1d7",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}

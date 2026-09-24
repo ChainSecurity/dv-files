@@ -1,0 +1,61 @@
+{
+  "version": "0.9.1",
+  "id": "0x8c13d79c5b7bdf1c7d12de8ab56cf551ca28a1dabf078aafc4b46b5918660c80",
+  "contract_name": "CCTPFacet",
+  "address": "0xecca0d296cb133081d41e9772b60d57f5fd2798e",
+  "chain_id": 42161,
+  "deployment_block_num": 506440772,
+  "init_block_num": 507698399,
+  "deployment_tx": "0xe88d5b64c53cb205563a77c99a46ed27edb08ad360fe38245ef160e3d927cb13",
+  "codehash": "0xf552b3cf9556553ae22056ddb39a7e17a1ed9ad24c1396b032203b99c7e90099",
+  "insecure": false,
+  "immutables": [
+    {
+      "var_name": "cctp",
+      "value": "0x00000000000000000000000028b5a0e9c621a5badaa536219b3a228c8168cf5d",
+      "value_hint": "CCTP TokenMessengerV2"
+    },
+    {
+      "var_name": "usdc",
+      "value": "0x000000000000000000000000af88d065e77c8cc2239327c5edb3a432268e5831",
+      "value_hint": "USD Coin (USDC)"
+    }
+  ],
+  "constructor_args": [
+    {
+      "var_name": "cctp_",
+      "value": "0x28b5a0e9c621a5badaa536219b3a228c8168cf5d",
+      "value_hint": "CCTP TokenMessengerV2"
+    },
+    {
+      "var_name": "usdc_",
+      "value": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "value_hint": "USD Coin (USDC)"
+    }
+  ],
+  "critical_storage_variables": [],
+  "critical_events": [
+    {
+      "sig": "CCTPDomainParametersSet(uint32,bytes32,uint32,uint32)",
+      "topic0": "0x49c4e6263644b808cc1a537773d6d16451503bd5ce481c3f330d33f0c8574110",
+      "occurrences": []
+    },
+    {
+      "sig": "CCTPTransferInitiated(uint32,bytes32,uint256,uint256)",
+      "topic0": "0xdb2088e7f5ae2550da92551258b9d806170b0e7d011600d518daf5e539355841",
+      "occurrences": []
+    },
+    {
+      "sig": "Initialized(uint64)",
+      "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+      "occurrences": []
+    }
+  ],
+  "unvalidated_metadata": {
+    "author_name": "ChainSecurity",
+    "description": "Sky",
+    "audit_report": "https://www.chainsecurity.com/security-audit/sky-diamond-pau-v1-14",
+    "source_url": "https://github.com/sky-ecosystem/diamond-pau/tree/cbf71b2ac840ca9288eb867d3dd354e08089e1d7",
+    "security_contact": "disclosure@chainsecurity.com"
+  }
+}
