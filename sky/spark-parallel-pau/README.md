@@ -58,7 +58,7 @@ The resulting access control, identical on both chains and with a single holder 
 
 | Contract | Role | Holder |
 | --- | --- | --- |
-| Beacon | `DEFAULT_ADMIN_ROLE` | `SPARK_EXECUTOR` |
+| Beacon | `DEFAULT_ADMIN_ROLE` | `SPARK_EXECUTOR` (move expected, see [Facet wiring](#facet-wiring)) |
 | AccessControls | `DEFAULT_ADMIN_ROLE` | `SPARK_EXECUTOR` |
 | AccessControls | `ALLOCATOR_ROLE` | `AdministeredAgent` |
 | RateLimits | `DEFAULT_ADMIN_ROLE` | `SPARK_EXECUTOR` |
@@ -77,7 +77,7 @@ We have checked the concern that the facet wiring could be circumvented to execu
 
 - *The wired facet*: exactly one integration is registered on each chain, `CCTP_FACET` pointing at the chain's `CCTPFacet`, with the ten wires of `BeaconConfig.setCCTPIntegration`.
 - *No other facet is wired*: the integration set holds one entry and its config ten wires, on both the `Beacon` and the `Controller`. Both lengths are pinned in the DV files, so an additional facet or an extra wire on the existing one moves a pinned slot. 
-- *Only the executor can wire*: adding a facet takes two admin transactions, `Beacon.setIntegration` and then `Controller.updateIntegrations`, each gated on `DEFAULT_ADMIN_ROLE` whose sole holder is `SPARK_EXECUTOR` (the deployer revoked itself; membership lengths are pinned at 1). The `Controller` cannot be pointed at any other registry, as its `beacon` is `immutable`.
+- *Only the executor can wire*: adding a facet takes two admin transactions, `Beacon.setIntegration` and then `Controller.updateIntegrations`, each gated on `DEFAULT_ADMIN_ROLE` whose sole holder is currently `SPARK_EXECUTOR` (the deployer revoked itself; membership lengths are pinned at 1). The `Controller` cannot be pointed at any other registry, as its `beacon` is `immutable`. The `Beacon`'s `DEFAULT_ADMIN_ROLE` is expected to move to Sky's `L2GovernanceRelay` with respective spells (draft Arbitrum [8 October 2026 spell](https://github.com/sparkdotfi/spark-spells/pull/204) and Base TBD). Registering a facet then needs Sky and syncing it into the `Controller` needs Spark.
 - *The wired facet cannot delegatecall*: `CCTPFacet` reaches the proxy through two call targets only, `USDC` and the CCTP `TokenMessenger`: `USDC.approve` sets and clears the allowance around `TokenMessenger.depositForBurn`, which runs once per chunk. Both targets come from `immutable`s, which are inlined in the facet's runtime code and so survive the `delegatecall` unaltered, and both calldatas are fixed by `abi.encodeCall`. The caller supplies only `amount`, `destinationDomain` and `feeCapRate`, each bounded by the rate limits and the governance-set domain parameters. The facet's runtime code contains `doCall` and contains neither `doDelegateCall` nor `doCallWithValue`. 
 
 The property is that no principal below Spark governance can cause an arbitrary `delegatecall`, and that in the deployed configuration none is reachable by anyone, as no wired code path emits one.
