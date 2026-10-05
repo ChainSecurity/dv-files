@@ -2,6 +2,7 @@
 Title:    Spark Parallel Controller PAU DV
 Author:   ChainSecurity
 Date:     22. Sep, 2026
+Updated:  30. Sep, 2026
 Client:   Sky
 ---
 
@@ -58,7 +59,7 @@ The resulting access control, identical on both chains and with a single holder 
 
 | Contract | Role | Holder |
 | --- | --- | --- |
-| Beacon | `DEFAULT_ADMIN_ROLE` | `SPARK_EXECUTOR` |
+| Beacon | `DEFAULT_ADMIN_ROLE` | `SPARK_EXECUTOR` (move expected, see [Facet wiring](#facet-wiring)) |
 | AccessControls | `DEFAULT_ADMIN_ROLE` | `SPARK_EXECUTOR` |
 | AccessControls | `ALLOCATOR_ROLE` | `AdministeredAgent` |
 | RateLimits | `DEFAULT_ADMIN_ROLE` | `SPARK_EXECUTOR` |
@@ -77,8 +78,8 @@ We have checked the concern that the facet wiring could be circumvented to execu
 
 - *The wired facet*: exactly one integration is registered on each chain, `CCTP_FACET` pointing at the chain's `CCTPFacet`, with the ten wires of `BeaconConfig.setCCTPIntegration`.
 - *No other facet is wired*: the integration set holds one entry and its config ten wires, on both the `Beacon` and the `Controller`. Both lengths are pinned in the DV files, so an additional facet or an extra wire on the existing one moves a pinned slot. 
-- *Only the executor can wire*: adding a facet takes two admin transactions, `Beacon.setIntegration` and then `Controller.updateIntegrations`, each gated on `DEFAULT_ADMIN_ROLE` whose sole holder is `SPARK_EXECUTOR` (the deployer revoked itself; membership lengths are pinned at 1). The `Controller` cannot be pointed at any other registry, as its `beacon` is `immutable`.
-- *The wired facet cannot delegatecall*: `CCTPFacet` reaches the proxy only through two `doCall`s, `approve` on `USDC` and `depositForBurn` on the CCTP `TokenMessenger`. Both targets come from `immutable`s, which are inlined in the facet's runtime code and so survive the `delegatecall` unaltered, and both calldatas are fixed by `abi.encodeCall`. The caller supplies only `amount`, `destinationDomain` and `feeCapRate`, each bounded by the rate limits and the governance-set domain parameters. The facet's runtime code contains `doCall` and contains neither `doDelegateCall` nor `doCallWithValue`. 
+- *Only the executor can wire*: adding a facet takes two admin transactions, `Beacon.setIntegration` and then `Controller.updateIntegrations`, each gated on `DEFAULT_ADMIN_ROLE` whose sole holder is currently `SPARK_EXECUTOR` (the deployer revoked itself; membership lengths are pinned at 1). The `Controller` cannot be pointed at any other registry, as its `beacon` is `immutable`. The `Beacon`'s `DEFAULT_ADMIN_ROLE` is expected to move to Sky's `L2GovernanceRelay` with respective spells (draft Arbitrum [8 October 2026 spell](https://github.com/sparkdotfi/spark-spells/pull/204) and Base TBD). Registering a facet then needs Sky and syncing it into the `Controller` needs Spark.
+- *The wired facet cannot delegatecall*: `CCTPFacet` reaches the proxy through two call targets only, `USDC` and the CCTP `TokenMessenger`: `USDC.approve` sets and clears the allowance around `TokenMessenger.depositForBurn`, which runs once per chunk. Both targets come from `immutable`s, which are inlined in the facet's runtime code and so survive the `delegatecall` unaltered, and both calldatas are fixed by `abi.encodeCall`. The caller supplies only `amount`, `destinationDomain` and `feeCapRate`, each bounded by the rate limits and the governance-set domain parameters. The facet's runtime code contains `doCall` and contains neither `doDelegateCall` nor `doCallWithValue`. 
 
 The property is that no principal below Spark governance can cause an arbitrary `delegatecall`, and that in the deployed configuration none is reachable by anyone, as no wired code path emits one.
 
@@ -86,7 +87,11 @@ The property is that no principal below Spark governance can cause an arbitrary 
 
 No findings of Low severity or above were identified, including on the specific question of whether the facet wiring can be circumvented to reach an arbitrary `delegatecall` — see [Facet wiring](#facet-wiring). On both chains the deployed state is consistent with the pinned sources, with the specification set out in the registry PR, and with our understanding of the system from the Diamond PAU and PAU Administered Agent audits. The configuration and role state were checked against those two references; the deploy scripts agree with the result but were read as supporting material, not taken as the statement of intent.
 
-The shared `ALMProxy` topology that this deployment creates once the spell runs is the subject of CS-SKYDPAU-044 (Design, Low, risk accepted) in our Diamond PAU v1.13 report, and is documented in `diamond-pau/docs/ARCHITECTURE.md`.
+The shared `ALMProxy` topology that this deployment creates once the spell runs is the subject of CS-SKYDPAU-044 (Design, Low, risk accepted) in our Diamond PAU v1.13 report, and is documented in `diamond-pau/docs/ARCHITECTURE.md`. Its precondition is a re-entering call that reaches a sibling controller's state-changing function, and the accounting that would be corrupted is the outer one's. Neither controller is exposed by it:
+
+- *`Controller`*: nothing to corrupt, as `CCTPFacet` reads no balances and rate-limits by the amount passed in; and with `USDC` and Circle's `TokenMessenger` as its only targets, no re-entrancy is possible in today's CCTP infrastructure.
+- *Legacy `ForeignController`*: its only balance-delta measurement is `depositAave`, over a governance-whitelisted `aToken`. The `Controller`'s `CCTPFacet` moves only `USDC`, so it cannot shift that quantity. Even where re-entrancy were reachable it stays within the existing trust model, as the legacy integrations are trusted not to turn malicious, and one that did could do far worse than distort a rate limit.
+
 
 One observation, informational: the PR states that the `Beacon`'s `CCTP_FACET` wiring matches the Sky PAU `Beacon` on Ethereum mainnet. The set of ten call to delegate pairs is identical, but mainnet stores them in a different array order. Dispatch is keyed by the call selector, so there is no functional effect; it is noted because a byte-level comparison of the two integration configs will differ.
 
